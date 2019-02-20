@@ -1,0 +1,51 @@
+main.gesummvCuda
+  Exit Variables:
+
+  Exit Variable Fields:
+
+  Local Variables:
+  coerce [ null ]  main.gesummvCuda 0%
+  B_gpu [ *Float ]  main.gesummvCuda 1.2%
+  x_gpu [ *Float ]  main.gesummvCuda 1.2%
+  coerce [ Struct ]  main.gesummvCuda 100%
+  0x7744698 [ Float ]  main.gesummvCuda 0.72%
+  tmp [ Struct ]  main.gesummvCuda 100%
+  0x77447b8 [ Float ]  main.gesummvCuda 51.57%
+  tmp_gpu [ *Float ]  main.gesummvCuda 52.05%
+  tmp24 [ Struct ]  main.gesummvCuda 100%
+  y_gpu [ *Float ]  main.gesummvCuda 53.49%
+  coerce [ Struct ]  main.gesummvCuda 100%
+  0x7744728 [ Float ]  main.gesummvCuda 53.01%
+  0x7744608 [ Float ]  main.gesummvCuda 0.72%
+  t_end [ Double ]  main.gesummvCuda 100%
+
+  Local Variable Fields:
+  0x77633d8 [ Int ]  main.gesummvCuda 100%
+  0x7763788 [ Int ]  main.gesummvCuda 100%
+  0x77634d8 [ Int ]  main.gesummvCuda 100%
+  0x7763888 [ Int ]  main.gesummvCuda 100%
+
+main.gesummvCuda.gesummv_kernel
+  Exit Variables:
+  addr [ *Float ]  main.gesummvCuda.gesummv_kernel 53.01%
+  addr [ *Float ]  main.gesummvCuda.gesummv_kernel 51.57%
+  addr [ *Float ]  main.gesummvCuda.gesummv_kernel 0.72%
+  addr [ *Float ]  main.gesummvCuda.gesummv_kernel 0.72%
+
+  Exit Variable Fields:
+
+  Local Variables:
+  i [ Int ]  main.gesummvCuda.gesummv_kernel 0.48%
+  j [ Int ]  main.gesummvCuda.gesummv_kernel 4.34%
+
+  Local Variable Fields:
+
+main
+  Exit Variables:
+
+  Exit Variable Fields:
+
+  Local Variables:
+
+  Local Variable Fields:
+

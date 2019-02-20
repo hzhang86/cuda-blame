@@ -1,0 +1,176 @@
+---INSTANCE 0 1 191 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	115	1	105	119
+EV1 y.addr    **Float NULL   IP  3 OP  
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL24 y_gpu  **Float NULL 
+VL23 0x7744728  *Float NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 0  $$$
+---INSTANCE 1 1 15 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	112	1	105	119
+EV1 y.addr    **Float NULL   IP  3 OP  
+EV1 tmp.addr    **Float NULL   IP  4 OP  
+U5 j    *Int NULL   IP  -99 OP  
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL24 tmp_gpu  **Float NULL 
+VL23 0x77447b8  *Float NULL 
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL24 y_gpu  **Float NULL 
+VL23 0x7744728  *Float NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 1  $$$
+---INSTANCE 2 1 193 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	114	1	105	119
+EV1 tmp.addr    **Float NULL   IP  4 OP  
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL24 tmp_gpu  **Float NULL 
+VL23 0x77447b8  *Float NULL 
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 2  $$$
+---INSTANCE 3 1 8 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	117	1	105	119
+EV1 y.addr    **Float NULL   IP  3 OP  
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL24 y_gpu  **Float NULL 
+VL23 0x7744728  *Float NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 3  $$$
+---INSTANCE 4 1 2 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	107	1	105	119
+EV1 y.addr    **Float NULL   IP  3 OP  
+EV1 tmp.addr    **Float NULL   IP  4 OP  
+U5 i    *Int NULL   IP  -99 OP  
+U5 j    *Int NULL   IP  -99 OP  
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL24 tmp_gpu  **Float NULL 
+VL23 0x77447b8  *Float NULL 
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL24 y_gpu  **Float NULL 
+VL23 0x7744728  *Float NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 4  $$$
+---INSTANCE 5 1 3 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	105	1	105	119
+EV1 b.addr    **Float NULL   IP  1 OP  
+EV1 x.addr    **Float NULL   IP  2 OP  
+EV1 y.addr    **Float NULL   IP  3 OP  
+EV1 tmp.addr    **Float NULL   IP  4 OP  
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL24 B_gpu  **Float NULL 
+VL23 0x7744608  *Float NULL 
+VL24 tmp_gpu  **Float NULL 
+VL23 0x77447b8  *Float NULL 
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL24 x_gpu  **Float NULL 
+VL23 0x7744698  *Float NULL 
+VL24 y_gpu  **Float NULL 
+VL23 0x7744728  *Float NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 5  $$$
+---INSTANCE 6 1 1 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	109	1	105	119
+EV1 y.addr    **Float NULL   IP  3 OP  
+EV1 tmp.addr    **Float NULL   IP  4 OP  
+U5 j    *Int NULL   IP  -99 OP  
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL24 tmp_gpu  **Float NULL 
+VL23 0x77447b8  *Float NULL 
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL24 y_gpu  **Float NULL 
+VL23 0x7744728  *Float NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 6  $$$
+---INSTANCE 7 1 2 ---
+FRAME#	0	main.gesummvCuda.gesummv_kernel	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	119	1	105	119
+***No EV[EO, EP] found*** [_Z14gesummv_kernelPfS_S_S_S_]
+FRAME#	7	main.gesummvCuda	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	148	0	121	154
+EO40 fprintf--153    Int NULL   IP  -99 OP  
+VL24 B_gpu  **Float NULL 
+VL24 tmp_gpu  **Float NULL 
+VL42 agg.tmp  *Struct NULL 
+VFL42 coerce.0x77633d8  *Int NULL 
+VFL42 coerce.0x77634d8  *Int NULL 
+VFL42 coerce.0x7763788  *Int NULL 
+VL52 agg.tmp24.coerce  *Struct NULL 
+VL42 agg.tmp24  *Struct NULL 
+VFL42 coerce.0x7763888  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VL24 x_gpu  **Float NULL 
+VL24 y_gpu  **Float NULL 
+VL42 t_end  *Double NULL 
+FRAME#	8	main	gesummv.cu	/home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV	182	1	157	201
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 7  $$$

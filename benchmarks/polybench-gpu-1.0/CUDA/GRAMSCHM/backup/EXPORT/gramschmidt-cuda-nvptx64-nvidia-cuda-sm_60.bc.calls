@@ -1,0 +1,15 @@
+FUNCTION _Z19gramschmidt_kernel1PfS_S_i
+gramschmidt_kernel1
+gramschmidt.cu
+0
+END FUNCTION 
+FUNCTION _Z19gramschmidt_kernel2PfS_S_i
+gramschmidt_kernel2
+gramschmidt.cu
+0
+END FUNCTION 
+FUNCTION _Z19gramschmidt_kernel3PfS_S_i
+gramschmidt_kernel3
+gramschmidt.cu
+0
+END FUNCTION 

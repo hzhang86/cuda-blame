@@ -1,0 +1,19 @@
+FUNCTION main 0 1
+1 argv.addr 0 2
+0 104 
+END FUNCTION
+NEVs - 0 0 0 out of 3
+
+FUNCTION _ZL7do_passP11CUstream_st 1 1
+0 stream.addr 1 1
+0 
+END FUNCTION
+NEVs - 0 0 0 out of 3
+
+FUNCTION _ZL7initVecPii 1 1
+0 vec.addr 0 3
+0 51 52 
+END FUNCTION
+NEVs - 0 0 0 out of 3
+
+NEVs - 0 0 0 out of 3

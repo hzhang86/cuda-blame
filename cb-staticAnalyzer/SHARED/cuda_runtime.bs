@@ -1,0 +1,159 @@
+cudaChooseDevice    -1 0
+cudaDeviceGetAttribute  -1 0
+cudaDeviceGetByPCIBusId -1 0
+cudaDeviceGetCacheConfig    -1 0
+cudaDeviceGetLimit  -1 0
+cudaDeviceGetP2PAttribute   -1 0
+cudaDeviceGetPCIBusId   -1 0
+cudaDeviceGetSharedMemConfig    -1 0
+cudaDeviceGetStreamPriorityRange    -1 0 1
+cudaDeviceReset -1
+cudaDeviceSetCacheConfig    -1
+cudaDeviceSetLimit  -1
+cudaDeviceSetSharedMemConfig    -1
+cudaDeviceSynchronize   -1
+cudaGetDevice   -1 0
+cudaGetDeviceCount  -1 0
+cudaGetDeviceFlags  -1 0
+cudaGetDeviceProperties -1 0
+cudaIpcCloseMemHandle   -1 
+cudaIpcGetEventHandle   -1 0
+cudaIpcGetMemHandle -1 0
+cudaIpcOpenEventHandle  -1
+cudaIpcOpenMemHandle    -1
+cudaSetDevice   -1
+cudaSetDeviceFlags  -1
+cudaSetValidDevices -1 0
+
+cudaGetErrorName    -1
+cudaGetErrorString  -1
+cudaGetLastError    -1
+cudaPeekAtLastError -1
+
+cudaStreamAddCallback   -1
+cudaStreamAttachMemAsync    -1
+cudaStreamCreate    -1 0
+cudaStreamCreateWithFlags   -1 0
+cudaStreamCreateWithPriority    -1 0
+cudaStreamDestroy   -1
+cudaStreamGetFlags  -1 1
+cudaStreamGetPriority   -1 1
+cudaStreamQuery -1
+cudaStreamSynchronize   -1
+cudaStreamWaitEvent -1
+
+cudaEventCreate -1 0
+cudaEventCreateWithFlags    -1 0
+cudaEventDestroy    -1
+cudaEventElapsedTime    -1 0
+cudaEventQuery  -1
+cudaEventRecord -1
+cudaEventSynchronize    -1
+
+cudaFuncGetAttributes   -1 0
+cudaFuncSetAttributes   -1 0
+cudaFuncSetCacheConfig  -1 0
+cudaFuncSetSharedMemConfig  -1 0
+cudaGetParameterBuffer  -1
+cudaGetParameterBufferV2    -1
+cudaLaunchCooperativeKernel -1 0
+cudaLaunchCooperativeKernelMultiDevice  -1
+cudaLaunchKernel    -1 0
+cudaSetDoubleForDevice  -1 0
+cudaSetDoubleForHost    -1 0
+
+cudaArrayGetInfo    -1 0 1 2
+cudaFree    -1 0
+cudaFreeArray   -1 0
+cudaFreeHost    -1 0
+cudaFreeMipmappedArray  -1 0
+cudaGetMipmappedArrayLevel  -1 0
+cudaGetSymbolAddress    -1 0
+cudaGetSymbolSize   -1 0
+cudaHostAlloc   -1 0
+cudaHostGetDevicePointer    -1
+cudaHostGetFlags    -1 0
+cudaHostRegister    -1 0
+cudaHostUnregister  -1 0
+cudaMalloc  -1 0
+cudaMalloc3D    -1 0
+cudaMalloc3DArray   -1 0
+cudaMallocHost  -1 0
+cudaMallocManaged   -1 0
+cudaMallocMipmappedArray    -1 0
+cudaMallocPitch -1 0
+cudaMemAdvise   -1 0
+cudaMemGetInfo  -1 0 1
+cudaMemPrefetchAsync    -1 0
+cudaMemRangeGetAttribute    -1 0
+cudaMemRangeGetAttributes   -1 0
+cudaMemcpy  -1 0
+cudaMemcpy2D    -1 0
+cudaMemcpy2DArrayToArray    -1 0
+cudaMemcpy2DAsync   -1 0
+cudaMemcpy2DFromArray   -1 0
+cudaMemcpy2DFromArrayAsync  -1 0
+cudaMemcpy3D    -1 0
+cudaMemcpy3DAsync   -1 0
+cudaMemcpy3DPeer    -1 0
+cudaMemcpy3DPeerAsync   -1 0
+cudaMemcpyArrayToArray  -1 0
+cudaMemcpyAsync -1 0
+cudaMemcpyFromArray -1 0
+cudaMemcpyFromArrayAsync    -1 0
+cudaMemcpyFromSymbol    -1 0
+cudaMemcpyFromSymbolAsync   -1 0
+cudaMemcpyPeer  -1 0
+cudaMemcpyPeerAsync -1 0
+cudaMemcpyToArray   -1 0
+cudaMemcpyToArrayAsync  -1 0
+cudaMemcpyToSymbol  -1 0
+cudaMemcpyToSymbolAsync -1 0
+cudaMemset  -1 0
+cudaMemset2D    -1 0
+cudaMemset2DAsync   -1 0
+cudaMemset3D    -1 0
+cudaMemset3DAsync   -1 0
+cudaMemsetAsync -1 0
+make_cudaExtent -1
+make_cudaPitchedPtr -1
+make_cudaPos    -1
+
+cudaPointerGetAttributes    -1 0
+cudaDeviceCanAccessPeer -1 0
+cudaDeviceDisablePeerAccess -1
+cudaDeviceEnablePeerAccess  -1
+
+cudaGraphicsMapResources    -1 1
+cudaGraphicsResourceGetMappedMipmappedArray -1 0
+cudaGraphicsResourceGetMappedPointer    -1 0
+cudaGraphicsResourceSetMapFlags -1 0
+cudaGraphicsSubResourceGetMappedArray   -1 0
+cudaGraphicsUnmapResources  -1 1
+cudaGraphicsUnregisterResource  -1
+
+cudaBindTexture -1 2
+cudaBindTexture2D   -1 2
+cudaBindTextureToArray  -1 1
+cudaBindTextureToMipmappedArray -1 1
+cudaCreateChannelDesc   -1
+cudaGetChannelDesc  -1 0
+cudaGetTextureAlignmentOffset   -1
+cudaGetTextureReference -1 0
+cudaUnbindTexture   -1 0
+
+cudaBindSurfaceToArray  -1 1
+cudaGetSurfaceReference -1 0
+
+cudaCreateTextureObject -1 0
+cudaDestroyTextureObject    -1
+cudaGetTextureObjectResourceDesc   -1 0
+cudaGetTextureObjectResourceViewDesc    -1 0
+cudaGetTextureObjectTextureDesc -1 0
+
+cudaCreateSurfaceObject -1 0
+cudaDestroySurfaceObject    -1
+cudaGetSurfaceObjectResourceDesc    -1 0
+
+cudaDriverGetVersion    -1 0
+cudaRuntimeGetVersion   -1 0

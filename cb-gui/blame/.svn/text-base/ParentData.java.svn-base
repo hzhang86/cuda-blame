@@ -1,0 +1,46 @@
+package blame;
+
+import java.io.BufferedReader;
+import java.util.Iterator;
+import java.util.Vector;
+
+public class ParentData {
+
+	
+	Vector<Instance> instances;
+	String nodeName;
+	int nodeNum;
+	
+	// "Pointer" up to the blameContainer that contains everything
+	BlameContainer bc;
+	
+	
+	
+	public String parseFrame(BufferedReader bufReader, Instance currInst, String line)
+	{
+		return null;
+	}
+	
+	public void parseOutputFile(String outputFile, String nodeName)
+	{
+	}
+	
+	
+	public void print()
+	{
+		System.out.println("We have " + instances.size() + "instances");
+		
+		Iterator<Instance> itr = instances.iterator();
+		while (itr.hasNext()) 
+		{
+			((Instance)itr.next()).print();
+		}
+	}
+	
+	public int numInstances()
+	{
+		return 0;
+	}
+	
+	
+}

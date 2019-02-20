@@ -1,0 +1,2077 @@
+---INSTANCE 0  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 0  $$$
+---INSTANCE 1  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 1  $$$
+---INSTANCE 2  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 2  $$$
+---INSTANCE 3  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 3  $$$
+---INSTANCE 4  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 4  $$$
+---INSTANCE 5  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 46 1 40 46
+***No EV[EO, EP] found*** [_Z6VecSubPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 5  $$$
+---INSTANCE 6  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 6  $$$
+---INSTANCE 7  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 7  $$$
+---INSTANCE 8  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 8  $$$
+---INSTANCE 9  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 9  $$$
+---INSTANCE 10  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 40 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+EV1 B.addr    **Int NULL   IP  1 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 10  $$$
+---INSTANCE 11  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 40 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+EV1 B.addr    **Int NULL   IP  1 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 11  $$$
+---INSTANCE 12  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 40 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+EV1 B.addr    **Int NULL   IP  1 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 12  $$$
+---INSTANCE 13  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 13  $$$
+---INSTANCE 14  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 42 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+U5 i    *Int NULL   IP  -99 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 14  $$$
+---INSTANCE 15  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 40 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+EV1 B.addr    **Int NULL   IP  1 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 15  $$$
+---INSTANCE 16  ---
+FRAME# 0 main.do_pass.VecSub vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 44 1 40 46
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 86 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 16  $$$
+---INSTANCE 17  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 17  $$$
+---INSTANCE 18  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 27 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 18  $$$
+---INSTANCE 19  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 35 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 19  $$$
+---INSTANCE 20  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 20  $$$
+---INSTANCE 21  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 21  $$$
+---INSTANCE 22  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 22  $$$
+---INSTANCE 23  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 23  $$$
+---INSTANCE 24  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 24  $$$
+---INSTANCE 25  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 25  $$$
+---INSTANCE 26  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 26  $$$
+---INSTANCE 27  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 27  $$$
+---INSTANCE 28  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 28  $$$
+---INSTANCE 29  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 35 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 29  $$$
+---INSTANCE 30  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 30  $$$
+---INSTANCE 31  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 31  $$$
+---INSTANCE 32  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 32  $$$
+---INSTANCE 33  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 33  $$$
+---INSTANCE 34  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 34  $$$
+---INSTANCE 35  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 35  $$$
+---INSTANCE 36  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 36  $$$
+---INSTANCE 37  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 37  $$$
+---INSTANCE 38  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 38  $$$
+---INSTANCE 39  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 39  $$$
+---INSTANCE 40  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 40  $$$
+---INSTANCE 41  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 41  $$$
+---INSTANCE 42  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 42  $$$
+---INSTANCE 43  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 43  $$$
+---INSTANCE 44  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 44  $$$
+---INSTANCE 45  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 45  $$$
+---INSTANCE 46  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 46  $$$
+---INSTANCE 47  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 33 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+U5 i    *Int NULL   IP  -99 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 47  $$$
+---INSTANCE 48  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 48  $$$
+---INSTANCE 49  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 49  $$$
+---INSTANCE 50  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 50  $$$
+---INSTANCE 51  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 51  $$$
+---INSTANCE 52  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 52  $$$
+---INSTANCE 53  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 35 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 53  $$$
+---INSTANCE 54  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 54  $$$
+---INSTANCE 55  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 55  $$$
+---INSTANCE 56  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 33 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+U5 i    *Int NULL   IP  -99 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 56  $$$
+---INSTANCE 57  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 57  $$$
+---INSTANCE 58  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 58  $$$
+---INSTANCE 59  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 59  $$$
+---INSTANCE 60  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 60  $$$
+---INSTANCE 61  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 61  $$$
+---INSTANCE 62  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 62  $$$
+---INSTANCE 63  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 63  $$$
+---INSTANCE 64  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 64  $$$
+---INSTANCE 65  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 65  $$$
+---INSTANCE 66  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 66  $$$
+---INSTANCE 67  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 67  $$$
+---INSTANCE 68  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 68  $$$
+---INSTANCE 69  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 69  $$$
+---INSTANCE 70  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 70  $$$
+---INSTANCE 71  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 71  $$$
+---INSTANCE 72  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 72  $$$
+---INSTANCE 73  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 73  $$$
+---INSTANCE 74  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 22 1 20 27
+U5 start    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 74  $$$
+---INSTANCE 75  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 75  $$$
+---INSTANCE 76  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 76  $$$
+---INSTANCE 77  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 77  $$$
+---INSTANCE 78  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 78  $$$
+---INSTANCE 79  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 35 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 79  $$$
+---INSTANCE 80  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 80  $$$
+---INSTANCE 81  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 81  $$$
+---INSTANCE 82  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 82  $$$
+---INSTANCE 83  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 83  $$$
+---INSTANCE 84  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 84  $$$
+---INSTANCE 85  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 85  $$$
+---INSTANCE 86  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 86  $$$
+---INSTANCE 87  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 33 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+U5 i    *Int NULL   IP  -99 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 87  $$$
+---INSTANCE 88  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 20 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 88  $$$
+---INSTANCE 89  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 31 1 31 37
+EV1 B.addr    **Int NULL   IP  1 OP  
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 89  $$$
+---INSTANCE 90  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 90  $$$
+---INSTANCE 91  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 91  $$$
+---INSTANCE 92  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 92  $$$
+---INSTANCE 93  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 93  $$$
+---INSTANCE 94  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 94  $$$
+---INSTANCE 95  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 95  $$$
+---INSTANCE 96  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 35 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 96  $$$
+---INSTANCE 97  ---
+FRAME# 0 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 35 1 31 37
+EV1 C.addr    **Int NULL   IP  2 OP  
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 97  $$$
+---INSTANCE 98  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 98  $$$
+---INSTANCE 99  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 99  $$$
+---INSTANCE 100  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 100  $$$
+---INSTANCE 101  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 101  $$$
+---INSTANCE 102  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 102  $$$
+---INSTANCE 103  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 20 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 103  $$$
+---INSTANCE 104  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 104  $$$
+---INSTANCE 105  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 105  $$$
+---INSTANCE 106  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 106  $$$
+---INSTANCE 107  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 107  $$$
+---INSTANCE 108  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 108  $$$
+---INSTANCE 109  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 109  $$$
+---INSTANCE 110  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 110  $$$
+---INSTANCE 111  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 111  $$$
+---INSTANCE 112  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 112  $$$
+---INSTANCE 113  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 113  $$$
+---INSTANCE 114  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 114  $$$
+---INSTANCE 115  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 115  $$$
+---INSTANCE 116  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 116  $$$
+---INSTANCE 117  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 117  $$$
+---INSTANCE 118  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 25 1 20 27
+U5 elapsed    *Int NULL   IP  -99 OP  
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 118  $$$
+---INSTANCE 119  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 119  $$$
+---INSTANCE 120  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 120  $$$
+---INSTANCE 121  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 121  $$$
+---INSTANCE 122  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 122  $$$
+---INSTANCE 123  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 123  $$$
+---INSTANCE 124  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 124  $$$
+---INSTANCE 125  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 125  $$$
+---INSTANCE 126  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 126  $$$
+---INSTANCE 127  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 127  $$$
+---INSTANCE 128  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 128  $$$
+---INSTANCE 129  ---
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+FRAME# 7 main.do_pass vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 84 0 56 101
+EO40 fprintf--88    Int NULL   IP  -99 OP  
+EO40 fprintf--91    Int NULL   IP  -99 OP  
+EO40 fprintf--93    Int NULL   IP  -99 OP  
+VL24 d_B  **Int NULL 
+VL24 d_C  **Int NULL 
+VL52 agg.tmp44.coerce  *Struct NULL 
+VFL42 coerce.0x496a1f8  *Int NULL 
+VFL42 coerce.0x496a2f8  *Int NULL 
+VL42 agg.tmp45.coerce  *Struct NULL 
+VFL42 coerce.0x4973cc8  *Int NULL 
+VFL42 coerce.0x4973dc8  *Int NULL 
+VL52 agg.tmp.coerce  *Struct NULL 
+VFL42 coerce.0x4971868  *Int NULL 
+VFL42 coerce.0x4971968  *Int NULL 
+VL52 agg.tmp42.coerce  *Struct NULL 
+VFL42 coerce.0x4971c18  *Int NULL 
+VFL42 coerce.0x4969618  *Int NULL 
+FRAME# 8 main vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 111 1 104 120
+***No EV[EO, EP] found*** [main]
+$$$INSTANCE 129  $$$
+---INSTANCE 130  ---
+FRAME# 0 main.do_pass.VecAdd.gpu_sleep vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 24 1 20 27
+***No EV[EO, EP] found*** [_Z9gpu_sleepl]
+FRAME# 1 main.do_pass.VecAdd vecAddSub.cu /nfshomes/hzhang86/cuda-blame/tests 36 1 31 37
+***No EV[EO, EP] found*** [_Z6VecAddPKiS0_Pii]
+$$$INSTANCE 130  $$$

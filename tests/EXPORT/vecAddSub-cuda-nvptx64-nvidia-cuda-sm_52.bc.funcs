@@ -1,0 +1,24 @@
+BEGIN FUNC
+VecSub Void
+_Z6VecSubPKiS0_Pii 0
+0 A *Int
+1 B *Int
+2 C *Int
+3 N Int
+END FUNC
+
+BEGIN FUNC
+VecAdd Void
+_Z6VecAddPKiS0_Pii 0
+0 A *Int
+1 B *Int
+2 C *Int
+3 N Int
+END FUNC
+
+BEGIN FUNC
+gpu_sleep Void
+_Z9gpu_sleepl 1
+0 cycles Int
+END FUNC
+

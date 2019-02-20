@@ -1,0 +1,94 @@
+main.gramschmidtCuda
+  Exit Variables:
+
+  Exit Variable Fields:
+
+  Local Variables:
+  coerce [ null ]  main.gramschmidtCuda 0%
+  coerce [ Struct ]  main.gramschmidtCuda 19.86%
+  0x725f768 [ Float ]  main.gramschmidtCuda 19.69%
+  0x7241fc8 [ Float ]  main.gramschmidtCuda 1.23%
+  0x7262938 [ Float ]  main.gramschmidtCuda 42.24%
+  coerce [ Struct ]  main.gramschmidtCuda 19.86%
+  coerce [ Struct ]  main.gramschmidtCuda 100%
+  coerce [ Struct ]  main.gramschmidtCuda 100%
+  k [ Int ]  main.gramschmidtCuda 100%
+  tmp [ Struct ]  main.gramschmidtCuda 19.86%
+  A_gpu [ *Float ]  main.gramschmidtCuda 42.49%
+  R_gpu [ *Float ]  main.gramschmidtCuda 60.57%
+  tmp14 [ Struct ]  main.gramschmidtCuda 21.84%
+  tmp13 [ Struct ]  main.gramschmidtCuda 21.84%
+  tmp21 [ Struct ]  main.gramschmidtCuda 100%
+  tmp10 [ Struct ]  main.gramschmidtCuda 19.86%
+  0x72629c8 [ Float ]  main.gramschmidtCuda 39.38%
+  0x7241f38 [ Float ]  main.gramschmidtCuda 0.33%
+  tmp20 [ Struct ]  main.gramschmidtCuda 100%
+  coerce [ Struct ]  main.gramschmidtCuda 21.84%
+  coerce [ Struct ]  main.gramschmidtCuda 21.84%
+  0x7262a58 [ Float ]  main.gramschmidtCuda 0.32%
+  Q_gpu [ *Float ]  main.gramschmidtCuda 2.81%
+  0x725f7c8 [ Float ]  main.gramschmidtCuda 0.09%
+
+  Local Variable Fields:
+  0x7262178 [ Int ]  main.gramschmidtCuda 100%
+  0x7262278 [ Int ]  main.gramschmidtCuda 100%
+  0x725f078 [ Int ]  main.gramschmidtCuda 19.86%
+  0x72417e8 [ Int ]  main.gramschmidtCuda 21.84%
+  0x72416e8 [ Int ]  main.gramschmidtCuda 21.84%
+  0x725f328 [ Int ]  main.gramschmidtCuda 19.86%
+  0x7241a98 [ Int ]  main.gramschmidtCuda 21.84%
+  0x7262528 [ Int ]  main.gramschmidtCuda 100%
+  0x725f428 [ Int ]  main.gramschmidtCuda 19.86%
+  0x7241b98 [ Int ]  main.gramschmidtCuda 21.84%
+  0x7262628 [ Int ]  main.gramschmidtCuda 100%
+  0x725ef78 [ Int ]  main.gramschmidtCuda 19.86%
+
+main.gramschmidtCuda.gramschmidt_kernel3
+  Exit Variables:
+  addr [ *Float ]  main.gramschmidtCuda.gramschmidt_kernel3 39.38%
+  addr [ *Float ]  main.gramschmidtCuda.gramschmidt_kernel3 42.24%
+  addr [ *Float ]  main.gramschmidtCuda.gramschmidt_kernel3 0.32%
+
+  Exit Variable Fields:
+
+  Local Variables:
+  i [ Int ]  main.gramschmidtCuda.gramschmidt_kernel3 6.71%
+  j [ Int ]  main.gramschmidtCuda.gramschmidt_kernel3 0.13%
+
+  Local Variable Fields:
+
+main.gramschmidtCuda.gramschmidt_kernel1
+  Exit Variables:
+  addr [ *Float ]  main.gramschmidtCuda.gramschmidt_kernel1 19.69%
+  addr [ *Float ]  main.gramschmidtCuda.gramschmidt_kernel1 0.09%
+
+  Exit Variable Fields:
+
+  Local Variables:
+  nrm [ Float ]  main.gramschmidtCuda.gramschmidt_kernel1 19.49%
+  i [ Int ]  main.gramschmidtCuda.gramschmidt_kernel1 2.27%
+  tid [ Int ]  main.gramschmidtCuda.gramschmidt_kernel1 0.02%
+
+  Local Variable Fields:
+
+main.gramschmidtCuda.gramschmidt_kernel2
+  Exit Variables:
+  addr [ *Float ]  main.gramschmidtCuda.gramschmidt_kernel2 0.33%
+  addr [ *Float ]  main.gramschmidtCuda.gramschmidt_kernel2 1.23%
+
+  Exit Variable Fields:
+
+  Local Variables:
+  i [ Int ]  main.gramschmidtCuda.gramschmidt_kernel2 0.13%
+
+  Local Variable Fields:
+
+main
+  Exit Variables:
+
+  Exit Variable Fields:
+
+  Local Variables:
+
+  Local Variable Fields:
+

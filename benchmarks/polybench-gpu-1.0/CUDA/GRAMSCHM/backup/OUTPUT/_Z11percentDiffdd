@@ -1,0 +1,4329 @@
+LLVM__(checkFunctionProto) - Number of args is 2
+Param# 0 is val1, ptr=0
+Param# 1 is val2, ptr=0
+Entering examineInstruction alloca 0x7ed89d8 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for retval
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction alloca 0x7ed8a48 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for val1.addr
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction alloca 0x7ed8ab8 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for val2.addr
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction store 0x7ed8b40 0  InstructionVal for Instruction store 
+In ieStore
+Adding NodeProps(2-Store) for val1
+STORE to(1) val1.addr from val1 0
+STORE to(1) fs->lineNumOrder=0 in line# 0
+Entering examineInstruction call 0x7ed8c50 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+We met a formal arg: val1
+Entering examineInstruction store 0x7ed8d10 36  InstructionVal for Instruction store 
+In ieStore
+Adding NodeProps(2-Store) for val2
+STORE to(1) val2.addr from val2 1
+STORE to(1) fs->lineNumOrder=0 in line# 36
+Entering examineInstruction call 0x7ed9490 36  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+We met a formal arg: val2
+Entering examineInstruction load 0x7ed9508 36  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed9508 currentLineNum=38 lnm=0
+Entering examineInstruction fptrunc 0x7ed9598 38  InstructionVal for Instruction fptrunc 
+In ieDefault for fptrunc
+Adding NodeProps(1) for conv currentLineNum=38 lnm=1
+Standard Operand No Name  0x7ed9508  InstructionVal for Instruction load 
+Entering examineInstruction call 0x7ed9610 38  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call 0x7ed9610 call
+Adding NodeProps(12) for call
+In ieCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Called function has a name: _Z6absValf
+After calcMetaFuncName, callName=_Z6absValf--38
+In ieCall -- Call Operand 0 conv
+Adding func call in _Z11percentDiffdd to _Z6absValf--38 p 0 for node conv(0x7ed9598)
+In ieCall -- Call Operand 1 _Z6absValf
+Adding NodeProps(13) for _Z6absValf--38
+Entering examineInstruction fpext 0x7ed96b8 38  InstructionVal for Instruction fpext 
+In ieDefault for fpext
+Adding NodeProps(1) for conv1 currentLineNum=38 lnm=4
+Entering examineInstruction fcmp 0x7ed9730 38  InstructionVal for Instruction fcmp 
+In ieDefault for fcmp
+Adding NodeProps(1) for cmp currentLineNum=38 lnm=5
+Standard Operand No Name  0x7ed88d0  ConstantFPVal 
+Entering examineInstruction br 0x7ed97f8 38  InstructionVal for Instruction br 
+In ieBlank for opcode br 38
+Entering examineInstruction load 0x7ed9888 38  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed9888 currentLineNum=38 lnm=6
+Entering examineInstruction fptrunc 0x7ed9918 38  InstructionVal for Instruction fptrunc 
+In ieDefault for fptrunc
+Adding NodeProps(1) for conv2 currentLineNum=38 lnm=7
+Standard Operand No Name  0x7ed9888  InstructionVal for Instruction load 
+Entering examineInstruction call 0x7ed9990 38  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call3 is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call3 0x7ed9990 call
+Adding NodeProps(12) for call3
+In ieCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Called function has a name: _Z6absValf
+After calcMetaFuncName, callName=_Z6absValf--38a
+In ieCall -- Call Operand 0 conv2
+Adding func call in _Z11percentDiffdd to _Z6absValf--38a p 0 for node conv2(0x7ed9918)
+In ieCall -- Call Operand 1 _Z6absValf
+Adding NodeProps(13) for _Z6absValf--38a
+Entering examineInstruction fpext 0x7ed9a38 38  InstructionVal for Instruction fpext 
+In ieDefault for fpext
+Adding NodeProps(1) for conv4 currentLineNum=38 lnm=10
+Entering examineInstruction fcmp 0x7ed9ab0 38  InstructionVal for Instruction fcmp 
+In ieDefault for fcmp
+Adding NodeProps(1) for cmp5 currentLineNum=38 lnm=11
+Standard Operand No Name  0x7ed88d0  ConstantFPVal 
+Entering examineInstruction br 0x7ed9b78 38  InstructionVal for Instruction br 
+In ieBlank for opcode br 38
+Entering examineInstruction store 0x7ed9c20 38  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x7eb6a20  ConstantFPVal 
+Converted to float! 0
+Adding NodeProps(5) for Constant+0+40+0+31
+STORE to(3) retval from Constant+0+40+0+31 1
+STORE to(3) fs->lineNumOrder=0 in line# 40
+Entering examineInstruction br 0x7ed9cb8 40  InstructionVal for Instruction br 
+In ieBlank for opcode br 40
+Entering examineInstruction load 0x7ed9d18 40  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed9d18 currentLineNum=45 lnm=0
+Entering examineInstruction load 0x7ed9da8 45  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed9da8 currentLineNum=45 lnm=1
+Entering examineInstruction fsub 0x7ed9e50 45  InstructionVal for Instruction fsub 
+In ieDefault for fsub
+Adding NodeProps(1) for sub currentLineNum=45 lnm=2
+Standard Operand No Name  0x7ed9d18  InstructionVal for Instruction load 
+Standard Operand No Name  0x7ed9da8  InstructionVal for Instruction load 
+Entering examineInstruction fptrunc 0x7ed9ee8 45  InstructionVal for Instruction fptrunc 
+In ieDefault for fptrunc
+Adding NodeProps(1) for conv6 currentLineNum=45 lnm=3
+Entering examineInstruction call 0x7ed9f60 45  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call7 is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call7 0x7ed9f60 call
+Adding NodeProps(12) for call7
+In ieCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Called function has a name: _Z6absValf
+After calcMetaFuncName, callName=_Z6absValf--45
+In ieCall -- Call Operand 0 conv6
+Adding func call in _Z11percentDiffdd to _Z6absValf--45 p 0 for node conv6(0x7ed9ee8)
+In ieCall -- Call Operand 1 _Z6absValf
+Adding NodeProps(13) for _Z6absValf--45
+Entering examineInstruction load 0x7eda008 45  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7eda008 currentLineNum=45 lnm=6
+Entering examineInstruction fadd 0x7eda0b0 45  InstructionVal for Instruction fadd 
+In ieDefault for fadd
+Adding NodeProps(1) for add currentLineNum=45 lnm=7
+Standard Operand No Name  0x7eda008  InstructionVal for Instruction load 
+Standard Operand No Name  0x7ed8920  ConstantFPVal 
+Entering examineInstruction fptrunc 0x7eda148 45  InstructionVal for Instruction fptrunc 
+In ieDefault for fptrunc
+Adding NodeProps(1) for conv8 currentLineNum=45 lnm=8
+Entering examineInstruction call 0x7eda1c0 45  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call9 is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call9 0x7eda1c0 call
+Adding NodeProps(12) for call9
+In ieCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Called function has a name: _Z6absValf
+After calcMetaFuncName, callName=_Z6absValf--45a
+In ieCall -- Call Operand 0 conv8
+Adding func call in _Z11percentDiffdd to _Z6absValf--45a p 0 for node conv8(0x7eda148)
+In ieCall -- Call Operand 1 _Z6absValf
+Adding NodeProps(13) for _Z6absValf--45a
+Entering examineInstruction fdiv 0x7eda280 45  InstructionVal for Instruction fdiv 
+In ieDefault for fdiv
+Adding NodeProps(1) for div currentLineNum=45 lnm=11
+Entering examineInstruction call 0x7eda330 45  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call10 is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call10 0x7eda330 call
+Adding NodeProps(12) for call10
+In ieCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Called function has a name: _Z6absValf
+After calcMetaFuncName, callName=_Z6absValf--45aa
+In ieCall -- Call Operand 0 div
+Adding func call in _Z11percentDiffdd to _Z6absValf--45aa p 0 for node div(0x7eda280)
+In ieCall -- Call Operand 1 _Z6absValf
+Adding NodeProps(13) for _Z6absValf--45aa
+Entering examineInstruction fmul 0x7eda3f0 45  InstructionVal for Instruction fmul 
+In ieDefault for fmul
+Adding NodeProps(1) for mul currentLineNum=45 lnm=14
+Standard Operand No Name  0x7ed8970  ConstantFPVal 
+Entering examineInstruction store 0x7ed3bc0 45  InstructionVal for Instruction store 
+In ieStore
+STORE to(1) retval from mul 15
+STORE to(1) fs->lineNumOrder=15 in line# 45
+Entering examineInstruction br 0x7ed8e08 45  InstructionVal for Instruction br 
+In ieBlank for opcode br 45
+Entering examineInstruction load 0x7ed3c58 45  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed3c58 currentLineNum=47 lnm=0
+Entering examineInstruction ret 0x7ed3ce8 47  InstructionVal for Instruction ret 
+In ieBlank for opcode ret 47
+#variables=34, #localVars=0, #exiVariables=1
+Branch Instruction found for basic block entry
+... is conditional
+... not loop header
+in errorRetCheck for cmp
+ToBool instruction is cmp op fcmp
+... is an error checking call.
+Looking at handling conditional for entry for cond name cmp
+Number of children is 3
+CFG - land.lhs.true D - land.lhs.true
+CFG - if.else D - land.lhs.true
+Block land.lhs.true is a block to be inserted.
+CFG - land.lhs.true D - return
+CFG - if.else D - return
+Terminal for if/else if/else case is -- return
+CFG - land.lhs.true D - if.else
+CFG - if.else D - if.else
+Block if.else is a block to be inserted.
+Inserting (4)cmp into land.lhs.true
+Inserting (4)cmp into if.then
+Inserting (4)cmp into if.else
+Branch Instruction found for basic block land.lhs.true
+... is conditional
+... not loop header
+in errorRetCheck for cmp5
+ToBool instruction is cmp5 op fcmp
+... is an error checking call.
+Looking at handling conditional for land.lhs.true for cond name cmp5
+Number of children is 1
+Branch Instruction found for basic block if.then
+... not loop header
+Branch Instruction found for basic block if.else
+... not loop header
+Putting node 32 (mul) into graph
+Putting node 31 (_Z6absValf--45aa) into graph
+Putting node 30 (call10) into graph
+Putting node 28 (_Z6absValf--45a) into graph
+Putting node 27 (call9) into graph
+Putting node 26 (conv8) into graph
+Putting node 25 (add) into graph
+Putting node 23 (_Z6absValf--45) into graph
+Putting node 33 (0x7ed3c58) into graph
+Putting node 7 (call) into graph
+Putting node 17 (Constant+0+40+0+31) into graph
+Putting node 24 (0x7eda008) into graph
+Putting node 9 (conv1) into graph
+Putting node 0 (retval) into graph
+Putting node 8 (_Z6absValf--38) into graph
+Putting node 6 (conv) into graph
+Putting node 3 (val1) into graph
+Putting node 10 (cmp) into graph
+Putting node 22 (call7) into graph
+Putting node 4 (val2) into graph
+Putting node 2 (val2.addr) into graph
+Putting node 11 (0x7ed9888) into graph
+Putting node 5 (0x7ed9508) into graph
+Putting node 1 (val1.addr) into graph
+Putting node 12 (conv2) into graph
+Putting node 13 (call3) into graph
+Putting node 14 (_Z6absValf--38a) into graph
+Putting node 29 (div) into graph
+Putting node 15 (conv4) into graph
+Putting node 16 (cmp5) into graph
+Putting node 18 (0x7ed9d18) into graph
+Putting node 20 (sub) into graph
+Putting node 19 (0x7ed9da8) into graph
+Putting node 21 (conv6) into graph
+Starting to Gen Edges 
+GE Instruction retval alloca
+Not generating any edges for opcode alloca
+GE Instruction val1.addr alloca
+Not generating any edges for opcode alloca
+GE Instruction val2.addr alloca
+Not generating any edges for opcode alloca
+GE No name store
+Adding edge 25 between val1.addr and val1 of type store
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name store
+Adding edge 25 between val2.addr and val2 of type store
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name load
+Adding edge 12 between 0x7ed9508 and val1.addr of type load
+GE Instruction conv fptrunc
+Adding edge 2 between conv and 0x7ed9508 of type fptrunc
+GE Instruction call call
+In geCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Adding edge 4 between call and _Z6absValf--38 of type call
+op[0]: 
+Adding edge 6 between conv and _Z6absValf--38 of type call
+GE Instruction conv1 fpext
+Adding edge 1 between conv1 and call of type fpext
+GE Instruction cmp fcmp
+Adding edge 1 between cmp and conv1 of type fcmp
+Adding edge 2 between cmp and Constant+0.012.2+38+0+52 of type fcmp
+Variables can't find value of cmp 1 or Constant+0.012.2+38+0+52 0
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ed9888 and val2.addr of type load
+GE Instruction conv2 fptrunc
+Adding implicit edges between conv2 and cmp
+Adding edge 2 between conv2 and 0x7ed9888 of type fptrunc
+GE Instruction call3 call
+In geCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Adding edge 4 between call3 and _Z6absValf--38a of type call
+Adding implicit edges between _Z6absValf--38a and cmp
+op[0]: 
+Adding edge 6 between conv2 and _Z6absValf--38a of type call
+GE Instruction conv4 fpext
+Adding implicit edges between conv4 and cmp
+Adding edge 1 between conv4 and call3 of type fpext
+GE Instruction cmp5 fcmp
+Adding implicit edges between cmp5 and cmp
+Adding edge 1 between cmp5 and conv4 of type fcmp
+Adding edge 2 between cmp5 and Constant+0.012.2+38+0+52 of type fcmp
+Variables can't find value of cmp5 1 or Constant+0.012.2+38+0+52 0
+GE No name br
+Not generating any edges for opcode br
+GE No name store
+Adding implicit edges between retval and cmp
+Adding edge 25 between retval and Constant+0+40+0+31 of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ed9d18 and val1.addr of type load
+GE No name load
+Adding edge 12 between 0x7ed9da8 and val2.addr of type load
+GE Instruction sub fsub
+Adding implicit edges between sub and cmp
+Adding edge 2 between sub and 0x7ed9d18 of type fsub
+Adding edge 2 between sub and 0x7ed9da8 of type fsub
+GE Instruction conv6 fptrunc
+Adding implicit edges between conv6 and cmp
+Adding edge 1 between conv6 and sub of type fptrunc
+GE Instruction call7 call
+In geCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Adding edge 4 between call7 and _Z6absValf--45 of type call
+Adding implicit edges between _Z6absValf--45 and cmp
+op[0]: 
+Adding edge 6 between conv6 and _Z6absValf--45 of type call
+GE No name load
+Adding edge 12 between 0x7eda008 and val1.addr of type load
+GE Instruction add fadd
+Adding implicit edges between add and cmp
+Adding edge 2 between add and 0x7eda008 of type fadd
+Adding edge 2 between add and Constant+1e-082.2+45+0+12 of type fadd
+Variables can't find value of add 1 or Constant+1e-082.2+45+0+12 0
+GE Instruction conv8 fptrunc
+Adding implicit edges between conv8 and cmp
+Adding edge 1 between conv8 and add of type fptrunc
+GE Instruction call9 call
+In geCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Adding edge 4 between call9 and _Z6absValf--45a of type call
+Adding implicit edges between _Z6absValf--45a and cmp
+op[0]: 
+Adding edge 6 between conv8 and _Z6absValf--45a of type call
+GE Instruction div fdiv
+Adding implicit edges between div and cmp
+Adding edge 1 between div and call7 of type fdiv
+Adding edge 1 between div and call9 of type fdiv
+GE Instruction call10 call
+In geCall, calledFunc's name = _Z6absValf  pi->getNumOperands()=2
+Adding edge 4 between call10 and _Z6absValf--45aa of type call
+Adding implicit edges between _Z6absValf--45aa and cmp
+op[0]: 
+Adding edge 6 between div and _Z6absValf--45aa of type call
+GE Instruction mul fmul
+Adding implicit edges between mul and cmp
+Adding edge 2 between mul and Constant+100+45+0+16 of type fmul
+Variables can't find value of mul 1 or Constant+100+45+0+16 0
+Adding edge 1 between mul and call10 of type fmul
+GE No name store
+Adding implicit edges between retval and cmp
+ERROR__(genEdges) - Insertion fail for implicit edge
+Adding edge 25 between retval and mul of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ed3c58 and retval of type load
+GE No name ret
+Not generating any edges for opcode ret
+Finished generating edges 
+In resolveStores for retval
+Store between retval and mul
+Vertex retval is written(4)
+Inserting line number(1a) 45 to retval
+We have a storeFrom inserted: mul->storeFrom=retval
+Store between retval and Constant+0+40+0+31
+Vertex retval is written(4)
+Inserting line number(1a) 40 to retval
+We have a storeFrom inserted: Constant+0+40+0+31->storeFrom=retval
+Stores for V - retval number 2
+Insert relevantInst - Constant+0+40+0+31 in fbb if.then
+Insert relevantInst - mul in fbb if.else
+In resolveStores for val1.addr
+Store between val1.addr and val1
+Vertex val1.addr is written(4)
+Inserting line number(1a) 0 to val1.addr
+We have a storeFrom inserted: val1->storeFrom=val1.addr
+Stores for V - val1.addr number 1
+Insert relevantInst - val1 in fbb entry
+In resolveStores for val2.addr
+Store between val2.addr and val2
+Vertex val2.addr is written(4)
+Inserting line number(1a) 36 to val2.addr
+We have a storeFrom inserted: val2->storeFrom=val2.addr
+Stores for V - val2.addr number 1
+Insert relevantInst - val2 in fbb entry
+In resolveStores for val1
+In resolveStores for val2
+In resolveStores for 0x7ed9508
+In resolveStores for conv
+In resolveStores for call
+In resolveStores for _Z6absValf--38
+In resolveStores for conv1
+In resolveStores for cmp
+In resolveStores for 0x7ed9888
+In resolveStores for conv2
+In resolveStores for call3
+In resolveStores for _Z6absValf--38a
+In resolveStores for conv4
+In resolveStores for cmp5
+In resolveStores for Constant+0+40+0+31
+In resolveStores for 0x7ed9d18
+In resolveStores for 0x7ed9da8
+In resolveStores for sub
+In resolveStores for conv6
+In resolveStores for call7
+In resolveStores for _Z6absValf--45
+In resolveStores for 0x7eda008
+In resolveStores for add
+In resolveStores for conv8
+In resolveStores for call9
+In resolveStores for _Z6absValf--45a
+In resolveStores for div
+In resolveStores for call10
+In resolveStores for _Z6absValf--45aa
+In resolveStores for mul
+In resolveStores for 0x7ed3c58
+Before CFG sort
+Before assignBBGenKIll
+Before reachingDefs
+Before calcStoreLines
+In inBB, val1->storeLines.insert(0) in pos1
+val1->storeLines.insert in pos2
+In inBB, val2->storeLines.insert(36) in pos1
+val2->storeLines.insert in pos2
+In inBB, Constant+0+40+0+31->storeLines.insert(40) in pos1
+Constant+0+40+0+31->storeLines.insert in pos2
+In inBB, mul->storeLines.insert(45) in pos1
+mul->storeLines.insert in pos2
+In inBB, val1->storeLines.insert(0) in pos1
+val1->storeLines.insert in pos2
+In inBB, val2->storeLines.insert(36) in pos1
+val2->storeLines.insert in pos2
+In genBB, mul->storeLines.insert(45) in pos8
+mul->storeLines.insert(45) in pos4
+In inBB, val1->storeLines.insert(0) in pos1
+val1->storeLines.insert in pos2
+In inBB, val2->storeLines.insert(36) in pos1
+val2->storeLines.insert in pos2
+In genBB, Constant+0+40+0+31->storeLines.insert(40) in pos8
+Constant+0+40+0+31->storeLines.insert(40) in pos4
+In inBB, val1->storeLines.insert(0) in pos1
+val1->storeLines.insert in pos2
+In inBB, val2->storeLines.insert(36) in pos1
+val2->storeLines.insert in pos2
+In genBB, val1->storeLines.insert(0) in pos8
+val1->storeLines.insert(36) in pos4
+val1->storeLines.insert(38) in pos4
+In genBB, val2->storeLines.insert(36) in pos8
+val2->storeLines.insert(36) in pos4
+val2->storeLines.insert(38) in pos4
+Before printCFG
+FBB name: return
+Successors: 
+Predecessors: if.then if.else 
+Ancestors: land.lhs.true if.then if.else entry 
+Descendants: 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: val1 val2 Constant+0+40+0+31 mul 
+BB Out: val1 val2 Constant+0+40+0+31 mul 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: if.else
+Successors: return 
+Predecessors: land.lhs.true entry 
+Ancestors: land.lhs.true entry 
+Descendants: return 
+Relevant Instructions: mul(45)
+   Gen: mul  
+   Kill: Constant+0+40+0+31  
+BB Gen: mul 
+BB Kill: Constant+0+40+0+31 
+BB In: val1 val2 
+BB Out: val1 val2 mul 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: if.then
+Successors: return 
+Predecessors: land.lhs.true 
+Ancestors: land.lhs.true entry 
+Descendants: return 
+Relevant Instructions: Constant+0+40+0+31(40)
+   Gen: Constant+0+40+0+31  
+   Kill: mul  
+BB Gen: Constant+0+40+0+31 
+BB Kill: mul 
+BB In: val1 val2 
+BB Out: val1 val2 Constant+0+40+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: land.lhs.true
+Successors: if.then if.else 
+Predecessors: entry 
+Ancestors: entry 
+Descendants: if.then if.else return 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: val1 val2 
+BB Out: val1 val2 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: entry
+Successors: land.lhs.true if.else 
+Predecessors: 
+Ancestors: 
+Descendants: land.lhs.true if.then if.else return 
+Relevant Instructions: val1(0)
+   Gen: val1  
+   Kill: 
+val2(36)
+   Gen: val2  
+   Kill: 
+BB Gen: val1 val2 
+BB Kill: 
+BB In: 
+BB Out: val1 val2 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+
+For sourceVP(Load): 0x7ed3c58 47
+---
+storeVP: Constant+0+40+0+31 - Store Lines - 40 47  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+40+0+31 ln=40 lNO=0  sourceVP:0x7ed3c58 ln=47 lNO=0
+RESOLVED_L_S_OP added between 0x7ed3c58 and Constant+0+40+0+31
+storeVP: mul - Store Lines - 45 47  ; Border Lines - 
+In resolveStoreLine storeVP:mul ln=45 lNO=14  sourceVP:0x7ed3c58 ln=47 lNO=0
+Need to remove edge(hui) from 0x7ed3c58 to retval [8]
+RESOLVED_L_S_OP added between 0x7ed3c58 and mul
+---
+
+For sourceVP(Load): 0x7eda008 45
+---
+storeVP: val1 - Store Lines - 0 36 38 40 45 47  ; Border Lines - 
+In resolveStoreLine storeVP:val1 ln=0 lNO=0  sourceVP:0x7eda008 ln=45 lNO=6
+Need to remove edge(hui) from 0x7eda008 to val1.addr [8]
+RESOLVED_L_S_OP added between 0x7eda008 and val1
+---
+
+For sourceVP(Load): 0x7ed9d18 45
+---
+storeVP: val1 - Store Lines - 0 36 38 40 45 47  ; Border Lines - 
+In resolveStoreLine storeVP:val1 ln=0 lNO=0  sourceVP:0x7ed9d18 ln=45 lNO=0
+Need to remove edge(hui) from 0x7ed9d18 to val1.addr [8]
+RESOLVED_L_S_OP added between 0x7ed9d18 and val1
+---
+
+For sourceVP(Load): 0x7ed9508 38
+---
+storeVP: val1 - Store Lines - 0 36 38 40 45 47  ; Border Lines - 
+In resolveStoreLine storeVP:val1 ln=0 lNO=0  sourceVP:0x7ed9508 ln=38 lNO=0
+Need to remove edge(hui) from 0x7ed9508 to val1.addr [8]
+RESOLVED_L_S_OP added between 0x7ed9508 and val1
+---
+
+For sourceVP(Load): 0x7ed9da8 45
+---
+storeVP: val2 - Store Lines - 36 38 40 45 47  ; Border Lines - 
+In resolveStoreLine storeVP:val2 ln=36 lNO=0  sourceVP:0x7ed9da8 ln=45 lNO=1
+Need to remove edge(hui) from 0x7ed9da8 to val2.addr [8]
+RESOLVED_L_S_OP added between 0x7ed9da8 and val2
+---
+
+For sourceVP(Load): 0x7ed9888 38
+---
+storeVP: val2 - Store Lines - 36 38 40 45 47  ; Border Lines - 
+In resolveStoreLine storeVP:val2 ln=36 lNO=0  sourceVP:0x7ed9888 ln=38 lNO=6
+Need to remove edge(hui) from 0x7ed9888 to val2.addr [8]
+RESOLVED_L_S_OP added between 0x7ed9888 and val2
+---
+
+Graph__(identifyExternCalls) - Vertex _Z6absValf--38 involved
+Graph__(identifyExternCalls) - Func -  _Z6absValf--38 Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: _Z6absValf
+Graph__(identifyExternCalls) - Vertex _Z6absValf--38a involved
+Graph__(identifyExternCalls) - Func -  _Z6absValf--38a Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: _Z6absValf
+Graph__(identifyExternCalls) - Vertex _Z6absValf--45 involved
+Graph__(identifyExternCalls) - Func -  _Z6absValf--45 Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: _Z6absValf
+Graph__(identifyExternCalls) - Vertex _Z6absValf--45a involved
+Graph__(identifyExternCalls) - Func -  _Z6absValf--45a Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: _Z6absValf
+Graph__(identifyExternCalls) - Vertex _Z6absValf--45aa involved
+Graph__(identifyExternCalls) - Func -  _Z6absValf--45aa Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: _Z6absValf
+At this point the pointers are: 
+At this point(2) the pointers are: 
+In checkIfWritten for retval, orig isWritten=1
+In checkIfWritten for retval, after aliasesOut, writeTotal=1
+In checkIfWritten for retval, after aliasesIn, writeTotal=1
+In checkIfWritten for retval, after almostAlias, writeTotal=1
+In checkIfWritten for retval, after resolvedLS, writeTotal=1
+In checkIfWritten for retval, after fields, writeTotal=1
+In checkIfWritten for retval, after nonAliasStores, writeTotal=1
+In checkIfWritten for retval, after arrayAccess, writeTotal=1
+In checkIfWritten for retval, after loads, writeTotal=1
+In checkIfWritten for retval, after GEPChildren, writeTotal=1
+In checkIfWritten for val1.addr, orig isWritten=0
+In checkIfWritten for val1.addr, after aliasesOut, writeTotal=0
+In checkIfWritten for val1.addr, after aliasesIn, writeTotal=0
+In checkIfWritten for val1.addr, after almostAlias, writeTotal=0
+In checkIfWritten for val1.addr, after resolvedLS, writeTotal=0
+In checkIfWritten for val1.addr, after fields, writeTotal=0
+In checkIfWritten for val1.addr, after nonAliasStores, writeTotal=0
+In checkIfWritten for val1.addr, after arrayAccess, writeTotal=0
+In checkIfWritten for val1.addr, after loads, writeTotal=0
+In checkIfWritten for val1.addr, after GEPChildren, writeTotal=0
+In checkIfWritten for val2.addr, orig isWritten=0
+In checkIfWritten for val2.addr, after aliasesOut, writeTotal=0
+In checkIfWritten for val2.addr, after aliasesIn, writeTotal=0
+In checkIfWritten for val2.addr, after almostAlias, writeTotal=0
+In checkIfWritten for val2.addr, after resolvedLS, writeTotal=0
+In checkIfWritten for val2.addr, after fields, writeTotal=0
+In checkIfWritten for val2.addr, after nonAliasStores, writeTotal=0
+In checkIfWritten for val2.addr, after arrayAccess, writeTotal=0
+In checkIfWritten for val2.addr, after loads, writeTotal=0
+In checkIfWritten for val2.addr, after GEPChildren, writeTotal=0
+Calling DBHL 
+EV__(determineBFCForVertexLite) -- for retval
+EV__(determineBFCForVertexLite) -- for val1.addr
+EV__(determineBFCForVertexLite) -- for val2.addr
+EV__(determineBFCForVertexLite) -- for conv
+EV__(determineBFCForVertexLite) -- for conv2
+EV__(determineBFCForVertexLite) -- for cmp5
+EV__(determineBFCForVertexLite) -- for conv6
+EV__(determineBFCForVertexLite) -- for conv8
+EV__(determineBFCForVertexLite) -- for div
+EV__(determineBFCForVertexLite) -- for 0x7ed3c58
+Finished DBHL , now going to print _trunc.dot file 
+In populateImportantVertices for retval
+Calling recursiveExamineChildren on retval for retval
+Looking at target mul from retval
+Node Props for mul: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - mul
+OrigVP->dpUpPtr - retval
+Adding Child/Parent relation between mul and retval
+Looking at target Constant+0+40+0+31 from retval
+Node Props for Constant+0+40+0+31: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - Constant+0+40+0+31
+OrigVP->dpUpPtr - retval
+Adding Child/Parent relation between Constant+0+40+0+31 and retval
+Looking at target cmp from retval
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to retval
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for retval
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to retval
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for retval
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - retval
+Adding Child/Parent relation between call and retval
+Line nums for origVP: retval (E)  38 40 45
+Line nums for origVP: retval (E)  38 40 45
+Line nums for origVP: retval (E)  38 40 45
+Finished Calling recursiveExamineChildren for retval
+In populateImportantVertices for val1.addr
+Calling recursiveExamineChildren on val1.addr for val1.addr
+Looking at target val1 from val1.addr
+Node Props for val1: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - val1
+OrigVP->dpUpPtr - val1.addr
+Adding Child/Parent relation between val1 and val1.addr
+Line nums for origVP: val1.addr (E)  0
+Finished Calling recursiveExamineChildren for val1.addr
+In populateImportantVertices for val2.addr
+Calling recursiveExamineChildren on val2.addr for val2.addr
+Looking at target val2 from val2.addr
+Node Props for val2: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - val2
+OrigVP->dpUpPtr - val2.addr
+Adding Child/Parent relation between val2 and val2.addr
+Line nums for origVP: val2.addr (E)  36
+Finished Calling recursiveExamineChildren for val2.addr
+In populateImportantVertices for val1
+Calling recursiveExamineChildren on val1 for val1
+Inserting line number(6) 0 to val1
+Inserting line number(7) 0 to val1
+Line nums for origVP: val1 (E)  0
+Finished Calling recursiveExamineChildren for val1
+In populateImportantVertices for val2
+Calling recursiveExamineChildren on val2 for val2
+Inserting line number(6) 36 to val2
+Inserting line number(7) 36 to val2
+Line nums for origVP: val2 (E)  36
+Finished Calling recursiveExamineChildren for val2
+In populateImportantVertices for conv
+Calling recursiveExamineChildren on conv for conv
+Looking at target _Z6absValf--38 from conv
+Node Props for _Z6absValf--38: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--38
+OrigVP->dpUpPtr - conv
+Adding Child/Parent relation between _Z6absValf--38 and conv
+Looking at target 0x7ed9508 from conv
+Node Props for 0x7ed9508: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=43
+Inserting line number(8) 38 to conv
+Start recursion of recursiveExamineChildren on 0x7ed9508
+Calling recursiveExamineChildren on 0x7ed9508 for conv
+Looking at target val1 from 0x7ed9508
+Node Props for val1: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - val1
+OrigVP->dpUpPtr - conv
+Adding Child/Parent relation between val1 and conv
+Line nums for origVP: conv (E)  38
+Line nums for origVP: conv (E)  38
+Finished Calling recursiveExamineChildren for conv
+In populateImportantVertices for call
+Calling recursiveExamineChildren on call for call
+Looking at target _Z6absValf--38 from call
+Node Props for _Z6absValf--38: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--38
+OrigVP->dpUpPtr - call
+Adding Child/Parent relation between _Z6absValf--38 and call
+Line nums for origVP: call (E) 
+Finished Calling recursiveExamineChildren for call
+In populateImportantVertices for _Z6absValf--38
+Calling recursiveExamineChildren on _Z6absValf--38 for _Z6absValf--38
+Inserting line number(6) 38 to _Z6absValf--38
+Inserting line number(7) 38 to _Z6absValf--38
+Line nums for origVP: _Z6absValf--38 (E)  38
+Finished Calling recursiveExamineChildren for _Z6absValf--38
+In populateImportantVertices for conv2
+Calling recursiveExamineChildren on conv2 for conv2
+Looking at target _Z6absValf--38a from conv2
+Node Props for _Z6absValf--38a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--38a
+OrigVP->dpUpPtr - conv2
+Adding Child/Parent relation between _Z6absValf--38a and conv2
+Looking at target 0x7ed9888 from conv2
+Node Props for 0x7ed9888: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=43
+Inserting line number(8) 38 to conv2
+Start recursion of recursiveExamineChildren on 0x7ed9888
+Calling recursiveExamineChildren on 0x7ed9888 for conv2
+Looking at target val2 from 0x7ed9888
+Node Props for val2: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - val2
+OrigVP->dpUpPtr - conv2
+Adding Child/Parent relation between val2 and conv2
+Line nums for origVP: conv2 (E)  38
+Looking at target cmp from conv2
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to conv2
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for conv2
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to conv2
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for conv2
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - conv2
+Adding Child/Parent relation between call and conv2
+Line nums for origVP: conv2 (E)  38
+Line nums for origVP: conv2 (E)  38
+Line nums for origVP: conv2 (E)  38
+Finished Calling recursiveExamineChildren for conv2
+In populateImportantVertices for call3
+Calling recursiveExamineChildren on call3 for call3
+Looking at target _Z6absValf--38a from call3
+Node Props for _Z6absValf--38a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--38a
+OrigVP->dpUpPtr - call3
+Adding Child/Parent relation between _Z6absValf--38a and call3
+Line nums for origVP: call3 (E) 
+Finished Calling recursiveExamineChildren for call3
+In populateImportantVertices for _Z6absValf--38a
+Calling recursiveExamineChildren on _Z6absValf--38a for _Z6absValf--38a
+Looking at target cmp from _Z6absValf--38a
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to _Z6absValf--38a
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for _Z6absValf--38a
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to _Z6absValf--38a
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for _Z6absValf--38a
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - _Z6absValf--38a
+Adding Child/Parent relation between call and _Z6absValf--38a
+Line nums for origVP: _Z6absValf--38a (E)  38
+Line nums for origVP: _Z6absValf--38a (E)  38
+Line nums for origVP: _Z6absValf--38a (E)  38
+Finished Calling recursiveExamineChildren for _Z6absValf--38a
+In populateImportantVertices for Constant+0+40+0+31
+Calling recursiveExamineChildren on Constant+0+40+0+31 for Constant+0+40+0+31
+Inserting line number(6) 40 to Constant+0+40+0+31
+Inserting line number(7) 40 to Constant+0+40+0+31
+Line nums for origVP: Constant+0+40+0+31 (E)  40
+Finished Calling recursiveExamineChildren for Constant+0+40+0+31
+In populateImportantVertices for conv6
+Calling recursiveExamineChildren on conv6 for conv6
+Looking at target _Z6absValf--45 from conv6
+Node Props for _Z6absValf--45: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--45
+OrigVP->dpUpPtr - conv6
+Adding Child/Parent relation between _Z6absValf--45 and conv6
+Looking at target sub from conv6
+Node Props for sub: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=43
+Inserting line number(8) 45 to conv6
+Start recursion of recursiveExamineChildren on sub
+Calling recursiveExamineChildren on sub for conv6
+Looking at target 0x7ed9da8 from sub
+Node Props for 0x7ed9da8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=14
+Inserting line number(8) 45 to conv6
+Start recursion of recursiveExamineChildren on 0x7ed9da8
+Calling recursiveExamineChildren on 0x7ed9da8 for conv6
+Looking at target val2 from 0x7ed9da8
+Node Props for val2: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - val2
+OrigVP->dpUpPtr - conv6
+Adding Child/Parent relation between val2 and conv6
+Line nums for origVP: conv6 (E)  45
+Looking at target 0x7ed9d18 from sub
+Node Props for 0x7ed9d18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=14
+Inserting line number(8) 45 to conv6
+Start recursion of recursiveExamineChildren on 0x7ed9d18
+Calling recursiveExamineChildren on 0x7ed9d18 for conv6
+Looking at target val1 from 0x7ed9d18
+Node Props for val1: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - val1
+OrigVP->dpUpPtr - conv6
+Adding Child/Parent relation between val1 and conv6
+Line nums for origVP: conv6 (E)  45
+Looking at target cmp from sub
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to conv6
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for conv6
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to conv6
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for conv6
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - conv6
+Adding Child/Parent relation between call and conv6
+Line nums for origVP: conv6 (E)  38 45
+Line nums for origVP: conv6 (E)  38 45
+Line nums for origVP: conv6 (E)  38 45
+Looking at target cmp from conv6
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to conv6
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: conv6 (E)  38 45
+Finished Calling recursiveExamineChildren for conv6
+In populateImportantVertices for call7
+Calling recursiveExamineChildren on call7 for call7
+Looking at target _Z6absValf--45 from call7
+Node Props for _Z6absValf--45: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--45
+OrigVP->dpUpPtr - call7
+Adding Child/Parent relation between _Z6absValf--45 and call7
+Line nums for origVP: call7 (E) 
+Finished Calling recursiveExamineChildren for call7
+In populateImportantVertices for _Z6absValf--45
+Calling recursiveExamineChildren on _Z6absValf--45 for _Z6absValf--45
+Looking at target cmp from _Z6absValf--45
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to _Z6absValf--45
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for _Z6absValf--45
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to _Z6absValf--45
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for _Z6absValf--45
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - _Z6absValf--45
+Adding Child/Parent relation between call and _Z6absValf--45
+Line nums for origVP: _Z6absValf--45 (E)  38
+Line nums for origVP: _Z6absValf--45 (E)  38
+Line nums for origVP: _Z6absValf--45 (E)  38
+Finished Calling recursiveExamineChildren for _Z6absValf--45
+In populateImportantVertices for conv8
+Calling recursiveExamineChildren on conv8 for conv8
+Looking at target _Z6absValf--45a from conv8
+Node Props for _Z6absValf--45a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--45a
+OrigVP->dpUpPtr - conv8
+Adding Child/Parent relation between _Z6absValf--45a and conv8
+Looking at target add from conv8
+Node Props for add: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=43
+Inserting line number(8) 45 to conv8
+Start recursion of recursiveExamineChildren on add
+Calling recursiveExamineChildren on add for conv8
+Looking at target 0x7eda008 from add
+Node Props for 0x7eda008: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=12
+Inserting line number(8) 45 to conv8
+Start recursion of recursiveExamineChildren on 0x7eda008
+Calling recursiveExamineChildren on 0x7eda008 for conv8
+Looking at target val1 from 0x7eda008
+Node Props for val1: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - val1
+OrigVP->dpUpPtr - conv8
+Adding Child/Parent relation between val1 and conv8
+Line nums for origVP: conv8 (E)  45
+Looking at target cmp from add
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to conv8
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for conv8
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to conv8
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for conv8
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - conv8
+Adding Child/Parent relation between call and conv8
+Line nums for origVP: conv8 (E)  38 45
+Line nums for origVP: conv8 (E)  38 45
+Line nums for origVP: conv8 (E)  38 45
+Looking at target cmp from conv8
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to conv8
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: conv8 (E)  38 45
+Finished Calling recursiveExamineChildren for conv8
+In populateImportantVertices for call9
+Calling recursiveExamineChildren on call9 for call9
+Looking at target _Z6absValf--45a from call9
+Node Props for _Z6absValf--45a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--45a
+OrigVP->dpUpPtr - call9
+Adding Child/Parent relation between _Z6absValf--45a and call9
+Line nums for origVP: call9 (E) 
+Finished Calling recursiveExamineChildren for call9
+In populateImportantVertices for _Z6absValf--45a
+Calling recursiveExamineChildren on _Z6absValf--45a for _Z6absValf--45a
+Looking at target cmp from _Z6absValf--45a
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to _Z6absValf--45a
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for _Z6absValf--45a
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to _Z6absValf--45a
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for _Z6absValf--45a
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - _Z6absValf--45a
+Adding Child/Parent relation between call and _Z6absValf--45a
+Line nums for origVP: _Z6absValf--45a (E)  38
+Line nums for origVP: _Z6absValf--45a (E)  38
+Line nums for origVP: _Z6absValf--45a (E)  38
+Finished Calling recursiveExamineChildren for _Z6absValf--45a
+In populateImportantVertices for div
+Calling recursiveExamineChildren on div for div
+Looking at target _Z6absValf--45aa from div
+Node Props for _Z6absValf--45aa: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--45aa
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between _Z6absValf--45aa and div
+Looking at target call7 from div
+Node Props for call7: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=19
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call7
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between call7 and div
+Looking at target call9 from div
+Node Props for call9: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=19
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call9
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between call9 and div
+Looking at target cmp from div
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to div
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for div
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to div
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for div
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between call and div
+Line nums for origVP: div (E)  38
+Line nums for origVP: div (E)  38
+Line nums for origVP: div (E)  38
+Finished Calling recursiveExamineChildren for div
+In populateImportantVertices for call10
+Calling recursiveExamineChildren on call10 for call10
+Looking at target _Z6absValf--45aa from call10
+Node Props for _Z6absValf--45aa: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - _Z6absValf--45aa
+OrigVP->dpUpPtr - call10
+Adding Child/Parent relation between _Z6absValf--45aa and call10
+Line nums for origVP: call10 (E) 
+Finished Calling recursiveExamineChildren for call10
+In populateImportantVertices for _Z6absValf--45aa
+Calling recursiveExamineChildren on _Z6absValf--45aa for _Z6absValf--45aa
+Looking at target cmp from _Z6absValf--45aa
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to _Z6absValf--45aa
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for _Z6absValf--45aa
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to _Z6absValf--45aa
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for _Z6absValf--45aa
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - _Z6absValf--45aa
+Adding Child/Parent relation between call and _Z6absValf--45aa
+Line nums for origVP: _Z6absValf--45aa (E)  38
+Line nums for origVP: _Z6absValf--45aa (E)  38
+Line nums for origVP: _Z6absValf--45aa (E)  38
+Finished Calling recursiveExamineChildren for _Z6absValf--45aa
+In populateImportantVertices for mul
+Calling recursiveExamineChildren on mul for mul
+Looking at target call10 from mul
+Node Props for call10: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=16
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call10
+OrigVP->dpUpPtr - mul
+Adding Child/Parent relation between call10 and mul
+Looking at target cmp from mul
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 38 to mul
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for mul
+Looking at target conv1 from cmp
+Node Props for conv1: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 38 to mul
+Start recursion of recursiveExamineChildren on conv1
+Calling recursiveExamineChildren on conv1 for mul
+Looking at target call from conv1
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+Edge's opCode/edge_type=44
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - mul
+Adding Child/Parent relation between call and mul
+Line nums for origVP: mul (E)  38
+Line nums for origVP: mul (E)  38
+Line nums for origVP: mul (E)  38
+Finished Calling recursiveExamineChildren for mul
+For CALL_NODE _Z6absValf--38
+Parent call
+Func name _Z6absValf--38, pn -1
+Parent conv
+Func name _Z6absValf--38, pn 0
+For CALL_NODE _Z6absValf--38a
+Parent call3
+Func name _Z6absValf--38a, pn -1
+Parent conv2
+Func name _Z6absValf--38a, pn 0
+For CALL_NODE _Z6absValf--45
+Parent conv6
+Func name _Z6absValf--45, pn 0
+Parent call7
+Func name _Z6absValf--45, pn -1
+For CALL_NODE _Z6absValf--45a
+Parent conv8
+Func name _Z6absValf--45a, pn 0
+Parent call9
+Func name _Z6absValf--45a, pn -1
+For CALL_NODE _Z6absValf--45aa
+Parent div
+Func name _Z6absValf--45aa, pn 0
+Parent call10
+Func name _Z6absValf--45aa, pn -1
+Looking at IVP call in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP _Z6absValf--38 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP val1 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+Looking at IVP val2 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+Looking at IVP conv in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP call3 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP _Z6absValf--38a in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP val2.addr in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Double
+Looking at IVP conv2 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP Constant+0+40+0+31 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+Looking at IVP conv6 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP val1.addr in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Double
+Looking at IVP retval in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Float
+Looking at IVP call7 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP _Z6absValf--45 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP conv8 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP call9 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP _Z6absValf--45a in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP div in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP call10 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP _Z6absValf--45aa in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP mul in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+
+After insert line_num of call
+38 
+After insert lineNumbers(-1) from baseline for call
+38 
+After storesTo: call
+38 
+After DF Children call
+38 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38
+Starting line number tally for _Z6absValf--38 originally:
+
+After insert line_num of _Z6absValf--38
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38
+38 
+After storesTo: _Z6absValf--38
+38 
+After DF Children _Z6absValf--38
+38 
+After Children _Z6absValf--38
+38 
+After Data Ptrs _Z6absValf--38
+38 
+After fields _Z6absValf--38
+38 
+After aliases _Z6absValf--38
+38 
+After DF Aliases _Z6absValf--38
+38 
+After Resolved LS From _Z6absValf--38
+38 
+After loadForCalls _Z6absValf--38
+38 
+After GEPChildren _Z6absValf--38
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38
+After Children call
+38 
+After Data Ptrs call
+38 
+After fields call
+38 
+After aliases call
+38 
+After DF Aliases call
+38 
+After Resolved LS From call
+38 
+After loadForCalls call
+38 
+After GEPChildren call
+38 
+Exiting calcAggregateLNRecursive for call
+Entering calcAggCallRecursive for call
+call is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--38
+Exiting calcAggCallRecursive(2) for _Z6absValf--38
+Inserting descParams(1) for call from _Z6absValf--38
+Exiting calcAggCallRecursive(N) for call
+
+Entering calcAggregateLNRecursive for val1
+Starting line number tally for val1 originally:
+
+After insert line_num of val1
+0 
+After insert lineNumbers(-1) from baseline for val1
+0 
+After storesTo: val1
+0 
+After DF Children val1
+0 
+After Children val1
+0 
+After Data Ptrs val1
+0 
+After fields val1
+0 
+After aliases val1
+0 
+After DF Aliases val1
+0 
+After Resolved LS From val1
+0 
+After loadForCalls val1
+0 
+After GEPChildren val1
+0 
+Exiting calcAggregateLNRecursive for val1
+Entering calcAggCallRecursive for val1
+Exiting calcAggCallRecursive(N) for val1
+
+Entering calcAggregateLNRecursive for val2
+Starting line number tally for val2 originally:
+
+After insert line_num of val2
+36 
+After insert lineNumbers(-1) from baseline for val2
+36 
+After storesTo: val2
+36 
+After DF Children val2
+36 
+After Children val2
+36 
+After Data Ptrs val2
+36 
+After fields val2
+36 
+After aliases val2
+36 
+After DF Aliases val2
+36 
+After Resolved LS From val2
+36 
+After loadForCalls val2
+36 
+After GEPChildren val2
+36 
+Exiting calcAggregateLNRecursive for val2
+Entering calcAggCallRecursive for val2
+Exiting calcAggCallRecursive(N) for val2
+
+Entering calcAggregateLNRecursive for conv
+Starting line number tally for conv originally:
+
+After insert line_num of conv
+38 
+After insert lineNumbers(-1) from baseline for conv
+38 
+After storesTo: conv
+38 
+After DF Children conv
+38 
+Inserting Line Numbers(2) from val1 to conv
+0 
+After Children conv
+0 38 
+After Data Ptrs conv
+0 38 
+After fields conv
+0 38 
+After aliases conv
+0 38 
+After DF Aliases conv
+0 38 
+After Resolved LS From conv
+0 38 
+After loadForCalls conv
+0 38 
+After GEPChildren conv
+0 38 
+Exiting calcAggregateLNRecursive for conv
+Entering calcAggCallRecursive for conv
+conv is itself a CALL_PARAM
+Inserting descParams(1) for conv from _Z6absValf--38
+Inserting descParams(1) for conv from val1
+Exiting calcAggCallRecursive(N) for conv
+
+Entering calcAggregateLNRecursive for call3
+Starting line number tally for call3 originally:
+
+After insert line_num of call3
+38 
+After insert lineNumbers(-1) from baseline for call3
+38 
+After storesTo: call3
+38 
+After DF Children call3
+38 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38a
+Starting line number tally for _Z6absValf--38a originally:
+
+After insert line_num of _Z6absValf--38a
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38a
+38 
+After storesTo: _Z6absValf--38a
+38 
+After DF Children _Z6absValf--38a
+38 
+Inserting Line Numbers(2) from call to _Z6absValf--38a
+38 
+After Children _Z6absValf--38a
+38 
+After Data Ptrs _Z6absValf--38a
+38 
+After fields _Z6absValf--38a
+38 
+After aliases _Z6absValf--38a
+38 
+After DF Aliases _Z6absValf--38a
+38 
+After Resolved LS From _Z6absValf--38a
+38 
+After loadForCalls _Z6absValf--38a
+38 
+After GEPChildren _Z6absValf--38a
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38a
+After Children call3
+38 
+After Data Ptrs call3
+38 
+After fields call3
+38 
+After aliases call3
+38 
+After DF Aliases call3
+38 
+After Resolved LS From call3
+38 
+After loadForCalls call3
+38 
+After GEPChildren call3
+38 
+Exiting calcAggregateLNRecursive for call3
+Entering calcAggCallRecursive for call3
+call3 is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--38a
+Exiting calcAggCallRecursive(2) for _Z6absValf--38a
+Inserting descParams(1) for call3 from _Z6absValf--38a
+Exiting calcAggCallRecursive(N) for call3
+
+Entering calcAggregateLNRecursive for val2.addr
+Starting line number tally for val2.addr originally:
+
+After insert line_num of val2.addr
+0 
+After insert lineNumbers(-1) from baseline for val2.addr
+0 36 
+Inserting Line Numbers(0) from val2 to val2.addr
+36 
+After storesTo: val2.addr
+0 36 
+After DF Children val2.addr
+0 36 
+Inserting Line Numbers(2) from val2 to val2.addr
+36 
+After Children val2.addr
+0 36 
+After Data Ptrs val2.addr
+0 36 
+After fields val2.addr
+0 36 
+After aliases val2.addr
+0 36 
+After DF Aliases val2.addr
+0 36 
+After Resolved LS From val2.addr
+0 36 
+After loadForCalls val2.addr
+0 36 
+After GEPChildren val2.addr
+0 36 
+Exiting calcAggregateLNRecursive for val2.addr
+Entering calcAggCallRecursive for val2.addr
+Inserting descParams(1) for val2.addr from val2
+Exiting calcAggCallRecursive(N) for val2.addr
+
+Entering calcAggregateLNRecursive for conv2
+Starting line number tally for conv2 originally:
+
+After insert line_num of conv2
+38 
+After insert lineNumbers(-1) from baseline for conv2
+38 
+After storesTo: conv2
+38 
+After DF Children conv2
+38 
+Inserting Line Numbers(2) from call to conv2
+38 
+Inserting Line Numbers(2) from val2 to conv2
+36 
+After Children conv2
+36 38 
+After Data Ptrs conv2
+36 38 
+After fields conv2
+36 38 
+After aliases conv2
+36 38 
+After DF Aliases conv2
+36 38 
+After Resolved LS From conv2
+36 38 
+After loadForCalls conv2
+36 38 
+After GEPChildren conv2
+36 38 
+Exiting calcAggregateLNRecursive for conv2
+Entering calcAggCallRecursive for conv2
+conv2 is itself a CALL_PARAM
+Inserting descParams(1) for conv2 from call
+Inserting descParams(1) for conv2 from val2
+Inserting descParams(1) for conv2 from _Z6absValf--38a
+Exiting calcAggCallRecursive(N) for conv2
+
+Entering calcAggregateLNRecursive for Constant+0+40+0+31
+Starting line number tally for Constant+0+40+0+31 originally:
+
+After insert line_num of Constant+0+40+0+31
+40 
+Constant+0+40+0+31 is not needed in calcAggregateLNRecursive
+Entering calcAggCallRecursive for Constant+0+40+0+31
+Exiting calcAggCallRecursive(N) for Constant+0+40+0+31
+
+Entering calcAggregateLNRecursive for conv6
+Starting line number tally for conv6 originally:
+
+After insert line_num of conv6
+45 
+After insert lineNumbers(-1) from baseline for conv6
+38 45 
+After storesTo: conv6
+38 45 
+After DF Children conv6
+38 45 
+Inserting Line Numbers(2) from call to conv6
+38 
+Inserting Line Numbers(2) from val1 to conv6
+0 
+Inserting Line Numbers(2) from val2 to conv6
+36 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45
+Starting line number tally for _Z6absValf--45 originally:
+
+After insert line_num of _Z6absValf--45
+45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45
+38 45 
+After storesTo: _Z6absValf--45
+38 45 
+After DF Children _Z6absValf--45
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45
+38 
+After Children _Z6absValf--45
+38 45 
+After Data Ptrs _Z6absValf--45
+38 45 
+After fields _Z6absValf--45
+38 45 
+After aliases _Z6absValf--45
+38 45 
+After DF Aliases _Z6absValf--45
+38 45 
+After Resolved LS From _Z6absValf--45
+38 45 
+After loadForCalls _Z6absValf--45
+38 45 
+After GEPChildren _Z6absValf--45
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45
+After Children conv6
+0 36 38 45 
+After Data Ptrs conv6
+0 36 38 45 
+After fields conv6
+0 36 38 45 
+After aliases conv6
+0 36 38 45 
+After DF Aliases conv6
+0 36 38 45 
+After Resolved LS From conv6
+0 36 38 45 
+After loadForCalls conv6
+0 36 38 45 
+After GEPChildren conv6
+0 36 38 45 
+Exiting calcAggregateLNRecursive for conv6
+Entering calcAggCallRecursive for conv6
+conv6 is itself a CALL_PARAM
+Inserting descParams(1) for conv6 from call
+Inserting descParams(1) for conv6 from val1
+Inserting descParams(1) for conv6 from val2
+Entering calcAggCallRecursive for _Z6absValf--45
+Exiting calcAggCallRecursive(2) for _Z6absValf--45
+Inserting descParams(1) for conv6 from _Z6absValf--45
+Exiting calcAggCallRecursive(N) for conv6
+
+Entering calcAggregateLNRecursive for val1.addr
+Starting line number tally for val1.addr originally:
+
+After insert line_num of val1.addr
+0 
+After insert lineNumbers(-1) from baseline for val1.addr
+0 
+Inserting Line Numbers(0) from val1 to val1.addr
+0 
+After storesTo: val1.addr
+0 
+After DF Children val1.addr
+0 
+Inserting Line Numbers(2) from val1 to val1.addr
+0 
+After Children val1.addr
+0 
+After Data Ptrs val1.addr
+0 
+After fields val1.addr
+0 
+After aliases val1.addr
+0 
+After DF Aliases val1.addr
+0 
+After Resolved LS From val1.addr
+0 
+After loadForCalls val1.addr
+0 
+After GEPChildren val1.addr
+0 
+Exiting calcAggregateLNRecursive for val1.addr
+Entering calcAggCallRecursive for val1.addr
+Inserting descParams(1) for val1.addr from val1
+Exiting calcAggCallRecursive(N) for val1.addr
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+
+After insert line_num of retval
+0 
+After insert lineNumbers(-1) from baseline for retval
+0 38 40 45 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(0) from Constant+0+40+0+31 to retval
+40 
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+
+After insert line_num of mul
+45 
+After insert lineNumbers(-1) from baseline for mul
+38 45 
+After storesTo: mul
+38 45 
+After DF Children mul
+38 45 
+Inserting Line Numbers(2) from call to mul
+38 
+
+Entering calcAggregateLNRecursive for call10
+Starting line number tally for call10 originally:
+
+After insert line_num of call10
+45 
+After insert lineNumbers(-1) from baseline for call10
+45 
+After storesTo: call10
+45 
+After DF Children call10
+45 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45aa
+Starting line number tally for _Z6absValf--45aa originally:
+
+After insert line_num of _Z6absValf--45aa
+45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45aa
+38 45 
+After storesTo: _Z6absValf--45aa
+38 45 
+After DF Children _Z6absValf--45aa
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45aa
+38 
+After Children _Z6absValf--45aa
+38 45 
+After Data Ptrs _Z6absValf--45aa
+38 45 
+After fields _Z6absValf--45aa
+38 45 
+After aliases _Z6absValf--45aa
+38 45 
+After DF Aliases _Z6absValf--45aa
+38 45 
+After Resolved LS From _Z6absValf--45aa
+38 45 
+After loadForCalls _Z6absValf--45aa
+38 45 
+After GEPChildren _Z6absValf--45aa
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45aa
+After Children call10
+45 
+After Data Ptrs call10
+45 
+After fields call10
+45 
+After aliases call10
+45 
+After DF Aliases call10
+45 
+After Resolved LS From call10
+45 
+After loadForCalls call10
+45 
+After GEPChildren call10
+45 
+Exiting calcAggregateLNRecursive for call10
+Inserting Line Numbers(2) from call10 to mul
+45 
+After Children mul
+38 45 
+After Data Ptrs mul
+38 45 
+After fields mul
+38 45 
+After aliases mul
+38 45 
+After DF Aliases mul
+38 45 
+After Resolved LS From mul
+38 45 
+After loadForCalls mul
+38 45 
+After GEPChildren mul
+38 45 
+Exiting calcAggregateLNRecursive for mul
+Inserting Line Numbers(0) from mul to retval
+38 45 
+After storesTo: retval
+0 38 40 45 
+After DF Children retval
+0 38 40 45 
+Inserting Line Numbers(2) from call to retval
+38 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(2) from Constant+0+40+0+31 to retval
+40 
+Inserting Line Numbers(2) from mul to retval
+38 45 
+After Children retval
+0 38 40 45 
+After Data Ptrs retval
+0 38 40 45 
+After fields retval
+0 38 40 45 
+After aliases retval
+0 38 40 45 
+After DF Aliases retval
+0 38 40 45 
+After Resolved LS From retval
+0 38 40 45 
+After loadForCalls retval
+0 38 40 45 
+After GEPChildren retval
+0 38 40 45 
+Exiting calcAggregateLNRecursive for retval
+Entering calcAggCallRecursive for retval
+Inserting descParams(1) for retval from call
+Inserting descParams(1) for retval from Constant+0+40+0+31
+Entering calcAggCallRecursive for mul
+Inserting descParams(1) for mul from call
+Entering calcAggCallRecursive for call10
+call10 is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--45aa
+Exiting calcAggCallRecursive(2) for _Z6absValf--45aa
+Inserting descParams(1) for call10 from _Z6absValf--45aa
+Exiting calcAggCallRecursive(N) for call10
+Inserting descParams(1) for mul from call10
+Exiting calcAggCallRecursive(N) for mul
+Inserting descParams(1) for retval from mul
+Exiting calcAggCallRecursive(N) for retval
+
+Entering calcAggregateLNRecursive for call7
+Starting line number tally for call7 originally:
+
+After insert line_num of call7
+45 
+After insert lineNumbers(-1) from baseline for call7
+45 
+After storesTo: call7
+45 
+After DF Children call7
+45 
+After Children call7
+45 
+After Data Ptrs call7
+45 
+After fields call7
+45 
+After aliases call7
+45 
+After DF Aliases call7
+45 
+After Resolved LS From call7
+45 
+After loadForCalls call7
+45 
+After GEPChildren call7
+45 
+Exiting calcAggregateLNRecursive for call7
+Entering calcAggCallRecursive for call7
+call7 is itself a CALL_RETURN
+Inserting descParams(1) for call7 from _Z6absValf--45
+Exiting calcAggCallRecursive(N) for call7
+
+Entering calcAggregateLNRecursive for conv8
+Starting line number tally for conv8 originally:
+
+After insert line_num of conv8
+45 
+After insert lineNumbers(-1) from baseline for conv8
+38 45 
+After storesTo: conv8
+38 45 
+After DF Children conv8
+38 45 
+Inserting Line Numbers(2) from call to conv8
+38 
+Inserting Line Numbers(2) from val1 to conv8
+0 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45a
+Starting line number tally for _Z6absValf--45a originally:
+
+After insert line_num of _Z6absValf--45a
+45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45a
+38 45 
+After storesTo: _Z6absValf--45a
+38 45 
+After DF Children _Z6absValf--45a
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45a
+38 
+After Children _Z6absValf--45a
+38 45 
+After Data Ptrs _Z6absValf--45a
+38 45 
+After fields _Z6absValf--45a
+38 45 
+After aliases _Z6absValf--45a
+38 45 
+After DF Aliases _Z6absValf--45a
+38 45 
+After Resolved LS From _Z6absValf--45a
+38 45 
+After loadForCalls _Z6absValf--45a
+38 45 
+After GEPChildren _Z6absValf--45a
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45a
+After Children conv8
+0 38 45 
+After Data Ptrs conv8
+0 38 45 
+After fields conv8
+0 38 45 
+After aliases conv8
+0 38 45 
+After DF Aliases conv8
+0 38 45 
+After Resolved LS From conv8
+0 38 45 
+After loadForCalls conv8
+0 38 45 
+After GEPChildren conv8
+0 38 45 
+Exiting calcAggregateLNRecursive for conv8
+Entering calcAggCallRecursive for conv8
+conv8 is itself a CALL_PARAM
+Inserting descParams(1) for conv8 from call
+Inserting descParams(1) for conv8 from val1
+Entering calcAggCallRecursive for _Z6absValf--45a
+Exiting calcAggCallRecursive(2) for _Z6absValf--45a
+Inserting descParams(1) for conv8 from _Z6absValf--45a
+Exiting calcAggCallRecursive(N) for conv8
+
+Entering calcAggregateLNRecursive for call9
+Starting line number tally for call9 originally:
+
+After insert line_num of call9
+45 
+After insert lineNumbers(-1) from baseline for call9
+45 
+After storesTo: call9
+45 
+After DF Children call9
+45 
+After Children call9
+45 
+After Data Ptrs call9
+45 
+After fields call9
+45 
+After aliases call9
+45 
+After DF Aliases call9
+45 
+After Resolved LS From call9
+45 
+After loadForCalls call9
+45 
+After GEPChildren call9
+45 
+Exiting calcAggregateLNRecursive for call9
+Entering calcAggCallRecursive for call9
+call9 is itself a CALL_RETURN
+Inserting descParams(1) for call9 from _Z6absValf--45a
+Exiting calcAggCallRecursive(N) for call9
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+
+After insert line_num of div
+45 
+After insert lineNumbers(-1) from baseline for div
+38 45 
+After storesTo: div
+38 45 
+After DF Children div
+38 45 
+Inserting Line Numbers(2) from call to div
+38 
+Inserting Line Numbers(2) from call7 to div
+45 
+Inserting Line Numbers(2) from call9 to div
+45 
+After Children div
+38 45 
+After Data Ptrs div
+38 45 
+After fields div
+38 45 
+After aliases div
+38 45 
+After DF Aliases div
+38 45 
+After Resolved LS From div
+38 45 
+After loadForCalls div
+38 45 
+After GEPChildren div
+38 45 
+Exiting calcAggregateLNRecursive for div
+Entering calcAggCallRecursive for div
+div is itself a CALL_PARAM
+Inserting descParams(1) for div from call
+Inserting descParams(1) for div from call7
+Inserting descParams(1) for div from call9
+Inserting descParams(1) for div from _Z6absValf--45aa
+Exiting calcAggCallRecursive(N) for div
+Revisiting some of the conflicted agg LN values.
+
+Entering calcAggregateLNRecursive for Constant+0+40+0+31
+Starting line number tally for Constant+0+40+0+31 originally:
+40 
+After insert line_num of Constant+0+40+0+31
+40 
+Constant+0+40+0+31 is not needed in calcAggregateLNRecursive
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+0 38 40 45 
+After insert line_num of retval
+0 38 40 45 
+After insert lineNumbers(-1) from baseline for retval
+0 38 40 45 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(0) from Constant+0+40+0+31 to retval
+40 
+Inserting Line Numbers(0) from mul to retval
+38 45 
+After storesTo: retval
+0 38 40 45 
+After DF Children retval
+0 38 40 45 
+Inserting Line Numbers(2) from call to retval
+38 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(2) from Constant+0+40+0+31 to retval
+40 
+Inserting Line Numbers(2) from mul to retval
+38 45 
+After Children retval
+0 38 40 45 
+After Data Ptrs retval
+0 38 40 45 
+After fields retval
+0 38 40 45 
+After aliases retval
+0 38 40 45 
+After DF Aliases retval
+0 38 40 45 
+After Resolved LS From retval
+0 38 40 45 
+After loadForCalls retval
+0 38 40 45 
+After GEPChildren retval
+0 38 40 45 
+Exiting calcAggregateLNRecursive for retval
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+38 45 
+After insert line_num of mul
+38 45 
+After insert lineNumbers(-1) from baseline for mul
+38 45 
+After storesTo: mul
+38 45 
+After DF Children mul
+38 45 
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+38 
+After insert line_num of call
+38 
+After insert lineNumbers(-1) from baseline for call
+38 
+After storesTo: call
+38 
+After DF Children call
+38 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38
+Starting line number tally for _Z6absValf--38 originally:
+38 
+After insert line_num of _Z6absValf--38
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38
+38 
+After storesTo: _Z6absValf--38
+38 
+After DF Children _Z6absValf--38
+38 
+After Children _Z6absValf--38
+38 
+After Data Ptrs _Z6absValf--38
+38 
+After fields _Z6absValf--38
+38 
+After aliases _Z6absValf--38
+38 
+After DF Aliases _Z6absValf--38
+38 
+After Resolved LS From _Z6absValf--38
+38 
+After loadForCalls _Z6absValf--38
+38 
+After GEPChildren _Z6absValf--38
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38
+After Children call
+38 
+After Data Ptrs call
+38 
+After fields call
+38 
+After aliases call
+38 
+After DF Aliases call
+38 
+After Resolved LS From call
+38 
+After loadForCalls call
+38 
+After GEPChildren call
+38 
+Exiting calcAggregateLNRecursive for call
+Inserting Line Numbers(2) from call to mul
+38 
+
+Entering calcAggregateLNRecursive for call10
+Starting line number tally for call10 originally:
+45 
+After insert line_num of call10
+45 
+After insert lineNumbers(-1) from baseline for call10
+45 
+After storesTo: call10
+45 
+After DF Children call10
+45 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45aa
+Starting line number tally for _Z6absValf--45aa originally:
+38 45 
+After insert line_num of _Z6absValf--45aa
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45aa
+38 45 
+After storesTo: _Z6absValf--45aa
+38 45 
+After DF Children _Z6absValf--45aa
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45aa
+38 
+After Children _Z6absValf--45aa
+38 45 
+After Data Ptrs _Z6absValf--45aa
+38 45 
+After fields _Z6absValf--45aa
+38 45 
+After aliases _Z6absValf--45aa
+38 45 
+After DF Aliases _Z6absValf--45aa
+38 45 
+After Resolved LS From _Z6absValf--45aa
+38 45 
+After loadForCalls _Z6absValf--45aa
+38 45 
+After GEPChildren _Z6absValf--45aa
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45aa
+After Children call10
+45 
+After Data Ptrs call10
+45 
+After fields call10
+45 
+After aliases call10
+45 
+After DF Aliases call10
+45 
+After Resolved LS From call10
+45 
+After loadForCalls call10
+45 
+After GEPChildren call10
+45 
+Exiting calcAggregateLNRecursive for call10
+Inserting Line Numbers(2) from call10 to mul
+45 
+After Children mul
+38 45 
+After Data Ptrs mul
+38 45 
+After fields mul
+38 45 
+After aliases mul
+38 45 
+After DF Aliases mul
+38 45 
+After Resolved LS From mul
+38 45 
+After loadForCalls mul
+38 45 
+After GEPChildren mul
+38 45 
+Exiting calcAggregateLNRecursive for mul
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+38 45 
+After insert line_num of div
+38 45 
+After insert lineNumbers(-1) from baseline for div
+38 45 
+After storesTo: div
+38 45 
+After DF Children div
+38 45 
+Inserting Line Numbers(2) from call to div
+38 
+
+Entering calcAggregateLNRecursive for call7
+Starting line number tally for call7 originally:
+45 
+After insert line_num of call7
+45 
+After insert lineNumbers(-1) from baseline for call7
+45 
+After storesTo: call7
+45 
+After DF Children call7
+45 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45
+Starting line number tally for _Z6absValf--45 originally:
+38 45 
+After insert line_num of _Z6absValf--45
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45
+38 45 
+After storesTo: _Z6absValf--45
+38 45 
+After DF Children _Z6absValf--45
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45
+38 
+After Children _Z6absValf--45
+38 45 
+After Data Ptrs _Z6absValf--45
+38 45 
+After fields _Z6absValf--45
+38 45 
+After aliases _Z6absValf--45
+38 45 
+After DF Aliases _Z6absValf--45
+38 45 
+After Resolved LS From _Z6absValf--45
+38 45 
+After loadForCalls _Z6absValf--45
+38 45 
+After GEPChildren _Z6absValf--45
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45
+After Children call7
+45 
+After Data Ptrs call7
+45 
+After fields call7
+45 
+After aliases call7
+45 
+After DF Aliases call7
+45 
+After Resolved LS From call7
+45 
+After loadForCalls call7
+45 
+After GEPChildren call7
+45 
+Exiting calcAggregateLNRecursive for call7
+Inserting Line Numbers(2) from call7 to div
+45 
+
+Entering calcAggregateLNRecursive for call9
+Starting line number tally for call9 originally:
+45 
+After insert line_num of call9
+45 
+After insert lineNumbers(-1) from baseline for call9
+45 
+After storesTo: call9
+45 
+After DF Children call9
+45 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45a
+Starting line number tally for _Z6absValf--45a originally:
+38 45 
+After insert line_num of _Z6absValf--45a
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45a
+38 45 
+After storesTo: _Z6absValf--45a
+38 45 
+After DF Children _Z6absValf--45a
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45a
+38 
+After Children _Z6absValf--45a
+38 45 
+After Data Ptrs _Z6absValf--45a
+38 45 
+After fields _Z6absValf--45a
+38 45 
+After aliases _Z6absValf--45a
+38 45 
+After DF Aliases _Z6absValf--45a
+38 45 
+After Resolved LS From _Z6absValf--45a
+38 45 
+After loadForCalls _Z6absValf--45a
+38 45 
+After GEPChildren _Z6absValf--45a
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45a
+After Children call9
+45 
+After Data Ptrs call9
+45 
+After fields call9
+45 
+After aliases call9
+45 
+After DF Aliases call9
+45 
+After Resolved LS From call9
+45 
+After loadForCalls call9
+45 
+After GEPChildren call9
+45 
+Exiting calcAggregateLNRecursive for call9
+Inserting Line Numbers(2) from call9 to div
+45 
+After Children div
+38 45 
+After Data Ptrs div
+38 45 
+After fields div
+38 45 
+After aliases div
+38 45 
+After DF Aliases div
+38 45 
+After Resolved LS From div
+38 45 
+After loadForCalls div
+38 45 
+After GEPChildren div
+38 45 
+Exiting calcAggregateLNRecursive for div
+
+Entering calcAggregateLNRecursive for conv8
+Starting line number tally for conv8 originally:
+0 38 45 
+After insert line_num of conv8
+0 38 45 
+After insert lineNumbers(-1) from baseline for conv8
+0 38 45 
+After storesTo: conv8
+0 38 45 
+After DF Children conv8
+0 38 45 
+Inserting Line Numbers(2) from call to conv8
+38 
+
+Entering calcAggregateLNRecursive for val1
+Starting line number tally for val1 originally:
+0 
+After insert line_num of val1
+0 
+After insert lineNumbers(-1) from baseline for val1
+0 
+After storesTo: val1
+0 
+After DF Children val1
+0 
+After Children val1
+0 
+After Data Ptrs val1
+0 
+After fields val1
+0 
+After aliases val1
+0 
+After DF Aliases val1
+0 
+After Resolved LS From val1
+0 
+After loadForCalls val1
+0 
+After GEPChildren val1
+0 
+Exiting calcAggregateLNRecursive for val1
+Inserting Line Numbers(2) from val1 to conv8
+0 
+After Children conv8
+0 38 45 
+After Data Ptrs conv8
+0 38 45 
+After fields conv8
+0 38 45 
+After aliases conv8
+0 38 45 
+After DF Aliases conv8
+0 38 45 
+After Resolved LS From conv8
+0 38 45 
+After loadForCalls conv8
+0 38 45 
+After GEPChildren conv8
+0 38 45 
+Exiting calcAggregateLNRecursive for conv8
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+0 38 40 45 
+After insert line_num of retval
+0 38 40 45 
+After insert lineNumbers(-1) from baseline for retval
+0 38 40 45 
+
+Entering calcAggregateLNRecursive for Constant+0+40+0+31
+Starting line number tally for Constant+0+40+0+31 originally:
+40 
+After insert line_num of Constant+0+40+0+31
+40 
+Constant+0+40+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(0) from Constant+0+40+0+31 to retval
+40 
+Inserting Line Numbers(0) from mul to retval
+38 45 
+After storesTo: retval
+0 38 40 45 
+After DF Children retval
+0 38 40 45 
+Inserting Line Numbers(2) from call to retval
+38 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(2) from Constant+0+40+0+31 to retval
+40 
+Inserting Line Numbers(2) from mul to retval
+38 45 
+After Children retval
+0 38 40 45 
+After Data Ptrs retval
+0 38 40 45 
+After fields retval
+0 38 40 45 
+After aliases retval
+0 38 40 45 
+After DF Aliases retval
+0 38 40 45 
+After Resolved LS From retval
+0 38 40 45 
+After loadForCalls retval
+0 38 40 45 
+After GEPChildren retval
+0 38 40 45 
+Exiting calcAggregateLNRecursive for retval
+
+Entering calcAggregateLNRecursive for val1.addr
+Starting line number tally for val1.addr originally:
+0 
+After insert line_num of val1.addr
+0 
+After insert lineNumbers(-1) from baseline for val1.addr
+0 
+Inserting Line Numbers(0) from val1 to val1.addr
+0 
+After storesTo: val1.addr
+0 
+After DF Children val1.addr
+0 
+Inserting Line Numbers(2) from val1 to val1.addr
+0 
+After Children val1.addr
+0 
+After Data Ptrs val1.addr
+0 
+After fields val1.addr
+0 
+After aliases val1.addr
+0 
+After DF Aliases val1.addr
+0 
+After Resolved LS From val1.addr
+0 
+After loadForCalls val1.addr
+0 
+After GEPChildren val1.addr
+0 
+Exiting calcAggregateLNRecursive for val1.addr
+
+Entering calcAggregateLNRecursive for conv6
+Starting line number tally for conv6 originally:
+0 36 38 45 
+After insert line_num of conv6
+0 36 38 45 
+After insert lineNumbers(-1) from baseline for conv6
+0 36 38 45 
+After storesTo: conv6
+0 36 38 45 
+After DF Children conv6
+0 36 38 45 
+Inserting Line Numbers(2) from call to conv6
+38 
+Inserting Line Numbers(2) from val1 to conv6
+0 
+
+Entering calcAggregateLNRecursive for val2
+Starting line number tally for val2 originally:
+36 
+After insert line_num of val2
+36 
+After insert lineNumbers(-1) from baseline for val2
+36 
+After storesTo: val2
+36 
+After DF Children val2
+36 
+After Children val2
+36 
+After Data Ptrs val2
+36 
+After fields val2
+36 
+After aliases val2
+36 
+After DF Aliases val2
+36 
+After Resolved LS From val2
+36 
+After loadForCalls val2
+36 
+After GEPChildren val2
+36 
+Exiting calcAggregateLNRecursive for val2
+Inserting Line Numbers(2) from val2 to conv6
+36 
+After Children conv6
+0 36 38 45 
+After Data Ptrs conv6
+0 36 38 45 
+After fields conv6
+0 36 38 45 
+After aliases conv6
+0 36 38 45 
+After DF Aliases conv6
+0 36 38 45 
+After Resolved LS From conv6
+0 36 38 45 
+After loadForCalls conv6
+0 36 38 45 
+After GEPChildren conv6
+0 36 38 45 
+Exiting calcAggregateLNRecursive for conv6
+
+Entering calcAggregateLNRecursive for conv2
+Starting line number tally for conv2 originally:
+36 38 
+After insert line_num of conv2
+36 38 
+After insert lineNumbers(-1) from baseline for conv2
+36 38 
+After storesTo: conv2
+36 38 
+After DF Children conv2
+36 38 
+Inserting Line Numbers(2) from call to conv2
+38 
+Inserting Line Numbers(2) from val2 to conv2
+36 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38a
+Starting line number tally for _Z6absValf--38a originally:
+38 
+After insert line_num of _Z6absValf--38a
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38a
+38 
+After storesTo: _Z6absValf--38a
+38 
+After DF Children _Z6absValf--38a
+38 
+Inserting Line Numbers(2) from call to _Z6absValf--38a
+38 
+After Children _Z6absValf--38a
+38 
+After Data Ptrs _Z6absValf--38a
+38 
+After fields _Z6absValf--38a
+38 
+After aliases _Z6absValf--38a
+38 
+After DF Aliases _Z6absValf--38a
+38 
+After Resolved LS From _Z6absValf--38a
+38 
+After loadForCalls _Z6absValf--38a
+38 
+After GEPChildren _Z6absValf--38a
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38a
+After Children conv2
+36 38 
+After Data Ptrs conv2
+36 38 
+After fields conv2
+36 38 
+After aliases conv2
+36 38 
+After DF Aliases conv2
+36 38 
+After Resolved LS From conv2
+36 38 
+After loadForCalls conv2
+36 38 
+After GEPChildren conv2
+36 38 
+Exiting calcAggregateLNRecursive for conv2
+
+Entering calcAggregateLNRecursive for val2.addr
+Starting line number tally for val2.addr originally:
+0 36 
+After insert line_num of val2.addr
+0 36 
+After insert lineNumbers(-1) from baseline for val2.addr
+0 36 
+Inserting Line Numbers(0) from val2 to val2.addr
+36 
+After storesTo: val2.addr
+0 36 
+After DF Children val2.addr
+0 36 
+Inserting Line Numbers(2) from val2 to val2.addr
+36 
+After Children val2.addr
+0 36 
+After Data Ptrs val2.addr
+0 36 
+After fields val2.addr
+0 36 
+After aliases val2.addr
+0 36 
+After DF Aliases val2.addr
+0 36 
+After Resolved LS From val2.addr
+0 36 
+After loadForCalls val2.addr
+0 36 
+After GEPChildren val2.addr
+0 36 
+Exiting calcAggregateLNRecursive for val2.addr
+
+Entering calcAggregateLNRecursive for call3
+Starting line number tally for call3 originally:
+38 
+After insert line_num of call3
+38 
+After insert lineNumbers(-1) from baseline for call3
+38 
+After storesTo: call3
+38 
+After DF Children call3
+38 
+After Children call3
+38 
+After Data Ptrs call3
+38 
+After fields call3
+38 
+After aliases call3
+38 
+After DF Aliases call3
+38 
+After Resolved LS From call3
+38 
+After loadForCalls call3
+38 
+After GEPChildren call3
+38 
+Exiting calcAggregateLNRecursive for call3
+
+Entering calcAggregateLNRecursive for conv
+Starting line number tally for conv originally:
+0 38 
+After insert line_num of conv
+0 38 
+After insert lineNumbers(-1) from baseline for conv
+0 38 
+After storesTo: conv
+0 38 
+After DF Children conv
+0 38 
+Inserting Line Numbers(2) from val1 to conv
+0 
+After Children conv
+0 38 
+After Data Ptrs conv
+0 38 
+After fields conv
+0 38 
+After aliases conv
+0 38 
+After DF Aliases conv
+0 38 
+After Resolved LS From conv
+0 38 
+After loadForCalls conv
+0 38 
+After GEPChildren conv
+0 38 
+Exiting calcAggregateLNRecursive for conv
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+38 
+After insert line_num of call
+38 
+After insert lineNumbers(-1) from baseline for call
+38 
+After storesTo: call
+38 
+After DF Children call
+38 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38
+Starting line number tally for _Z6absValf--38 originally:
+38 
+After insert line_num of _Z6absValf--38
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38
+38 
+After storesTo: _Z6absValf--38
+38 
+After DF Children _Z6absValf--38
+38 
+After Children _Z6absValf--38
+38 
+After Data Ptrs _Z6absValf--38
+38 
+After fields _Z6absValf--38
+38 
+After aliases _Z6absValf--38
+38 
+After DF Aliases _Z6absValf--38
+38 
+After Resolved LS From _Z6absValf--38
+38 
+After loadForCalls _Z6absValf--38
+38 
+After GEPChildren _Z6absValf--38
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38
+After Children call
+38 
+After Data Ptrs call
+38 
+After fields call
+38 
+After aliases call
+38 
+After DF Aliases call
+38 
+After Resolved LS From call
+38 
+After loadForCalls call
+38 
+After GEPChildren call
+38 
+Exiting calcAggregateLNRecursive for call
+
+Entering calcAggregateLNRecursive for val1
+Starting line number tally for val1 originally:
+0 
+After insert line_num of val1
+0 
+After insert lineNumbers(-1) from baseline for val1
+0 
+After storesTo: val1
+0 
+After DF Children val1
+0 
+After Children val1
+0 
+After Data Ptrs val1
+0 
+After fields val1
+0 
+After aliases val1
+0 
+After DF Aliases val1
+0 
+After Resolved LS From val1
+0 
+After loadForCalls val1
+0 
+After GEPChildren val1
+0 
+Exiting calcAggregateLNRecursive for val1
+
+Entering calcAggregateLNRecursive for val2
+Starting line number tally for val2 originally:
+36 
+After insert line_num of val2
+36 
+After insert lineNumbers(-1) from baseline for val2
+36 
+After storesTo: val2
+36 
+After DF Children val2
+36 
+After Children val2
+36 
+After Data Ptrs val2
+36 
+After fields val2
+36 
+After aliases val2
+36 
+After DF Aliases val2
+36 
+After Resolved LS From val2
+36 
+After loadForCalls val2
+36 
+After GEPChildren val2
+36 
+Exiting calcAggregateLNRecursive for val2
+
+Entering calcAggregateLNRecursive for conv
+Starting line number tally for conv originally:
+0 38 
+After insert line_num of conv
+0 38 
+After insert lineNumbers(-1) from baseline for conv
+0 38 
+After storesTo: conv
+0 38 
+After DF Children conv
+0 38 
+Inserting Line Numbers(2) from val1 to conv
+0 
+After Children conv
+0 38 
+After Data Ptrs conv
+0 38 
+After fields conv
+0 38 
+After aliases conv
+0 38 
+After DF Aliases conv
+0 38 
+After Resolved LS From conv
+0 38 
+After loadForCalls conv
+0 38 
+After GEPChildren conv
+0 38 
+Exiting calcAggregateLNRecursive for conv
+
+Entering calcAggregateLNRecursive for call3
+Starting line number tally for call3 originally:
+38 
+After insert line_num of call3
+38 
+After insert lineNumbers(-1) from baseline for call3
+38 
+After storesTo: call3
+38 
+After DF Children call3
+38 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38a
+Starting line number tally for _Z6absValf--38a originally:
+38 
+After insert line_num of _Z6absValf--38a
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38a
+38 
+After storesTo: _Z6absValf--38a
+38 
+After DF Children _Z6absValf--38a
+38 
+Inserting Line Numbers(2) from call to _Z6absValf--38a
+38 
+After Children _Z6absValf--38a
+38 
+After Data Ptrs _Z6absValf--38a
+38 
+After fields _Z6absValf--38a
+38 
+After aliases _Z6absValf--38a
+38 
+After DF Aliases _Z6absValf--38a
+38 
+After Resolved LS From _Z6absValf--38a
+38 
+After loadForCalls _Z6absValf--38a
+38 
+After GEPChildren _Z6absValf--38a
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38a
+After Children call3
+38 
+After Data Ptrs call3
+38 
+After fields call3
+38 
+After aliases call3
+38 
+After DF Aliases call3
+38 
+After Resolved LS From call3
+38 
+After loadForCalls call3
+38 
+After GEPChildren call3
+38 
+Exiting calcAggregateLNRecursive for call3
+
+Entering calcAggregateLNRecursive for val2.addr
+Starting line number tally for val2.addr originally:
+0 36 
+After insert line_num of val2.addr
+0 36 
+After insert lineNumbers(-1) from baseline for val2.addr
+0 36 
+Inserting Line Numbers(0) from val2 to val2.addr
+36 
+After storesTo: val2.addr
+0 36 
+After DF Children val2.addr
+0 36 
+Inserting Line Numbers(2) from val2 to val2.addr
+36 
+After Children val2.addr
+0 36 
+After Data Ptrs val2.addr
+0 36 
+After fields val2.addr
+0 36 
+After aliases val2.addr
+0 36 
+After DF Aliases val2.addr
+0 36 
+After Resolved LS From val2.addr
+0 36 
+After loadForCalls val2.addr
+0 36 
+After GEPChildren val2.addr
+0 36 
+Exiting calcAggregateLNRecursive for val2.addr
+
+Entering calcAggregateLNRecursive for conv2
+Starting line number tally for conv2 originally:
+36 38 
+After insert line_num of conv2
+36 38 
+After insert lineNumbers(-1) from baseline for conv2
+36 38 
+After storesTo: conv2
+36 38 
+After DF Children conv2
+36 38 
+Inserting Line Numbers(2) from call to conv2
+38 
+Inserting Line Numbers(2) from val2 to conv2
+36 
+After Children conv2
+36 38 
+After Data Ptrs conv2
+36 38 
+After fields conv2
+36 38 
+After aliases conv2
+36 38 
+After DF Aliases conv2
+36 38 
+After Resolved LS From conv2
+36 38 
+After loadForCalls conv2
+36 38 
+After GEPChildren conv2
+36 38 
+Exiting calcAggregateLNRecursive for conv2
+
+Entering calcAggregateLNRecursive for Constant+0+40+0+31
+Starting line number tally for Constant+0+40+0+31 originally:
+40 
+After insert line_num of Constant+0+40+0+31
+40 
+Constant+0+40+0+31 is not needed in calcAggregateLNRecursive
+
+Entering calcAggregateLNRecursive for conv6
+Starting line number tally for conv6 originally:
+0 36 38 45 
+After insert line_num of conv6
+0 36 38 45 
+After insert lineNumbers(-1) from baseline for conv6
+0 36 38 45 
+After storesTo: conv6
+0 36 38 45 
+After DF Children conv6
+0 36 38 45 
+Inserting Line Numbers(2) from call to conv6
+38 
+Inserting Line Numbers(2) from val1 to conv6
+0 
+Inserting Line Numbers(2) from val2 to conv6
+36 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45
+Starting line number tally for _Z6absValf--45 originally:
+38 45 
+After insert line_num of _Z6absValf--45
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45
+38 45 
+After storesTo: _Z6absValf--45
+38 45 
+After DF Children _Z6absValf--45
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45
+38 
+After Children _Z6absValf--45
+38 45 
+After Data Ptrs _Z6absValf--45
+38 45 
+After fields _Z6absValf--45
+38 45 
+After aliases _Z6absValf--45
+38 45 
+After DF Aliases _Z6absValf--45
+38 45 
+After Resolved LS From _Z6absValf--45
+38 45 
+After loadForCalls _Z6absValf--45
+38 45 
+After GEPChildren _Z6absValf--45
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45
+After Children conv6
+0 36 38 45 
+After Data Ptrs conv6
+0 36 38 45 
+After fields conv6
+0 36 38 45 
+After aliases conv6
+0 36 38 45 
+After DF Aliases conv6
+0 36 38 45 
+After Resolved LS From conv6
+0 36 38 45 
+After loadForCalls conv6
+0 36 38 45 
+After GEPChildren conv6
+0 36 38 45 
+Exiting calcAggregateLNRecursive for conv6
+
+Entering calcAggregateLNRecursive for val1.addr
+Starting line number tally for val1.addr originally:
+0 
+After insert line_num of val1.addr
+0 
+After insert lineNumbers(-1) from baseline for val1.addr
+0 
+Inserting Line Numbers(0) from val1 to val1.addr
+0 
+After storesTo: val1.addr
+0 
+After DF Children val1.addr
+0 
+Inserting Line Numbers(2) from val1 to val1.addr
+0 
+After Children val1.addr
+0 
+After Data Ptrs val1.addr
+0 
+After fields val1.addr
+0 
+After aliases val1.addr
+0 
+After DF Aliases val1.addr
+0 
+After Resolved LS From val1.addr
+0 
+After loadForCalls val1.addr
+0 
+After GEPChildren val1.addr
+0 
+Exiting calcAggregateLNRecursive for val1.addr
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+0 38 40 45 
+After insert line_num of retval
+0 38 40 45 
+After insert lineNumbers(-1) from baseline for retval
+0 38 40 45 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(0) from Constant+0+40+0+31 to retval
+40 
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+38 45 
+After insert line_num of mul
+38 45 
+After insert lineNumbers(-1) from baseline for mul
+38 45 
+After storesTo: mul
+38 45 
+After DF Children mul
+38 45 
+Inserting Line Numbers(2) from call to mul
+38 
+
+Entering calcAggregateLNRecursive for call10
+Starting line number tally for call10 originally:
+45 
+After insert line_num of call10
+45 
+After insert lineNumbers(-1) from baseline for call10
+45 
+After storesTo: call10
+45 
+After DF Children call10
+45 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45aa
+Starting line number tally for _Z6absValf--45aa originally:
+38 45 
+After insert line_num of _Z6absValf--45aa
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45aa
+38 45 
+After storesTo: _Z6absValf--45aa
+38 45 
+After DF Children _Z6absValf--45aa
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45aa
+38 
+After Children _Z6absValf--45aa
+38 45 
+After Data Ptrs _Z6absValf--45aa
+38 45 
+After fields _Z6absValf--45aa
+38 45 
+After aliases _Z6absValf--45aa
+38 45 
+After DF Aliases _Z6absValf--45aa
+38 45 
+After Resolved LS From _Z6absValf--45aa
+38 45 
+After loadForCalls _Z6absValf--45aa
+38 45 
+After GEPChildren _Z6absValf--45aa
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45aa
+After Children call10
+45 
+After Data Ptrs call10
+45 
+After fields call10
+45 
+After aliases call10
+45 
+After DF Aliases call10
+45 
+After Resolved LS From call10
+45 
+After loadForCalls call10
+45 
+After GEPChildren call10
+45 
+Exiting calcAggregateLNRecursive for call10
+Inserting Line Numbers(2) from call10 to mul
+45 
+After Children mul
+38 45 
+After Data Ptrs mul
+38 45 
+After fields mul
+38 45 
+After aliases mul
+38 45 
+After DF Aliases mul
+38 45 
+After Resolved LS From mul
+38 45 
+After loadForCalls mul
+38 45 
+After GEPChildren mul
+38 45 
+Exiting calcAggregateLNRecursive for mul
+Inserting Line Numbers(0) from mul to retval
+38 45 
+After storesTo: retval
+0 38 40 45 
+After DF Children retval
+0 38 40 45 
+Inserting Line Numbers(2) from call to retval
+38 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(2) from Constant+0+40+0+31 to retval
+40 
+Inserting Line Numbers(2) from mul to retval
+38 45 
+After Children retval
+0 38 40 45 
+After Data Ptrs retval
+0 38 40 45 
+After fields retval
+0 38 40 45 
+After aliases retval
+0 38 40 45 
+After DF Aliases retval
+0 38 40 45 
+After Resolved LS From retval
+0 38 40 45 
+After loadForCalls retval
+0 38 40 45 
+After GEPChildren retval
+0 38 40 45 
+Exiting calcAggregateLNRecursive for retval
+
+Entering calcAggregateLNRecursive for call7
+Starting line number tally for call7 originally:
+45 
+After insert line_num of call7
+45 
+After insert lineNumbers(-1) from baseline for call7
+45 
+After storesTo: call7
+45 
+After DF Children call7
+45 
+After Children call7
+45 
+After Data Ptrs call7
+45 
+After fields call7
+45 
+After aliases call7
+45 
+After DF Aliases call7
+45 
+After Resolved LS From call7
+45 
+After loadForCalls call7
+45 
+After GEPChildren call7
+45 
+Exiting calcAggregateLNRecursive for call7
+
+Entering calcAggregateLNRecursive for conv8
+Starting line number tally for conv8 originally:
+0 38 45 
+After insert line_num of conv8
+0 38 45 
+After insert lineNumbers(-1) from baseline for conv8
+0 38 45 
+After storesTo: conv8
+0 38 45 
+After DF Children conv8
+0 38 45 
+Inserting Line Numbers(2) from call to conv8
+38 
+Inserting Line Numbers(2) from val1 to conv8
+0 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45a
+Starting line number tally for _Z6absValf--45a originally:
+38 45 
+After insert line_num of _Z6absValf--45a
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45a
+38 45 
+After storesTo: _Z6absValf--45a
+38 45 
+After DF Children _Z6absValf--45a
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45a
+38 
+After Children _Z6absValf--45a
+38 45 
+After Data Ptrs _Z6absValf--45a
+38 45 
+After fields _Z6absValf--45a
+38 45 
+After aliases _Z6absValf--45a
+38 45 
+After DF Aliases _Z6absValf--45a
+38 45 
+After Resolved LS From _Z6absValf--45a
+38 45 
+After loadForCalls _Z6absValf--45a
+38 45 
+After GEPChildren _Z6absValf--45a
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45a
+After Children conv8
+0 38 45 
+After Data Ptrs conv8
+0 38 45 
+After fields conv8
+0 38 45 
+After aliases conv8
+0 38 45 
+After DF Aliases conv8
+0 38 45 
+After Resolved LS From conv8
+0 38 45 
+After loadForCalls conv8
+0 38 45 
+After GEPChildren conv8
+0 38 45 
+Exiting calcAggregateLNRecursive for conv8
+
+Entering calcAggregateLNRecursive for call9
+Starting line number tally for call9 originally:
+45 
+After insert line_num of call9
+45 
+After insert lineNumbers(-1) from baseline for call9
+45 
+After storesTo: call9
+45 
+After DF Children call9
+45 
+After Children call9
+45 
+After Data Ptrs call9
+45 
+After fields call9
+45 
+After aliases call9
+45 
+After DF Aliases call9
+45 
+After Resolved LS From call9
+45 
+After loadForCalls call9
+45 
+After GEPChildren call9
+45 
+Exiting calcAggregateLNRecursive for call9
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+38 45 
+After insert line_num of div
+38 45 
+After insert lineNumbers(-1) from baseline for div
+38 45 
+After storesTo: div
+38 45 
+After DF Children div
+38 45 
+Inserting Line Numbers(2) from call to div
+38 
+Inserting Line Numbers(2) from call7 to div
+45 
+Inserting Line Numbers(2) from call9 to div
+45 
+After Children div
+38 45 
+After Data Ptrs div
+38 45 
+After fields div
+38 45 
+After aliases div
+38 45 
+After DF Aliases div
+38 45 
+After Resolved LS From div
+38 45 
+After loadForCalls div
+38 45 
+After GEPChildren div
+38 45 
+Exiting calcAggregateLNRecursive for div
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+38 
+After insert line_num of call
+38 
+After insert lineNumbers(-1) from baseline for call
+38 
+After storesTo: call
+38 
+After DF Children call
+38 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38
+Starting line number tally for _Z6absValf--38 originally:
+38 
+After insert line_num of _Z6absValf--38
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38
+38 
+After storesTo: _Z6absValf--38
+38 
+After DF Children _Z6absValf--38
+38 
+After Children _Z6absValf--38
+38 
+After Data Ptrs _Z6absValf--38
+38 
+After fields _Z6absValf--38
+38 
+After aliases _Z6absValf--38
+38 
+After DF Aliases _Z6absValf--38
+38 
+After Resolved LS From _Z6absValf--38
+38 
+After loadForCalls _Z6absValf--38
+38 
+After GEPChildren _Z6absValf--38
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38
+After Children call
+38 
+After Data Ptrs call
+38 
+After fields call
+38 
+After aliases call
+38 
+After DF Aliases call
+38 
+After Resolved LS From call
+38 
+After loadForCalls call
+38 
+After GEPChildren call
+38 
+Exiting calcAggregateLNRecursive for call
+
+Entering calcAggregateLNRecursive for val1
+Starting line number tally for val1 originally:
+0 
+After insert line_num of val1
+0 
+After insert lineNumbers(-1) from baseline for val1
+0 
+After storesTo: val1
+0 
+After DF Children val1
+0 
+After Children val1
+0 
+After Data Ptrs val1
+0 
+After fields val1
+0 
+After aliases val1
+0 
+After DF Aliases val1
+0 
+After Resolved LS From val1
+0 
+After loadForCalls val1
+0 
+After GEPChildren val1
+0 
+Exiting calcAggregateLNRecursive for val1
+
+Entering calcAggregateLNRecursive for val2
+Starting line number tally for val2 originally:
+36 
+After insert line_num of val2
+36 
+After insert lineNumbers(-1) from baseline for val2
+36 
+After storesTo: val2
+36 
+After DF Children val2
+36 
+After Children val2
+36 
+After Data Ptrs val2
+36 
+After fields val2
+36 
+After aliases val2
+36 
+After DF Aliases val2
+36 
+After Resolved LS From val2
+36 
+After loadForCalls val2
+36 
+After GEPChildren val2
+36 
+Exiting calcAggregateLNRecursive for val2
+
+Entering calcAggregateLNRecursive for conv
+Starting line number tally for conv originally:
+0 38 
+After insert line_num of conv
+0 38 
+After insert lineNumbers(-1) from baseline for conv
+0 38 
+After storesTo: conv
+0 38 
+After DF Children conv
+0 38 
+Inserting Line Numbers(2) from val1 to conv
+0 
+After Children conv
+0 38 
+After Data Ptrs conv
+0 38 
+After fields conv
+0 38 
+After aliases conv
+0 38 
+After DF Aliases conv
+0 38 
+After Resolved LS From conv
+0 38 
+After loadForCalls conv
+0 38 
+After GEPChildren conv
+0 38 
+Exiting calcAggregateLNRecursive for conv
+
+Entering calcAggregateLNRecursive for call3
+Starting line number tally for call3 originally:
+38 
+After insert line_num of call3
+38 
+After insert lineNumbers(-1) from baseline for call3
+38 
+After storesTo: call3
+38 
+After DF Children call3
+38 
+
+Entering calcAggregateLNRecursive for _Z6absValf--38a
+Starting line number tally for _Z6absValf--38a originally:
+38 
+After insert line_num of _Z6absValf--38a
+38 
+After insert lineNumbers(-1) from baseline for _Z6absValf--38a
+38 
+After storesTo: _Z6absValf--38a
+38 
+After DF Children _Z6absValf--38a
+38 
+Inserting Line Numbers(2) from call to _Z6absValf--38a
+38 
+After Children _Z6absValf--38a
+38 
+After Data Ptrs _Z6absValf--38a
+38 
+After fields _Z6absValf--38a
+38 
+After aliases _Z6absValf--38a
+38 
+After DF Aliases _Z6absValf--38a
+38 
+After Resolved LS From _Z6absValf--38a
+38 
+After loadForCalls _Z6absValf--38a
+38 
+After GEPChildren _Z6absValf--38a
+38 
+Exiting calcAggregateLNRecursive for _Z6absValf--38a
+After Children call3
+38 
+After Data Ptrs call3
+38 
+After fields call3
+38 
+After aliases call3
+38 
+After DF Aliases call3
+38 
+After Resolved LS From call3
+38 
+After loadForCalls call3
+38 
+After GEPChildren call3
+38 
+Exiting calcAggregateLNRecursive for call3
+
+Entering calcAggregateLNRecursive for val2.addr
+Starting line number tally for val2.addr originally:
+0 36 
+After insert line_num of val2.addr
+0 36 
+After insert lineNumbers(-1) from baseline for val2.addr
+0 36 
+Inserting Line Numbers(0) from val2 to val2.addr
+36 
+After storesTo: val2.addr
+0 36 
+After DF Children val2.addr
+0 36 
+Inserting Line Numbers(2) from val2 to val2.addr
+36 
+After Children val2.addr
+0 36 
+After Data Ptrs val2.addr
+0 36 
+After fields val2.addr
+0 36 
+After aliases val2.addr
+0 36 
+After DF Aliases val2.addr
+0 36 
+After Resolved LS From val2.addr
+0 36 
+After loadForCalls val2.addr
+0 36 
+After GEPChildren val2.addr
+0 36 
+Exiting calcAggregateLNRecursive for val2.addr
+
+Entering calcAggregateLNRecursive for conv2
+Starting line number tally for conv2 originally:
+36 38 
+After insert line_num of conv2
+36 38 
+After insert lineNumbers(-1) from baseline for conv2
+36 38 
+After storesTo: conv2
+36 38 
+After DF Children conv2
+36 38 
+Inserting Line Numbers(2) from call to conv2
+38 
+Inserting Line Numbers(2) from val2 to conv2
+36 
+After Children conv2
+36 38 
+After Data Ptrs conv2
+36 38 
+After fields conv2
+36 38 
+After aliases conv2
+36 38 
+After DF Aliases conv2
+36 38 
+After Resolved LS From conv2
+36 38 
+After loadForCalls conv2
+36 38 
+After GEPChildren conv2
+36 38 
+Exiting calcAggregateLNRecursive for conv2
+
+Entering calcAggregateLNRecursive for Constant+0+40+0+31
+Starting line number tally for Constant+0+40+0+31 originally:
+40 
+After insert line_num of Constant+0+40+0+31
+40 
+Constant+0+40+0+31 is not needed in calcAggregateLNRecursive
+
+Entering calcAggregateLNRecursive for conv6
+Starting line number tally for conv6 originally:
+0 36 38 45 
+After insert line_num of conv6
+0 36 38 45 
+After insert lineNumbers(-1) from baseline for conv6
+0 36 38 45 
+After storesTo: conv6
+0 36 38 45 
+After DF Children conv6
+0 36 38 45 
+Inserting Line Numbers(2) from call to conv6
+38 
+Inserting Line Numbers(2) from val1 to conv6
+0 
+Inserting Line Numbers(2) from val2 to conv6
+36 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45
+Starting line number tally for _Z6absValf--45 originally:
+38 45 
+After insert line_num of _Z6absValf--45
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45
+38 45 
+After storesTo: _Z6absValf--45
+38 45 
+After DF Children _Z6absValf--45
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45
+38 
+After Children _Z6absValf--45
+38 45 
+After Data Ptrs _Z6absValf--45
+38 45 
+After fields _Z6absValf--45
+38 45 
+After aliases _Z6absValf--45
+38 45 
+After DF Aliases _Z6absValf--45
+38 45 
+After Resolved LS From _Z6absValf--45
+38 45 
+After loadForCalls _Z6absValf--45
+38 45 
+After GEPChildren _Z6absValf--45
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45
+After Children conv6
+0 36 38 45 
+After Data Ptrs conv6
+0 36 38 45 
+After fields conv6
+0 36 38 45 
+After aliases conv6
+0 36 38 45 
+After DF Aliases conv6
+0 36 38 45 
+After Resolved LS From conv6
+0 36 38 45 
+After loadForCalls conv6
+0 36 38 45 
+After GEPChildren conv6
+0 36 38 45 
+Exiting calcAggregateLNRecursive for conv6
+
+Entering calcAggregateLNRecursive for val1.addr
+Starting line number tally for val1.addr originally:
+0 
+After insert line_num of val1.addr
+0 
+After insert lineNumbers(-1) from baseline for val1.addr
+0 
+Inserting Line Numbers(0) from val1 to val1.addr
+0 
+After storesTo: val1.addr
+0 
+After DF Children val1.addr
+0 
+Inserting Line Numbers(2) from val1 to val1.addr
+0 
+After Children val1.addr
+0 
+After Data Ptrs val1.addr
+0 
+After fields val1.addr
+0 
+After aliases val1.addr
+0 
+After DF Aliases val1.addr
+0 
+After Resolved LS From val1.addr
+0 
+After loadForCalls val1.addr
+0 
+After GEPChildren val1.addr
+0 
+Exiting calcAggregateLNRecursive for val1.addr
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+0 38 40 45 
+After insert line_num of retval
+0 38 40 45 
+After insert lineNumbers(-1) from baseline for retval
+0 38 40 45 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(0) from Constant+0+40+0+31 to retval
+40 
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+38 45 
+After insert line_num of mul
+38 45 
+After insert lineNumbers(-1) from baseline for mul
+38 45 
+After storesTo: mul
+38 45 
+After DF Children mul
+38 45 
+Inserting Line Numbers(2) from call to mul
+38 
+
+Entering calcAggregateLNRecursive for call10
+Starting line number tally for call10 originally:
+45 
+After insert line_num of call10
+45 
+After insert lineNumbers(-1) from baseline for call10
+45 
+After storesTo: call10
+45 
+After DF Children call10
+45 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45aa
+Starting line number tally for _Z6absValf--45aa originally:
+38 45 
+After insert line_num of _Z6absValf--45aa
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45aa
+38 45 
+After storesTo: _Z6absValf--45aa
+38 45 
+After DF Children _Z6absValf--45aa
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45aa
+38 
+After Children _Z6absValf--45aa
+38 45 
+After Data Ptrs _Z6absValf--45aa
+38 45 
+After fields _Z6absValf--45aa
+38 45 
+After aliases _Z6absValf--45aa
+38 45 
+After DF Aliases _Z6absValf--45aa
+38 45 
+After Resolved LS From _Z6absValf--45aa
+38 45 
+After loadForCalls _Z6absValf--45aa
+38 45 
+After GEPChildren _Z6absValf--45aa
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45aa
+After Children call10
+45 
+After Data Ptrs call10
+45 
+After fields call10
+45 
+After aliases call10
+45 
+After DF Aliases call10
+45 
+After Resolved LS From call10
+45 
+After loadForCalls call10
+45 
+After GEPChildren call10
+45 
+Exiting calcAggregateLNRecursive for call10
+Inserting Line Numbers(2) from call10 to mul
+45 
+After Children mul
+38 45 
+After Data Ptrs mul
+38 45 
+After fields mul
+38 45 
+After aliases mul
+38 45 
+After DF Aliases mul
+38 45 
+After Resolved LS From mul
+38 45 
+After loadForCalls mul
+38 45 
+After GEPChildren mul
+38 45 
+Exiting calcAggregateLNRecursive for mul
+Inserting Line Numbers(0) from mul to retval
+38 45 
+After storesTo: retval
+0 38 40 45 
+After DF Children retval
+0 38 40 45 
+Inserting Line Numbers(2) from call to retval
+38 
+Conflict in LNRecursive. Need to revisit Constant+0+40+0+31 and retval
+Inserting Line Numbers(2) from Constant+0+40+0+31 to retval
+40 
+Inserting Line Numbers(2) from mul to retval
+38 45 
+After Children retval
+0 38 40 45 
+After Data Ptrs retval
+0 38 40 45 
+After fields retval
+0 38 40 45 
+After aliases retval
+0 38 40 45 
+After DF Aliases retval
+0 38 40 45 
+After Resolved LS From retval
+0 38 40 45 
+After loadForCalls retval
+0 38 40 45 
+After GEPChildren retval
+0 38 40 45 
+Exiting calcAggregateLNRecursive for retval
+
+Entering calcAggregateLNRecursive for call7
+Starting line number tally for call7 originally:
+45 
+After insert line_num of call7
+45 
+After insert lineNumbers(-1) from baseline for call7
+45 
+After storesTo: call7
+45 
+After DF Children call7
+45 
+After Children call7
+45 
+After Data Ptrs call7
+45 
+After fields call7
+45 
+After aliases call7
+45 
+After DF Aliases call7
+45 
+After Resolved LS From call7
+45 
+After loadForCalls call7
+45 
+After GEPChildren call7
+45 
+Exiting calcAggregateLNRecursive for call7
+
+Entering calcAggregateLNRecursive for conv8
+Starting line number tally for conv8 originally:
+0 38 45 
+After insert line_num of conv8
+0 38 45 
+After insert lineNumbers(-1) from baseline for conv8
+0 38 45 
+After storesTo: conv8
+0 38 45 
+After DF Children conv8
+0 38 45 
+Inserting Line Numbers(2) from call to conv8
+38 
+Inserting Line Numbers(2) from val1 to conv8
+0 
+
+Entering calcAggregateLNRecursive for _Z6absValf--45a
+Starting line number tally for _Z6absValf--45a originally:
+38 45 
+After insert line_num of _Z6absValf--45a
+38 45 
+After insert lineNumbers(-1) from baseline for _Z6absValf--45a
+38 45 
+After storesTo: _Z6absValf--45a
+38 45 
+After DF Children _Z6absValf--45a
+38 45 
+Inserting Line Numbers(2) from call to _Z6absValf--45a
+38 
+After Children _Z6absValf--45a
+38 45 
+After Data Ptrs _Z6absValf--45a
+38 45 
+After fields _Z6absValf--45a
+38 45 
+After aliases _Z6absValf--45a
+38 45 
+After DF Aliases _Z6absValf--45a
+38 45 
+After Resolved LS From _Z6absValf--45a
+38 45 
+After loadForCalls _Z6absValf--45a
+38 45 
+After GEPChildren _Z6absValf--45a
+38 45 
+Exiting calcAggregateLNRecursive for _Z6absValf--45a
+After Children conv8
+0 38 45 
+After Data Ptrs conv8
+0 38 45 
+After fields conv8
+0 38 45 
+After aliases conv8
+0 38 45 
+After DF Aliases conv8
+0 38 45 
+After Resolved LS From conv8
+0 38 45 
+After loadForCalls conv8
+0 38 45 
+After GEPChildren conv8
+0 38 45 
+Exiting calcAggregateLNRecursive for conv8
+
+Entering calcAggregateLNRecursive for call9
+Starting line number tally for call9 originally:
+45 
+After insert line_num of call9
+45 
+After insert lineNumbers(-1) from baseline for call9
+45 
+After storesTo: call9
+45 
+After DF Children call9
+45 
+After Children call9
+45 
+After Data Ptrs call9
+45 
+After fields call9
+45 
+After aliases call9
+45 
+After DF Aliases call9
+45 
+After Resolved LS From call9
+45 
+After loadForCalls call9
+45 
+After GEPChildren call9
+45 
+Exiting calcAggregateLNRecursive for call9
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+38 45 
+After insert line_num of div
+38 45 
+After insert lineNumbers(-1) from baseline for div
+38 45 
+After storesTo: div
+38 45 
+After DF Children div
+38 45 
+Inserting Line Numbers(2) from call to div
+38 
+Inserting Line Numbers(2) from call7 to div
+45 
+Inserting Line Numbers(2) from call9 to div
+45 
+After Children div
+38 45 
+After Data Ptrs div
+38 45 
+After fields div
+38 45 
+After aliases div
+38 45 
+After DF Aliases div
+38 45 
+After Resolved LS From div
+38 45 
+After loadForCalls div
+38 45 
+After GEPChildren div
+38 45 
+Exiting calcAggregateLNRecursive for div
+Revisiting some of the conflicted agg Call values.
+Entering calcAggCallRecursive for call
+call is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--38
+Exiting calcAggCallRecursive(2) for _Z6absValf--38
+Inserting descParams(1) for call from _Z6absValf--38
+Exiting calcAggCallRecursive(N) for call
+Entering calcAggCallRecursive for _Z6absValf--38
+Exiting calcAggCallRecursive(1) for _Z6absValf--38
+Entering calcAggCallRecursive for conv
+conv is itself a CALL_PARAM
+Inserting descParams(1) for conv from _Z6absValf--38
+Inserting descParams(1) for conv from val1
+Exiting calcAggCallRecursive(N) for conv
+Entering calcAggCallRecursive for call3
+call3 is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--38a
+Exiting calcAggCallRecursive(2) for _Z6absValf--38a
+Inserting descParams(1) for call3 from _Z6absValf--38a
+Exiting calcAggCallRecursive(N) for call3
+Entering calcAggCallRecursive for _Z6absValf--38a
+Exiting calcAggCallRecursive(1) for _Z6absValf--38a
+Entering calcAggCallRecursive for conv2
+conv2 is itself a CALL_PARAM
+Inserting descParams(1) for conv2 from call
+Inserting descParams(1) for conv2 from val2
+Inserting descParams(1) for conv2 from _Z6absValf--38a
+Exiting calcAggCallRecursive(N) for conv2
+Entering calcAggCallRecursive for conv6
+conv6 is itself a CALL_PARAM
+Inserting descParams(1) for conv6 from call
+Inserting descParams(1) for conv6 from val1
+Inserting descParams(1) for conv6 from val2
+Entering calcAggCallRecursive for _Z6absValf--45
+Exiting calcAggCallRecursive(2) for _Z6absValf--45
+Inserting descParams(1) for conv6 from _Z6absValf--45
+Exiting calcAggCallRecursive(N) for conv6
+Entering calcAggCallRecursive for call7
+call7 is itself a CALL_RETURN
+Inserting descParams(1) for call7 from _Z6absValf--45
+Exiting calcAggCallRecursive(N) for call7
+Entering calcAggCallRecursive for _Z6absValf--45
+Exiting calcAggCallRecursive(1) for _Z6absValf--45
+Entering calcAggCallRecursive for conv8
+conv8 is itself a CALL_PARAM
+Inserting descParams(1) for conv8 from call
+Inserting descParams(1) for conv8 from val1
+Entering calcAggCallRecursive for _Z6absValf--45a
+Exiting calcAggCallRecursive(2) for _Z6absValf--45a
+Inserting descParams(1) for conv8 from _Z6absValf--45a
+Exiting calcAggCallRecursive(N) for conv8
+Entering calcAggCallRecursive for call9
+call9 is itself a CALL_RETURN
+Inserting descParams(1) for call9 from _Z6absValf--45a
+Exiting calcAggCallRecursive(N) for call9
+Entering calcAggCallRecursive for _Z6absValf--45a
+Exiting calcAggCallRecursive(1) for _Z6absValf--45a
+Entering calcAggCallRecursive for div
+div is itself a CALL_PARAM
+Inserting descParams(1) for div from call
+Inserting descParams(1) for div from call7
+Inserting descParams(1) for div from call9
+Entering calcAggCallRecursive for _Z6absValf--45aa
+Exiting calcAggCallRecursive(2) for _Z6absValf--45aa
+Inserting descParams(1) for div from _Z6absValf--45aa
+Exiting calcAggCallRecursive(N) for div
+Entering calcAggCallRecursive for call10
+call10 is itself a CALL_RETURN
+Inserting descParams(1) for call10 from _Z6absValf--45aa
+Exiting calcAggCallRecursive(N) for call10
+Entering calcAggCallRecursive for _Z6absValf--45aa
+Exiting calcAggCallRecursive(1) for _Z6absValf--45aa
+Entering calcAggCallRecursive for call
+call is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--38
+Exiting calcAggCallRecursive(2) for _Z6absValf--38
+Inserting descParams(1) for call from _Z6absValf--38
+Exiting calcAggCallRecursive(N) for call
+Entering calcAggCallRecursive for val1
+Exiting calcAggCallRecursive(N) for val1
+Entering calcAggCallRecursive for val2
+Exiting calcAggCallRecursive(N) for val2
+Entering calcAggCallRecursive for conv
+conv is itself a CALL_PARAM
+Inserting descParams(1) for conv from _Z6absValf--38
+Inserting descParams(1) for conv from val1
+Exiting calcAggCallRecursive(N) for conv
+Entering calcAggCallRecursive for call3
+call3 is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--38a
+Exiting calcAggCallRecursive(2) for _Z6absValf--38a
+Inserting descParams(1) for call3 from _Z6absValf--38a
+Exiting calcAggCallRecursive(N) for call3
+Entering calcAggCallRecursive for val2.addr
+Inserting descParams(1) for val2.addr from val2
+Exiting calcAggCallRecursive(N) for val2.addr
+Entering calcAggCallRecursive for conv2
+conv2 is itself a CALL_PARAM
+Inserting descParams(1) for conv2 from call
+Inserting descParams(1) for conv2 from val2
+Inserting descParams(1) for conv2 from _Z6absValf--38a
+Exiting calcAggCallRecursive(N) for conv2
+Entering calcAggCallRecursive for Constant+0+40+0+31
+Exiting calcAggCallRecursive(N) for Constant+0+40+0+31
+Entering calcAggCallRecursive for conv6
+conv6 is itself a CALL_PARAM
+Inserting descParams(1) for conv6 from call
+Inserting descParams(1) for conv6 from val1
+Inserting descParams(1) for conv6 from val2
+Entering calcAggCallRecursive for _Z6absValf--45
+Exiting calcAggCallRecursive(2) for _Z6absValf--45
+Inserting descParams(1) for conv6 from _Z6absValf--45
+Exiting calcAggCallRecursive(N) for conv6
+Entering calcAggCallRecursive for val1.addr
+Inserting descParams(1) for val1.addr from val1
+Exiting calcAggCallRecursive(N) for val1.addr
+Entering calcAggCallRecursive for retval
+Inserting descParams(1) for retval from call
+Inserting descParams(1) for retval from Constant+0+40+0+31
+Entering calcAggCallRecursive for mul
+Inserting descParams(1) for mul from call
+Entering calcAggCallRecursive for call10
+call10 is itself a CALL_RETURN
+Entering calcAggCallRecursive for _Z6absValf--45aa
+Exiting calcAggCallRecursive(2) for _Z6absValf--45aa
+Inserting descParams(1) for call10 from _Z6absValf--45aa
+Exiting calcAggCallRecursive(N) for call10
+Inserting descParams(1) for mul from call10
+Exiting calcAggCallRecursive(N) for mul
+Inserting descParams(1) for retval from mul
+Exiting calcAggCallRecursive(N) for retval
+Entering calcAggCallRecursive for call7
+call7 is itself a CALL_RETURN
+Inserting descParams(1) for call7 from _Z6absValf--45
+Exiting calcAggCallRecursive(N) for call7
+Entering calcAggCallRecursive for conv8
+conv8 is itself a CALL_PARAM
+Inserting descParams(1) for conv8 from call
+Inserting descParams(1) for conv8 from val1
+Entering calcAggCallRecursive for _Z6absValf--45a
+Exiting calcAggCallRecursive(2) for _Z6absValf--45a
+Inserting descParams(1) for conv8 from _Z6absValf--45a
+Exiting calcAggCallRecursive(N) for conv8
+Entering calcAggCallRecursive for call9
+call9 is itself a CALL_RETURN
+Inserting descParams(1) for call9 from _Z6absValf--45a
+Exiting calcAggCallRecursive(N) for call9
+Entering calcAggCallRecursive for div
+div is itself a CALL_PARAM
+Inserting descParams(1) for div from call
+Inserting descParams(1) for div from call7
+Inserting descParams(1) for div from call9
+Inserting descParams(1) for div from _Z6absValf--45aa
+Exiting calcAggCallRecursive(N) for div
+In resolveSideEffects 
+In resolveSideEffectCalls 
+In resolveSideEffectsCheckParentEV for call
+In resolveSideEffectsCheckParentEV for call
+In resolveSideEffectsCheckParentLV for call call
+In resolveSideEffectsCheckParentLV for call call
+In resolveSideEffectsCheckParentEV for conv
+In resolveSideEffectsCheckParentEV for conv
+In resolveSideEffectsCheckParentLV for conv conv
+In resolveSideEffectsCheckParentLV for conv conv
+In resolveSideEffectsCheckParentEV for call3
+In resolveSideEffectsCheckParentEV for call3
+In resolveSideEffectsCheckParentLV for call3 call3
+In resolveSideEffectsCheckParentLV for call3 call3
+In resolveSideEffectsCheckParentEV for conv2
+In resolveSideEffectsCheckParentEV for conv2
+In resolveSideEffectsCheckParentLV for conv2 conv2
+In resolveSideEffectsCheckParentLV for conv2 conv2
+In resolveSideEffectsCheckParentEV for conv6
+In resolveSideEffectsCheckParentEV for conv6
+In resolveSideEffectsCheckParentLV for conv6 conv6
+In resolveSideEffectsCheckParentLV for conv6 conv6
+In resolveSideEffectsCheckParentEV for call7
+In resolveSideEffectsCheckParentEV for call7
+In resolveSideEffectsCheckParentLV for call7 call7
+In resolveSideEffectsCheckParentLV for call7 call7
+In resolveSideEffectsCheckParentEV for conv8
+In resolveSideEffectsCheckParentEV for conv8
+In resolveSideEffectsCheckParentLV for conv8 conv8
+In resolveSideEffectsCheckParentLV for conv8 conv8
+In resolveSideEffectsCheckParentEV for call9
+In resolveSideEffectsCheckParentEV for call9
+In resolveSideEffectsCheckParentLV for call9 call9
+In resolveSideEffectsCheckParentLV for call9 call9
+In resolveSideEffectsCheckParentEV for div
+In resolveSideEffectsCheckParentEV for div
+In resolveSideEffectsCheckParentLV for div div
+In resolveSideEffectsCheckParentLV for div div
+In resolveSideEffectsCheckParentEV for call10
+In resolveSideEffectsCheckParentEV for call10
+In resolveSideEffectsCheckParentLV for call10 call10
+In resolveSideEffectsCheckParentLV for call10 call10

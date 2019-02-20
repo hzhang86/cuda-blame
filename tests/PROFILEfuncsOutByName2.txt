@@ -1,0 +1,5 @@
+main 100%
+  do_pass 100%
+    VecAdd 87.02%
+      gpu_sleep 38.93%
+    VecSub 12.98%

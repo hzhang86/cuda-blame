@@ -1,0 +1,6 @@
+BEGIN FUNC main vecAddSub.cu 104 120 /nfshomes/hzhang86/cuda-blame/tests
+END FUNC 
+BEGIN FUNC _ZL7do_passP11CUstream_st vecAddSub.cu 56 101 /nfshomes/hzhang86/cuda-blame/tests
+END FUNC 
+BEGIN FUNC _ZL7initVecPii vecAddSub.cu 49 53 /nfshomes/hzhang86/cuda-blame/tests
+END FUNC 

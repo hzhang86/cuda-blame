@@ -1,0 +1,115 @@
+FUNCTION _Z7rtclockv
+rtclock
+./../../common/polybenchUtilFuncts.h
+2
+gettimeofday--16
+printf--17
+END FUNCTION 
+FUNCTION _Z6absValf
+absVal
+./../../common/polybenchUtilFuncts.h
+2
+END FUNCTION 
+FUNCTION _Z11percentDiffdd
+percentDiff
+./../../common/polybenchUtilFuncts.h
+2
+_Z6absValf--45
+_Z6absValf--45a
+_Z6absValf--38
+_Z6absValf--38a
+_Z6absValf--45aa
+END FUNCTION 
+FUNCTION _Z11gramschmidtPfS_S_
+gramschmidt
+gramschmidt.cu
+2
+sqrt--52
+END FUNCTION 
+FUNCTION _Z10init_arrayPf
+init_array
+gramschmidt.cu
+2
+END FUNCTION 
+FUNCTION _Z14compareResultsPfS_
+compareResults
+gramschmidt.cu
+2
+printf--106
+printf--100
+_Z11percentDiffdd--97
+END FUNCTION 
+FUNCTION _Z13GPU_argv_initv
+GPU_argv_init
+gramschmidt.cu
+2
+printf--114
+cudaSetDevice--115
+cudaGetDeviceProperties--113
+END FUNCTION 
+FUNCTION _Z15gramschmidtCudaPfS_S_S_
+gramschmidtCuda
+gramschmidt.cu
+2
+_ZN4dim3C2Ejjj--174
+cudaMalloc--185
+_Z7rtclockv--199
+fprintf--200
+cudaMemcpy--202
+cudaFree--204
+cudaFree--205
+cudaFree--206
+cudaMemcpy--186
+llvm.memcpy.p0i8.p0i8.i64--192aaa
+llvm.memcpy.p0i8.p0i8.i64--196
+llvm.memcpy.p0i8.p0i8.i64--196a
+llvm.memcpy.p0i8.p0i8.i64--196aa
+llvm.memcpy.p0i8.p0i8.i64--196aaa
+cudaConfigureCall--196
+_Z19gramschmidt_kernel3PfS_S_i--196
+cudaThreadSynchronize--197
+_Z7rtclockv--188
+_Z19gramschmidt_kernel2PfS_S_i--194
+cudaThreadSynchronize--195
+cudaThreadSynchronize--193
+llvm.memcpy.p0i8.p0i8.i64--194aa
+_ZN4dim3C2Ejjj--177
+llvm.memcpy.p0i8.p0i8.i64--192
+_Z19gramschmidt_kernel1PfS_S_i--192
+llvm.memcpy.p0i8.p0i8.i64--192aa
+cudaMalloc--183
+ceil--177
+llvm.memcpy.p0i8.p0i8.i64--194aaa
+llvm.memcpy.p0i8.p0i8.i64--194a
+llvm.memcpy.p0i8.p0i8.i64--192a
+cudaConfigureCall--194
+cudaConfigureCall--192
+llvm.memcpy.p0i8.p0i8.i64--194
+_ZN4dim3C2Ejjj--176
+ceil--176
+_ZN4dim3C2Ejjj--175
+cudaMalloc--184
+END FUNCTION 
+FUNCTION main
+main
+gramschmidt.cu
+2
+free--247
+_Z9finiTracev--234
+_Z15gramschmidtCudaPfS_S_S_--231
+_Z9initTracev--229
+malloc--219
+malloc--222
+_Z13GPU_argv_initv--226
+_Z10init_arrayPf--224
+free--245
+malloc--221
+_Z7rtclockv--236
+free--246
+malloc--220
+_Z11gramschmidtPfS_S_--237
+fprintf--240
+_Z14compareResultsPfS_--242
+free--244
+_Z7rtclockv--238
+END FUNCTION 

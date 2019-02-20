@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/rutar/!svn/ver/86/trunk/BlameGUITabbed/blame
+END
+SourceFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/rutar/!svn/ver/74/trunk/BlameGUITabbed/blame/SourceFile.java
+END
+BlameTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/BlameTree.java
+END
+Global.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/Global.java
+END
+ExitProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/ExitProgram.java
+END
+BlameTreeDataCentric.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/BlameTreeDataCentric.java
+END
+SourceContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/SourceContainer.java
+END
+Instance.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/Instance.java
+END
+ReadData.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/rutar/!svn/ver/86/trunk/BlameGUITabbed/blame/ReadData.java
+END
+VariableInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/VariableInstance.java
+END
+NodeInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/rutar/!svn/ver/74/trunk/BlameGUITabbed/blame/NodeInstance.java
+END
+BlameData.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/BlameData.java
+END
+BlameNodeWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/BlameNodeWindow.java
+END
+ExitVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/ExitVariable.java
+END
+StackFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/StackFrame.java
+END
+ProfileTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/rutar/!svn/ver/75/trunk/BlameGUITabbed/blame/ProfileTree.java
+END
+MapValueSort.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/MapValueSort.java
+END
+BlameContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/BlameContainer.java
+END
+ParentData.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/rutar/!svn/ver/84/trunk/BlameGUITabbed/blame/ParentData.java
+END
+BlameField.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/BlameField.java
+END
+BlameStruct.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/rutar/!svn/ver/74/trunk/BlameGUITabbed/blame/BlameStruct.java
+END
+BlameFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/rutar/!svn/ver/74/trunk/BlameGUITabbed/blame/BlameFunction.java
+END
+NodeSideInfoTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/rutar/!svn/ver/74/trunk/BlameGUITabbed/blame/NodeSideInfoTree.java
+END
+VariableMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/rutar/!svn/ver/73/trunk/BlameGUITabbed/blame/VariableMetaData.java
+END
+ExitSuper.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/rutar/!svn/ver/86/trunk/BlameGUITabbed/blame/ExitSuper.java
+END
+BlameSourceWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/BlameSourceWindow.java
+END
+MainGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/rutar/!svn/ver/83/trunk/BlameGUITabbed/blame/MainGUI.java
+END
+ExitOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/rutar/!svn/ver/74/trunk/BlameGUITabbed/blame/ExitOutput.java
+END
+VariableFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/rutar/!svn/ver/75/trunk/BlameGUITabbed/blame/VariableFilter.java
+END
+BlameTreeBlamePoints.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/rutar/!svn/ver/75/trunk/BlameGUITabbed/blame/BlameTreeBlamePoints.java
+END

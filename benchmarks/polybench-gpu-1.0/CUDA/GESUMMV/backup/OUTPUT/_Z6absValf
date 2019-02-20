@@ -1,0 +1,1133 @@
+LLVM__(checkFunctionProto) - Number of args is 1
+Param# 0 is a, ptr=0
+Entering examineInstruction alloca 0x7bcc938 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for retval
+Standard Operand No Name  0x7be6310  ConstantIntVal 
+Entering examineInstruction alloca 0x7bcc9a8 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for a.addr
+Standard Operand No Name  0x7be6310  ConstantIntVal 
+Entering examineInstruction store 0x7bcca30 0  InstructionVal for Instruction store 
+In ieStore
+Adding NodeProps(2-Store) for a
+STORE to(1) a.addr from a 0
+STORE to(1) fs->lineNumOrder=0 in line# 0
+Entering examineInstruction call 0x7bed160 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+We met a formal arg: a
+Entering examineInstruction load 0x7bed208 22  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7bed208 currentLineNum=24 lnm=0
+Entering examineInstruction fcmp 0x7bccae0 24  InstructionVal for Instruction fcmp 
+In ieDefault for fcmp
+Adding NodeProps(1) for cmp currentLineNum=24 lnm=1
+Standard Operand No Name  0x7bed208  InstructionVal for Instruction load 
+Standard Operand No Name  0x7bcc880  ConstantFPVal 
+Entering examineInstruction br 0x7bed2f8 24  InstructionVal for Instruction br 
+In ieBlank for opcode br 24
+Entering examineInstruction load 0x7bed608 24  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7bed608 currentLineNum=26 lnm=0
+Entering examineInstruction fmul 0x7bed6b0 26  InstructionVal for Instruction fmul 
+In ieDefault for fmul
+Adding NodeProps(1) for mul currentLineNum=26 lnm=1
+Standard Operand No Name  0x7bed608  InstructionVal for Instruction load 
+Standard Operand No Name  0x7bcc8d0  ConstantFPVal 
+Entering examineInstruction store 0x7bed760 26  InstructionVal for Instruction store 
+In ieStore
+STORE to(1) retval from mul 2
+STORE to(1) fs->lineNumOrder=2 in line# 26
+Entering examineInstruction br 0x7bed7f8 26  InstructionVal for Instruction br 
+In ieBlank for opcode br 26
+Entering examineInstruction load 0x7bed858 26  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7bed858 currentLineNum=30 lnm=0
+Entering examineInstruction store 0x7bed900 30  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x7bed858  InstructionVal for Instruction load 
+STORE to(5) retval from 0x7bed858 1
+STORE to(5) fs->lineNumOrder=1 in line# 30
+Entering examineInstruction br 0x7bed998 30  InstructionVal for Instruction br 
+In ieBlank for opcode br 30
+Entering examineInstruction load 0x7bed9f8 30  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7bed9f8 currentLineNum=32 lnm=0
+Entering examineInstruction ret 0x7beda88 32  InstructionVal for Instruction ret 
+In ieBlank for opcode ret 32
+#variables=9, #localVars=0, #exiVariables=1
+Branch Instruction found for basic block entry
+... is conditional
+... not loop header
+in errorRetCheck for cmp
+ToBool instruction is cmp op fcmp
+... is an error checking call.
+Looking at handling conditional for entry for cond name cmp
+Number of children is 3
+CFG - if.then D - if.then
+CFG - if.else D - if.then
+Block if.then is a block to be inserted.
+CFG - if.then D - return
+CFG - if.else D - return
+Terminal for if/else if/else case is -- return
+CFG - if.then D - if.else
+CFG - if.else D - if.else
+Block if.else is a block to be inserted.
+Inserting (4)cmp into if.then
+Inserting (4)cmp into if.else
+Branch Instruction found for basic block if.then
+... not loop header
+Branch Instruction found for basic block if.else
+... not loop header
+Putting node 8 (0x7bed9f8) into graph
+Putting node 6 (mul) into graph
+Putting node 5 (0x7bed608) into graph
+Putting node 4 (cmp) into graph
+Putting node 7 (0x7bed858) into graph
+Putting node 3 (0x7bed208) into graph
+Putting node 2 (a) into graph
+Putting node 1 (a.addr) into graph
+Putting node 0 (retval) into graph
+Starting to Gen Edges 
+GE Instruction retval alloca
+Not generating any edges for opcode alloca
+GE Instruction a.addr alloca
+Not generating any edges for opcode alloca
+GE No name store
+Adding edge 25 between a.addr and a of type store
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name load
+Adding edge 12 between 0x7bed208 and a.addr of type load
+GE Instruction cmp fcmp
+Adding edge 2 between cmp and 0x7bed208 of type fcmp
+Adding edge 2 between cmp and Constant+0+24+0+52 of type fcmp
+Variables can't find value of cmp 1 or Constant+0+24+0+52 0
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7bed608 and a.addr of type load
+GE Instruction mul fmul
+Adding implicit edges between mul and cmp
+Adding edge 2 between mul and 0x7bed608 of type fmul
+Adding edge 2 between mul and Constant+-1+26+0+16 of type fmul
+Variables can't find value of mul 1 or Constant+-1+26+0+16 0
+GE No name store
+Adding implicit edges between retval and cmp
+Adding edge 25 between retval and mul of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7bed858 and a.addr of type load
+GE No name store
+Adding implicit edges between retval and cmp
+ERROR__(genEdges) - Insertion fail for implicit edge
+Adding edge 25 between retval and 0x7bed858 of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7bed9f8 and retval of type load
+GE No name ret
+Not generating any edges for opcode ret
+Finished generating edges 
+In resolveStores for retval
+Store between retval and 0x7bed858
+Vertex retval is written(4)
+Inserting line num(1a) 30 to retval
+We have a storeFrom inserted: 0x7bed858->storeFrom=retval
+Store between retval and mul
+Vertex retval is written(4)
+Inserting line num(1a) 26 to retval
+We have a storeFrom inserted: mul->storeFrom=retval
+Stores for V - retval number 2
+Insert relevantInst - mul in fbb if.then
+Insert relevantInst - 0x7bed858 in fbb if.else
+In resolveStores for a.addr
+Store between a.addr and a
+Vertex a.addr is written(4)
+Inserting line num(1a) 0 to a.addr
+We have a storeFrom inserted: a->storeFrom=a.addr
+Stores for V - a.addr number 1
+Insert relevantInst - a in fbb entry
+In resolveStores for a
+In resolveStores for 0x7bed208
+In resolveStores for cmp
+In resolveStores for 0x7bed608
+In resolveStores for mul
+In resolveStores for 0x7bed858
+In resolveStores for 0x7bed9f8
+Before CFG sort
+Before assignBBGenKIll
+Before reachingDefs
+Before calcStoreLines
+In inBB, mul->storeLines.insert(26) in pos1
+mul->storeLines.insert in pos2
+In inBB, 0x7bed858->storeLines.insert(30) in pos1
+0x7bed858->storeLines.insert in pos2
+In inBB, a->storeLines.insert(0) in pos1
+a->storeLines.insert in pos2
+In inBB, a->storeLines.insert(0) in pos1
+a->storeLines.insert in pos2
+In genBB, 0x7bed858->storeLines.insert(30) in pos8
+0x7bed858->storeLines.insert(30) in pos4
+In inBB, a->storeLines.insert(0) in pos1
+a->storeLines.insert in pos2
+In genBB, mul->storeLines.insert(26) in pos8
+mul->storeLines.insert(26) in pos4
+In genBB, a->storeLines.insert(0) in pos8
+a->storeLines.insert(22) in pos4
+a->storeLines.insert(24) in pos4
+Before printCFG
+FBB name: return
+Successors: 
+Predecessors: if.else if.then 
+Ancestors: if.else entry if.then 
+Descendants: 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: mul 0x7bed858 a 
+BB Out: mul 0x7bed858 a 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: if.else
+Successors: return 
+Predecessors: entry 
+Ancestors: entry 
+Descendants: return 
+Relevant Instructions: 0x7bed858(30)
+   Gen: 0x7bed858  
+   Kill: mul  
+BB Gen: 0x7bed858 
+BB Kill: mul 
+BB In: a 
+BB Out: 0x7bed858 a 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: if.then
+Successors: return 
+Predecessors: entry 
+Ancestors: entry 
+Descendants: return 
+Relevant Instructions: mul(26)
+   Gen: mul  
+   Kill: 0x7bed858  
+BB Gen: mul 
+BB Kill: 0x7bed858 
+BB In: a 
+BB Out: mul a 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: entry
+Successors: if.else if.then 
+Predecessors: 
+Ancestors: 
+Descendants: if.else return if.then 
+Relevant Instructions: a(0)
+   Gen: a  
+   Kill: 
+BB Gen: a 
+BB Kill: 
+BB In: 
+BB Out: a 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+
+For sourceVP(Load): 0x7bed9f8 32
+---
+storeVP: mul - Store Lines - 26 32  ; Border Lines - 
+In resolveStoreLine storeVP:mul ln=26 lNO=1  sourceVP:0x7bed9f8 ln=32 lNO=0
+Need to remove edge(hui) from 0x7bed9f8 to retval [8]
+RESOLVED_L_S_OP added between 0x7bed9f8 and mul
+storeVP: 0x7bed858 - Store Lines - 30 32  ; Border Lines - 
+In resolveStoreLine storeVP:0x7bed858 ln=30 lNO=0  sourceVP:0x7bed9f8 ln=32 lNO=0
+Need to remove edge(hui) from 0x7bed9f8 to retval [8]
+RESOLVED_L_S_OP added between 0x7bed9f8 and 0x7bed858
+---
+
+For sourceVP(Load): 0x7bed858 30
+---
+storeVP: a - Store Lines - 0 22 24 26 30 32  ; Border Lines - 
+In resolveStoreLine storeVP:a ln=0 lNO=0  sourceVP:0x7bed858 ln=30 lNO=0
+Need to remove edge(hui) from 0x7bed858 to a.addr [8]
+RESOLVED_L_S_OP added between 0x7bed858 and a
+---
+
+For sourceVP(Load): 0x7bed608 26
+---
+storeVP: a - Store Lines - 0 22 24 26 30 32  ; Border Lines - 
+In resolveStoreLine storeVP:a ln=0 lNO=0  sourceVP:0x7bed608 ln=26 lNO=0
+Need to remove edge(hui) from 0x7bed608 to a.addr [8]
+RESOLVED_L_S_OP added between 0x7bed608 and a
+---
+
+For sourceVP(Load): 0x7bed208 24
+---
+storeVP: a - Store Lines - 0 22 24 26 30 32  ; Border Lines - 
+In resolveStoreLine storeVP:a ln=0 lNO=0  sourceVP:0x7bed208 ln=24 lNO=0
+Need to remove edge(hui) from 0x7bed208 to a.addr [8]
+RESOLVED_L_S_OP added between 0x7bed208 and a
+---
+
+At this point the pointers are: 
+At this point(2) the pointers are: 
+In checkIfWritten for retval, orig isWritten=1
+In checkIfWritten for retval, after aliasesOut, writeTotal=1
+In checkIfWritten for retval, after aliasesIn, writeTotal=1
+In checkIfWritten for retval, after almostAlias, writeTotal=1
+In checkIfWritten for retval, after resolvedLS, writeTotal=1
+In checkIfWritten for retval, after fields, writeTotal=1
+In checkIfWritten for retval, after nonAliasStores, writeTotal=1
+In checkIfWritten for retval, after arrayAccess, writeTotal=1
+In checkIfWritten for retval, after loads, writeTotal=1
+In checkIfWritten for retval, after GEPChildren, writeTotal=1
+In checkIfWritten for a.addr, orig isWritten=0
+In checkIfWritten for a.addr, after aliasesOut, writeTotal=0
+In checkIfWritten for a.addr, after aliasesIn, writeTotal=0
+In checkIfWritten for a.addr, after almostAlias, writeTotal=0
+In checkIfWritten for a.addr, after resolvedLS, writeTotal=0
+In checkIfWritten for a.addr, after fields, writeTotal=0
+In checkIfWritten for a.addr, after nonAliasStores, writeTotal=0
+In checkIfWritten for a.addr, after arrayAccess, writeTotal=0
+In checkIfWritten for a.addr, after loads, writeTotal=0
+In checkIfWritten for a.addr, after GEPChildren, writeTotal=0
+Calling DBHL 
+EV__(determineBFCForVertexLite) -- for retval
+EV__(determineBFCForVertexLite) -- for a.addr
+EV__(determineBFCForVertexLite) -- for 0x7bed9f8
+Finished DBHL , now going to print _trunc.dot file 
+In populateImportantVertices for retval
+Calling recursiveExamineChildren on retval for retval
+Looking at target 0x7bed858 from retval
+Node Props for 0x7bed858: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - 0x7bed858
+OrigVP->dpUpPtr - retval
+Adding Child/Parent relation between 0x7bed858 and retval
+Looking at target mul from retval
+Node Props for mul: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - mul
+OrigVP->dpUpPtr - retval
+Adding Child/Parent relation between mul and retval
+Looking at target cmp from retval
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 24 to retval
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for retval
+Looking at target 0x7bed208 from cmp
+Node Props for 0x7bed208: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 24 to retval
+Start recursion of recursiveExamineChildren on 0x7bed208
+Calling recursiveExamineChildren on 0x7bed208 for retval
+Looking at target a from 0x7bed208
+Node Props for a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - a
+OrigVP->dpUpPtr - retval
+Adding Child/Parent relation between a and retval
+Line nums for origVP: retval (E)  24 26 30
+Line nums for origVP: retval (E)  24 26 30
+Line nums for origVP: retval (E)  24 26 30
+Finished Calling recursiveExamineChildren for retval
+In populateImportantVertices for a.addr
+Calling recursiveExamineChildren on a.addr for a.addr
+Looking at target a from a.addr
+Node Props for a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - a
+OrigVP->dpUpPtr - a.addr
+Adding Child/Parent relation between a and a.addr
+Line nums for origVP: a.addr (E)  0
+Finished Calling recursiveExamineChildren for a.addr
+In populateImportantVertices for a
+Calling recursiveExamineChildren on a for a
+Inserting line number(6) 0 to a
+Inserting line number(7) 0 to a
+Line nums for origVP: a (E)  0
+Finished Calling recursiveExamineChildren for a
+In populateImportantVertices for mul
+Calling recursiveExamineChildren on mul for mul
+Looking at target 0x7bed608 from mul
+Node Props for 0x7bed608: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=16
+Inserting line number(8) 26 to mul
+Start recursion of recursiveExamineChildren on 0x7bed608
+Calling recursiveExamineChildren on 0x7bed608 for mul
+Looking at target a from 0x7bed608
+Node Props for a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - a
+OrigVP->dpUpPtr - mul
+Adding Child/Parent relation between a and mul
+Line nums for origVP: mul (E)  26
+Looking at target cmp from mul
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 24 to mul
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for mul
+Looking at target 0x7bed208 from cmp
+Node Props for 0x7bed208: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=52
+Inserting line number(8) 24 to mul
+Start recursion of recursiveExamineChildren on 0x7bed208
+Calling recursiveExamineChildren on 0x7bed208 for mul
+Looking at target a from 0x7bed208
+Node Props for a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - a
+OrigVP->dpUpPtr - mul
+Adding Child/Parent relation between a and mul
+Line nums for origVP: mul (E)  24 26
+Line nums for origVP: mul (E)  24 26
+Line nums for origVP: mul (E)  24 26
+Finished Calling recursiveExamineChildren for mul
+In populateImportantVertices for 0x7bed858
+Calling recursiveExamineChildren on 0x7bed858 for 0x7bed858
+Looking at target a from 0x7bed858
+Node Props for a: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - a
+OrigVP->dpUpPtr - 0x7bed858
+Adding Child/Parent relation between a and 0x7bed858
+Line nums for origVP: 0x7bed858 (E) 
+Finished Calling recursiveExamineChildren for 0x7bed858
+Looking at IVP mul in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP 0x7bed858 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP a in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+Looking at IVP retval in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Float
+Looking at IVP a.addr in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Float
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+
+After insert line_num of mul
+26 
+After insert lineNumbers(-1) from baseline for mul
+24 26 
+After storesTo: mul
+24 26 
+After DF Children mul
+24 26 
+
+Entering calcAggregateLNRecursive for a
+Starting line number tally for a originally:
+
+After insert line_num of a
+0 
+After insert lineNumbers(-1) from baseline for a
+0 
+After storesTo: a
+0 
+After DF Children a
+0 
+After Children a
+0 
+After Data Ptrs a
+0 
+After fields a
+0 
+After aliases a
+0 
+After DF Aliases a
+0 
+After Resolved LS From a
+0 
+After loadForCalls a
+0 
+After GEPChildren a
+0 
+Exiting calcAggregateLNRecursive for a
+Inserting Line Numbers(2) from a to mul
+0 
+After Children mul
+0 24 26 
+After Data Ptrs mul
+0 24 26 
+After fields mul
+0 24 26 
+After aliases mul
+0 24 26 
+After DF Aliases mul
+0 24 26 
+After Resolved LS From mul
+0 24 26 
+After loadForCalls mul
+0 24 26 
+After GEPChildren mul
+0 24 26 
+Exiting calcAggregateLNRecursive for mul
+Entering calcAggCallRecursive for mul
+Entering calcAggCallRecursive for a
+Exiting calcAggCallRecursive(N) for a
+Inserting descParams(1) for mul from a
+Exiting calcAggCallRecursive(N) for mul
+
+Entering calcAggregateLNRecursive for 0x7bed858
+Starting line number tally for 0x7bed858 originally:
+
+After insert line_num of 0x7bed858
+30 
+After insert lineNumbers(-1) from baseline for 0x7bed858
+30 
+After storesTo: 0x7bed858
+30 
+After DF Children 0x7bed858
+30 
+Inserting Line Numbers(2) from a to 0x7bed858
+0 
+After Children 0x7bed858
+0 30 
+After Data Ptrs 0x7bed858
+0 30 
+After fields 0x7bed858
+0 30 
+After aliases 0x7bed858
+0 30 
+After DF Aliases 0x7bed858
+0 30 
+After Resolved LS From 0x7bed858
+0 30 
+After loadForCalls 0x7bed858
+0 30 
+After GEPChildren 0x7bed858
+0 30 
+Exiting calcAggregateLNRecursive for 0x7bed858
+Entering calcAggCallRecursive for 0x7bed858
+Inserting descParams(1) for 0x7bed858 from a
+Exiting calcAggCallRecursive(N) for 0x7bed858
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+
+After insert line_num of retval
+0 
+After insert lineNumbers(-1) from baseline for retval
+0 24 26 30 
+Inserting Line Numbers(0) from mul to retval
+0 24 26 
+Inserting Line Numbers(0) from 0x7bed858 to retval
+0 30 
+After storesTo: retval
+0 24 26 30 
+After DF Children retval
+0 24 26 30 
+Inserting Line Numbers(2) from mul to retval
+0 24 26 
+Inserting Line Numbers(2) from 0x7bed858 to retval
+0 30 
+Inserting Line Numbers(2) from a to retval
+0 
+After Children retval
+0 24 26 30 
+After Data Ptrs retval
+0 24 26 30 
+After fields retval
+0 24 26 30 
+After aliases retval
+0 24 26 30 
+After DF Aliases retval
+0 24 26 30 
+After Resolved LS From retval
+0 24 26 30 
+After loadForCalls retval
+0 24 26 30 
+After GEPChildren retval
+0 24 26 30 
+Exiting calcAggregateLNRecursive for retval
+Entering calcAggCallRecursive for retval
+Inserting descParams(1) for retval from mul
+Inserting descParams(1) for retval from 0x7bed858
+Inserting descParams(1) for retval from a
+Exiting calcAggCallRecursive(N) for retval
+
+Entering calcAggregateLNRecursive for a.addr
+Starting line number tally for a.addr originally:
+
+After insert line_num of a.addr
+0 
+After insert lineNumbers(-1) from baseline for a.addr
+0 
+Inserting Line Numbers(0) from a to a.addr
+0 
+After storesTo: a.addr
+0 
+After DF Children a.addr
+0 
+Inserting Line Numbers(2) from a to a.addr
+0 
+After Children a.addr
+0 
+After Data Ptrs a.addr
+0 
+After fields a.addr
+0 
+After aliases a.addr
+0 
+After DF Aliases a.addr
+0 
+After Resolved LS From a.addr
+0 
+After loadForCalls a.addr
+0 
+After GEPChildren a.addr
+0 
+Exiting calcAggregateLNRecursive for a.addr
+Entering calcAggCallRecursive for a.addr
+Inserting descParams(1) for a.addr from a
+Exiting calcAggCallRecursive(N) for a.addr
+Revisiting some of the conflicted agg LN values.
+
+Entering calcAggregateLNRecursive for a.addr
+Starting line number tally for a.addr originally:
+0 
+After insert line_num of a.addr
+0 
+After insert lineNumbers(-1) from baseline for a.addr
+0 
+
+Entering calcAggregateLNRecursive for a
+Starting line number tally for a originally:
+0 
+After insert line_num of a
+0 
+After insert lineNumbers(-1) from baseline for a
+0 
+After storesTo: a
+0 
+After DF Children a
+0 
+After Children a
+0 
+After Data Ptrs a
+0 
+After fields a
+0 
+After aliases a
+0 
+After DF Aliases a
+0 
+After Resolved LS From a
+0 
+After loadForCalls a
+0 
+After GEPChildren a
+0 
+Exiting calcAggregateLNRecursive for a
+Inserting Line Numbers(0) from a to a.addr
+0 
+After storesTo: a.addr
+0 
+After DF Children a.addr
+0 
+Inserting Line Numbers(2) from a to a.addr
+0 
+After Children a.addr
+0 
+After Data Ptrs a.addr
+0 
+After fields a.addr
+0 
+After aliases a.addr
+0 
+After DF Aliases a.addr
+0 
+After Resolved LS From a.addr
+0 
+After loadForCalls a.addr
+0 
+After GEPChildren a.addr
+0 
+Exiting calcAggregateLNRecursive for a.addr
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+0 24 26 30 
+After insert line_num of retval
+0 24 26 30 
+After insert lineNumbers(-1) from baseline for retval
+0 24 26 30 
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+0 24 26 
+After insert line_num of mul
+0 24 26 
+After insert lineNumbers(-1) from baseline for mul
+0 24 26 
+After storesTo: mul
+0 24 26 
+After DF Children mul
+0 24 26 
+Inserting Line Numbers(2) from a to mul
+0 
+After Children mul
+0 24 26 
+After Data Ptrs mul
+0 24 26 
+After fields mul
+0 24 26 
+After aliases mul
+0 24 26 
+After DF Aliases mul
+0 24 26 
+After Resolved LS From mul
+0 24 26 
+After loadForCalls mul
+0 24 26 
+After GEPChildren mul
+0 24 26 
+Exiting calcAggregateLNRecursive for mul
+Inserting Line Numbers(0) from mul to retval
+0 24 26 
+
+Entering calcAggregateLNRecursive for 0x7bed858
+Starting line number tally for 0x7bed858 originally:
+0 30 
+After insert line_num of 0x7bed858
+0 30 
+After insert lineNumbers(-1) from baseline for 0x7bed858
+0 30 
+After storesTo: 0x7bed858
+0 30 
+After DF Children 0x7bed858
+0 30 
+Inserting Line Numbers(2) from a to 0x7bed858
+0 
+After Children 0x7bed858
+0 30 
+After Data Ptrs 0x7bed858
+0 30 
+After fields 0x7bed858
+0 30 
+After aliases 0x7bed858
+0 30 
+After DF Aliases 0x7bed858
+0 30 
+After Resolved LS From 0x7bed858
+0 30 
+After loadForCalls 0x7bed858
+0 30 
+After GEPChildren 0x7bed858
+0 30 
+Exiting calcAggregateLNRecursive for 0x7bed858
+Inserting Line Numbers(0) from 0x7bed858 to retval
+0 30 
+After storesTo: retval
+0 24 26 30 
+After DF Children retval
+0 24 26 30 
+Inserting Line Numbers(2) from mul to retval
+0 24 26 
+Inserting Line Numbers(2) from 0x7bed858 to retval
+0 30 
+Inserting Line Numbers(2) from a to retval
+0 
+After Children retval
+0 24 26 30 
+After Data Ptrs retval
+0 24 26 30 
+After fields retval
+0 24 26 30 
+After aliases retval
+0 24 26 30 
+After DF Aliases retval
+0 24 26 30 
+After Resolved LS From retval
+0 24 26 30 
+After loadForCalls retval
+0 24 26 30 
+After GEPChildren retval
+0 24 26 30 
+Exiting calcAggregateLNRecursive for retval
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+0 24 26 
+After insert line_num of mul
+0 24 26 
+After insert lineNumbers(-1) from baseline for mul
+0 24 26 
+After storesTo: mul
+0 24 26 
+After DF Children mul
+0 24 26 
+
+Entering calcAggregateLNRecursive for a
+Starting line number tally for a originally:
+0 
+After insert line_num of a
+0 
+After insert lineNumbers(-1) from baseline for a
+0 
+After storesTo: a
+0 
+After DF Children a
+0 
+After Children a
+0 
+After Data Ptrs a
+0 
+After fields a
+0 
+After aliases a
+0 
+After DF Aliases a
+0 
+After Resolved LS From a
+0 
+After loadForCalls a
+0 
+After GEPChildren a
+0 
+Exiting calcAggregateLNRecursive for a
+Inserting Line Numbers(2) from a to mul
+0 
+After Children mul
+0 24 26 
+After Data Ptrs mul
+0 24 26 
+After fields mul
+0 24 26 
+After aliases mul
+0 24 26 
+After DF Aliases mul
+0 24 26 
+After Resolved LS From mul
+0 24 26 
+After loadForCalls mul
+0 24 26 
+After GEPChildren mul
+0 24 26 
+Exiting calcAggregateLNRecursive for mul
+
+Entering calcAggregateLNRecursive for 0x7bed858
+Starting line number tally for 0x7bed858 originally:
+0 30 
+After insert line_num of 0x7bed858
+0 30 
+After insert lineNumbers(-1) from baseline for 0x7bed858
+0 30 
+After storesTo: 0x7bed858
+0 30 
+After DF Children 0x7bed858
+0 30 
+Inserting Line Numbers(2) from a to 0x7bed858
+0 
+After Children 0x7bed858
+0 30 
+After Data Ptrs 0x7bed858
+0 30 
+After fields 0x7bed858
+0 30 
+After aliases 0x7bed858
+0 30 
+After DF Aliases 0x7bed858
+0 30 
+After Resolved LS From 0x7bed858
+0 30 
+After loadForCalls 0x7bed858
+0 30 
+After GEPChildren 0x7bed858
+0 30 
+Exiting calcAggregateLNRecursive for 0x7bed858
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+0 24 26 30 
+After insert line_num of retval
+0 24 26 30 
+After insert lineNumbers(-1) from baseline for retval
+0 24 26 30 
+Inserting Line Numbers(0) from mul to retval
+0 24 26 
+Inserting Line Numbers(0) from 0x7bed858 to retval
+0 30 
+After storesTo: retval
+0 24 26 30 
+After DF Children retval
+0 24 26 30 
+Inserting Line Numbers(2) from mul to retval
+0 24 26 
+Inserting Line Numbers(2) from 0x7bed858 to retval
+0 30 
+Inserting Line Numbers(2) from a to retval
+0 
+After Children retval
+0 24 26 30 
+After Data Ptrs retval
+0 24 26 30 
+After fields retval
+0 24 26 30 
+After aliases retval
+0 24 26 30 
+After DF Aliases retval
+0 24 26 30 
+After Resolved LS From retval
+0 24 26 30 
+After loadForCalls retval
+0 24 26 30 
+After GEPChildren retval
+0 24 26 30 
+Exiting calcAggregateLNRecursive for retval
+
+Entering calcAggregateLNRecursive for a.addr
+Starting line number tally for a.addr originally:
+0 
+After insert line_num of a.addr
+0 
+After insert lineNumbers(-1) from baseline for a.addr
+0 
+Inserting Line Numbers(0) from a to a.addr
+0 
+After storesTo: a.addr
+0 
+After DF Children a.addr
+0 
+Inserting Line Numbers(2) from a to a.addr
+0 
+After Children a.addr
+0 
+After Data Ptrs a.addr
+0 
+After fields a.addr
+0 
+After aliases a.addr
+0 
+After DF Aliases a.addr
+0 
+After Resolved LS From a.addr
+0 
+After loadForCalls a.addr
+0 
+After GEPChildren a.addr
+0 
+Exiting calcAggregateLNRecursive for a.addr
+
+Entering calcAggregateLNRecursive for mul
+Starting line number tally for mul originally:
+0 24 26 
+After insert line_num of mul
+0 24 26 
+After insert lineNumbers(-1) from baseline for mul
+0 24 26 
+After storesTo: mul
+0 24 26 
+After DF Children mul
+0 24 26 
+
+Entering calcAggregateLNRecursive for a
+Starting line number tally for a originally:
+0 
+After insert line_num of a
+0 
+After insert lineNumbers(-1) from baseline for a
+0 
+After storesTo: a
+0 
+After DF Children a
+0 
+After Children a
+0 
+After Data Ptrs a
+0 
+After fields a
+0 
+After aliases a
+0 
+After DF Aliases a
+0 
+After Resolved LS From a
+0 
+After loadForCalls a
+0 
+After GEPChildren a
+0 
+Exiting calcAggregateLNRecursive for a
+Inserting Line Numbers(2) from a to mul
+0 
+After Children mul
+0 24 26 
+After Data Ptrs mul
+0 24 26 
+After fields mul
+0 24 26 
+After aliases mul
+0 24 26 
+After DF Aliases mul
+0 24 26 
+After Resolved LS From mul
+0 24 26 
+After loadForCalls mul
+0 24 26 
+After GEPChildren mul
+0 24 26 
+Exiting calcAggregateLNRecursive for mul
+
+Entering calcAggregateLNRecursive for 0x7bed858
+Starting line number tally for 0x7bed858 originally:
+0 30 
+After insert line_num of 0x7bed858
+0 30 
+After insert lineNumbers(-1) from baseline for 0x7bed858
+0 30 
+After storesTo: 0x7bed858
+0 30 
+After DF Children 0x7bed858
+0 30 
+Inserting Line Numbers(2) from a to 0x7bed858
+0 
+After Children 0x7bed858
+0 30 
+After Data Ptrs 0x7bed858
+0 30 
+After fields 0x7bed858
+0 30 
+After aliases 0x7bed858
+0 30 
+After DF Aliases 0x7bed858
+0 30 
+After Resolved LS From 0x7bed858
+0 30 
+After loadForCalls 0x7bed858
+0 30 
+After GEPChildren 0x7bed858
+0 30 
+Exiting calcAggregateLNRecursive for 0x7bed858
+
+Entering calcAggregateLNRecursive for retval
+Starting line number tally for retval originally:
+0 24 26 30 
+After insert line_num of retval
+0 24 26 30 
+After insert lineNumbers(-1) from baseline for retval
+0 24 26 30 
+Inserting Line Numbers(0) from mul to retval
+0 24 26 
+Inserting Line Numbers(0) from 0x7bed858 to retval
+0 30 
+After storesTo: retval
+0 24 26 30 
+After DF Children retval
+0 24 26 30 
+Inserting Line Numbers(2) from mul to retval
+0 24 26 
+Inserting Line Numbers(2) from 0x7bed858 to retval
+0 30 
+Inserting Line Numbers(2) from a to retval
+0 
+After Children retval
+0 24 26 30 
+After Data Ptrs retval
+0 24 26 30 
+After fields retval
+0 24 26 30 
+After aliases retval
+0 24 26 30 
+After DF Aliases retval
+0 24 26 30 
+After Resolved LS From retval
+0 24 26 30 
+After loadForCalls retval
+0 24 26 30 
+After GEPChildren retval
+0 24 26 30 
+Exiting calcAggregateLNRecursive for retval
+
+Entering calcAggregateLNRecursive for a.addr
+Starting line number tally for a.addr originally:
+0 
+After insert line_num of a.addr
+0 
+After insert lineNumbers(-1) from baseline for a.addr
+0 
+Inserting Line Numbers(0) from a to a.addr
+0 
+After storesTo: a.addr
+0 
+After DF Children a.addr
+0 
+Inserting Line Numbers(2) from a to a.addr
+0 
+After Children a.addr
+0 
+After Data Ptrs a.addr
+0 
+After fields a.addr
+0 
+After aliases a.addr
+0 
+After DF Aliases a.addr
+0 
+After Resolved LS From a.addr
+0 
+After loadForCalls a.addr
+0 
+After GEPChildren a.addr
+0 
+Exiting calcAggregateLNRecursive for a.addr
+Revisiting some of the conflicted agg Call values.
+Entering calcAggCallRecursive for mul
+Entering calcAggCallRecursive for a
+Exiting calcAggCallRecursive(N) for a
+Inserting descParams(1) for mul from a
+Exiting calcAggCallRecursive(N) for mul
+Entering calcAggCallRecursive for 0x7bed858
+Inserting descParams(1) for 0x7bed858 from a
+Exiting calcAggCallRecursive(N) for 0x7bed858
+Entering calcAggCallRecursive for retval
+Inserting descParams(1) for retval from mul
+Inserting descParams(1) for retval from 0x7bed858
+Inserting descParams(1) for retval from a
+Exiting calcAggCallRecursive(N) for retval
+Entering calcAggCallRecursive for a.addr
+Inserting descParams(1) for a.addr from a
+Exiting calcAggCallRecursive(N) for a.addr
+In resolveSideEffects 
+In resolveSideEffectCalls 

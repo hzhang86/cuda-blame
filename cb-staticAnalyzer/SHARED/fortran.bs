@@ -1,0 +1,8 @@
+_gfortran_set_std 1
+_gfortran_stop_numeric 1
+_gfortran_st_write 1
+_gfortran_st_write_done 1
+_gfortran_st_read 1
+_gfortran_st_read_done 1
+_gfortran_transfer_character 2
+_gfortran_transfer_real 2

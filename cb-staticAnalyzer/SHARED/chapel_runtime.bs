@@ -1,0 +1,4 @@
+chpl_comm_get   0   2
+chpl_comm_put   0   2
+chpl_comm_get_strd  0   3
+chpl_comm_put_strd  0   3

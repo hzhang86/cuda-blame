@@ -1,0 +1,170 @@
+cblas_sasum	0
+cblas_dasum	0							
+cblas_scasum	0										
+cblas_dzasum	0													
+cblas_saxpy	5													   
+cblas_daxpy	5													   
+cblas_caxpy	5													   
+cblas_zaxpy	5													
+cblas_scopy	4														       
+cblas_dcopy	4														          
+cblas_ccopy	4															     
+cblas_zcopy	4															        
+cblas_sdot	0																   
+cblas_ddot	0																      
+cblas_sdsdot	0																         
+cblas_dsdot	0																	   
+cblas_cdotc_sub	6																	     
+cblas_zdotc_sub	6																	       
+cblas_cdotu_sub	6																	         
+cblas_zdotu_sub	6																		   
+cblas_snrm2	0																		     
+cblas_dnrm2	0																		       
+cblas_scnrm2	0																		         
+cblas_dznrm2	0																			   
+cblas_srot	2 4																			    
+cblas_drot	2 4																			     
+cblas_srotg	1 2 3 4
+cblas_drotg	1 2 3 4
+cblas_srotm	2 4   
+cblas_drotm	2 4	
+cblas_srotmg	1 2 3 5
+cblas_drotmg	1 2 3 5
+cblas_sscal	3     
+cblas_dscal	3		
+cblas_cscal	3				
+cblas_zscal	3						
+cblas_csscal	3								
+cblas_zdscal	3										
+cblas_sswap	2 4											
+cblas_dswap	2 4												
+cblas_cswap	2 4													
+cblas_zswap	2 4													 
+cblas_isamax	0 													  
+cblas_idamax	0													    
+cblas_icamax	0													      
+cblas_izamax	0													        
+cblas_isamin	0														  
+cblas_idamin	0
+cblas_icamin	0
+cblas_izamin	0
+cblas_sgbmv	13
+cblas_dgbmv	13
+cblas_cgbmv	13
+cblas_zgbmv	13
+cblas_sgemv	11
+cblas_dgemv	11
+cblas_cgemv	11
+cblas_zgemv	11
+cblas_sger	9
+cblas_dger	9
+cblas_cgerc	9
+cblas_zgerc	9
+cblas_cgeru	9
+cblas_zgeru	9
+cblas_chbmv	11
+cblas_zhbmv	11
+cblas_chemv	10
+cblas_zhemv	10
+cblas_cher	7
+cblas_zher	7
+cblas_cher2	9
+cblas_zher2	9
+cblas_chpmv	9
+cblas_zhpmv	9
+cblas_chpr	7
+cblas_zhpr	7
+cblas_chpr2	9
+cblas_zhpr2	9
+cblas_ssbmv	11
+cblas_dsbmv	11
+cblas_sspmv	9
+cblas_dspmv	9
+cblas_sspr	7
+cblas_dspr	7
+cblas_sspr2	9
+cblas_dspr2	9
+cblas_ssymv	10
+cblas_dsymv	10
+cblas_ssyr	7
+cblas_dsyr	7
+cblas_ssyr2	9
+cblas_dsyr2	9
+cblas_stbmv	9
+cblas_dtbmv	9
+cblas_ctbmv	9
+cblas_ztbmv	9
+cblas_stbsv	9
+cblas_dtbsv	9
+cblas_ztbsv	9
+cblas_ctbsv	9
+cblas_stpmv	7
+cblas_dtpmv	7
+cblas_ctpmv	7
+cblas_ztpmv	7
+cblas_stpsv	7
+cblas_dtpsv	7
+cblas_ctpsv	7
+cblas_ztpsv	7
+cblas_strmv	8
+cblas_dtrmv	8
+cblas_ctrmv	8
+cblas_ztrmv	8
+cblas_strsv	8
+cblas_dtrsv	8
+cblas_ctrsv	8
+cblas_ztrsv	8
+cblas_sgemm	13
+cblas_dgemm	13
+cblas_cgemm	13
+cblas_zgemm	13
+cblas_chemm	12
+cblas_zhemm	12
+cblas_cherk	10
+cblas_zherk	10
+cblas_cher2k	12
+cblas_zher2k	12
+cblas_ssymm	12
+cblas_dsymm	12
+cblas_csymm	12
+cblas_zsymm	12
+cblas_ssyrk	10
+cblas_dsyrk	10
+cblas_csyrk	10
+cblas_zsyrk	10
+cblas_ssyr2k	12
+cblas_dsyr2k	12
+cblas_csyr2k	12
+cblas_zsyr2k	12
+cblas_strmm	11
+cblas_dtrmm	11
+cblas_ctrmm	11
+cblas_ztrmm	11
+cblas_strsm	11
+cblas_dtrsm	11
+cblas_ctrsm	11
+cblas_ztrsm	11
+cblas_saxpyi	5
+cblas_daxpyi	5
+cblas_caxpyi	5
+cblas_zaxpyi	5
+cblas_sdoti	0
+cblas_ddoti	0
+cblas_cdotci_sub	0
+cblas_zdotci_sub	0
+cblas_cdotui_sub	0
+cblas_zdotui_sub	0
+cblas_sgthr		3
+cblas_dgthr		3
+cblas_cgthr		3
+cblas_zgthr		3	
+cblas_sgthrz		2 3
+cblas_dgthrz		2 3
+cblas_cgthrz		2 3
+cblas_zgthrz		2 3
+cblas_sroti		2 4
+cblas_droti		2 4
+cblas_ssctr		4 
+cblas_dsctr		4 
+cblas_csctr		4 
+cblas_zsctr		4

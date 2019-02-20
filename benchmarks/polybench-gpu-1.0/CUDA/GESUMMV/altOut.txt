@@ -1,0 +1,58 @@
+START - Tue Oct  2 22:19:12 2018
+ 148
+Parsing .structs file /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV/EXPORT/gesummv-cuda-nvptx64-nvidia-cuda-sm_60.bc.structs
+Parsing .structs file /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV/EXPORT/gesummv.bc.structs
+Parsing .se file /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV/EXPORT/gesummv-cuda-nvptx64-nvidia-cuda-sm_60.bc.se
+Parsing .se file /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV/EXPORT/gesummv.bc.se
+Done parsing GPU.txt, total #samples=415
+gesummv.cu inserted in sampledModules
+Parsing .blm file /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV/EXPORT/gesummv-cuda-nvptx64-nvidia-cuda-sm_60.bc.blm
+MODULE gesummv.cu FOUND as one having a sampled func
+Parsing .blm file /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV/EXPORT/gesummv.bc.blm
+MODULE(cpu file?) NOT FOUND, no sampled function - polybenchUtilFuncts.h
+Parsing .calls file /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GESUMMV/EXPORT/gesummv-cuda-nvptx64-nvidia-cuda-sm_60.bc.calls
+Done parsing a stack trace file: CPU.txt
+In printInstances--0
+In genCmpleteStacks
+Total unresolved samples: 0; EC 0, ES 0, EF 0
+The coverage = 100.000%
+In glueCPUStacks
+In printInstances--1
+SAMPLES - Tue Oct  2 22:19:12 2018
+ 848
+
+In handleInstance for inst#0
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+
+In handleInstance for inst#1
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+
+In handleInstance for inst#2
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+
+In handleInstance for inst#3
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+
+In handleInstance for inst#4
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+
+In handleInstance for inst#5
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+
+In handleInstance for inst#6
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+
+In handleInstance for inst#7
+In function _Z14gesummv_kernelPfS_S_S_S_ is BP=1
+No VPs have the line number 
+Call node that matched is _Z14gesummv_kernelPfS_S_S_S_--148
+#emptyInst = 0 on login-1.juggernaut.umd.edu
+DONE - Tue Oct  2 22:19:12 2018
+ 851

@@ -1,0 +1,27 @@
+BEGIN FUNC
+gramschmidt_kernel3 Void
+_Z19gramschmidt_kernel3PfS_S_i 0
+0 a *Float
+1 r *Float
+2 q *Float
+3 k Int
+END FUNC
+
+BEGIN FUNC
+gramschmidt_kernel2 Void
+_Z19gramschmidt_kernel2PfS_S_i 0
+0 a *Float
+1 r *Float
+2 q *Float
+3 k Int
+END FUNC
+
+BEGIN FUNC
+gramschmidt_kernel1 Void
+_Z19gramschmidt_kernel1PfS_S_i 0
+0 a *Float
+1 r *Float
+2 q *Float
+3 k Int
+END FUNC
+

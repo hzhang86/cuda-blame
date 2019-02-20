@@ -1,0 +1,77 @@
+FUNCTION main
+main
+vecAddSub.cu
+2
+gettimeofday--107
+_Z9initTracev--109
+_ZL7do_passP11CUstream_st--111
+_Z9finiTracev--113
+gettimeofday--116
+printf--119
+END FUNCTION 
+FUNCTION _ZL7do_passP11CUstream_st
+do_pass
+vecAddSub.cu
+2
+_ZL7initVecPii--71
+malloc--67
+malloc--66
+llvm.memset.p0i8.i64--73
+malloc--68
+_ZL7initVecPii--72
+cudaMalloc--76
+cudaGetErrorString--76
+fprintf--76
+exit--76
+cudaMalloc--77
+cudaGetErrorString--77
+fprintf--77
+exit--77
+cudaMalloc--78
+cudaGetErrorString--78
+fprintf--78
+exit--78
+cudaMemcpyAsync--88
+cudaMemcpyAsync--80
+cudaGetErrorString--80
+fprintf--80
+exit--80
+cudaMemcpyAsync--81
+cudaGetErrorString--81
+fprintf--81
+exit--81
+_ZN4dim3C2Ejjj--84
+_ZN4dim3C2Ejjj--84a
+llvm.memcpy.p0i8.p0i8.i64--84
+llvm.memcpy.p0i8.p0i8.i64--84a
+cudaConfigureCall--84
+_Z6VecAddPKiS0_Pii--84
+_ZN4dim3C2Ejjj--86
+_ZN4dim3C2Ejjj--86a
+llvm.memcpy.p0i8.p0i8.i64--86
+llvm.memcpy.p0i8.p0i8.i64--86a
+cudaConfigureCall--86
+_Z6VecSubPKiS0_Pii--86
+cudaGetErrorString--88
+fprintf--88
+exit--88
+cudaDeviceSynchronize--91
+cudaGetErrorString--91
+fprintf--91
+exit--91
+cudaStreamSynchronize--93
+cudaGetErrorString--93
+fprintf--93
+exit--93
+free--95
+free--96
+free--97
+cudaFree--98
+cudaFree--99
+cudaFree--100
+END FUNCTION 
+FUNCTION _ZL7initVecPii
+initVec
+vecAddSub.cu
+2
+END FUNCTION 

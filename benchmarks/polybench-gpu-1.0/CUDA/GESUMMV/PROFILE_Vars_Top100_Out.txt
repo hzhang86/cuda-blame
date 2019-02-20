@@ -1,0 +1,16 @@
+coerce->coerce.0x77633d8 0x77633d8 [ Int ]  main.gesummvCuda 100%
+coerce->coerce.0x7763788 0x7763788 [ Int ]  main.gesummvCuda 100%
+coerce->coerce.0x77634d8 0x77634d8 [ Int ]  main.gesummvCuda 100%
+coerce->coerce.0x7763888 0x7763888 [ Int ]  main.gesummvCuda 100%
+agg.tmp.coerce coerce [ Struct ]  main.gesummvCuda 100%
+agg.tmp tmp [ Struct ]  main.gesummvCuda 100%
+agg.tmp24 tmp24 [ Struct ]  main.gesummvCuda 100%
+agg.tmp24.coerce coerce [ Struct ]  main.gesummvCuda 100%
+t_end t_end [ Double ]  main.gesummvCuda 100%
+y_gpu y_gpu [ *Float ]  main.gesummvCuda 53.49%
+tmp_gpu tmp_gpu [ *Float ]  main.gesummvCuda 52.05%
+j j [ Int ]  main.gesummvCuda.gesummv_kernel 4.34%
+B_gpu B_gpu [ *Float ]  main.gesummvCuda 1.2%
+x_gpu x_gpu [ *Float ]  main.gesummvCuda 1.2%
+i i [ Int ]  main.gesummvCuda.gesummv_kernel 0.48%
+coerce coerce [ null ]  main.gesummvCuda 0%

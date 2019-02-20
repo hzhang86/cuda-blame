@@ -1,0 +1,13 @@
+llvm.nvvm.read.ptx.sreg.tid.x   -1
+llvm.nvvm.read.ptx.sreg.tid.y   -1
+llvm.nvvm.read.ptx.sreg.tid.z   -1
+llvm.nvvm.read.ptx.sreg.ntid.x  -1
+llvm.nvvm.read.ptx.sreg.ntid.y  -1
+llvm.nvvm.read.ptx.sreg.ntid.z  -1
+llvm.nvvm.read.ptx.sreg.ctaid.x -1
+llvm.nvvm.read.ptx.sreg.ctaid.y -1
+llvm.nvvm.read.ptx.sreg.ctaid.z -1
+llvm.nvvm.read.ptx.sreg.nctaid.x    -1
+llvm.nvvm.read.ptx.sreg.nctaid.y    -1
+llvm.nvvm.read.ptx.sreg.nctaid.z    -1
+llvm.nvvm.read.ptx.sreg.warpsize    -1

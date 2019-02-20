@@ -1,0 +1,20 @@
+BEGIN FUNC
+initVec Void
+_ZL7initVecPii 2
+0 vec *Int
+1 n Int
+END FUNC
+
+BEGIN FUNC
+do_pass Void
+_ZL7do_passP11CUstream_st 2
+0 stream *Struct
+END FUNC
+
+BEGIN FUNC
+main Int
+main 2
+0 argc Int
+1 argv **Int
+END FUNC
+

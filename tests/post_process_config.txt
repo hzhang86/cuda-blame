@@ -1,0 +1,10 @@
+2
+/nfshomes/hzhang86/cuda-blame/tests/EXPORT/vecAddSub-cuda-nvptx64-nvidia-cuda-sm_52.bc.blm
+/nfshomes/hzhang86/cuda-blame/tests/EXPORT/vecAddSub.bc.blm
+2
+/nfshomes/hzhang86/cuda-blame/tests/EXPORT/vecAddSub-cuda-nvptx64-nvidia-cuda-sm_52.bc.structs
+/nfshomes/hzhang86/cuda-blame/tests/EXPORT/vecAddSub.bc.structs
+2
+/nfshomes/hzhang86/cuda-blame/tests/EXPORT/vecAddSub-cuda-nvptx64-nvidia-cuda-sm_52.bc.se
+/nfshomes/hzhang86/cuda-blame/tests/EXPORT/vecAddSub.bc.se
+

@@ -1,0 +1,1840 @@
+LLVM__(checkFunctionProto) - Number of args is 0
+Entering examineInstruction alloca 0x7ed1028 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for Tzp
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction alloca 0x7ed1098 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for Tp
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction alloca 0x7ed1108 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for stat
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction call 0x7ed11c0 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: Tzp
+Entering examineInstruction call 0x7ed4e90 13  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: Tp
+Entering examineInstruction call 0x7ed4fe0 14  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: stat
+Entering examineInstruction call 0x7ed50b8 15  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call 0x7ed50b8 call
+Adding NodeProps(12) for call
+In ieCall, calledFunc's name = gettimeofday  pi->getNumOperands()=3
+Called function has a name: gettimeofday
+After calcMetaFuncName, callName=gettimeofday--16
+In ieCall -- Call Operand 0 Tp
+Adding func call in _Z7rtclockv to gettimeofday--16 p 0 for node Tp(0x7ed1098)
+In ieCall -- Call Operand 1 Tzp
+Adding func call in _Z7rtclockv to gettimeofday--16 p 1 for node Tzp(0x7ed1028)
+In ieCall -- Call Operand 2 gettimeofday
+Adding NodeProps(13) for gettimeofday--16
+Entering examineInstruction store 0x7ed5170 16  InstructionVal for Instruction store 
+In ieStore
+STORE to(1) stat from call 2
+STORE to(1) fs->lineNumOrder=2 in line# 16
+Entering examineInstruction load 0x7ed5208 16  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed5208 currentLineNum=17 lnm=0
+Entering examineInstruction icmp 0x7ed52b0 17  InstructionVal for Instruction icmp 
+In ieDefault for icmp
+Adding NodeProps(1) for cmp currentLineNum=17 lnm=1
+Standard Operand No Name  0x7ed5208  InstructionVal for Instruction load 
+Standard Operand No Name  0x7eb8740  ConstantIntVal 
+Entering examineInstruction br 0x7ed5378 17  InstructionVal for Instruction br 
+In ieBlank for opcode br 17
+Entering examineInstruction load 0x7ed5408 17  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed5408 currentLineNum=17 lnm=2
+Entering examineInstruction call 0x7ed54c8 17  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call1 is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call1 0x7ed54c8 call
+Adding NodeProps(12) for call1
+In ieCall, calledFunc's name = printf  pi->getNumOperands()=3
+Called function has a name: printf
+After calcMetaFuncName, callName=printf--17
+In ieCall -- Call Operand No Name 0x7eb87c8  ConstantExprVal 
+Overwrite(1) Call Param GEP: .str
+Adding func call in _Z7rtclockv to printf--17 p 0 for node .str(0x7eb3258)
+Adding NodeProps(14a) for .str
+In ieCall -- Call Operand No Name 0x7ed5408  InstructionVal for Instruction load 
+Adding func call in _Z7rtclockv to printf--17 p 1 for node (0x7ed5408)
+In ieCall -- Call Operand 2 printf
+Adding NodeProps(13) for printf--17
+Entering examineInstruction br 0x7ed5568 17  InstructionVal for Instruction br 
+In ieBlank for opcode br 17
+Entering examineInstruction getelementptr 0x7ed55f8 17  InstructionVal for Instruction getelementptr 
+In ieGetElementPtr for tv_sec
+Adding NodeProps(1) for tv_sec currentLineNum=18 lnm=0
+Standard Operand No Name  0x7eb8740  ConstantIntVal 
+Standard Operand No Name  0x7eb8740  ConstantIntVal 
+Adding NodeProps(4) for Constant+0+18+2+32
+Entering examineInstruction load 0x7ed5698 18  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ed5698 currentLineNum=18 lnm=2
+Entering examineInstruction sitofp 0x7ed56f8 18  InstructionVal for Instruction sitofp 
+In ieDefault for sitofp
+Adding NodeProps(1) for conv currentLineNum=18 lnm=3
+Standard Operand No Name  0x7ed5698  InstructionVal for Instruction load 
+Entering examineInstruction getelementptr 0x7ed57b8 18  InstructionVal for Instruction getelementptr 
+In ieGetElementPtr for tv_usec
+Adding NodeProps(1) for tv_usec currentLineNum=18 lnm=4
+Standard Operand No Name  0x7eb8740  ConstantIntVal 
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Adding NodeProps(4) for Constant+1+18+2+32
+Entering examineInstruction load 0x7eb59d8 18  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7eb59d8 currentLineNum=18 lnm=6
+Entering examineInstruction sitofp 0x7eb5a38 18  InstructionVal for Instruction sitofp 
+In ieDefault for sitofp
+Adding NodeProps(1) for conv2 currentLineNum=18 lnm=7
+Standard Operand No Name  0x7eb59d8  InstructionVal for Instruction load 
+Entering examineInstruction fmul 0x7eb5ae0 18  InstructionVal for Instruction fmul 
+In ieDefault for fmul
+Adding NodeProps(1) for mul currentLineNum=18 lnm=8
+Standard Operand No Name  0x7eb7370  ConstantFPVal 
+Entering examineInstruction fadd 0x7eb5b90 18  InstructionVal for Instruction fadd 
+In ieDefault for fadd
+Adding NodeProps(1) for add currentLineNum=18 lnm=9
+Entering examineInstruction ret 0x7eb5c28 18  InstructionVal for Instruction ret 
+In ieBlank for opcode ret 18
+#variables=21, #localVars=3, #exiVariables=1
+Branch Instruction found for basic block entry
+... is conditional
+... not loop header
+in errorRetCheck for cmp
+ToBool instruction is cmp op icmp
+Load inst is 
+CondLocal is stat
+... is an error checking call.
+Looking at handling conditional for entry for cond name cmp
+Number of children is 2
+First successor is if.then
+Second successor is if.end
+Standard if, no else -- if.end is terminal.
+Inserting (4)cmp into if.then
+Branch Instruction found for basic block if.then
+... not loop header
+Putting node 19 (mul) into graph
+Putting node 18 (conv2) into graph
+Putting node 17 (0x7eb59d8) into graph
+Putting node 14 (conv) into graph
+Putting node 12 (Constant+0+18+2+32) into graph
+Putting node 11 (tv_sec) into graph
+Putting node 0 (Tzp) into graph
+Putting node 1 (Tp) into graph
+Putting node 7 (0x7ed5408) into graph
+Putting node 2 (stat) into graph
+Putting node 3 (call) into graph
+Putting node 10 (printf--17) into graph
+Putting node 4 (gettimeofday--16) into graph
+Putting node 20 (add) into graph
+Putting node 16 (Constant+1+18+2+32) into graph
+Putting node 5 (0x7ed5208) into graph
+Putting node 9 (.str) into graph
+Putting node 13 (0x7ed5698) into graph
+Putting node 6 (cmp) into graph
+Putting node 15 (tv_usec) into graph
+Putting node 8 (call1) into graph
+Starting to Gen Edges 
+GE Instruction Tzp alloca
+Not generating any edges for opcode alloca
+GE Instruction Tp alloca
+Not generating any edges for opcode alloca
+GE Instruction stat alloca
+Not generating any edges for opcode alloca
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE Instruction call call
+In geCall, calledFunc's name = gettimeofday  pi->getNumOperands()=3
+Adding edge 4 between call and gettimeofday--16 of type call
+op[0]: 
+Adding edge 6 between Tp and gettimeofday--16 of type call
+op[1]: 
+Adding edge 6 between Tzp and gettimeofday--16 of type call
+GE No name store
+Adding edge 25 between stat and call of type store
+GE No name load
+Adding edge 12 between 0x7ed5208 and stat of type load
+GE Instruction cmp icmp
+Adding edge 2 between cmp and 0x7ed5208 of type icmp
+Adding edge 2 between cmp and Constant+0+17+0+51 of type icmp
+Variables can't find value of cmp 1 or Constant+0+17+0+51 0
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ed5408 and stat of type load
+GE Instruction call1 call
+In geCall, calledFunc's name = printf  pi->getNumOperands()=3
+Adding edge 4 between call1 and printf--17 of type call
+Adding implicit edges between printf--17 and cmp
+op[0]: 
+Param 0 for printf--17 is a constantExpr
+Adding edge 7 between .str and printf--17 of type call
+op[1]: 
+Adding edge 11 between 0x7ed5408 and printf--17 of type call
+GE No name br
+Not generating any edges for opcode br
+GE Instruction tv_sec getelementptr
+GRAPH_(genEdge) - GEP tv_sec points to Tp
+In getUpperLevelFieldName for inst tv_sec base Tp
+(0)base Tp has uniqueNmAsFld: Tp
+Adding edge from tv_sec to Constant+0+18+2+32
+In getUpperLevelFieldName for inst tv_sec base Tp
+GEP base: Tp  already has the uniqueNameAsField(Tp), simply return it!
+Name of collapsable field candidate is 0.P.Tp for tv_sec
+(3)Inst tv_sec has uniqueNameAsField: 0.P.Tp
+Collapsable field doesn't exist.Create field and make inst name tv_sec dest node.
+GE No name load
+Adding edge 12 between 0x7ed5698 and tv_sec of type load
+GE Instruction conv sitofp
+Adding edge 2 between conv and 0x7ed5698 of type sitofp
+GE Instruction tv_usec getelementptr
+GRAPH_(genEdge) - GEP tv_usec points to Tp
+Check(v already has uniqueNameAsField): old=Tp
+(0)base Tp has uniqueNmAsFld: Tp
+Adding edge from tv_usec to Constant+1+18+2+32
+In getUpperLevelFieldName for inst tv_usec base Tp
+GEP base: Tp  already has the uniqueNameAsField(Tp), simply return it!
+Name of collapsable field candidate is 1.P.Tp for tv_usec
+(3)Inst tv_usec has uniqueNameAsField: 1.P.Tp
+Collapsable field doesn't exist.Create field and make inst name tv_usec dest node.
+GE No name load
+Adding edge 12 between 0x7eb59d8 and tv_usec of type load
+GE Instruction conv2 sitofp
+Adding edge 2 between conv2 and 0x7eb59d8 of type sitofp
+GE Instruction mul fmul
+Adding edge 1 between mul and conv2 of type fmul
+Adding edge 2 between mul and Constant+1e-062.2+18+0+16 of type fmul
+Variables can't find value of mul 1 or Constant+1e-062.2+18+0+16 0
+GE Instruction add fadd
+Adding edge 1 between add and conv of type fadd
+Adding edge 1 between add and mul of type fadd
+GE No name ret
+Not generating any edges for opcode ret
+Finished generating edges 
+In resolveStores for Tzp
+In resolveStores for Tp
+In resolveStores for stat
+Store between stat and call
+Vertex stat is written(4)
+Inserting line number(1a) 16 to stat
+We have a storeFrom inserted: call->storeFrom=stat
+Stores for V - stat number 1
+Insert relevantInst - call in fbb entry
+In resolveStores for call
+In resolveStores for gettimeofday--16
+In resolveStores for 0x7ed5208
+In resolveStores for cmp
+In resolveStores for 0x7ed5408
+In resolveStores for call1
+In resolveStores for .str
+In resolveStores for printf--17
+In resolveStores for tv_sec
+In resolveStores for Constant+0+18+2+32
+In resolveStores for 0x7ed5698
+In resolveStores for conv
+In resolveStores for tv_usec
+In resolveStores for Constant+1+18+2+32
+In resolveStores for 0x7eb59d8
+In resolveStores for conv2
+In resolveStores for mul
+In resolveStores for add
+Before CFG sort
+Before assignBBGenKIll
+Before reachingDefs
+Before calcStoreLines
+In inBB, call->storeLines.insert(16) in pos1
+call->storeLines.insert in pos2
+In inBB, call->storeLines.insert(16) in pos1
+call->storeLines.insert in pos2
+In genBB, call->storeLines.insert(16) in pos8
+call's sl failed in Cond3
+call's sl failed in Cond3
+call's sl failed in Cond3
+call->storeLines.insert(16) in pos4
+call->storeLines.insert(17) in pos4
+Before printCFG
+FBB name: if.end
+Successors: 
+Predecessors: entry if.then 
+Ancestors: entry if.then 
+Descendants: 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: call 
+BB Out: call 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: if.then
+Successors: if.end 
+Predecessors: entry 
+Ancestors: entry 
+Descendants: if.end 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: call 
+BB Out: call 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: entry
+Successors: if.then if.end 
+Predecessors: 
+Ancestors: 
+Descendants: if.then if.end 
+Relevant Instructions: call(16)
+   Gen: call  
+   Kill: 
+BB Gen: call 
+BB Kill: 
+BB In: 
+BB Out: call 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+
+For sourceVP(Load): 0x7ed5408 17
+---
+storeVP: call - Store Lines - 16 17 18  ; Border Lines - 
+In resolveStoreLine storeVP:call ln=16 lNO=0  sourceVP:0x7ed5408 ln=17 lNO=2
+Need to remove edge(hui) from 0x7ed5408 to stat [8]
+RESOLVED_L_S_OP added between 0x7ed5408 and call
+---
+
+For sourceVP(Load): 0x7ed5208 17
+---
+storeVP: call - Store Lines - 16 17 18  ; Border Lines - 
+In resolveStoreLine storeVP:call ln=16 lNO=0  sourceVP:0x7ed5208 ln=17 lNO=0
+Need to remove edge(hui) from 0x7ed5208 to stat [8]
+RESOLVED_L_S_OP added between 0x7ed5208 and call
+---
+
+Graph__(identifyExternCalls) - Vertex gettimeofday--16 involved
+Graph__(identifyExternCalls) - Func -  gettimeofday--16 Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: gettimeofday
+Graph__(identifyExternCalls) - Vertex printf--17 involved
+Graph__(identifyExternCalls) - Func -  printf--17 Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: printf
+
+In resolvePointersForNode for Tzp
+Tzp is Instruction
+Tzp's pointer level is 1
+Tzp has pointer type *Struct
+Inserting pointer(3) Tzp
+
+For PTR Tzp
+Is Pointer 0
+Is Written 0
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 
+StoreLines
+
+
+In resolvePointersForNode for Tp
+Tp is Instruction
+Tp's pointer level is 1
+Tp has pointer type *Struct
+Inserting pointer(3) Tp
+For the struct pointer: Tp, targetV of this in_edge is tv_usec
+Calling structResolve for Tp of type *Struct
+structNameFull -- struct.timeval
+Transferring sBFC from(sf->ps) tv_usec to Tp
+Failed adding sBFC for Tp
+Adding tv_usec to Tp as a field(2)
+For the struct pointer: Tp, targetV of this in_edge is tv_sec
+Calling structResolve for Tp of type *Struct
+structNameFull -- struct.timeval
+Transferring sBFC from(sf->ps) tv_sec to Tp
+Failed adding sBFC for Tp
+Adding tv_sec to Tp as a field(2)
+
+For PTR Tp
+Is Pointer 0
+Is Written 0
+Aliases in 
+Aliases out 
+Fields tv_sec tv_usec 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 
+StoreLines
+
+
+In resolvePointersForNode for stat
+stat is Instruction
+stat's pointer level is 1
+stat has pointer type *Int
+
+For PTR stat
+Is Pointer 0
+Is Written 1
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo call 
+StoreLines
+
+At this point the pointers are: Tzp Tp 
+
+In resolvePointersForNode for tv_sec
+tv_sec is Instruction
+tv_sec's pointer level is 1
+tv_sec has pointer type *Int
+
+For PTR tv_sec
+Is Pointer 0
+Is Written 0
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 
+StoreLines
+
+
+In resolvePointersForNode for tv_usec
+tv_usec is Instruction
+tv_usec's pointer level is 1
+tv_usec has pointer type *Int
+
+For PTR tv_usec
+Is Pointer 0
+Is Written 0
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 
+StoreLines
+
+At this point(2) the pointers are: Tzp Tp 
+In checkIfWritten for Tzp, orig isWritten=0
+In checkIfWritten for Tzp, after aliasesOut, writeTotal=0
+In checkIfWritten for Tzp, after aliasesIn, writeTotal=0
+In checkIfWritten for Tzp, after almostAlias, writeTotal=0
+In checkIfWritten for Tzp, after resolvedLS, writeTotal=0
+In checkIfWritten for Tzp, after fields, writeTotal=0
+In checkIfWritten for Tzp, after nonAliasStores, writeTotal=0
+In checkIfWritten for Tzp, after arrayAccess, writeTotal=0
+In checkIfWritten for Tzp, after loads, writeTotal=0
+In checkIfWritten for Tzp, after GEPChildren, writeTotal=0
+For Tzp not written to (that we know) but still going to resolve aliases
+In resolveLocalAliases2 for Tzp(0) Tzp(0)
+Finishing up resolveLocalAliases for Tzp Tzp
+In checkIfWritten for Tp, orig isWritten=0
+In checkIfWritten for Tp, after aliasesOut, writeTotal=0
+In checkIfWritten for Tp, after aliasesIn, writeTotal=0
+In checkIfWritten for Tp, after almostAlias, writeTotal=0
+In checkIfWritten for Tp, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_sec, orig isWritten=0
+In checkIfWritten for tv_sec, after aliasesOut, writeTotal=0
+In checkIfWritten for tv_sec, after aliasesIn, writeTotal=0
+In checkIfWritten for tv_sec, after almostAlias, writeTotal=0
+In checkIfWritten for tv_sec, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_sec, after fields, writeTotal=0
+In checkIfWritten for tv_sec, after nonAliasStores, writeTotal=0
+In checkIfWritten for tv_sec, after arrayAccess, writeTotal=0
+In checkIfWritten for tv_sec, after loads, writeTotal=0
+In checkIfWritten for tv_sec, after GEPChildren, writeTotal=0
+In checkIfWritten for tv_usec, orig isWritten=0
+In checkIfWritten for tv_usec, after aliasesOut, writeTotal=0
+In checkIfWritten for tv_usec, after aliasesIn, writeTotal=0
+In checkIfWritten for tv_usec, after almostAlias, writeTotal=0
+In checkIfWritten for tv_usec, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_usec, after fields, writeTotal=0
+In checkIfWritten for tv_usec, after nonAliasStores, writeTotal=0
+In checkIfWritten for tv_usec, after arrayAccess, writeTotal=0
+In checkIfWritten for tv_usec, after loads, writeTotal=0
+In checkIfWritten for tv_usec, after GEPChildren, writeTotal=0
+In checkIfWritten for Tp, after fields, writeTotal=0
+In checkIfWritten for Tp, after nonAliasStores, writeTotal=0
+In checkIfWritten for Tp, after arrayAccess, writeTotal=0
+In checkIfWritten for Tp, after loads, writeTotal=0
+In checkIfWritten for Tp, after GEPChildren, writeTotal=0
+For Tp not written to (that we know) but still going to resolve aliases
+In resolveLocalAliases2 for Tp(0) Tp(0)
+PTRS__(resolveLocalAliases)(7) - Assigning exitV Tp for tv_sec
+In resolveLocalAliases2 for tv_sec(0) tv_sec(0)
+Finishing up resolveLocalAliases for tv_sec tv_sec
+PTRS__(resolveLocalAliases)(7) - Assigning exitV Tp for tv_usec
+In resolveLocalAliases2 for tv_usec(0) tv_usec(0)
+Finishing up resolveLocalAliases for tv_usec tv_usec
+Finishing up resolveLocalAliases for Tp Tp
+In checkIfWritten for Tzp, orig isWritten=0
+In checkIfWritten for Tzp, after aliasesOut, writeTotal=0
+In checkIfWritten for Tzp, after aliasesIn, writeTotal=0
+In checkIfWritten for Tzp, after almostAlias, writeTotal=0
+In checkIfWritten for Tzp, after resolvedLS, writeTotal=0
+In checkIfWritten for Tzp, after fields, writeTotal=0
+In checkIfWritten for Tzp, after nonAliasStores, writeTotal=0
+In checkIfWritten for Tzp, after arrayAccess, writeTotal=0
+In checkIfWritten for Tzp, after loads, writeTotal=0
+In checkIfWritten for Tzp, after GEPChildren, writeTotal=0
+In checkIfWritten for Tp, orig isWritten=0
+In checkIfWritten for Tp, after aliasesOut, writeTotal=0
+In checkIfWritten for Tp, after aliasesIn, writeTotal=0
+In checkIfWritten for Tp, after almostAlias, writeTotal=0
+In checkIfWritten for Tp, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_sec, orig isWritten=0
+In checkIfWritten for tv_sec, after aliasesOut, writeTotal=0
+In checkIfWritten for tv_sec, after aliasesIn, writeTotal=0
+In checkIfWritten for tv_sec, after almostAlias, writeTotal=0
+In checkIfWritten for tv_sec, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_sec, after fields, writeTotal=0
+In checkIfWritten for tv_sec, after nonAliasStores, writeTotal=0
+In checkIfWritten for tv_sec, after arrayAccess, writeTotal=0
+In checkIfWritten for tv_sec, after loads, writeTotal=0
+In checkIfWritten for tv_sec, after GEPChildren, writeTotal=0
+In checkIfWritten for tv_usec, orig isWritten=0
+In checkIfWritten for tv_usec, after aliasesOut, writeTotal=0
+In checkIfWritten for tv_usec, after aliasesIn, writeTotal=0
+In checkIfWritten for tv_usec, after almostAlias, writeTotal=0
+In checkIfWritten for tv_usec, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_usec, after fields, writeTotal=0
+In checkIfWritten for tv_usec, after nonAliasStores, writeTotal=0
+In checkIfWritten for tv_usec, after arrayAccess, writeTotal=0
+In checkIfWritten for tv_usec, after loads, writeTotal=0
+In checkIfWritten for tv_usec, after GEPChildren, writeTotal=0
+In checkIfWritten for Tp, after fields, writeTotal=0
+In checkIfWritten for Tp, after nonAliasStores, writeTotal=0
+In checkIfWritten for Tp, after arrayAccess, writeTotal=0
+In checkIfWritten for Tp, after loads, writeTotal=0
+In checkIfWritten for Tp, after GEPChildren, writeTotal=0
+In checkIfWritten for stat, orig isWritten=1
+In checkIfWritten for stat, after aliasesOut, writeTotal=1
+In checkIfWritten for stat, after aliasesIn, writeTotal=1
+In checkIfWritten for stat, after almostAlias, writeTotal=1
+In checkIfWritten for stat, after resolvedLS, writeTotal=1
+In checkIfWritten for stat, after fields, writeTotal=1
+In checkIfWritten for stat, after nonAliasStores, writeTotal=1
+In checkIfWritten for stat, after arrayAccess, writeTotal=1
+In checkIfWritten for stat, after loads, writeTotal=1
+In checkIfWritten for stat, after GEPChildren, writeTotal=1
+In checkIfWritten for tv_sec, orig isWritten=0
+In checkIfWritten for tv_sec, after aliasesOut, writeTotal=0
+In checkIfWritten for tv_sec, after aliasesIn, writeTotal=0
+In checkIfWritten for tv_sec, after almostAlias, writeTotal=0
+In checkIfWritten for tv_sec, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_sec, after fields, writeTotal=0
+In checkIfWritten for tv_sec, after nonAliasStores, writeTotal=0
+In checkIfWritten for tv_sec, after arrayAccess, writeTotal=0
+In checkIfWritten for tv_sec, after loads, writeTotal=0
+In checkIfWritten for tv_sec, after GEPChildren, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, orig isWritten=0
+In checkIfWritten for Constant+0+18+2+32, after aliasesOut, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after aliasesIn, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after almostAlias, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after resolvedLS, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after fields, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after nonAliasStores, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after arrayAccess, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after loads, writeTotal=0
+In checkIfWritten for Constant+0+18+2+32, after GEPChildren, writeTotal=0
+In checkIfWritten for tv_usec, orig isWritten=0
+In checkIfWritten for tv_usec, after aliasesOut, writeTotal=0
+In checkIfWritten for tv_usec, after aliasesIn, writeTotal=0
+In checkIfWritten for tv_usec, after almostAlias, writeTotal=0
+In checkIfWritten for tv_usec, after resolvedLS, writeTotal=0
+In checkIfWritten for tv_usec, after fields, writeTotal=0
+In checkIfWritten for tv_usec, after nonAliasStores, writeTotal=0
+In checkIfWritten for tv_usec, after arrayAccess, writeTotal=0
+In checkIfWritten for tv_usec, after loads, writeTotal=0
+In checkIfWritten for tv_usec, after GEPChildren, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, orig isWritten=0
+In checkIfWritten for Constant+1+18+2+32, after aliasesOut, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after aliasesIn, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after almostAlias, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after resolvedLS, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after fields, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after nonAliasStores, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after arrayAccess, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after loads, writeTotal=0
+In checkIfWritten for Constant+1+18+2+32, after GEPChildren, writeTotal=0
+Calling DBHL 
+EV__(determineBFCForVertexLite) -- for Tzp
+EV__(determineBFCForVertexLite) -- for stat
+EV__(determineBFCForVertexLite) -- for 0x7ed5408
+EV__(determineBFCForVertexLite) -- for call1
+EV__(determineBFCForVertexLite) -- for .str
+EV__(determineBFCForVertexLite) -- for add
+OUT__(determineBFCForOutputVertex) - Entering func for printf--17
+OUT__(determineBFCForOutputVertexLite) - Call from 0x7ed5408 to printf--17
+OUT__(determineBFCForOutputVertexLite) - FC -- printf--17  printf--17
+Inputs to printf--17 is 0x7ed5408 1
+OUT__(determineBFCForOutputVertexLite) - Call from .str to printf--17
+OUT__(determineBFCForOutputVertexLite) - FC -- printf--17  printf--17
+Inputs to printf--17 is .str 0
+OUT__(determineBFCForOutputVertexLite) - Call from call1 to printf--17
+OUT__(determineBFCForOutputVertexLite) - FC -- printf--17  printf--17
+Inputs to printf--17 is call1 -1
+OUT__(determineBFCForOutputVertexLite) - Removing edge to printf--17 from 8
+Finished DBHL , now going to print _trunc.dot file 
+In populateImportantVertices for Tzp
+Calling recursiveExamineChildren on Tzp for Tzp
+Looking at target gettimeofday--16 from Tzp
+Node Props for gettimeofday--16: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - Tzp
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - gettimeofday--16
+OrigVP->dpUpPtr - Tzp
+Adding Child/Parent relation between gettimeofday--16 and Tzp
+Line nums for origVP: Tzp (E) 
+Finished Calling recursiveExamineChildren for Tzp
+In populateImportantVertices for Tp
+Calling recursiveExamineChildren on Tp for Tp
+Looking at target gettimeofday--16 from Tp
+Node Props for gettimeofday--16: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - Tp
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - gettimeofday--16
+OrigVP->dpUpPtr - Tp
+Adding Child/Parent relation between gettimeofday--16 and Tp
+Line nums for origVP: Tp (E) 
+Finished Calling recursiveExamineChildren for Tp
+In populateImportantVertices for stat
+Calling recursiveExamineChildren on stat for stat
+Looking at target call from stat
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - stat
+Adding Child/Parent relation between call and stat
+Line nums for origVP: stat (E)  16
+Finished Calling recursiveExamineChildren for stat
+In populateImportantVertices for call
+Calling recursiveExamineChildren on call for call
+Looking at target gettimeofday--16 from call
+Node Props for gettimeofday--16: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+Edge's opCode/edge_type=54
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - gettimeofday--16
+OrigVP->dpUpPtr - call
+Adding Child/Parent relation between gettimeofday--16 and call
+Line nums for origVP: call (E) 
+Finished Calling recursiveExamineChildren for call
+In populateImportantVertices for gettimeofday--16
+Calling recursiveExamineChildren on gettimeofday--16 for gettimeofday--16
+Inserting line number(6) 16 to gettimeofday--16
+Inserting line number(7) 16 to gettimeofday--16
+Line nums for origVP: gettimeofday--16 (E)  16
+Finished Calling recursiveExamineChildren for gettimeofday--16
+In populateImportantVertices for printf--17
+Calling recursiveExamineChildren on printf--17 for printf--17
+Looking at target .str from printf--17
+Node Props for .str: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=997
+Inserting line number(8) 17 to printf--17
+Start recursion of recursiveExamineChildren on .str
+Calling recursiveExamineChildren on .str for printf--17
+Inserting line number(6) 17 to printf--17
+Line nums for origVP: printf--17 (E)  17
+Looking at target 0x7ed5408 from printf--17
+Node Props for 0x7ed5408: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=997
+Inserting line number(8) 17 to printf--17
+Start recursion of recursiveExamineChildren on 0x7ed5408
+Calling recursiveExamineChildren on 0x7ed5408 for printf--17
+Looking at target call from 0x7ed5408
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - printf--17
+Adding Child/Parent relation between call and printf--17
+Line nums for origVP: printf--17 (E)  17
+Looking at target cmp from printf--17
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 17 to printf--17
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for printf--17
+Looking at target 0x7ed5208 from cmp
+Node Props for 0x7ed5208: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=51
+Inserting line number(8) 17 to printf--17
+Start recursion of recursiveExamineChildren on 0x7ed5208
+Calling recursiveExamineChildren on 0x7ed5208 for printf--17
+Looking at target call from 0x7ed5208
+Node Props for call: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - call
+OrigVP->dpUpPtr - printf--17
+Adding Child/Parent relation between call and printf--17
+Line nums for origVP: printf--17 (E)  17
+Line nums for origVP: printf--17 (E)  17
+Line nums for origVP: printf--17 (E)  17
+Finished Calling recursiveExamineChildren for printf--17
+In populateImportantVertices for tv_sec
+Calling recursiveExamineChildren on tv_sec for tv_sec
+Looking at target Constant+0+18+2+32 from tv_sec
+Node Props for Constant+0+18+2+32: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=1003
+Inserting line number(8) 18 to tv_sec
+Start recursion of recursiveExamineChildren on Constant+0+18+2+32
+Calling recursiveExamineChildren on Constant+0+18+2+32 for tv_sec
+Inserting line number(6) 18 to tv_sec
+Line nums for origVP: tv_sec (E)  18
+Looking at target Tp from tv_sec
+Node Props for Tp: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 
+Edge's opCode/edge_type=1000
+TargetV->exitV - Tp
+OrigVP->exitV - Tp
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - Tp
+TargetV->dpUpPtr - Tp
+OrigVP->dpUpPtr - tv_sec
+Line nums for origVP: tv_sec (E)  14 18
+Finished Calling recursiveExamineChildren for tv_sec
+In populateImportantVertices for tv_usec
+Calling recursiveExamineChildren on tv_usec for tv_usec
+Looking at target Constant+1+18+2+32 from tv_usec
+Node Props for Constant+1+18+2+32: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=1004
+Inserting line number(8) 18 to tv_usec
+Start recursion of recursiveExamineChildren on Constant+1+18+2+32
+Calling recursiveExamineChildren on Constant+1+18+2+32 for tv_usec
+Inserting line number(6) 18 to tv_usec
+Line nums for origVP: tv_usec (E)  18
+Looking at target Tp from tv_usec
+Node Props for Tp: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 
+Edge's opCode/edge_type=1000
+TargetV->exitV - Tp
+OrigVP->exitV - Tp
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - Tp
+TargetV->dpUpPtr - Tp
+OrigVP->dpUpPtr - tv_usec
+Line nums for origVP: tv_usec (E)  14 18
+Finished Calling recursiveExamineChildren for tv_usec
+For CALL_NODE gettimeofday--16
+Parent Tzp
+Func name gettimeofday--16, pn 1
+Parent Tp
+Func name gettimeofday--16, pn 0
+Parent call
+Func name gettimeofday--16, pn -1
+Looking at IVP Tzp in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Struct
+ivp->sBFC (resolveLooseStructs)0
+Struct Tzp has no sBFC
+Before while, typeVal=15
+After while, typeVal=13
+structNameFull -- struct.timezone
+SB is NULL for timezone for IVP Tzp
+Looking at IVP Tp in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Struct
+ivp->sBFC (resolveLooseStructs)0
+Struct Tp has no sBFC
+Before while, typeVal=15
+After while, typeVal=13
+structNameFull -- struct.timeval
+SB is NULL for timeval for IVP Tp
+Looking at IVP stat in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP call in resolveLooseStructs. 
+Type name (resolveLooseStructs) Int
+Looking at IVP gettimeofday--16 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Int
+Looking at IVP printf--17 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Int
+Looking at IVP tv_sec in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP tv_usec in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+
+Entering calcAggregateLNRecursive for Tzp
+Starting line number tally for Tzp originally:
+
+After insert line_num of Tzp
+13 
+After insert lineNumbers(-1) from baseline for Tzp
+13 
+After storesTo: Tzp
+13 
+After DF Children Tzp
+13 
+
+Entering calcAggregateLNRecursive for gettimeofday--16
+Starting line number tally for gettimeofday--16 originally:
+
+After insert line_num of gettimeofday--16
+16 
+After insert lineNumbers(-1) from baseline for gettimeofday--16
+16 
+After storesTo: gettimeofday--16
+16 
+After DF Children gettimeofday--16
+16 
+After Children gettimeofday--16
+16 
+After Data Ptrs gettimeofday--16
+16 
+After fields gettimeofday--16
+16 
+After aliases gettimeofday--16
+16 
+After DF Aliases gettimeofday--16
+16 
+After Resolved LS From gettimeofday--16
+16 
+After loadForCalls gettimeofday--16
+16 
+After GEPChildren gettimeofday--16
+16 
+Exiting calcAggregateLNRecursive for gettimeofday--16
+After Children Tzp
+13 
+After Data Ptrs Tzp
+13 
+After fields Tzp
+13 
+After aliases Tzp
+13 
+After DF Aliases Tzp
+13 
+After Resolved LS From Tzp
+13 
+After loadForCalls Tzp
+13 
+After GEPChildren Tzp
+13 
+Exiting calcAggregateLNRecursive for Tzp
+Entering calcAggCallRecursive for Tzp
+Tzp is itself a CALL_PARAM
+Entering calcAggCallRecursive for gettimeofday--16
+Exiting calcAggCallRecursive(2) for gettimeofday--16
+Inserting descParams(1) for Tzp from gettimeofday--16
+Exiting calcAggCallRecursive(N) for Tzp
+
+Entering calcAggregateLNRecursive for Tp
+Starting line number tally for Tp originally:
+
+After insert line_num of Tp
+14 
+After insert lineNumbers(-1) from baseline for Tp
+14 
+After storesTo: Tp
+14 
+After DF Children Tp
+14 
+After Children Tp
+14 
+After Data Ptrs Tp
+14 
+
+Entering calcAggregateLNRecursive for tv_sec
+Starting line number tally for tv_sec originally:
+
+After insert line_num of tv_sec
+18 
+After insert lineNumbers(-1) from baseline for tv_sec
+14 18 
+After storesTo: tv_sec
+14 18 
+After DF Children tv_sec
+14 18 
+After Children tv_sec
+14 18 
+After Data Ptrs tv_sec
+14 18 
+After fields tv_sec
+14 18 
+After aliases tv_sec
+14 18 
+After DF Aliases tv_sec
+14 18 
+After Resolved LS From tv_sec
+14 18 
+After loadForCalls tv_sec
+14 18 
+After GEPChildren tv_sec
+14 18 
+Exiting calcAggregateLNRecursive for tv_sec
+
+Entering calcAggregateLNRecursive for tv_usec
+Starting line number tally for tv_usec originally:
+
+After insert line_num of tv_usec
+18 
+After insert lineNumbers(-1) from baseline for tv_usec
+14 18 
+After storesTo: tv_usec
+14 18 
+After DF Children tv_usec
+14 18 
+After Children tv_usec
+14 18 
+After Data Ptrs tv_usec
+14 18 
+After fields tv_usec
+14 18 
+After aliases tv_usec
+14 18 
+After DF Aliases tv_usec
+14 18 
+After Resolved LS From tv_usec
+14 18 
+After loadForCalls tv_usec
+14 18 
+After GEPChildren tv_usec
+14 18 
+Exiting calcAggregateLNRecursive for tv_usec
+After fields Tp
+14 
+After aliases Tp
+14 
+After DF Aliases Tp
+14 
+After Resolved LS From Tp
+14 
+After loadForCalls Tp
+14 
+After GEPChildren Tp
+14 
+Exiting calcAggregateLNRecursive for Tp
+Entering calcAggCallRecursive for Tp
+Tp is itself a CALL_PARAM
+Inserting descParams(1) for Tp from gettimeofday--16
+Entering calcAggCallRecursive for tv_sec
+Exiting calcAggCallRecursive(N) for tv_sec
+Inserting descParams(6) for Tp from tv_sec
+Entering calcAggCallRecursive for tv_usec
+Exiting calcAggCallRecursive(N) for tv_usec
+Inserting descParams(6) for Tp from tv_usec
+Exiting calcAggCallRecursive(N) for Tp
+
+Entering calcAggregateLNRecursive for stat
+Starting line number tally for stat originally:
+
+After insert line_num of stat
+15 
+After insert lineNumbers(-1) from baseline for stat
+15 16 
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+
+After insert line_num of call
+16 
+After insert lineNumbers(-1) from baseline for call
+16 
+After storesTo: call
+16 
+After DF Children call
+16 
+After Children call
+16 
+After Data Ptrs call
+16 
+After fields call
+16 
+After aliases call
+16 
+After DF Aliases call
+16 
+After Resolved LS From call
+16 
+After loadForCalls call
+16 
+After GEPChildren call
+16 
+Exiting calcAggregateLNRecursive for call
+Inserting Line Numbers(0) from call to stat
+16 
+After storesTo: stat
+15 16 
+After DF Children stat
+15 16 
+Inserting Line Numbers(2) from call to stat
+16 
+After Children stat
+15 16 
+After Data Ptrs stat
+15 16 
+After fields stat
+15 16 
+After aliases stat
+15 16 
+After DF Aliases stat
+15 16 
+After Resolved LS From stat
+15 16 
+After loadForCalls stat
+15 16 
+After GEPChildren stat
+15 16 
+Exiting calcAggregateLNRecursive for stat
+Entering calcAggCallRecursive for stat
+Entering calcAggCallRecursive for call
+call is itself a CALL_RETURN
+Inserting descParams(1) for call from gettimeofday--16
+Exiting calcAggCallRecursive(N) for call
+Inserting descParams(1) for stat from call
+Inserting descParams(2) for stat from call
+Exiting calcAggCallRecursive(N) for stat
+
+Entering calcAggregateLNRecursive for printf--17
+Starting line number tally for printf--17 originally:
+
+After insert line_num of printf--17
+17 
+After insert lineNumbers(-1) from baseline for printf--17
+17 
+After storesTo: printf--17
+17 
+After DF Children printf--17
+17 
+Inserting Line Numbers(2) from call to printf--17
+16 
+After Children printf--17
+16 17 
+After Data Ptrs printf--17
+16 17 
+After fields printf--17
+16 17 
+After aliases printf--17
+16 17 
+After DF Aliases printf--17
+16 17 
+After Resolved LS From printf--17
+16 17 
+After loadForCalls printf--17
+16 17 
+After GEPChildren printf--17
+16 17 
+Exiting calcAggregateLNRecursive for printf--17
+Entering calcAggCallRecursive for printf--17
+Inserting descParams(1) for printf--17 from call
+Exiting calcAggCallRecursive(N) for printf--17
+Revisiting some of the conflicted agg LN values.
+
+Entering calcAggregateLNRecursive for tv_usec
+Starting line number tally for tv_usec originally:
+14 18 
+After insert line_num of tv_usec
+14 18 
+After insert lineNumbers(-1) from baseline for tv_usec
+14 18 
+After storesTo: tv_usec
+14 18 
+After DF Children tv_usec
+14 18 
+After Children tv_usec
+14 18 
+After Data Ptrs tv_usec
+14 18 
+After fields tv_usec
+14 18 
+After aliases tv_usec
+14 18 
+After DF Aliases tv_usec
+14 18 
+After Resolved LS From tv_usec
+14 18 
+After loadForCalls tv_usec
+14 18 
+After GEPChildren tv_usec
+14 18 
+Exiting calcAggregateLNRecursive for tv_usec
+
+Entering calcAggregateLNRecursive for tv_sec
+Starting line number tally for tv_sec originally:
+14 18 
+After insert line_num of tv_sec
+14 18 
+After insert lineNumbers(-1) from baseline for tv_sec
+14 18 
+After storesTo: tv_sec
+14 18 
+After DF Children tv_sec
+14 18 
+After Children tv_sec
+14 18 
+After Data Ptrs tv_sec
+14 18 
+After fields tv_sec
+14 18 
+After aliases tv_sec
+14 18 
+After DF Aliases tv_sec
+14 18 
+After Resolved LS From tv_sec
+14 18 
+After loadForCalls tv_sec
+14 18 
+After GEPChildren tv_sec
+14 18 
+Exiting calcAggregateLNRecursive for tv_sec
+
+Entering calcAggregateLNRecursive for printf--17
+Starting line number tally for printf--17 originally:
+16 17 
+After insert line_num of printf--17
+16 17 
+After insert lineNumbers(-1) from baseline for printf--17
+16 17 
+After storesTo: printf--17
+16 17 
+After DF Children printf--17
+16 17 
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+16 
+After insert line_num of call
+16 
+After insert lineNumbers(-1) from baseline for call
+16 
+After storesTo: call
+16 
+After DF Children call
+16 
+
+Entering calcAggregateLNRecursive for gettimeofday--16
+Starting line number tally for gettimeofday--16 originally:
+16 
+After insert line_num of gettimeofday--16
+16 
+After insert lineNumbers(-1) from baseline for gettimeofday--16
+16 
+After storesTo: gettimeofday--16
+16 
+After DF Children gettimeofday--16
+16 
+After Children gettimeofday--16
+16 
+After Data Ptrs gettimeofday--16
+16 
+After fields gettimeofday--16
+16 
+After aliases gettimeofday--16
+16 
+After DF Aliases gettimeofday--16
+16 
+After Resolved LS From gettimeofday--16
+16 
+After loadForCalls gettimeofday--16
+16 
+After GEPChildren gettimeofday--16
+16 
+Exiting calcAggregateLNRecursive for gettimeofday--16
+After Children call
+16 
+After Data Ptrs call
+16 
+After fields call
+16 
+After aliases call
+16 
+After DF Aliases call
+16 
+After Resolved LS From call
+16 
+After loadForCalls call
+16 
+After GEPChildren call
+16 
+Exiting calcAggregateLNRecursive for call
+Inserting Line Numbers(2) from call to printf--17
+16 
+After Children printf--17
+16 17 
+After Data Ptrs printf--17
+16 17 
+After fields printf--17
+16 17 
+After aliases printf--17
+16 17 
+After DF Aliases printf--17
+16 17 
+After Resolved LS From printf--17
+16 17 
+After loadForCalls printf--17
+16 17 
+After GEPChildren printf--17
+16 17 
+Exiting calcAggregateLNRecursive for printf--17
+
+Entering calcAggregateLNRecursive for stat
+Starting line number tally for stat originally:
+15 16 
+After insert line_num of stat
+15 16 
+After insert lineNumbers(-1) from baseline for stat
+15 16 
+Inserting Line Numbers(0) from call to stat
+16 
+After storesTo: stat
+15 16 
+After DF Children stat
+15 16 
+Inserting Line Numbers(2) from call to stat
+16 
+After Children stat
+15 16 
+After Data Ptrs stat
+15 16 
+After fields stat
+15 16 
+After aliases stat
+15 16 
+After DF Aliases stat
+15 16 
+After Resolved LS From stat
+15 16 
+After loadForCalls stat
+15 16 
+After GEPChildren stat
+15 16 
+Exiting calcAggregateLNRecursive for stat
+
+Entering calcAggregateLNRecursive for Tp
+Starting line number tally for Tp originally:
+14 
+After insert line_num of Tp
+14 
+After insert lineNumbers(-1) from baseline for Tp
+14 
+After storesTo: Tp
+14 
+After DF Children Tp
+14 
+After Children Tp
+14 
+After Data Ptrs Tp
+14 
+After fields Tp
+14 
+After aliases Tp
+14 
+After DF Aliases Tp
+14 
+After Resolved LS From Tp
+14 
+After loadForCalls Tp
+14 
+After GEPChildren Tp
+14 
+Exiting calcAggregateLNRecursive for Tp
+
+Entering calcAggregateLNRecursive for Tzp
+Starting line number tally for Tzp originally:
+13 
+After insert line_num of Tzp
+13 
+After insert lineNumbers(-1) from baseline for Tzp
+13 
+After storesTo: Tzp
+13 
+After DF Children Tzp
+13 
+After Children Tzp
+13 
+After Data Ptrs Tzp
+13 
+After fields Tzp
+13 
+After aliases Tzp
+13 
+After DF Aliases Tzp
+13 
+After Resolved LS From Tzp
+13 
+After loadForCalls Tzp
+13 
+After GEPChildren Tzp
+13 
+Exiting calcAggregateLNRecursive for Tzp
+
+Entering calcAggregateLNRecursive for Tzp
+Starting line number tally for Tzp originally:
+13 
+After insert line_num of Tzp
+13 
+After insert lineNumbers(-1) from baseline for Tzp
+13 
+After storesTo: Tzp
+13 
+After DF Children Tzp
+13 
+
+Entering calcAggregateLNRecursive for gettimeofday--16
+Starting line number tally for gettimeofday--16 originally:
+16 
+After insert line_num of gettimeofday--16
+16 
+After insert lineNumbers(-1) from baseline for gettimeofday--16
+16 
+After storesTo: gettimeofday--16
+16 
+After DF Children gettimeofday--16
+16 
+After Children gettimeofday--16
+16 
+After Data Ptrs gettimeofday--16
+16 
+After fields gettimeofday--16
+16 
+After aliases gettimeofday--16
+16 
+After DF Aliases gettimeofday--16
+16 
+After Resolved LS From gettimeofday--16
+16 
+After loadForCalls gettimeofday--16
+16 
+After GEPChildren gettimeofday--16
+16 
+Exiting calcAggregateLNRecursive for gettimeofday--16
+After Children Tzp
+13 
+After Data Ptrs Tzp
+13 
+After fields Tzp
+13 
+After aliases Tzp
+13 
+After DF Aliases Tzp
+13 
+After Resolved LS From Tzp
+13 
+After loadForCalls Tzp
+13 
+After GEPChildren Tzp
+13 
+Exiting calcAggregateLNRecursive for Tzp
+
+Entering calcAggregateLNRecursive for Tp
+Starting line number tally for Tp originally:
+14 
+After insert line_num of Tp
+14 
+After insert lineNumbers(-1) from baseline for Tp
+14 
+After storesTo: Tp
+14 
+After DF Children Tp
+14 
+After Children Tp
+14 
+After Data Ptrs Tp
+14 
+
+Entering calcAggregateLNRecursive for tv_sec
+Starting line number tally for tv_sec originally:
+14 18 
+After insert line_num of tv_sec
+14 18 
+After insert lineNumbers(-1) from baseline for tv_sec
+14 18 
+After storesTo: tv_sec
+14 18 
+After DF Children tv_sec
+14 18 
+After Children tv_sec
+14 18 
+After Data Ptrs tv_sec
+14 18 
+After fields tv_sec
+14 18 
+After aliases tv_sec
+14 18 
+After DF Aliases tv_sec
+14 18 
+After Resolved LS From tv_sec
+14 18 
+After loadForCalls tv_sec
+14 18 
+After GEPChildren tv_sec
+14 18 
+Exiting calcAggregateLNRecursive for tv_sec
+
+Entering calcAggregateLNRecursive for tv_usec
+Starting line number tally for tv_usec originally:
+14 18 
+After insert line_num of tv_usec
+14 18 
+After insert lineNumbers(-1) from baseline for tv_usec
+14 18 
+After storesTo: tv_usec
+14 18 
+After DF Children tv_usec
+14 18 
+After Children tv_usec
+14 18 
+After Data Ptrs tv_usec
+14 18 
+After fields tv_usec
+14 18 
+After aliases tv_usec
+14 18 
+After DF Aliases tv_usec
+14 18 
+After Resolved LS From tv_usec
+14 18 
+After loadForCalls tv_usec
+14 18 
+After GEPChildren tv_usec
+14 18 
+Exiting calcAggregateLNRecursive for tv_usec
+After fields Tp
+14 
+After aliases Tp
+14 
+After DF Aliases Tp
+14 
+After Resolved LS From Tp
+14 
+After loadForCalls Tp
+14 
+After GEPChildren Tp
+14 
+Exiting calcAggregateLNRecursive for Tp
+
+Entering calcAggregateLNRecursive for stat
+Starting line number tally for stat originally:
+15 16 
+After insert line_num of stat
+15 16 
+After insert lineNumbers(-1) from baseline for stat
+15 16 
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+16 
+After insert line_num of call
+16 
+After insert lineNumbers(-1) from baseline for call
+16 
+After storesTo: call
+16 
+After DF Children call
+16 
+After Children call
+16 
+After Data Ptrs call
+16 
+After fields call
+16 
+After aliases call
+16 
+After DF Aliases call
+16 
+After Resolved LS From call
+16 
+After loadForCalls call
+16 
+After GEPChildren call
+16 
+Exiting calcAggregateLNRecursive for call
+Inserting Line Numbers(0) from call to stat
+16 
+After storesTo: stat
+15 16 
+After DF Children stat
+15 16 
+Inserting Line Numbers(2) from call to stat
+16 
+After Children stat
+15 16 
+After Data Ptrs stat
+15 16 
+After fields stat
+15 16 
+After aliases stat
+15 16 
+After DF Aliases stat
+15 16 
+After Resolved LS From stat
+15 16 
+After loadForCalls stat
+15 16 
+After GEPChildren stat
+15 16 
+Exiting calcAggregateLNRecursive for stat
+
+Entering calcAggregateLNRecursive for printf--17
+Starting line number tally for printf--17 originally:
+16 17 
+After insert line_num of printf--17
+16 17 
+After insert lineNumbers(-1) from baseline for printf--17
+16 17 
+After storesTo: printf--17
+16 17 
+After DF Children printf--17
+16 17 
+Inserting Line Numbers(2) from call to printf--17
+16 
+After Children printf--17
+16 17 
+After Data Ptrs printf--17
+16 17 
+After fields printf--17
+16 17 
+After aliases printf--17
+16 17 
+After DF Aliases printf--17
+16 17 
+After Resolved LS From printf--17
+16 17 
+After loadForCalls printf--17
+16 17 
+After GEPChildren printf--17
+16 17 
+Exiting calcAggregateLNRecursive for printf--17
+
+Entering calcAggregateLNRecursive for Tzp
+Starting line number tally for Tzp originally:
+13 
+After insert line_num of Tzp
+13 
+After insert lineNumbers(-1) from baseline for Tzp
+13 
+After storesTo: Tzp
+13 
+After DF Children Tzp
+13 
+
+Entering calcAggregateLNRecursive for gettimeofday--16
+Starting line number tally for gettimeofday--16 originally:
+16 
+After insert line_num of gettimeofday--16
+16 
+After insert lineNumbers(-1) from baseline for gettimeofday--16
+16 
+After storesTo: gettimeofday--16
+16 
+After DF Children gettimeofday--16
+16 
+After Children gettimeofday--16
+16 
+After Data Ptrs gettimeofday--16
+16 
+After fields gettimeofday--16
+16 
+After aliases gettimeofday--16
+16 
+After DF Aliases gettimeofday--16
+16 
+After Resolved LS From gettimeofday--16
+16 
+After loadForCalls gettimeofday--16
+16 
+After GEPChildren gettimeofday--16
+16 
+Exiting calcAggregateLNRecursive for gettimeofday--16
+After Children Tzp
+13 
+After Data Ptrs Tzp
+13 
+After fields Tzp
+13 
+After aliases Tzp
+13 
+After DF Aliases Tzp
+13 
+After Resolved LS From Tzp
+13 
+After loadForCalls Tzp
+13 
+After GEPChildren Tzp
+13 
+Exiting calcAggregateLNRecursive for Tzp
+
+Entering calcAggregateLNRecursive for Tp
+Starting line number tally for Tp originally:
+14 
+After insert line_num of Tp
+14 
+After insert lineNumbers(-1) from baseline for Tp
+14 
+After storesTo: Tp
+14 
+After DF Children Tp
+14 
+After Children Tp
+14 
+After Data Ptrs Tp
+14 
+
+Entering calcAggregateLNRecursive for tv_sec
+Starting line number tally for tv_sec originally:
+14 18 
+After insert line_num of tv_sec
+14 18 
+After insert lineNumbers(-1) from baseline for tv_sec
+14 18 
+After storesTo: tv_sec
+14 18 
+After DF Children tv_sec
+14 18 
+After Children tv_sec
+14 18 
+After Data Ptrs tv_sec
+14 18 
+After fields tv_sec
+14 18 
+After aliases tv_sec
+14 18 
+After DF Aliases tv_sec
+14 18 
+After Resolved LS From tv_sec
+14 18 
+After loadForCalls tv_sec
+14 18 
+After GEPChildren tv_sec
+14 18 
+Exiting calcAggregateLNRecursive for tv_sec
+
+Entering calcAggregateLNRecursive for tv_usec
+Starting line number tally for tv_usec originally:
+14 18 
+After insert line_num of tv_usec
+14 18 
+After insert lineNumbers(-1) from baseline for tv_usec
+14 18 
+After storesTo: tv_usec
+14 18 
+After DF Children tv_usec
+14 18 
+After Children tv_usec
+14 18 
+After Data Ptrs tv_usec
+14 18 
+After fields tv_usec
+14 18 
+After aliases tv_usec
+14 18 
+After DF Aliases tv_usec
+14 18 
+After Resolved LS From tv_usec
+14 18 
+After loadForCalls tv_usec
+14 18 
+After GEPChildren tv_usec
+14 18 
+Exiting calcAggregateLNRecursive for tv_usec
+After fields Tp
+14 
+After aliases Tp
+14 
+After DF Aliases Tp
+14 
+After Resolved LS From Tp
+14 
+After loadForCalls Tp
+14 
+After GEPChildren Tp
+14 
+Exiting calcAggregateLNRecursive for Tp
+
+Entering calcAggregateLNRecursive for stat
+Starting line number tally for stat originally:
+15 16 
+After insert line_num of stat
+15 16 
+After insert lineNumbers(-1) from baseline for stat
+15 16 
+
+Entering calcAggregateLNRecursive for call
+Starting line number tally for call originally:
+16 
+After insert line_num of call
+16 
+After insert lineNumbers(-1) from baseline for call
+16 
+After storesTo: call
+16 
+After DF Children call
+16 
+After Children call
+16 
+After Data Ptrs call
+16 
+After fields call
+16 
+After aliases call
+16 
+After DF Aliases call
+16 
+After Resolved LS From call
+16 
+After loadForCalls call
+16 
+After GEPChildren call
+16 
+Exiting calcAggregateLNRecursive for call
+Inserting Line Numbers(0) from call to stat
+16 
+After storesTo: stat
+15 16 
+After DF Children stat
+15 16 
+Inserting Line Numbers(2) from call to stat
+16 
+After Children stat
+15 16 
+After Data Ptrs stat
+15 16 
+After fields stat
+15 16 
+After aliases stat
+15 16 
+After DF Aliases stat
+15 16 
+After Resolved LS From stat
+15 16 
+After loadForCalls stat
+15 16 
+After GEPChildren stat
+15 16 
+Exiting calcAggregateLNRecursive for stat
+
+Entering calcAggregateLNRecursive for printf--17
+Starting line number tally for printf--17 originally:
+16 17 
+After insert line_num of printf--17
+16 17 
+After insert lineNumbers(-1) from baseline for printf--17
+16 17 
+After storesTo: printf--17
+16 17 
+After DF Children printf--17
+16 17 
+Inserting Line Numbers(2) from call to printf--17
+16 
+After Children printf--17
+16 17 
+After Data Ptrs printf--17
+16 17 
+After fields printf--17
+16 17 
+After aliases printf--17
+16 17 
+After DF Aliases printf--17
+16 17 
+After Resolved LS From printf--17
+16 17 
+After loadForCalls printf--17
+16 17 
+After GEPChildren printf--17
+16 17 
+Exiting calcAggregateLNRecursive for printf--17
+Revisiting some of the conflicted agg Call values.
+Entering calcAggCallRecursive for Tzp
+Tzp is itself a CALL_PARAM
+Entering calcAggCallRecursive for gettimeofday--16
+Exiting calcAggCallRecursive(2) for gettimeofday--16
+Inserting descParams(1) for Tzp from gettimeofday--16
+Exiting calcAggCallRecursive(N) for Tzp
+Entering calcAggCallRecursive for Tp
+Tp is itself a CALL_PARAM
+Inserting descParams(1) for Tp from gettimeofday--16
+Inserting descParams(6) for Tp from tv_sec
+Inserting descParams(6) for Tp from tv_usec
+Exiting calcAggCallRecursive(N) for Tp
+Entering calcAggCallRecursive for call
+call is itself a CALL_RETURN
+Inserting descParams(1) for call from gettimeofday--16
+Exiting calcAggCallRecursive(N) for call
+Entering calcAggCallRecursive for gettimeofday--16
+Exiting calcAggCallRecursive(1) for gettimeofday--16
+Entering calcAggCallRecursive for Tzp
+Tzp is itself a CALL_PARAM
+Entering calcAggCallRecursive for gettimeofday--16
+Exiting calcAggCallRecursive(2) for gettimeofday--16
+Inserting descParams(1) for Tzp from gettimeofday--16
+Exiting calcAggCallRecursive(N) for Tzp
+Entering calcAggCallRecursive for Tp
+Tp is itself a CALL_PARAM
+Inserting descParams(1) for Tp from gettimeofday--16
+Entering calcAggCallRecursive for tv_sec
+Exiting calcAggCallRecursive(N) for tv_sec
+Inserting descParams(6) for Tp from tv_sec
+Entering calcAggCallRecursive for tv_usec
+Exiting calcAggCallRecursive(N) for tv_usec
+Inserting descParams(6) for Tp from tv_usec
+Exiting calcAggCallRecursive(N) for Tp
+Entering calcAggCallRecursive for stat
+Entering calcAggCallRecursive for call
+call is itself a CALL_RETURN
+Inserting descParams(1) for call from gettimeofday--16
+Exiting calcAggCallRecursive(N) for call
+Inserting descParams(1) for stat from call
+Inserting descParams(2) for stat from call
+Exiting calcAggCallRecursive(N) for stat
+Entering calcAggCallRecursive for printf--17
+Inserting descParams(1) for printf--17 from call
+Exiting calcAggCallRecursive(N) for printf--17
+In resolveSideEffects 
+In resolveSideEffectCalls 
+In resolveSideEffectsCheckParentEV for Tzp
+In resolveSideEffectsCheckParentEV for Tzp
+In resolveSideEffectsCheckParentLV for Tzp Tzp
+In resolveSideEffectsCheckParentEV for Tp
+In resolveSideEffectsCheckParentEV for Tp
+In resolveSideEffectsCheckParentLV for Tp Tp
+In resolveSideEffectsCheckParentEV for call
+In resolveSideEffectsCheckParentEV for call
+In resolveSideEffectsCheckParentLV for call call
+In resolveSideEffectsCheckParentLV for call call

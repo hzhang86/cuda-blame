@@ -1,0 +1,7 @@
+Device compute capability: 5.2
+We use PC_SAMPLING in sampling.
+We called cuCtxCreate.
+Done initTrace 
+Done finiTrace 
+
+Elapsed time         =       0.56 (s)

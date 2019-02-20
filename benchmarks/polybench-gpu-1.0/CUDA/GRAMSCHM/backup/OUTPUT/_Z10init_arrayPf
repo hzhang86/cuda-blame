@@ -1,0 +1,3309 @@
+LLVM__(checkFunctionProto) - Number of args is 1
+Param# 0 is A, ptr=1
+LLVM_(checkFunctionProto) - (1)Adding exit var A.addr Param 0 in _Z10init_arrayPf
+Entering examineInstruction alloca 0x7ef0ad8 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for A.addr
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction alloca 0x7ef0b48 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for i
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction alloca 0x7ef0bb8 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for j
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction store 0x7ef0c40 0  InstructionVal for Instruction store 
+In ieStore
+Adding NodeProps(2-Store) for A
+STORE to(1) A.addr from A 0
+STORE to(1) fs->lineNumOrder=0 in line# 0
+Entering examineInstruction call 0x7ef01c0 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+We met a formal arg: A
+Entering examineInstruction call 0x7ef0310 74  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: i
+Entering examineInstruction call 0x7ef0460 76  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: j
+Entering examineInstruction store 0x7ef0520 76  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x7eb8740  ConstantIntVal 
+Adding NodeProps(3) for Constant+0+78+0+31
+STORE to(2) i from Constant+0+78+0+31 1
+STORE to(2) fs->lineNumOrder=0 in line# 78
+Entering examineInstruction br 0x7ef10e8 78  InstructionVal for Instruction br 
+In ieBlank for opcode br 78
+Entering examineInstruction load 0x7ef1148 78  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef1148 currentLineNum=78 lnm=1
+Entering examineInstruction icmp 0x7ef11f0 78  InstructionVal for Instruction icmp 
+In ieDefault for icmp
+Adding NodeProps(1) for cmp currentLineNum=78 lnm=2
+Standard Operand No Name  0x7ef1148  InstructionVal for Instruction load 
+Standard Operand No Name  0x7edaba0  ConstantIntVal 
+Entering examineInstruction br 0x7ef12b8 78  InstructionVal for Instruction br 
+In ieBlank for opcode br 78
+Entering examineInstruction store 0x7ef1360 78  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x7eb8740  ConstantIntVal 
+Adding NodeProps(3) for Constant+0+80+0+31
+STORE to(2) j from Constant+0+80+0+31 1
+STORE to(2) fs->lineNumOrder=0 in line# 80
+Entering examineInstruction br 0x7ef13f8 80  InstructionVal for Instruction br 
+In ieBlank for opcode br 80
+Entering examineInstruction load 0x7ef1488 80  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef1488 currentLineNum=80 lnm=1
+Entering examineInstruction icmp 0x7ef1530 80  InstructionVal for Instruction icmp 
+In ieDefault for icmp
+Adding NodeProps(1) for cmp2 currentLineNum=80 lnm=2
+Standard Operand No Name  0x7ef1488  InstructionVal for Instruction load 
+Standard Operand No Name  0x7edaba0  ConstantIntVal 
+Entering examineInstruction br 0x7ef15f8 80  InstructionVal for Instruction br 
+In ieBlank for opcode br 80
+Entering examineInstruction load 0x7ef1688 80  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef1688 currentLineNum=82 lnm=0
+Entering examineInstruction add 0x7ef1730 82  InstructionVal for Instruction add 
+In ieDefault for add
+Adding NodeProps(1) for add currentLineNum=82 lnm=1
+Standard Operand No Name  0x7ef1688  InstructionVal for Instruction load 
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction sitofp 0x7ef17c8 82  InstructionVal for Instruction sitofp 
+In ieDefault for sitofp
+Adding NodeProps(1) for conv currentLineNum=82 lnm=2
+Entering examineInstruction load 0x7ef1858 82  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef1858 currentLineNum=82 lnm=3
+Entering examineInstruction add 0x7ef1900 82  InstructionVal for Instruction add 
+In ieDefault for add
+Adding NodeProps(1) for add4 currentLineNum=82 lnm=4
+Standard Operand No Name  0x7ef1858  InstructionVal for Instruction load 
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction sitofp 0x7ef1998 82  InstructionVal for Instruction sitofp 
+In ieDefault for sitofp
+Adding NodeProps(1) for conv5 currentLineNum=82 lnm=5
+Entering examineInstruction fmul 0x7ef1a40 82  InstructionVal for Instruction fmul 
+In ieDefault for fmul
+Adding NodeProps(1) for mul currentLineNum=82 lnm=6
+Entering examineInstruction fdiv 0x7ef1af0 82  InstructionVal for Instruction fdiv 
+In ieDefault for fdiv
+Adding NodeProps(1) for div currentLineNum=82 lnm=7
+Standard Operand No Name  0x7ed6b00  ConstantFPVal 
+Entering examineInstruction load 0x7ef1b88 82  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef1b88 currentLineNum=82 lnm=8
+Entering examineInstruction load 0x7ef1c18 82  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef1c18 currentLineNum=82 lnm=9
+Entering examineInstruction mul 0x7ef1cc0 82  InstructionVal for Instruction mul 
+In ieDefault for mul
+Adding NodeProps(1) for mul6 currentLineNum=82 lnm=10
+Standard Operand No Name  0x7ef1c18  InstructionVal for Instruction load 
+Standard Operand No Name  0x7edaba0  ConstantIntVal 
+Entering examineInstruction load 0x7ef1d58 82  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef1d58 currentLineNum=82 lnm=11
+Entering examineInstruction add 0x7ef1e00 82  InstructionVal for Instruction add 
+In ieDefault for add
+Adding NodeProps(1) for add7 currentLineNum=82 lnm=12
+Standard Operand No Name  0x7ef1d58  InstructionVal for Instruction load 
+Entering examineInstruction sext 0x7ef1e98 82  InstructionVal for Instruction sext 
+In ieDefault for sext
+Adding NodeProps(1) for idxprom currentLineNum=82 lnm=13
+Entering examineInstruction getelementptr 0x7ef1f10 82  InstructionVal for Instruction getelementptr 
+In ieGetElementPtr for arrayidx
+Adding NodeProps(1) for arrayidx currentLineNum=82 lnm=14
+Standard Operand No Name  0x7ef1b88  InstructionVal for Instruction load 
+Entering examineInstruction store 0x7ef1fa0 82  InstructionVal for Instruction store 
+In ieStore
+STORE to(1) arrayidx from div 15
+STORE to(1) fs->lineNumOrder=15 in line# 82
+Entering examineInstruction br 0x7ef2038 82  InstructionVal for Instruction br 
+In ieBlank for opcode br 83
+Entering examineInstruction load 0x7ef20c8 83  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef20c8 currentLineNum=80 lnm=3
+Entering examineInstruction add 0x7ef2170 80  InstructionVal for Instruction add 
+In ieDefault for add
+Adding NodeProps(1) for inc currentLineNum=80 lnm=4
+Standard Operand No Name  0x7ef20c8  InstructionVal for Instruction load 
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction store 0x7ef21f0 80  InstructionVal for Instruction store 
+In ieStore
+STORE to(1) j from inc 5
+STORE to(1) fs->lineNumOrder=5 in line# 80
+Entering examineInstruction br 0x7ef2258 80  InstructionVal for Instruction br 
+In ieBlank for opcode br 80
+Entering examineInstruction br 0x7ef22e8 80  InstructionVal for Instruction br 
+In ieBlank for opcode br 84
+Entering examineInstruction load 0x7ef2378 84  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(1) for 0x7ef2378 currentLineNum=78 lnm=3
+Entering examineInstruction add 0x7ef2420 78  InstructionVal for Instruction add 
+In ieDefault for add
+Adding NodeProps(1) for inc9 currentLineNum=78 lnm=4
+Standard Operand No Name  0x7ef2378  InstructionVal for Instruction load 
+Standard Operand No Name  0x7eb7330  ConstantIntVal 
+Entering examineInstruction store 0x7ef24a0 78  InstructionVal for Instruction store 
+In ieStore
+STORE to(1) i from inc9 5
+STORE to(1) fs->lineNumOrder=5 in line# 78
+Entering examineInstruction br 0x7ef2508 78  InstructionVal for Instruction br 
+In ieBlank for opcode br 78
+Entering examineInstruction ret 0x7ed6ab0 78  InstructionVal for Instruction ret 
+In ieBlank for opcode ret 85
+#variables=29, #localVars=2, #exiVariables=1
+We found a formalArgHolder(EV): A.addr
+Entering handleLoops 
+Exit Block is for.end10
+Terminator is cmp 3
+in errorRetCheck for cmp
+ToBool instruction is cmp op icmp
+Load inst is 
+CondLocal is i
+Examining successor for.body
+Examining successor for.end10
+Matching Exit Block is for.end10 for cmp
+Terminator is cmp2 3
+in errorRetCheck for cmp2
+ToBool instruction is cmp2 op icmp
+Load inst is 
+CondLocal is j
+Examining successor for.body3
+Examining successor for.end
+Loop now in basic block for.cond
+iReg didn't have for.cond, create its content
+Implicit -- Inserting cmp into loop implicit set for bb:for.cond
+Loop now in basic block for.body
+iReg didn't have for.body, create its content
+Implicit -- Inserting cmp into loop implicit set for bb:for.body
+Loop now in basic block for.cond1
+iReg didn't have for.cond1, create its content
+Implicit -- Inserting cmp into loop implicit set for bb:for.cond1
+Loop now in basic block for.end
+iReg didn't have for.end, create its content
+Implicit -- Inserting cmp into loop implicit set for bb:for.end
+Loop now in basic block for.inc8
+iReg didn't have for.inc8, create its content
+Implicit -- Inserting cmp into loop implicit set for bb:for.inc8
+Loop now in basic block for.body3
+iReg didn't have for.body3, create its content
+Implicit -- Inserting cmp into loop implicit set for bb:for.body3
+Loop now in basic block for.inc
+iReg didn't have for.inc, create its content
+Implicit -- Inserting cmp into loop implicit set for bb:for.inc
+Entering handleLoops 
+Exit Block is for.end
+Terminator is cmp2 3
+in errorRetCheck for cmp2
+ToBool instruction is cmp2 op icmp
+Load inst is 
+CondLocal is j
+Examining successor for.body3
+Examining successor for.end
+Matching Exit Block is for.end for cmp2
+Loop now in basic block for.cond1
+iReg already had for.cond1, just update its content
+Implicit -- Inserting cmp2 into loop implicit set for bb:for.cond1
+Loop now in basic block for.body3
+iReg already had for.body3, just update its content
+Implicit -- Inserting cmp2 into loop implicit set for bb:for.body3
+Loop now in basic block for.inc
+iReg already had for.inc, just update its content
+Implicit -- Inserting cmp2 into loop implicit set for bb:for.inc
+Exiting handleLoops 
+Exiting handleLoops 
+Branch Instruction found for basic block entry
+... not loop header
+Branch Instruction found for basic block for.cond
+... is conditional
+Branch Instruction found for basic block for.body
+... not loop header
+Branch Instruction found for basic block for.cond1
+... is conditional
+Branch Instruction found for basic block for.body3
+... not loop header
+Branch Instruction found for basic block for.inc
+... not loop header
+Branch Instruction found for basic block for.end
+... not loop header
+Branch Instruction found for basic block for.inc8
+... not loop header
+Putting node 27 (0x7ef2378) into graph
+Putting node 25 (0x7ef20c8) into graph
+Putting node 24 (arrayidx) into graph
+Putting node 23 (idxprom) into graph
+Putting node 22 (add7) into graph
+Putting node 9 (cmp2) into graph
+Putting node 19 (0x7ef1c18) into graph
+Putting node 7 (Constant+0+80+0+31) into graph
+Putting node 4 (Constant+0+78+0+31) into graph
+Putting node 11 (add) into graph
+Putting node 28 (inc9) into graph
+Putting node 17 (div) into graph
+Putting node 3 (A) into graph
+Putting node 2 (j) into graph
+Putting node 6 (cmp) into graph
+Putting node 10 (0x7ef1688) into graph
+Putting node 13 (0x7ef1858) into graph
+Putting node 5 (0x7ef1148) into graph
+Putting node 0 (A.addr) into graph
+Putting node 1 (i) into graph
+Putting node 12 (conv) into graph
+Putting node 16 (mul) into graph
+Putting node 18 (0x7ef1b88) into graph
+Putting node 14 (add4) into graph
+Putting node 20 (mul6) into graph
+Putting node 26 (inc) into graph
+Putting node 8 (0x7ef1488) into graph
+Putting node 15 (conv5) into graph
+Putting node 21 (0x7ef1d58) into graph
+Starting to Gen Edges 
+GE Instruction A.addr alloca
+Not generating any edges for opcode alloca
+GE Instruction i alloca
+Not generating any edges for opcode alloca
+GE Instruction j alloca
+Not generating any edges for opcode alloca
+GE No name store
+Adding edge 25 between A.addr and A of type store
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name store
+Adding edge 25 between i and Constant+0+78+0+31 of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ef1148 and i of type load
+GE Instruction cmp icmp
+Adding implicit edges between cmp and cmp
+Adding edge 2 between cmp and 0x7ef1148 of type icmp
+Adding edge 2 between cmp and Constant+2048+78+0+51 of type icmp
+Variables can't find value of cmp 1 or Constant+2048+78+0+51 0
+GE No name br
+Not generating any edges for opcode br
+GE No name store
+Adding implicit edges between j and cmp
+Adding edge 25 between j and Constant+0+80+0+31 of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ef1488 and j of type load
+GE Instruction cmp2 icmp
+Adding implicit edges between cmp2 and cmp
+Adding edge 2 between cmp2 and 0x7ef1488 of type icmp
+Adding edge 2 between cmp2 and Constant+2048+80+0+51 of type icmp
+Variables can't find value of cmp2 1 or Constant+2048+80+0+51 0
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ef1688 and i of type load
+GE Instruction add add
+Adding implicit edges between add and cmp
+Adding edge 2 between add and 0x7ef1688 of type add
+Adding edge 2 between add and Constant+1+82+0+11 of type add
+Variables can't find value of add 1 or Constant+1+82+0+11 0
+GE Instruction conv sitofp
+Adding implicit edges between conv and cmp
+Adding edge 1 between conv and add of type sitofp
+GE No name load
+Adding edge 12 between 0x7ef1858 and j of type load
+GE Instruction add4 add
+Adding implicit edges between add4 and cmp
+Adding edge 2 between add4 and 0x7ef1858 of type add
+Adding edge 2 between add4 and Constant+1+82+0+11 of type add
+Variables can't find value of add4 1 or Constant+1+82+0+11 0
+GE Instruction conv5 sitofp
+Adding implicit edges between conv5 and cmp
+Adding edge 1 between conv5 and add4 of type sitofp
+GE Instruction mul fmul
+Adding implicit edges between mul and cmp
+Adding edge 1 between mul and conv of type fmul
+Adding edge 1 between mul and conv5 of type fmul
+GE Instruction div fdiv
+Adding implicit edges between div and cmp
+Adding edge 1 between div and mul of type fdiv
+Adding edge 2 between div and Constant+2049+82+0+19 of type fdiv
+Variables can't find value of div 1 or Constant+2049+82+0+19 0
+GE No name load
+Adding edge 12 between 0x7ef1b88 and A.addr of type load
+GE No name load
+Adding edge 12 between 0x7ef1c18 and i of type load
+GE Instruction mul6 mul
+Adding implicit edges between mul6 and cmp
+Adding edge 2 between mul6 and 0x7ef1c18 of type mul
+Adding edge 2 between mul6 and Constant+2048+82+0+15 of type mul
+Variables can't find value of mul6 1 or Constant+2048+82+0+15 0
+GE No name load
+Adding edge 12 between 0x7ef1d58 and j of type load
+GE Instruction add7 add
+Adding implicit edges between add7 and cmp
+Adding edge 1 between add7 and mul6 of type add
+Adding edge 2 between add7 and 0x7ef1d58 of type add
+GE Instruction idxprom sext
+Adding implicit edges between idxprom and cmp
+Adding edge 1 between idxprom and add7 of type sext
+GE Instruction arrayidx getelementptr
+Adding implicit edges between arrayidx and cmp
+GRAPH_(genEdge) - GEP(2) arrayidx points to 0x7ef1b88
+In getUpperLevelFieldName for inst arrayidx base 0x7ef1b88
+After getValueFromOrig, we have 0x7edafa0
+(4)base 0x7ef1b88 has uniqueNameAsField: A
+GEP_OFFSET_OP: idxprom to inst: arrayidx
+In getUpperLevelFieldName for inst arrayidx base 0x7ef1b88
+GEP base: 0x7ef1b88  already has the uniqueNameAsField(A), simply return it!
+(1)Inst arrayidx has uniqueNameAsField: I.A
+Collapsable field doesn't exist(1). Create field and make inst name arrayidx dest node.
+GE No name store
+Adding implicit edges between arrayidx and cmp
+ERROR__(genEdges) - Insertion fail for implicit edge
+Adding edge 25 between arrayidx and div of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ef20c8 and j of type load
+GE Instruction inc add
+Adding implicit edges between inc and cmp
+Adding edge 2 between inc and 0x7ef20c8 of type add
+Adding edge 2 between inc and Constant+1+80+0+11 of type add
+Variables can't find value of inc 1 or Constant+1+80+0+11 0
+GE No name store
+Adding implicit edges between j and cmp
+ERROR__(genEdges) - Insertion fail for implicit edge
+Adding edge 25 between j and inc of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x7ef2378 and i of type load
+GE Instruction inc9 add
+Adding implicit edges between inc9 and cmp
+Adding edge 2 between inc9 and 0x7ef2378 of type add
+Adding edge 2 between inc9 and Constant+1+78+0+11 of type add
+Variables can't find value of inc9 1 or Constant+1+78+0+11 0
+GE No name store
+Adding implicit edges between i and cmp
+Adding edge 25 between i and inc9 of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name ret
+Not generating any edges for opcode ret
+Finished generating edges 
+In resolveStores for A.addr
+Store between A.addr and A
+Vertex A.addr is written(4)
+Inserting line number(1a) 0 to A.addr
+We have a storeFrom inserted: A->storeFrom=A.addr
+Stores for V - A.addr number 1
+Insert relevantInst - A in fbb entry
+In resolveStores for i
+Store between i and inc9
+Vertex i is written(4)
+Inserting line number(1a) 78 to i
+We have a storeFrom inserted: inc9->storeFrom=i
+Store between i and Constant+0+78+0+31
+Vertex i is written(4)
+Inserting line number(1a) 78 to i
+We have a storeFrom inserted: Constant+0+78+0+31->storeFrom=i
+Stores for V - i number 2
+Insert relevantInst - inc9 in fbb for.inc8
+Insert relevantInst - Constant+0+78+0+31 in fbb entry
+In resolveStores for j
+Store between j and inc
+Vertex j is written(4)
+Inserting line number(1a) 80 to j
+We have a storeFrom inserted: inc->storeFrom=j
+Store between j and Constant+0+80+0+31
+Vertex j is written(4)
+Inserting line number(1a) 80 to j
+We have a storeFrom inserted: Constant+0+80+0+31->storeFrom=j
+Stores for V - j number 2
+Insert relevantInst - Constant+0+80+0+31 in fbb for.body
+Insert relevantInst - inc in fbb for.inc
+In resolveStores for A
+In resolveStores for Constant+0+78+0+31
+In resolveStores for 0x7ef1148
+In resolveStores for cmp
+In resolveStores for Constant+0+80+0+31
+In resolveStores for 0x7ef1488
+In resolveStores for cmp2
+In resolveStores for 0x7ef1688
+In resolveStores for add
+In resolveStores for conv
+In resolveStores for 0x7ef1858
+In resolveStores for add4
+In resolveStores for conv5
+In resolveStores for mul
+In resolveStores for div
+In resolveStores for 0x7ef1b88
+In resolveStores for 0x7ef1c18
+In resolveStores for mul6
+In resolveStores for 0x7ef1d58
+In resolveStores for add7
+In resolveStores for idxprom
+In resolveStores for arrayidx
+Store between arrayidx and div
+Vertex arrayidx is written(4)
+Inserting line number(1a) 82 to arrayidx
+We have a storeFrom inserted: div->storeFrom=arrayidx
+Stores for V - arrayidx number 1
+Insert relevantInst - div in fbb for.body3
+In resolveStores for 0x7ef20c8
+In resolveStores for inc
+In resolveStores for 0x7ef2378
+In resolveStores for inc9
+Before CFG sort
+Before assignBBGenKIll
+Before reachingDefs
+Before calcStoreLines
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31->storeLines.insert in pos2
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc->storeLines.insert in pos2
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31 isn't alive out of this BB
+Weird: no border line comes after vp->line_num
+In genBB, inc9->storeLines.insert(78) in pos8
+inc9->storeLines.insert(78) in pos4
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31 isn't alive out of this BB
+Weird: no border line comes after vp->line_num
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc->storeLines.insert in pos2
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31->storeLines.insert in pos2
+In genBB, inc->storeLines.insert(80) in pos8
+inc->storeLines.insert(80) in pos4
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31->storeLines.insert in pos2
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc->storeLines.insert in pos2
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31->storeLines.insert in pos2
+In genBB, div->storeLines.insert(82) in pos8
+div->storeLines.insert(82) in pos4
+div->storeLines.insert(83) in pos4
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31->storeLines.insert in pos2
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc->storeLines.insert in pos2
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31->storeLines.insert in pos2
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31->storeLines.insert in pos2
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc->storeLines.insert in pos2
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31->storeLines.insert in pos2
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31->storeLines.insert in pos2
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc isn't alive out of this BB
+Weird: no border line comes after vp->line_num
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31->storeLines.insert in pos2
+In genBB, Constant+0+80+0+31->storeLines.insert(80) in pos8
+Constant+0+80+0+31->storeLines.insert(80) in pos4
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31->storeLines.insert in pos2
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc->storeLines.insert in pos2
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31->storeLines.insert in pos2
+In inBB, div->storeLines.insert(82) in pos1
+div->storeLines.insert in pos2
+In inBB, Constant+0+80+0+31->storeLines.insert(80) in pos1
+Constant+0+80+0+31->storeLines.insert in pos2
+In inBB, inc9->storeLines.insert(78) in pos1
+inc9->storeLines.insert in pos2
+In inBB, inc->storeLines.insert(80) in pos1
+inc->storeLines.insert in pos2
+In inBB, A->storeLines.insert(0) in pos1
+A->storeLines.insert in pos2
+In inBB, Constant+0+78+0+31->storeLines.insert(78) in pos1
+Constant+0+78+0+31->storeLines.insert in pos2
+In genBB, A->storeLines.insert(0) in pos8
+A->storeLines.insert(74) in pos4
+A->storeLines.insert(76) in pos4
+A->storeLines.insert(78) in pos4
+In genBB, Constant+0+78+0+31->storeLines.insert(78) in pos8
+Constant+0+78+0+31's sl failed in Cond3
+Constant+0+78+0+31's sl failed in Cond3
+Constant+0+78+0+31->storeLines.insert(78) in pos4
+Before printCFG
+FBB name: for.inc8
+Successors: for.cond 
+Predecessors: for.end 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: inc9(78)
+   Gen: inc9  
+   Kill: Constant+0+78+0+31  
+BB Gen: inc9 
+BB Kill: Constant+0+78+0+31 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div Constant+0+80+0+31 inc9 inc A 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: for.inc
+Successors: for.cond1 
+Predecessors: for.body3 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: inc(80)
+   Gen: inc  
+   Kill: Constant+0+80+0+31  
+BB Gen: inc 
+BB Kill: Constant+0+80+0+31 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div inc9 inc A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: for.body3
+Successors: for.inc 
+Predecessors: for.cond1 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: div(82)
+   Gen: div  
+   Kill: 
+BB Gen: div 
+BB Kill: 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: for.cond1
+Successors: for.body3 for.end 
+Predecessors: for.inc for.body 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: for.end10
+Successors: 
+Predecessors: for.cond 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: for.body
+Successors: for.cond1 
+Predecessors: for.cond 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: Constant+0+80+0+31(80)
+   Gen: Constant+0+80+0+31  
+   Kill: inc  
+BB Gen: Constant+0+80+0+31 
+BB Kill: inc 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div Constant+0+80+0+31 inc9 A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: for.cond
+Successors: for.end10 for.body 
+Predecessors: entry for.inc8 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: for.end
+Successors: for.inc8 
+Predecessors: for.cond1 
+Ancestors: entry for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+BB Out: div Constant+0+80+0+31 inc9 inc A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: entry
+Successors: for.cond 
+Predecessors: 
+Ancestors: 
+Descendants: for.end10 for.body3 for.cond1 for.inc8 for.cond for.inc for.end for.body 
+Relevant Instructions: A(0)
+   Gen: A  
+   Kill: 
+Constant+0+78+0+31(78)
+   Gen: Constant+0+78+0+31  
+   Kill: inc9  
+BB Gen: A Constant+0+78+0+31 
+BB Kill: inc9 
+BB In: 
+BB Out: A Constant+0+78+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+
+For sourceVP(Load): 0x7ef1b88 82
+---
+storeVP: A - Store Lines - 0 74 76 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:A ln=0 lNO=0  sourceVP:0x7ef1b88 ln=82 lNO=8
+RESOLVED_L_S_OP added between 0x7ef1b88 and A
+---
+
+For sourceVP(Load): 0x7ef1c18 82
+---
+storeVP: inc9 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc9 ln=78 lNO=4  sourceVP:0x7ef1c18 ln=82 lNO=9
+Need to remove edge(hui) from 0x7ef1c18 to i [8]
+RESOLVED_L_S_OP added between 0x7ef1c18 and inc9
+storeVP: Constant+0+78+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+78+0+31 ln=78 lNO=0  sourceVP:0x7ef1c18 ln=82 lNO=9
+RESOLVED_L_S_OP added between 0x7ef1c18 and Constant+0+78+0+31
+---
+
+For sourceVP(Load): 0x7ef2378 78
+---
+storeVP: inc9 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc9 ln=78 lNO=4  sourceVP:0x7ef2378 ln=78 lNO=3
+resolveStoreLine fails because lineNumOrder
+storeVP: Constant+0+78+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+78+0+31 ln=78 lNO=0  sourceVP:0x7ef2378 ln=78 lNO=3
+resolveStoreLine fails because lineNumOrder
+---
+
+For sourceVP(Load): 0x7ef1688 82
+---
+storeVP: inc9 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc9 ln=78 lNO=4  sourceVP:0x7ef1688 ln=82 lNO=0
+Need to remove edge(hui) from 0x7ef1688 to i [8]
+RESOLVED_L_S_OP added between 0x7ef1688 and inc9
+storeVP: Constant+0+78+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+78+0+31 ln=78 lNO=0  sourceVP:0x7ef1688 ln=82 lNO=0
+RESOLVED_L_S_OP added between 0x7ef1688 and Constant+0+78+0+31
+---
+
+For sourceVP(Load): 0x7ef1148 78
+---
+storeVP: inc9 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc9 ln=78 lNO=4  sourceVP:0x7ef1148 ln=78 lNO=1
+resolveStoreLine fails because lineNumOrder
+storeVP: Constant+0+78+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+78+0+31 ln=78 lNO=0  sourceVP:0x7ef1148 ln=78 lNO=1
+resolveStoreLine fails because lineNumOrder
+---
+
+For sourceVP(Load): 0x7ef20c8 80
+---
+storeVP: Constant+0+80+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+80+0+31 ln=80 lNO=0  sourceVP:0x7ef20c8 ln=80 lNO=3
+resolveStoreLine fails because lineNumOrder
+storeVP: inc - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc ln=80 lNO=4  sourceVP:0x7ef20c8 ln=80 lNO=3
+resolveStoreLine fails because lineNumOrder
+---
+
+For sourceVP(Load): 0x7ef1d58 82
+---
+storeVP: Constant+0+80+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+80+0+31 ln=80 lNO=0  sourceVP:0x7ef1d58 ln=82 lNO=11
+RESOLVED_L_S_OP added between 0x7ef1d58 and Constant+0+80+0+31
+storeVP: inc - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc ln=80 lNO=4  sourceVP:0x7ef1d58 ln=82 lNO=11
+Need to remove edge(hui) from 0x7ef1d58 to j [8]
+RESOLVED_L_S_OP added between 0x7ef1d58 and inc
+---
+
+For sourceVP(Load): 0x7ef1858 82
+---
+storeVP: Constant+0+80+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+80+0+31 ln=80 lNO=0  sourceVP:0x7ef1858 ln=82 lNO=3
+RESOLVED_L_S_OP added between 0x7ef1858 and Constant+0+80+0+31
+storeVP: inc - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc ln=80 lNO=4  sourceVP:0x7ef1858 ln=82 lNO=3
+Need to remove edge(hui) from 0x7ef1858 to j [8]
+RESOLVED_L_S_OP added between 0x7ef1858 and inc
+---
+
+For sourceVP(Load): 0x7ef1488 80
+---
+storeVP: Constant+0+80+0+31 - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:Constant+0+80+0+31 ln=80 lNO=0  sourceVP:0x7ef1488 ln=80 lNO=1
+resolveStoreLine fails because lineNumOrder
+storeVP: inc - Store Lines - 78 80 82 83 84 85  ; Border Lines - 
+In resolveStoreLine storeVP:inc ln=80 lNO=4  sourceVP:0x7ef1488 ln=80 lNO=1
+resolveStoreLine fails because lineNumOrder
+---
+
+
+In resolvePointersForNode for A.addr
+A.addr is Instruction
+A.addr's pointer level is 2
+A.addr has pointer type **Float
+Inserting pointer(1) A.addr
+LOAD operation between A.addr and 0x7ef1b88
+Load not put in because there was a R_L_S from targetV 0x7ef1b88
+R_L_S op between A and 0x7ef1b88
+In resolvePointersHelper for 0x7ef1b88 oV - A.addr
+Ptr Level(targetV) - 1 oV: 2
+In inner loop for 0x7ef1b88
+In Edges for 0x7ef1b88  1000
+Adding GEP(1) arrayidx 1 to A.addr
+Adding arrayidx to list of resolvedLSSideEffects for A
+Adding GEP(2) arrayidx to load 0x7ef1b88
+In resolvePointersHelper for arrayidx oV - 0x7ef1b88
+Ptr Level(targetV) - 1 oV: 2
+In inner loop for arrayidx
+Here(2) 1 arrayidx
+Vertex arrayidx is written(5)
+Vertex 0x7ef1b88 is written(6)
+
+For PTR A.addr
+Is Pointer 1
+Is Written 0
+Aliases in 
+Aliases out 
+Fields 
+GEPs arrayidx 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo A 
+StoreLines
+
+
+In resolvePointersForNode for i
+i is Instruction
+i's pointer level is 1
+i has pointer type *Int
+
+For PTR i
+Is Pointer 0
+Is Written 1
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo inc9 Constant+0+78+0+31 
+StoreLines
+
+
+In resolvePointersForNode for j
+j is Instruction
+j's pointer level is 1
+j has pointer type *Int
+
+For PTR j
+Is Pointer 0
+Is Written 1
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo Constant+0+80+0+31 inc 
+StoreLines
+
+At this point the pointers are: A.addr 
+At this point(2) the pointers are: A.addr 
+In checkIfWritten for A.addr, orig isWritten=0
+In checkIfWritten for A.addr, after aliasesOut, writeTotal=0
+In checkIfWritten for A.addr, after aliasesIn, writeTotal=0
+In checkIfWritten for A.addr, after almostAlias, writeTotal=0
+In checkIfWritten for A.addr, after resolvedLS, writeTotal=0
+In checkIfWritten for A.addr, after fields, writeTotal=0
+In checkIfWritten for A.addr, after nonAliasStores, writeTotal=0
+In checkIfWritten for A.addr, after arrayAccess, writeTotal=0
+In checkIfWritten for A.addr, after loads, writeTotal=0
+In checkIfWritten for A.addr, after GEPChildren, writeTotal=0
+For ev: A.addr one of the aliases was NOT written to, NO resolveAliases on it
+In checkIfWritten for A.addr, orig isWritten=0
+In checkIfWritten for A.addr, after aliasesOut, writeTotal=0
+In checkIfWritten for A.addr, after aliasesIn, writeTotal=0
+In checkIfWritten for A.addr, after almostAlias, writeTotal=0
+In checkIfWritten for A.addr, after resolvedLS, writeTotal=0
+In checkIfWritten for A.addr, after fields, writeTotal=0
+In checkIfWritten for A.addr, after nonAliasStores, writeTotal=0
+In checkIfWritten for A.addr, after arrayAccess, writeTotal=0
+In checkIfWritten for A.addr, after loads, writeTotal=0
+In checkIfWritten for A.addr, after GEPChildren, writeTotal=0
+In checkIfWritten for i, orig isWritten=1
+In checkIfWritten for i, after aliasesOut, writeTotal=1
+In checkIfWritten for i, after aliasesIn, writeTotal=1
+In checkIfWritten for i, after almostAlias, writeTotal=1
+In checkIfWritten for i, after resolvedLS, writeTotal=1
+In checkIfWritten for i, after fields, writeTotal=1
+In checkIfWritten for i, after nonAliasStores, writeTotal=1
+In checkIfWritten for i, after arrayAccess, writeTotal=1
+In checkIfWritten for i, after loads, writeTotal=1
+In checkIfWritten for i, after GEPChildren, writeTotal=1
+In checkIfWritten for j, orig isWritten=1
+In checkIfWritten for j, after aliasesOut, writeTotal=1
+In checkIfWritten for j, after aliasesIn, writeTotal=1
+In checkIfWritten for j, after almostAlias, writeTotal=1
+In checkIfWritten for j, after resolvedLS, writeTotal=1
+In checkIfWritten for j, after fields, writeTotal=1
+In checkIfWritten for j, after nonAliasStores, writeTotal=1
+In checkIfWritten for j, after arrayAccess, writeTotal=1
+In checkIfWritten for j, after loads, writeTotal=1
+In checkIfWritten for j, after GEPChildren, writeTotal=1
+In checkIfWritten for 0x7ef1b88, orig isWritten=1
+In checkIfWritten for 0x7ef1b88, after aliasesOut, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after aliasesIn, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after almostAlias, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after resolvedLS, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after fields, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after nonAliasStores, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after arrayAccess, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after loads, writeTotal=1
+In checkIfWritten for 0x7ef1b88, after GEPChildren, writeTotal=1
+In checkIfWritten for arrayidx, orig isWritten=1
+In checkIfWritten for arrayidx, after aliasesOut, writeTotal=1
+In checkIfWritten for arrayidx, after aliasesIn, writeTotal=1
+In checkIfWritten for arrayidx, after almostAlias, writeTotal=1
+In checkIfWritten for arrayidx, after resolvedLS, writeTotal=1
+In checkIfWritten for arrayidx, after fields, writeTotal=1
+In checkIfWritten for arrayidx, after nonAliasStores, writeTotal=1
+In checkIfWritten for arrayidx, after arrayAccess, writeTotal=1
+In checkIfWritten for arrayidx, after loads, writeTotal=1
+In checkIfWritten for arrayidx, after GEPChildren, writeTotal=1
+Calling DBHL 
+EXIT__(determineBFCHolders) for isFormalArg(holder) A.addr
+EV__(determineBFCForVertexLite) -- for A.addr
+EV__(LLVMtoExitVars2) -- Add node for A.addr
+EV__(determineBFCForVertexLite) -- for cmp2
+EV__(determineBFCForVertexLite) -- for arrayidx
+Finished DBHL , now going to print _trunc.dot file 
+In populateImportantVertices for A.addr
+Calling recursiveExamineChildren on A.addr for A.addr
+Looking at target A from A.addr
+Node Props for A: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - A
+OrigVP->dpUpPtr - A.addr
+Adding Child/Parent relation between A and A.addr
+Line nums for origVP: A.addr (E)  0
+Finished Calling recursiveExamineChildren for A.addr
+In populateImportantVertices for i
+Calling recursiveExamineChildren on i for i
+Looking at target inc9 from i
+Node Props for inc9: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - inc9
+OrigVP->dpUpPtr - i
+Adding Child/Parent relation between inc9 and i
+Looking at target cmp from i
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to i
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for i
+Looking at target 0x7ef1148 from cmp
+Node Props for 0x7ef1148: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=51
+Inserting line number(8) 78 to i
+Start recursion of recursiveExamineChildren on 0x7ef1148
+Calling recursiveExamineChildren on 0x7ef1148 for i
+Looking at target i from 0x7ef1148
+Node Props for i: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - i
+OrigVP->dpUpPtr - i
+Line nums for origVP: i (E)  78
+Looking at target cmp from cmp
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to i
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: i (E)  78
+Looking at target Constant+0+78+0+31 from i
+Node Props for Constant+0+78+0+31: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - Constant+0+78+0+31
+OrigVP->dpUpPtr - i
+Adding Child/Parent relation between Constant+0+78+0+31 and i
+Line nums for origVP: i (E)  78
+Finished Calling recursiveExamineChildren for i
+In populateImportantVertices for j
+Calling recursiveExamineChildren on j for j
+Looking at target inc from j
+Node Props for inc: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - inc
+OrigVP->dpUpPtr - j
+Adding Child/Parent relation between inc and j
+Looking at target Constant+0+80+0+31 from j
+Node Props for Constant+0+80+0+31: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - Constant+0+80+0+31
+OrigVP->dpUpPtr - j
+Adding Child/Parent relation between Constant+0+80+0+31 and j
+Looking at target cmp from j
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to j
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for j
+Looking at target 0x7ef1148 from cmp
+Node Props for 0x7ef1148: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=51
+Inserting line number(8) 78 to j
+Start recursion of recursiveExamineChildren on 0x7ef1148
+Calling recursiveExamineChildren on 0x7ef1148 for j
+Looking at target i from 0x7ef1148
+Node Props for i: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - i
+OrigVP->dpUpPtr - j
+Adding Child/Parent relation between i and j
+Line nums for origVP: j (E)  78 80
+Looking at target cmp from cmp
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to j
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: j (E)  78 80
+Line nums for origVP: j (E)  78 80
+Finished Calling recursiveExamineChildren for j
+In populateImportantVertices for A
+Calling recursiveExamineChildren on A for A
+Inserting line number(6) 0 to A
+Inserting line number(7) 0 to A
+Line nums for origVP: A (E)  0
+Finished Calling recursiveExamineChildren for A
+In populateImportantVertices for Constant+0+78+0+31
+Calling recursiveExamineChildren on Constant+0+78+0+31 for Constant+0+78+0+31
+Inserting line number(6) 78 to Constant+0+78+0+31
+Inserting line number(7) 78 to Constant+0+78+0+31
+Line nums for origVP: Constant+0+78+0+31 (E)  78
+Finished Calling recursiveExamineChildren for Constant+0+78+0+31
+In populateImportantVertices for Constant+0+80+0+31
+Calling recursiveExamineChildren on Constant+0+80+0+31 for Constant+0+80+0+31
+Inserting line number(6) 80 to Constant+0+80+0+31
+Inserting line number(7) 80 to Constant+0+80+0+31
+Line nums for origVP: Constant+0+80+0+31 (E)  80
+Finished Calling recursiveExamineChildren for Constant+0+80+0+31
+In populateImportantVertices for div
+Calling recursiveExamineChildren on div for div
+Looking at target mul from div
+Node Props for mul: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=19
+Inserting line number(8) 82 to div
+Start recursion of recursiveExamineChildren on mul
+Calling recursiveExamineChildren on mul for div
+Looking at target conv from mul
+Node Props for conv: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=16
+Inserting line number(8) 82 to div
+Start recursion of recursiveExamineChildren on conv
+Calling recursiveExamineChildren on conv for div
+Looking at target add from conv
+Node Props for add: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=42
+Inserting line number(8) 82 to div
+Start recursion of recursiveExamineChildren on add
+Calling recursiveExamineChildren on add for div
+Looking at target 0x7ef1688 from add
+Node Props for 0x7ef1688: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=11
+Inserting line number(8) 82 to div
+Start recursion of recursiveExamineChildren on 0x7ef1688
+Calling recursiveExamineChildren on 0x7ef1688 for div
+Looking at target Constant+0+78+0+31 from 0x7ef1688
+Node Props for Constant+0+78+0+31: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - Constant+0+78+0+31
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between Constant+0+78+0+31 and div
+Looking at target inc9 from 0x7ef1688
+Node Props for inc9: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - inc9
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between inc9 and div
+Line nums for origVP: div (E)  82
+Looking at target cmp from add
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for div
+Looking at target 0x7ef1148 from cmp
+Node Props for 0x7ef1148: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=51
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on 0x7ef1148
+Calling recursiveExamineChildren on 0x7ef1148 for div
+Looking at target i from 0x7ef1148
+Node Props for i: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - i
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between i and div
+Line nums for origVP: div (E)  78 82
+Looking at target cmp from cmp
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: div (E)  78 82
+Line nums for origVP: div (E)  78 82
+Looking at target cmp from conv
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: div (E)  78 82
+Looking at target conv5 from mul
+Node Props for conv5: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=16
+Inserting line number(8) 82 to div
+Start recursion of recursiveExamineChildren on conv5
+Calling recursiveExamineChildren on conv5 for div
+Looking at target add4 from conv5
+Node Props for add4: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=42
+Inserting line number(8) 82 to div
+Start recursion of recursiveExamineChildren on add4
+Calling recursiveExamineChildren on add4 for div
+Looking at target 0x7ef1858 from add4
+Node Props for 0x7ef1858: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=11
+Inserting line number(8) 82 to div
+Start recursion of recursiveExamineChildren on 0x7ef1858
+Calling recursiveExamineChildren on 0x7ef1858 for div
+Looking at target inc from 0x7ef1858
+Node Props for inc: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - inc
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between inc and div
+Looking at target Constant+0+80+0+31 from 0x7ef1858
+Node Props for Constant+0+80+0+31: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - Constant+0+80+0+31
+OrigVP->dpUpPtr - div
+Adding Child/Parent relation between Constant+0+80+0+31 and div
+Line nums for origVP: div (E)  78 82
+Looking at target cmp from add4
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: div (E)  78 82
+Looking at target cmp from conv5
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: div (E)  78 82
+Looking at target cmp from mul
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: div (E)  78 82
+Looking at target cmp from div
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to div
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: div (E)  78 82
+Finished Calling recursiveExamineChildren for div
+In populateImportantVertices for 0x7ef1b88
+Calling recursiveExamineChildren on 0x7ef1b88 for 0x7ef1b88
+Looking at target A from 0x7ef1b88
+Node Props for A: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - A
+OrigVP->dpUpPtr - 0x7ef1b88
+Adding Child/Parent relation between A and 0x7ef1b88
+Looking at target A.addr from 0x7ef1b88
+Node Props for A.addr: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - A.addr
+OrigVP->dpUpPtr - 0x7ef1b88
+Adding Child/Parent relation between A.addr and 0x7ef1b88
+Line nums for origVP: 0x7ef1b88 (E) 
+Finished Calling recursiveExamineChildren for 0x7ef1b88
+In populateImportantVertices for arrayidx
+Calling recursiveExamineChildren on arrayidx for arrayidx
+Looking at target div from arrayidx
+Node Props for div: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - 0x7ef1b88
+TargetV->dpUpPtr - div
+OrigVP->dpUpPtr - arrayidx
+Adding Child/Parent relation between div and arrayidx
+Looking at target idxprom from arrayidx
+Node Props for idxprom: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=1001
+Inserting line number(8) 82 to arrayidx
+Start recursion of recursiveExamineChildren on idxprom
+Calling recursiveExamineChildren on idxprom for arrayidx
+Looking at target add7 from idxprom
+Node Props for add7: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=38
+Inserting line number(8) 82 to arrayidx
+Start recursion of recursiveExamineChildren on add7
+Calling recursiveExamineChildren on add7 for arrayidx
+Looking at target 0x7ef1d58 from add7
+Node Props for 0x7ef1d58: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=11
+Inserting line number(8) 82 to arrayidx
+Start recursion of recursiveExamineChildren on 0x7ef1d58
+Calling recursiveExamineChildren on 0x7ef1d58 for arrayidx
+Looking at target inc from 0x7ef1d58
+Node Props for inc: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - 0x7ef1b88
+TargetV->dpUpPtr - inc
+OrigVP->dpUpPtr - arrayidx
+Adding Child/Parent relation between inc and arrayidx
+Looking at target Constant+0+80+0+31 from 0x7ef1d58
+Node Props for Constant+0+80+0+31: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - 0x7ef1b88
+TargetV->dpUpPtr - Constant+0+80+0+31
+OrigVP->dpUpPtr - arrayidx
+Adding Child/Parent relation between Constant+0+80+0+31 and arrayidx
+Line nums for origVP: arrayidx (E)  82
+Looking at target mul6 from add7
+Node Props for mul6: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=11
+Inserting line number(8) 82 to arrayidx
+Start recursion of recursiveExamineChildren on mul6
+Calling recursiveExamineChildren on mul6 for arrayidx
+Looking at target 0x7ef1c18 from mul6
+Node Props for 0x7ef1c18: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=15
+Inserting line number(8) 82 to arrayidx
+Start recursion of recursiveExamineChildren on 0x7ef1c18
+Calling recursiveExamineChildren on 0x7ef1c18 for arrayidx
+Looking at target Constant+0+78+0+31 from 0x7ef1c18
+Node Props for Constant+0+78+0+31: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - 0x7ef1b88
+TargetV->dpUpPtr - Constant+0+78+0+31
+OrigVP->dpUpPtr - arrayidx
+Adding Child/Parent relation between Constant+0+78+0+31 and arrayidx
+Looking at target inc9 from 0x7ef1c18
+Node Props for inc9: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=502
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - 0x7ef1b88
+TargetV->dpUpPtr - inc9
+OrigVP->dpUpPtr - arrayidx
+Adding Child/Parent relation between inc9 and arrayidx
+Line nums for origVP: arrayidx (E)  82
+Looking at target cmp from mul6
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to arrayidx
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for arrayidx
+Looking at target 0x7ef1148 from cmp
+Node Props for 0x7ef1148: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=51
+Inserting line number(8) 78 to arrayidx
+Start recursion of recursiveExamineChildren on 0x7ef1148
+Calling recursiveExamineChildren on 0x7ef1148 for arrayidx
+Looking at target i from 0x7ef1148
+Node Props for i: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - 0x7ef1b88
+TargetV->dpUpPtr - i
+OrigVP->dpUpPtr - arrayidx
+Adding Child/Parent relation between i and arrayidx
+Line nums for origVP: arrayidx (E)  78 82
+Looking at target cmp from cmp
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to arrayidx
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: arrayidx (E)  78 82
+Line nums for origVP: arrayidx (E)  78 82
+Looking at target cmp from add7
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to arrayidx
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: arrayidx (E)  78 82
+Looking at target cmp from idxprom
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to arrayidx
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: arrayidx (E)  78 82
+Looking at target 0x7ef1b88 from arrayidx
+Node Props for 0x7ef1b88: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=1000
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - 0x7ef1b88
+TargetV->dpUpPtr - 0x7ef1b88
+OrigVP->dpUpPtr - arrayidx
+Looking at target cmp from arrayidx
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to arrayidx
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: arrayidx (E)  78 82
+Finished Calling recursiveExamineChildren for arrayidx
+In populateImportantVertices for inc
+Calling recursiveExamineChildren on inc for inc
+Looking at target 0x7ef20c8 from inc
+Node Props for 0x7ef20c8: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=11
+Inserting line number(8) 80 to inc
+Start recursion of recursiveExamineChildren on 0x7ef20c8
+Calling recursiveExamineChildren on 0x7ef20c8 for inc
+Looking at target j from 0x7ef20c8
+Node Props for j: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - j
+OrigVP->dpUpPtr - inc
+Adding Child/Parent relation between j and inc
+Line nums for origVP: inc (E)  80
+Looking at target cmp from inc
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to inc
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for inc
+Looking at target 0x7ef1148 from cmp
+Node Props for 0x7ef1148: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=51
+Inserting line number(8) 78 to inc
+Start recursion of recursiveExamineChildren on 0x7ef1148
+Calling recursiveExamineChildren on 0x7ef1148 for inc
+Looking at target i from 0x7ef1148
+Node Props for i: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - i
+OrigVP->dpUpPtr - inc
+Adding Child/Parent relation between i and inc
+Line nums for origVP: inc (E)  78 80
+Looking at target cmp from cmp
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to inc
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: inc (E)  78 80
+Line nums for origVP: inc (E)  78 80
+Finished Calling recursiveExamineChildren for inc
+In populateImportantVertices for inc9
+Calling recursiveExamineChildren on inc9 for inc9
+Looking at target 0x7ef2378 from inc9
+Node Props for 0x7ef2378: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=11
+Inserting line number(8) 78 to inc9
+Start recursion of recursiveExamineChildren on 0x7ef2378
+Calling recursiveExamineChildren on 0x7ef2378 for inc9
+Looking at target i from 0x7ef2378
+Node Props for i: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - i
+OrigVP->dpUpPtr - inc9
+Adding Child/Parent relation between i and inc9
+Line nums for origVP: inc9 (E)  78
+Looking at target cmp from inc9
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to inc9
+Start recursion of recursiveExamineChildren on cmp
+Calling recursiveExamineChildren on cmp for inc9
+Looking at target 0x7ef1148 from cmp
+Node Props for 0x7ef1148: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=51
+Inserting line number(8) 78 to inc9
+Start recursion of recursiveExamineChildren on 0x7ef1148
+Calling recursiveExamineChildren on 0x7ef1148 for inc9
+Looking at target i from 0x7ef1148
+Node Props for i: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=30
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - i
+OrigVP->dpUpPtr - inc9
+Adding Child/Parent relation between i and inc9
+Line nums for origVP: inc9 (E)  78
+Looking at target cmp from cmp
+Node Props for cmp: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=0
+Inserting line number(8) 78 to inc9
+Start recursion of recursiveExamineChildren on cmp
+Line nums for origVP: inc9 (E)  78
+Line nums for origVP: inc9 (E)  78
+Finished Calling recursiveExamineChildren for inc9
+Looking at IVP div in resolveLooseStructs. 
+Type name (resolveLooseStructs) Float
+Looking at IVP 0x7ef1b88 in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Float
+Looking at IVP j in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP i in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP A.addr in resolveLooseStructs. 
+Type name (resolveLooseStructs) **Float
+Looking at IVP Constant+0+80+0+31 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+Looking at IVP inc9 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Int
+Looking at IVP inc in resolveLooseStructs. 
+Type name (resolveLooseStructs) Int
+Looking at IVP arrayidx in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Float
+Looking at IVP A in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+Looking at IVP Constant+0+78+0+31 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+
+After insert line_num of div
+82 
+After insert lineNumbers(-1) from baseline for div
+78 82 
+After storesTo: div
+78 82 
+After DF Children div
+78 82 
+
+Entering calcAggregateLNRecursive for i
+Starting line number tally for i originally:
+
+After insert line_num of i
+76 
+After insert lineNumbers(-1) from baseline for i
+76 78 
+
+Entering calcAggregateLNRecursive for inc9
+Starting line number tally for inc9 originally:
+
+After insert line_num of inc9
+78 
+After insert lineNumbers(-1) from baseline for inc9
+78 
+After storesTo: inc9
+78 
+After DF Children inc9
+78 
+Conflict in LNRecursive. Need to revisit i and inc9
+After Children inc9
+78 
+After Data Ptrs inc9
+78 
+After fields inc9
+78 
+After aliases inc9
+78 
+After DF Aliases inc9
+78 
+After Resolved LS From inc9
+78 
+After loadForCalls inc9
+78 
+After GEPChildren inc9
+78 
+Exiting calcAggregateLNRecursive for inc9
+Inserting Line Numbers(0) from inc9 to i
+78 
+
+Entering calcAggregateLNRecursive for Constant+0+78+0+31
+Starting line number tally for Constant+0+78+0+31 originally:
+
+After insert line_num of Constant+0+78+0+31
+78 
+Constant+0+78+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(0) from Constant+0+78+0+31 to i
+78 
+After storesTo: i
+76 78 
+After DF Children i
+76 78 
+Inserting Line Numbers(2) from inc9 to i
+78 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(2) from Constant+0+78+0+31 to i
+78 
+After Children i
+76 78 
+After Data Ptrs i
+76 78 
+After fields i
+76 78 
+After aliases i
+76 78 
+After DF Aliases i
+76 78 
+After Resolved LS From i
+76 78 
+After loadForCalls i
+76 78 
+After GEPChildren i
+76 78 
+Exiting calcAggregateLNRecursive for i
+
+Entering calcAggregateLNRecursive for Constant+0+80+0+31
+Starting line number tally for Constant+0+80+0+31 originally:
+
+After insert line_num of Constant+0+80+0+31
+80 
+Constant+0+80+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and div
+Inserting Line Numbers(2) from Constant+0+80+0+31 to div
+80 
+Inserting Line Numbers(2) from inc9 to div
+78 
+
+Entering calcAggregateLNRecursive for inc
+Starting line number tally for inc originally:
+
+After insert line_num of inc
+80 
+After insert lineNumbers(-1) from baseline for inc
+78 80 
+After storesTo: inc
+78 80 
+After DF Children inc
+78 80 
+
+Entering calcAggregateLNRecursive for j
+Starting line number tally for j originally:
+
+After insert line_num of j
+76 
+After insert lineNumbers(-1) from baseline for j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(0) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(0) from inc to j
+78 80 
+After storesTo: j
+76 78 80 
+After DF Children j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(2) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(2) from inc to j
+78 80 
+After Children j
+76 78 80 
+After Data Ptrs j
+76 78 80 
+After fields j
+76 78 80 
+After aliases j
+76 78 80 
+After DF Aliases j
+76 78 80 
+After Resolved LS From j
+76 78 80 
+After loadForCalls j
+76 78 80 
+After GEPChildren j
+76 78 80 
+Exiting calcAggregateLNRecursive for j
+After Children inc
+78 80 
+After Data Ptrs inc
+78 80 
+After fields inc
+78 80 
+After aliases inc
+78 80 
+After DF Aliases inc
+78 80 
+After Resolved LS From inc
+78 80 
+After loadForCalls inc
+78 80 
+After GEPChildren inc
+78 80 
+Exiting calcAggregateLNRecursive for inc
+Inserting Line Numbers(2) from inc to div
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and div
+Inserting Line Numbers(2) from Constant+0+78+0+31 to div
+78 
+After Children div
+78 80 82 
+After Data Ptrs div
+78 80 82 
+After fields div
+78 80 82 
+After aliases div
+78 80 82 
+After DF Aliases div
+78 80 82 
+After Resolved LS From div
+78 80 82 
+After loadForCalls div
+78 80 82 
+After GEPChildren div
+78 80 82 
+Exiting calcAggregateLNRecursive for div
+Entering calcAggCallRecursive for div
+Entering calcAggCallRecursive for i
+Entering calcAggCallRecursive for inc9
+Inserting descParams(1) for inc9 from i
+Exiting calcAggCallRecursive(N) for inc9
+Inserting descParams(1) for i from inc9
+Entering calcAggCallRecursive for Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for Constant+0+78+0+31
+Inserting descParams(1) for i from Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for i
+Inserting descParams(1) for div from i
+Entering calcAggCallRecursive for Constant+0+80+0+31
+Exiting calcAggCallRecursive(N) for Constant+0+80+0+31
+Inserting descParams(1) for div from Constant+0+80+0+31
+Inserting descParams(1) for div from inc9
+Entering calcAggCallRecursive for inc
+Entering calcAggCallRecursive for j
+Inserting descParams(1) for j from i
+Inserting descParams(1) for j from Constant+0+80+0+31
+Inserting descParams(1) for j from inc
+Exiting calcAggCallRecursive(N) for j
+Inserting descParams(1) for inc from j
+Inserting descParams(1) for inc from i
+Exiting calcAggCallRecursive(N) for inc
+Inserting descParams(1) for div from inc
+Inserting descParams(1) for div from Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for div
+
+Entering calcAggregateLNRecursive for 0x7ef1b88
+Starting line number tally for 0x7ef1b88 originally:
+
+After insert line_num of 0x7ef1b88
+82 
+After insert lineNumbers(-1) from baseline for 0x7ef1b88
+82 
+After storesTo: 0x7ef1b88
+82 
+After DF Children 0x7ef1b88
+82 
+
+Entering calcAggregateLNRecursive for A.addr
+Starting line number tally for A.addr originally:
+
+After insert line_num of A.addr
+0 
+After insert lineNumbers(-1) from baseline for A.addr
+0 
+
+Entering calcAggregateLNRecursive for A
+Starting line number tally for A originally:
+
+After insert line_num of A
+0 
+After insert lineNumbers(-1) from baseline for A
+0 
+After storesTo: A
+0 
+After DF Children A
+0 
+After Children A
+0 
+After Data Ptrs A
+0 
+After fields A
+0 
+After aliases A
+0 
+After DF Aliases A
+0 
+After Resolved LS From A
+0 
+After loadForCalls A
+0 
+Conflict in LNRecursive. Need to revisit 0x7ef1b88 and A
+Inserting Line Numbers(13) from 0x7ef1b88 to A
+82 
+After GEPChildren A
+0 82 
+Exiting calcAggregateLNRecursive for A
+Inserting Line Numbers(0) from A to A.addr
+0 82 
+After storesTo: A.addr
+0 82 
+After DF Children A.addr
+0 82 
+Inserting Line Numbers(2) from A to A.addr
+0 82 
+After Children A.addr
+0 82 
+After Data Ptrs A.addr
+0 82 
+After fields A.addr
+0 82 
+After aliases A.addr
+0 82 
+After DF Aliases A.addr
+0 82 
+After Resolved LS From A.addr
+0 82 
+After loadForCalls A.addr
+0 82 
+After GEPChildren A.addr
+0 82 
+Exiting calcAggregateLNRecursive for A.addr
+Inserting Line Numbers(2) from A.addr to 0x7ef1b88
+0 82 
+Inserting Line Numbers(2) from A to 0x7ef1b88
+0 82 
+After Children 0x7ef1b88
+0 82 
+After Data Ptrs 0x7ef1b88
+0 82 
+After fields 0x7ef1b88
+0 82 
+After aliases 0x7ef1b88
+0 82 
+After DF Aliases 0x7ef1b88
+0 82 
+
+Entering calcAggregateLNRecursive for arrayidx
+Starting line number tally for arrayidx originally:
+
+After insert line_num of arrayidx
+82 
+After insert lineNumbers(-1) from baseline for arrayidx
+78 82 
+Inserting Line Numbers(0) from div to arrayidx
+78 80 82 
+After storesTo: arrayidx
+78 80 82 
+After DF Children arrayidx
+78 80 82 
+Inserting Line Numbers(2) from div to arrayidx
+78 80 82 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+80+0+31 to arrayidx
+80 
+Inserting Line Numbers(2) from inc9 to arrayidx
+78 
+Inserting Line Numbers(2) from inc to arrayidx
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+78+0+31 to arrayidx
+78 
+After Children arrayidx
+78 80 82 
+After Data Ptrs arrayidx
+78 80 82 
+After fields arrayidx
+78 80 82 
+After aliases arrayidx
+78 80 82 
+After DF Aliases arrayidx
+78 80 82 
+After Resolved LS From arrayidx
+78 80 82 
+After loadForCalls arrayidx
+78 80 82 
+After GEPChildren arrayidx
+78 80 82 
+Exiting calcAggregateLNRecursive for arrayidx
+ivp - 0x7ef1b88 adding RLSE lines from arrayidx
+Inserting Line Numbers(6) from A to 0x7ef1b88
+0 82 
+After Resolved LS From 0x7ef1b88
+0 78 80 82 
+After loadForCalls 0x7ef1b88
+0 78 80 82 
+After GEPChildren 0x7ef1b88
+0 78 80 82 
+Exiting calcAggregateLNRecursive for 0x7ef1b88
+Entering calcAggCallRecursive for 0x7ef1b88
+Entering calcAggCallRecursive for A.addr
+Entering calcAggCallRecursive for A
+Entering calcAggCallRecursive for arrayidx
+Inserting descParams(1) for arrayidx from div
+Inserting descParams(1) for arrayidx from i
+Inserting descParams(1) for arrayidx from Constant+0+80+0+31
+Inserting descParams(1) for arrayidx from inc9
+Inserting descParams(1) for arrayidx from inc
+Inserting descParams(1) for arrayidx from Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for arrayidx
+Inserting descParams(8) for A from RLSE arrayidx
+Exiting calcAggCallRecursive(N) for A
+Inserting descParams(1) for A.addr from A
+Inserting descParams(7) for A.addr from arrayidx
+Exiting calcAggCallRecursive(N) for A.addr
+Inserting descParams(1) for 0x7ef1b88 from A.addr
+Inserting descParams(1) for 0x7ef1b88 from A
+Inserting descParams(7) for 0x7ef1b88 from arrayidx
+Exiting calcAggCallRecursive(N) for 0x7ef1b88
+Revisiting some of the conflicted agg LN values.
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+78 80 82 
+After insert line_num of div
+78 80 82 
+After insert lineNumbers(-1) from baseline for div
+78 80 82 
+After storesTo: div
+78 80 82 
+After DF Children div
+78 80 82 
+
+Entering calcAggregateLNRecursive for i
+Starting line number tally for i originally:
+76 78 
+After insert line_num of i
+76 78 
+After insert lineNumbers(-1) from baseline for i
+76 78 
+
+Entering calcAggregateLNRecursive for inc9
+Starting line number tally for inc9 originally:
+78 
+After insert line_num of inc9
+78 
+After insert lineNumbers(-1) from baseline for inc9
+78 
+After storesTo: inc9
+78 
+After DF Children inc9
+78 
+Conflict in LNRecursive. Need to revisit i and inc9
+After Children inc9
+78 
+After Data Ptrs inc9
+78 
+After fields inc9
+78 
+After aliases inc9
+78 
+After DF Aliases inc9
+78 
+After Resolved LS From inc9
+78 
+After loadForCalls inc9
+78 
+After GEPChildren inc9
+78 
+Exiting calcAggregateLNRecursive for inc9
+Inserting Line Numbers(0) from inc9 to i
+78 
+
+Entering calcAggregateLNRecursive for Constant+0+78+0+31
+Starting line number tally for Constant+0+78+0+31 originally:
+78 
+After insert line_num of Constant+0+78+0+31
+78 
+Constant+0+78+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(0) from Constant+0+78+0+31 to i
+78 
+After storesTo: i
+76 78 
+After DF Children i
+76 78 
+Inserting Line Numbers(2) from inc9 to i
+78 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(2) from Constant+0+78+0+31 to i
+78 
+After Children i
+76 78 
+After Data Ptrs i
+76 78 
+After fields i
+76 78 
+After aliases i
+76 78 
+After DF Aliases i
+76 78 
+After Resolved LS From i
+76 78 
+After loadForCalls i
+76 78 
+After GEPChildren i
+76 78 
+Exiting calcAggregateLNRecursive for i
+
+Entering calcAggregateLNRecursive for Constant+0+80+0+31
+Starting line number tally for Constant+0+80+0+31 originally:
+80 
+After insert line_num of Constant+0+80+0+31
+80 
+Constant+0+80+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and div
+Inserting Line Numbers(2) from Constant+0+80+0+31 to div
+80 
+Inserting Line Numbers(2) from inc9 to div
+78 
+
+Entering calcAggregateLNRecursive for inc
+Starting line number tally for inc originally:
+78 80 
+After insert line_num of inc
+78 80 
+After insert lineNumbers(-1) from baseline for inc
+78 80 
+After storesTo: inc
+78 80 
+After DF Children inc
+78 80 
+
+Entering calcAggregateLNRecursive for j
+Starting line number tally for j originally:
+76 78 80 
+After insert line_num of j
+76 78 80 
+After insert lineNumbers(-1) from baseline for j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(0) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(0) from inc to j
+78 80 
+After storesTo: j
+76 78 80 
+After DF Children j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(2) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(2) from inc to j
+78 80 
+After Children j
+76 78 80 
+After Data Ptrs j
+76 78 80 
+After fields j
+76 78 80 
+After aliases j
+76 78 80 
+After DF Aliases j
+76 78 80 
+After Resolved LS From j
+76 78 80 
+After loadForCalls j
+76 78 80 
+After GEPChildren j
+76 78 80 
+Exiting calcAggregateLNRecursive for j
+After Children inc
+78 80 
+After Data Ptrs inc
+78 80 
+After fields inc
+78 80 
+After aliases inc
+78 80 
+After DF Aliases inc
+78 80 
+After Resolved LS From inc
+78 80 
+After loadForCalls inc
+78 80 
+After GEPChildren inc
+78 80 
+Exiting calcAggregateLNRecursive for inc
+Inserting Line Numbers(2) from inc to div
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and div
+Inserting Line Numbers(2) from Constant+0+78+0+31 to div
+78 
+After Children div
+78 80 82 
+After Data Ptrs div
+78 80 82 
+After fields div
+78 80 82 
+After aliases div
+78 80 82 
+After DF Aliases div
+78 80 82 
+After Resolved LS From div
+78 80 82 
+After loadForCalls div
+78 80 82 
+After GEPChildren div
+78 80 82 
+Exiting calcAggregateLNRecursive for div
+
+Entering calcAggregateLNRecursive for 0x7ef1b88
+Starting line number tally for 0x7ef1b88 originally:
+0 78 80 82 
+After insert line_num of 0x7ef1b88
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for 0x7ef1b88
+0 78 80 82 
+After storesTo: 0x7ef1b88
+0 78 80 82 
+After DF Children 0x7ef1b88
+0 78 80 82 
+Inserting Line Numbers(2) from A.addr to 0x7ef1b88
+0 82 
+
+Entering calcAggregateLNRecursive for A
+Starting line number tally for A originally:
+0 82 
+After insert line_num of A
+0 82 
+After insert lineNumbers(-1) from baseline for A
+0 82 
+After storesTo: A
+0 82 
+After DF Children A
+0 82 
+After Children A
+0 82 
+After Data Ptrs A
+0 82 
+After fields A
+0 82 
+After aliases A
+0 82 
+After DF Aliases A
+0 82 
+After Resolved LS From A
+0 82 
+After loadForCalls A
+0 82 
+Conflict in LNRecursive. Need to revisit 0x7ef1b88 and A
+Inserting Line Numbers(13) from 0x7ef1b88 to A
+0 78 80 82 
+After GEPChildren A
+0 78 80 82 
+Exiting calcAggregateLNRecursive for A
+Inserting Line Numbers(2) from A to 0x7ef1b88
+0 78 80 82 
+After Children 0x7ef1b88
+0 78 80 82 
+After Data Ptrs 0x7ef1b88
+0 78 80 82 
+After fields 0x7ef1b88
+0 78 80 82 
+After aliases 0x7ef1b88
+0 78 80 82 
+After DF Aliases 0x7ef1b88
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for arrayidx
+Starting line number tally for arrayidx originally:
+78 80 82 
+After insert line_num of arrayidx
+78 80 82 
+After insert lineNumbers(-1) from baseline for arrayidx
+78 80 82 
+Inserting Line Numbers(0) from div to arrayidx
+78 80 82 
+After storesTo: arrayidx
+78 80 82 
+After DF Children arrayidx
+78 80 82 
+Inserting Line Numbers(2) from div to arrayidx
+78 80 82 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+80+0+31 to arrayidx
+80 
+Inserting Line Numbers(2) from inc9 to arrayidx
+78 
+Inserting Line Numbers(2) from inc to arrayidx
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+78+0+31 to arrayidx
+78 
+After Children arrayidx
+78 80 82 
+After Data Ptrs arrayidx
+78 80 82 
+After fields arrayidx
+78 80 82 
+After aliases arrayidx
+78 80 82 
+After DF Aliases arrayidx
+78 80 82 
+After Resolved LS From arrayidx
+78 80 82 
+After loadForCalls arrayidx
+78 80 82 
+After GEPChildren arrayidx
+78 80 82 
+Exiting calcAggregateLNRecursive for arrayidx
+ivp - 0x7ef1b88 adding RLSE lines from arrayidx
+Inserting Line Numbers(6) from A to 0x7ef1b88
+0 78 80 82 
+After Resolved LS From 0x7ef1b88
+0 78 80 82 
+After loadForCalls 0x7ef1b88
+0 78 80 82 
+After GEPChildren 0x7ef1b88
+0 78 80 82 
+Exiting calcAggregateLNRecursive for 0x7ef1b88
+
+Entering calcAggregateLNRecursive for Constant+0+78+0+31
+Starting line number tally for Constant+0+78+0+31 originally:
+78 
+After insert line_num of Constant+0+78+0+31
+78 
+Constant+0+78+0+31 is not needed in calcAggregateLNRecursive
+
+Entering calcAggregateLNRecursive for A
+Starting line number tally for A originally:
+0 78 80 82 
+After insert line_num of A
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for A
+0 78 80 82 
+After storesTo: A
+0 78 80 82 
+After DF Children A
+0 78 80 82 
+After Children A
+0 78 80 82 
+After Data Ptrs A
+0 78 80 82 
+After fields A
+0 78 80 82 
+After aliases A
+0 78 80 82 
+After DF Aliases A
+0 78 80 82 
+After Resolved LS From A
+0 78 80 82 
+After loadForCalls A
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for 0x7ef1b88
+Starting line number tally for 0x7ef1b88 originally:
+0 78 80 82 
+After insert line_num of 0x7ef1b88
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for 0x7ef1b88
+0 78 80 82 
+After storesTo: 0x7ef1b88
+0 78 80 82 
+After DF Children 0x7ef1b88
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for A.addr
+Starting line number tally for A.addr originally:
+0 82 
+After insert line_num of A.addr
+0 82 
+After insert lineNumbers(-1) from baseline for A.addr
+0 82 
+Conflict in LNRecursive. Need to revisit A and A.addr
+Inserting Line Numbers(0) from A to A.addr
+0 78 80 82 
+After storesTo: A.addr
+0 78 80 82 
+After DF Children A.addr
+0 78 80 82 
+Conflict in LNRecursive. Need to revisit A and A.addr
+Inserting Line Numbers(2) from A to A.addr
+0 78 80 82 
+After Children A.addr
+0 78 80 82 
+After Data Ptrs A.addr
+0 78 80 82 
+After fields A.addr
+0 78 80 82 
+After aliases A.addr
+0 78 80 82 
+After DF Aliases A.addr
+0 78 80 82 
+After Resolved LS From A.addr
+0 78 80 82 
+After loadForCalls A.addr
+0 78 80 82 
+After GEPChildren A.addr
+0 78 80 82 
+Exiting calcAggregateLNRecursive for A.addr
+Inserting Line Numbers(2) from A.addr to 0x7ef1b88
+0 78 80 82 
+Conflict in LNRecursive. Need to revisit A and 0x7ef1b88
+Inserting Line Numbers(2) from A to 0x7ef1b88
+0 78 80 82 
+After Children 0x7ef1b88
+0 78 80 82 
+After Data Ptrs 0x7ef1b88
+0 78 80 82 
+After fields 0x7ef1b88
+0 78 80 82 
+After aliases 0x7ef1b88
+0 78 80 82 
+After DF Aliases 0x7ef1b88
+0 78 80 82 
+Conflict in LNRecursive. Need to revisit A and 0x7ef1b88
+
+Entering calcAggregateLNRecursive for arrayidx
+Starting line number tally for arrayidx originally:
+78 80 82 
+After insert line_num of arrayidx
+78 80 82 
+After insert lineNumbers(-1) from baseline for arrayidx
+78 80 82 
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+78 80 82 
+After insert line_num of div
+78 80 82 
+After insert lineNumbers(-1) from baseline for div
+78 80 82 
+After storesTo: div
+78 80 82 
+After DF Children div
+78 80 82 
+
+Entering calcAggregateLNRecursive for i
+Starting line number tally for i originally:
+76 78 
+After insert line_num of i
+76 78 
+After insert lineNumbers(-1) from baseline for i
+76 78 
+
+Entering calcAggregateLNRecursive for inc9
+Starting line number tally for inc9 originally:
+78 
+After insert line_num of inc9
+78 
+After insert lineNumbers(-1) from baseline for inc9
+78 
+After storesTo: inc9
+78 
+After DF Children inc9
+78 
+Conflict in LNRecursive. Need to revisit i and inc9
+After Children inc9
+78 
+After Data Ptrs inc9
+78 
+After fields inc9
+78 
+After aliases inc9
+78 
+After DF Aliases inc9
+78 
+After Resolved LS From inc9
+78 
+After loadForCalls inc9
+78 
+After GEPChildren inc9
+78 
+Exiting calcAggregateLNRecursive for inc9
+Inserting Line Numbers(0) from inc9 to i
+78 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(0) from Constant+0+78+0+31 to i
+78 
+After storesTo: i
+76 78 
+After DF Children i
+76 78 
+Inserting Line Numbers(2) from inc9 to i
+78 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(2) from Constant+0+78+0+31 to i
+78 
+After Children i
+76 78 
+After Data Ptrs i
+76 78 
+After fields i
+76 78 
+After aliases i
+76 78 
+After DF Aliases i
+76 78 
+After Resolved LS From i
+76 78 
+After loadForCalls i
+76 78 
+After GEPChildren i
+76 78 
+Exiting calcAggregateLNRecursive for i
+
+Entering calcAggregateLNRecursive for Constant+0+80+0+31
+Starting line number tally for Constant+0+80+0+31 originally:
+80 
+After insert line_num of Constant+0+80+0+31
+80 
+Constant+0+80+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and div
+Inserting Line Numbers(2) from Constant+0+80+0+31 to div
+80 
+Inserting Line Numbers(2) from inc9 to div
+78 
+
+Entering calcAggregateLNRecursive for inc
+Starting line number tally for inc originally:
+78 80 
+After insert line_num of inc
+78 80 
+After insert lineNumbers(-1) from baseline for inc
+78 80 
+After storesTo: inc
+78 80 
+After DF Children inc
+78 80 
+
+Entering calcAggregateLNRecursive for j
+Starting line number tally for j originally:
+76 78 80 
+After insert line_num of j
+76 78 80 
+After insert lineNumbers(-1) from baseline for j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(0) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(0) from inc to j
+78 80 
+After storesTo: j
+76 78 80 
+After DF Children j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(2) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(2) from inc to j
+78 80 
+After Children j
+76 78 80 
+After Data Ptrs j
+76 78 80 
+After fields j
+76 78 80 
+After aliases j
+76 78 80 
+After DF Aliases j
+76 78 80 
+After Resolved LS From j
+76 78 80 
+After loadForCalls j
+76 78 80 
+After GEPChildren j
+76 78 80 
+Exiting calcAggregateLNRecursive for j
+After Children inc
+78 80 
+After Data Ptrs inc
+78 80 
+After fields inc
+78 80 
+After aliases inc
+78 80 
+After DF Aliases inc
+78 80 
+After Resolved LS From inc
+78 80 
+After loadForCalls inc
+78 80 
+After GEPChildren inc
+78 80 
+Exiting calcAggregateLNRecursive for inc
+Inserting Line Numbers(2) from inc to div
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and div
+Inserting Line Numbers(2) from Constant+0+78+0+31 to div
+78 
+After Children div
+78 80 82 
+After Data Ptrs div
+78 80 82 
+After fields div
+78 80 82 
+After aliases div
+78 80 82 
+After DF Aliases div
+78 80 82 
+After Resolved LS From div
+78 80 82 
+After loadForCalls div
+78 80 82 
+After GEPChildren div
+78 80 82 
+Exiting calcAggregateLNRecursive for div
+Inserting Line Numbers(0) from div to arrayidx
+78 80 82 
+After storesTo: arrayidx
+78 80 82 
+After DF Children arrayidx
+78 80 82 
+Inserting Line Numbers(2) from div to arrayidx
+78 80 82 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+80+0+31 to arrayidx
+80 
+Inserting Line Numbers(2) from inc9 to arrayidx
+78 
+Inserting Line Numbers(2) from inc to arrayidx
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+78+0+31 to arrayidx
+78 
+After Children arrayidx
+78 80 82 
+After Data Ptrs arrayidx
+78 80 82 
+After fields arrayidx
+78 80 82 
+After aliases arrayidx
+78 80 82 
+After DF Aliases arrayidx
+78 80 82 
+After Resolved LS From arrayidx
+78 80 82 
+After loadForCalls arrayidx
+78 80 82 
+After GEPChildren arrayidx
+78 80 82 
+Exiting calcAggregateLNRecursive for arrayidx
+ivp - 0x7ef1b88 adding RLSE lines from arrayidx
+Inserting Line Numbers(6) from A to 0x7ef1b88
+0 78 80 82 
+After Resolved LS From 0x7ef1b88
+0 78 80 82 
+After loadForCalls 0x7ef1b88
+0 78 80 82 
+After GEPChildren 0x7ef1b88
+0 78 80 82 
+Exiting calcAggregateLNRecursive for 0x7ef1b88
+Inserting Line Numbers(13) from 0x7ef1b88 to A
+0 78 80 82 
+After GEPChildren A
+0 78 80 82 
+Exiting calcAggregateLNRecursive for A
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+78 80 82 
+After insert line_num of div
+78 80 82 
+After insert lineNumbers(-1) from baseline for div
+78 80 82 
+After storesTo: div
+78 80 82 
+After DF Children div
+78 80 82 
+
+Entering calcAggregateLNRecursive for i
+Starting line number tally for i originally:
+76 78 
+After insert line_num of i
+76 78 
+After insert lineNumbers(-1) from baseline for i
+76 78 
+
+Entering calcAggregateLNRecursive for inc9
+Starting line number tally for inc9 originally:
+78 
+After insert line_num of inc9
+78 
+After insert lineNumbers(-1) from baseline for inc9
+78 
+After storesTo: inc9
+78 
+After DF Children inc9
+78 
+Conflict in LNRecursive. Need to revisit i and inc9
+After Children inc9
+78 
+After Data Ptrs inc9
+78 
+After fields inc9
+78 
+After aliases inc9
+78 
+After DF Aliases inc9
+78 
+After Resolved LS From inc9
+78 
+After loadForCalls inc9
+78 
+After GEPChildren inc9
+78 
+Exiting calcAggregateLNRecursive for inc9
+Inserting Line Numbers(0) from inc9 to i
+78 
+
+Entering calcAggregateLNRecursive for Constant+0+78+0+31
+Starting line number tally for Constant+0+78+0+31 originally:
+78 
+After insert line_num of Constant+0+78+0+31
+78 
+Constant+0+78+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(0) from Constant+0+78+0+31 to i
+78 
+After storesTo: i
+76 78 
+After DF Children i
+76 78 
+Inserting Line Numbers(2) from inc9 to i
+78 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(2) from Constant+0+78+0+31 to i
+78 
+After Children i
+76 78 
+After Data Ptrs i
+76 78 
+After fields i
+76 78 
+After aliases i
+76 78 
+After DF Aliases i
+76 78 
+After Resolved LS From i
+76 78 
+After loadForCalls i
+76 78 
+After GEPChildren i
+76 78 
+Exiting calcAggregateLNRecursive for i
+
+Entering calcAggregateLNRecursive for Constant+0+80+0+31
+Starting line number tally for Constant+0+80+0+31 originally:
+80 
+After insert line_num of Constant+0+80+0+31
+80 
+Constant+0+80+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and div
+Inserting Line Numbers(2) from Constant+0+80+0+31 to div
+80 
+Inserting Line Numbers(2) from inc9 to div
+78 
+
+Entering calcAggregateLNRecursive for inc
+Starting line number tally for inc originally:
+78 80 
+After insert line_num of inc
+78 80 
+After insert lineNumbers(-1) from baseline for inc
+78 80 
+After storesTo: inc
+78 80 
+After DF Children inc
+78 80 
+
+Entering calcAggregateLNRecursive for j
+Starting line number tally for j originally:
+76 78 80 
+After insert line_num of j
+76 78 80 
+After insert lineNumbers(-1) from baseline for j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(0) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(0) from inc to j
+78 80 
+After storesTo: j
+76 78 80 
+After DF Children j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(2) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(2) from inc to j
+78 80 
+After Children j
+76 78 80 
+After Data Ptrs j
+76 78 80 
+After fields j
+76 78 80 
+After aliases j
+76 78 80 
+After DF Aliases j
+76 78 80 
+After Resolved LS From j
+76 78 80 
+After loadForCalls j
+76 78 80 
+After GEPChildren j
+76 78 80 
+Exiting calcAggregateLNRecursive for j
+After Children inc
+78 80 
+After Data Ptrs inc
+78 80 
+After fields inc
+78 80 
+After aliases inc
+78 80 
+After DF Aliases inc
+78 80 
+After Resolved LS From inc
+78 80 
+After loadForCalls inc
+78 80 
+After GEPChildren inc
+78 80 
+Exiting calcAggregateLNRecursive for inc
+Inserting Line Numbers(2) from inc to div
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and div
+Inserting Line Numbers(2) from Constant+0+78+0+31 to div
+78 
+After Children div
+78 80 82 
+After Data Ptrs div
+78 80 82 
+After fields div
+78 80 82 
+After aliases div
+78 80 82 
+After DF Aliases div
+78 80 82 
+After Resolved LS From div
+78 80 82 
+After loadForCalls div
+78 80 82 
+After GEPChildren div
+78 80 82 
+Exiting calcAggregateLNRecursive for div
+
+Entering calcAggregateLNRecursive for 0x7ef1b88
+Starting line number tally for 0x7ef1b88 originally:
+0 78 80 82 
+After insert line_num of 0x7ef1b88
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for 0x7ef1b88
+0 78 80 82 
+After storesTo: 0x7ef1b88
+0 78 80 82 
+After DF Children 0x7ef1b88
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for A.addr
+Starting line number tally for A.addr originally:
+0 78 80 82 
+After insert line_num of A.addr
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for A.addr
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for A
+Starting line number tally for A originally:
+0 78 80 82 
+After insert line_num of A
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for A
+0 78 80 82 
+After storesTo: A
+0 78 80 82 
+After DF Children A
+0 78 80 82 
+After Children A
+0 78 80 82 
+After Data Ptrs A
+0 78 80 82 
+After fields A
+0 78 80 82 
+After aliases A
+0 78 80 82 
+After DF Aliases A
+0 78 80 82 
+After Resolved LS From A
+0 78 80 82 
+After loadForCalls A
+0 78 80 82 
+Conflict in LNRecursive. Need to revisit 0x7ef1b88 and A
+Inserting Line Numbers(13) from 0x7ef1b88 to A
+0 78 80 82 
+After GEPChildren A
+0 78 80 82 
+Exiting calcAggregateLNRecursive for A
+Inserting Line Numbers(0) from A to A.addr
+0 78 80 82 
+After storesTo: A.addr
+0 78 80 82 
+After DF Children A.addr
+0 78 80 82 
+Inserting Line Numbers(2) from A to A.addr
+0 78 80 82 
+After Children A.addr
+0 78 80 82 
+After Data Ptrs A.addr
+0 78 80 82 
+After fields A.addr
+0 78 80 82 
+After aliases A.addr
+0 78 80 82 
+After DF Aliases A.addr
+0 78 80 82 
+After Resolved LS From A.addr
+0 78 80 82 
+After loadForCalls A.addr
+0 78 80 82 
+After GEPChildren A.addr
+0 78 80 82 
+Exiting calcAggregateLNRecursive for A.addr
+Inserting Line Numbers(2) from A.addr to 0x7ef1b88
+0 78 80 82 
+Inserting Line Numbers(2) from A to 0x7ef1b88
+0 78 80 82 
+After Children 0x7ef1b88
+0 78 80 82 
+After Data Ptrs 0x7ef1b88
+0 78 80 82 
+After fields 0x7ef1b88
+0 78 80 82 
+After aliases 0x7ef1b88
+0 78 80 82 
+After DF Aliases 0x7ef1b88
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for arrayidx
+Starting line number tally for arrayidx originally:
+78 80 82 
+After insert line_num of arrayidx
+78 80 82 
+After insert lineNumbers(-1) from baseline for arrayidx
+78 80 82 
+Inserting Line Numbers(0) from div to arrayidx
+78 80 82 
+After storesTo: arrayidx
+78 80 82 
+After DF Children arrayidx
+78 80 82 
+Inserting Line Numbers(2) from div to arrayidx
+78 80 82 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+80+0+31 to arrayidx
+80 
+Inserting Line Numbers(2) from inc9 to arrayidx
+78 
+Inserting Line Numbers(2) from inc to arrayidx
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+78+0+31 to arrayidx
+78 
+After Children arrayidx
+78 80 82 
+After Data Ptrs arrayidx
+78 80 82 
+After fields arrayidx
+78 80 82 
+After aliases arrayidx
+78 80 82 
+After DF Aliases arrayidx
+78 80 82 
+After Resolved LS From arrayidx
+78 80 82 
+After loadForCalls arrayidx
+78 80 82 
+After GEPChildren arrayidx
+78 80 82 
+Exiting calcAggregateLNRecursive for arrayidx
+ivp - 0x7ef1b88 adding RLSE lines from arrayidx
+Inserting Line Numbers(6) from A to 0x7ef1b88
+0 78 80 82 
+After Resolved LS From 0x7ef1b88
+0 78 80 82 
+After loadForCalls 0x7ef1b88
+0 78 80 82 
+After GEPChildren 0x7ef1b88
+0 78 80 82 
+Exiting calcAggregateLNRecursive for 0x7ef1b88
+
+Entering calcAggregateLNRecursive for div
+Starting line number tally for div originally:
+78 80 82 
+After insert line_num of div
+78 80 82 
+After insert lineNumbers(-1) from baseline for div
+78 80 82 
+After storesTo: div
+78 80 82 
+After DF Children div
+78 80 82 
+
+Entering calcAggregateLNRecursive for i
+Starting line number tally for i originally:
+76 78 
+After insert line_num of i
+76 78 
+After insert lineNumbers(-1) from baseline for i
+76 78 
+
+Entering calcAggregateLNRecursive for inc9
+Starting line number tally for inc9 originally:
+78 
+After insert line_num of inc9
+78 
+After insert lineNumbers(-1) from baseline for inc9
+78 
+After storesTo: inc9
+78 
+After DF Children inc9
+78 
+Conflict in LNRecursive. Need to revisit i and inc9
+After Children inc9
+78 
+After Data Ptrs inc9
+78 
+After fields inc9
+78 
+After aliases inc9
+78 
+After DF Aliases inc9
+78 
+After Resolved LS From inc9
+78 
+After loadForCalls inc9
+78 
+After GEPChildren inc9
+78 
+Exiting calcAggregateLNRecursive for inc9
+Inserting Line Numbers(0) from inc9 to i
+78 
+
+Entering calcAggregateLNRecursive for Constant+0+78+0+31
+Starting line number tally for Constant+0+78+0+31 originally:
+78 
+After insert line_num of Constant+0+78+0+31
+78 
+Constant+0+78+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(0) from Constant+0+78+0+31 to i
+78 
+After storesTo: i
+76 78 
+After DF Children i
+76 78 
+Inserting Line Numbers(2) from inc9 to i
+78 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and i
+Inserting Line Numbers(2) from Constant+0+78+0+31 to i
+78 
+After Children i
+76 78 
+After Data Ptrs i
+76 78 
+After fields i
+76 78 
+After aliases i
+76 78 
+After DF Aliases i
+76 78 
+After Resolved LS From i
+76 78 
+After loadForCalls i
+76 78 
+After GEPChildren i
+76 78 
+Exiting calcAggregateLNRecursive for i
+
+Entering calcAggregateLNRecursive for Constant+0+80+0+31
+Starting line number tally for Constant+0+80+0+31 originally:
+80 
+After insert line_num of Constant+0+80+0+31
+80 
+Constant+0+80+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and div
+Inserting Line Numbers(2) from Constant+0+80+0+31 to div
+80 
+Inserting Line Numbers(2) from inc9 to div
+78 
+
+Entering calcAggregateLNRecursive for inc
+Starting line number tally for inc originally:
+78 80 
+After insert line_num of inc
+78 80 
+After insert lineNumbers(-1) from baseline for inc
+78 80 
+After storesTo: inc
+78 80 
+After DF Children inc
+78 80 
+
+Entering calcAggregateLNRecursive for j
+Starting line number tally for j originally:
+76 78 80 
+After insert line_num of j
+76 78 80 
+After insert lineNumbers(-1) from baseline for j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(0) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(0) from inc to j
+78 80 
+After storesTo: j
+76 78 80 
+After DF Children j
+76 78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and j
+Inserting Line Numbers(2) from Constant+0+80+0+31 to j
+80 
+Conflict in LNRecursive. Need to revisit inc and j
+Inserting Line Numbers(2) from inc to j
+78 80 
+After Children j
+76 78 80 
+After Data Ptrs j
+76 78 80 
+After fields j
+76 78 80 
+After aliases j
+76 78 80 
+After DF Aliases j
+76 78 80 
+After Resolved LS From j
+76 78 80 
+After loadForCalls j
+76 78 80 
+After GEPChildren j
+76 78 80 
+Exiting calcAggregateLNRecursive for j
+After Children inc
+78 80 
+After Data Ptrs inc
+78 80 
+After fields inc
+78 80 
+After aliases inc
+78 80 
+After DF Aliases inc
+78 80 
+After Resolved LS From inc
+78 80 
+After loadForCalls inc
+78 80 
+After GEPChildren inc
+78 80 
+Exiting calcAggregateLNRecursive for inc
+Inserting Line Numbers(2) from inc to div
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and div
+Inserting Line Numbers(2) from Constant+0+78+0+31 to div
+78 
+After Children div
+78 80 82 
+After Data Ptrs div
+78 80 82 
+After fields div
+78 80 82 
+After aliases div
+78 80 82 
+After DF Aliases div
+78 80 82 
+After Resolved LS From div
+78 80 82 
+After loadForCalls div
+78 80 82 
+After GEPChildren div
+78 80 82 
+Exiting calcAggregateLNRecursive for div
+
+Entering calcAggregateLNRecursive for 0x7ef1b88
+Starting line number tally for 0x7ef1b88 originally:
+0 78 80 82 
+After insert line_num of 0x7ef1b88
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for 0x7ef1b88
+0 78 80 82 
+After storesTo: 0x7ef1b88
+0 78 80 82 
+After DF Children 0x7ef1b88
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for A.addr
+Starting line number tally for A.addr originally:
+0 78 80 82 
+After insert line_num of A.addr
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for A.addr
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for A
+Starting line number tally for A originally:
+0 78 80 82 
+After insert line_num of A
+0 78 80 82 
+After insert lineNumbers(-1) from baseline for A
+0 78 80 82 
+After storesTo: A
+0 78 80 82 
+After DF Children A
+0 78 80 82 
+After Children A
+0 78 80 82 
+After Data Ptrs A
+0 78 80 82 
+After fields A
+0 78 80 82 
+After aliases A
+0 78 80 82 
+After DF Aliases A
+0 78 80 82 
+After Resolved LS From A
+0 78 80 82 
+After loadForCalls A
+0 78 80 82 
+Conflict in LNRecursive. Need to revisit 0x7ef1b88 and A
+Inserting Line Numbers(13) from 0x7ef1b88 to A
+0 78 80 82 
+After GEPChildren A
+0 78 80 82 
+Exiting calcAggregateLNRecursive for A
+Inserting Line Numbers(0) from A to A.addr
+0 78 80 82 
+After storesTo: A.addr
+0 78 80 82 
+After DF Children A.addr
+0 78 80 82 
+Inserting Line Numbers(2) from A to A.addr
+0 78 80 82 
+After Children A.addr
+0 78 80 82 
+After Data Ptrs A.addr
+0 78 80 82 
+After fields A.addr
+0 78 80 82 
+After aliases A.addr
+0 78 80 82 
+After DF Aliases A.addr
+0 78 80 82 
+After Resolved LS From A.addr
+0 78 80 82 
+After loadForCalls A.addr
+0 78 80 82 
+After GEPChildren A.addr
+0 78 80 82 
+Exiting calcAggregateLNRecursive for A.addr
+Inserting Line Numbers(2) from A.addr to 0x7ef1b88
+0 78 80 82 
+Inserting Line Numbers(2) from A to 0x7ef1b88
+0 78 80 82 
+After Children 0x7ef1b88
+0 78 80 82 
+After Data Ptrs 0x7ef1b88
+0 78 80 82 
+After fields 0x7ef1b88
+0 78 80 82 
+After aliases 0x7ef1b88
+0 78 80 82 
+After DF Aliases 0x7ef1b88
+0 78 80 82 
+
+Entering calcAggregateLNRecursive for arrayidx
+Starting line number tally for arrayidx originally:
+78 80 82 
+After insert line_num of arrayidx
+78 80 82 
+After insert lineNumbers(-1) from baseline for arrayidx
+78 80 82 
+Inserting Line Numbers(0) from div to arrayidx
+78 80 82 
+After storesTo: arrayidx
+78 80 82 
+After DF Children arrayidx
+78 80 82 
+Inserting Line Numbers(2) from div to arrayidx
+78 80 82 
+Conflict in LNRecursive. Need to revisit Constant+0+80+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+80+0+31 to arrayidx
+80 
+Inserting Line Numbers(2) from inc9 to arrayidx
+78 
+Inserting Line Numbers(2) from inc to arrayidx
+78 80 
+Conflict in LNRecursive. Need to revisit Constant+0+78+0+31 and arrayidx
+Inserting Line Numbers(2) from Constant+0+78+0+31 to arrayidx
+78 
+After Children arrayidx
+78 80 82 
+After Data Ptrs arrayidx
+78 80 82 
+After fields arrayidx
+78 80 82 
+After aliases arrayidx
+78 80 82 
+After DF Aliases arrayidx
+78 80 82 
+After Resolved LS From arrayidx
+78 80 82 
+After loadForCalls arrayidx
+78 80 82 
+After GEPChildren arrayidx
+78 80 82 
+Exiting calcAggregateLNRecursive for arrayidx
+ivp - 0x7ef1b88 adding RLSE lines from arrayidx
+Inserting Line Numbers(6) from A to 0x7ef1b88
+0 78 80 82 
+After Resolved LS From 0x7ef1b88
+0 78 80 82 
+After loadForCalls 0x7ef1b88
+0 78 80 82 
+After GEPChildren 0x7ef1b88
+0 78 80 82 
+Exiting calcAggregateLNRecursive for 0x7ef1b88
+Revisiting some of the conflicted agg Call values.
+Entering calcAggCallRecursive for j
+Entering calcAggCallRecursive for i
+Entering calcAggCallRecursive for inc9
+Inserting descParams(1) for inc9 from i
+Exiting calcAggCallRecursive(N) for inc9
+Inserting descParams(1) for i from inc9
+Inserting descParams(1) for i from Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for i
+Inserting descParams(1) for j from i
+Inserting descParams(1) for j from Constant+0+80+0+31
+Entering calcAggCallRecursive for inc
+Inserting descParams(1) for inc from j
+Inserting descParams(1) for inc from i
+Exiting calcAggCallRecursive(N) for inc
+Inserting descParams(1) for j from inc
+Exiting calcAggCallRecursive(N) for j
+Entering calcAggCallRecursive for i
+Exiting calcAggCallRecursive(1) for i
+Entering calcAggCallRecursive for inc9
+Exiting calcAggCallRecursive(1) for inc9
+Entering calcAggCallRecursive for inc
+Exiting calcAggCallRecursive(1) for inc
+Entering calcAggCallRecursive for div
+Entering calcAggCallRecursive for i
+Entering calcAggCallRecursive for inc9
+Inserting descParams(1) for inc9 from i
+Exiting calcAggCallRecursive(N) for inc9
+Inserting descParams(1) for i from inc9
+Entering calcAggCallRecursive for Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for Constant+0+78+0+31
+Inserting descParams(1) for i from Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for i
+Inserting descParams(1) for div from i
+Entering calcAggCallRecursive for Constant+0+80+0+31
+Exiting calcAggCallRecursive(N) for Constant+0+80+0+31
+Inserting descParams(1) for div from Constant+0+80+0+31
+Inserting descParams(1) for div from inc9
+Entering calcAggCallRecursive for inc
+Entering calcAggCallRecursive for j
+Inserting descParams(1) for j from i
+Inserting descParams(1) for j from Constant+0+80+0+31
+Inserting descParams(1) for j from inc
+Exiting calcAggCallRecursive(N) for j
+Inserting descParams(1) for inc from j
+Inserting descParams(1) for inc from i
+Exiting calcAggCallRecursive(N) for inc
+Inserting descParams(1) for div from inc
+Inserting descParams(1) for div from Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for div
+Entering calcAggCallRecursive for 0x7ef1b88
+Entering calcAggCallRecursive for A.addr
+Entering calcAggCallRecursive for A
+Entering calcAggCallRecursive for arrayidx
+Inserting descParams(1) for arrayidx from div
+Inserting descParams(1) for arrayidx from i
+Inserting descParams(1) for arrayidx from Constant+0+80+0+31
+Inserting descParams(1) for arrayidx from inc9
+Inserting descParams(1) for arrayidx from inc
+Inserting descParams(1) for arrayidx from Constant+0+78+0+31
+Exiting calcAggCallRecursive(N) for arrayidx
+Inserting descParams(8) for A from RLSE arrayidx
+Exiting calcAggCallRecursive(N) for A
+Inserting descParams(1) for A.addr from A
+Inserting descParams(7) for A.addr from arrayidx
+Exiting calcAggCallRecursive(N) for A.addr
+Inserting descParams(1) for 0x7ef1b88 from A.addr
+Inserting descParams(1) for 0x7ef1b88 from A
+Inserting descParams(7) for 0x7ef1b88 from arrayidx
+Exiting calcAggCallRecursive(N) for 0x7ef1b88
+In resolveSideEffects 
+Creating SE Info for A.addr
+In resolveSideEffectCalls 

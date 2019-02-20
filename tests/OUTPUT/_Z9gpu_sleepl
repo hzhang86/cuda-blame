@@ -1,0 +1,1717 @@
+LLVM__(checkFunctionProto) - Number of args is 1
+Param# 0 is cycles, ptr=0
+IS BP - 0 1 1
+Entering examineInstruction alloca 0x560d648 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for z.i2
+Adding lV from alloca: z.i2
+Standard Operand No Name  0x55ed240  ConstantIntVal 
+Entering examineInstruction call 0x560d700 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: z
+Entering examineInstruction alloca 0x560d7a8 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for z.i
+Adding lV from alloca: z.i
+Standard Operand No Name  0x55ed240  ConstantIntVal 
+Entering examineInstruction call 0x5608a00 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: z
+Entering examineInstruction alloca 0x5608aa8 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for cycles.addr
+Standard Operand No Name  0x55ed240  ConstantIntVal 
+Entering examineInstruction alloca 0x5608b18 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for start
+Standard Operand No Name  0x55ed240  ConstantIntVal 
+Entering examineInstruction alloca 0x5608b88 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for elapsed
+Standard Operand No Name  0x55ed240  ConstantIntVal 
+Entering examineInstruction store 0x5608c10 0  InstructionVal for Instruction store 
+In ieStore
+Adding NodeProps(2-Store) for cycles
+STORE to(1) cycles.addr from cycles 0
+STORE to(1) fs->lineNumOrder=0 in line# 0
+Entering examineInstruction call 0x56309a0 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+We met a formal arg: cycles
+Entering examineInstruction call 0x5630ac0 20  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: start
+Entering examineInstruction call 0x5630b68 22  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic)  is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi  0x5630b68 call
+  pi->getNumOperands()=1
+Called func has NO name and NOT a CE
+Entering examineInstruction store 0x5630c20 0  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x5630b68  InstructionVal for Instruction call 
+Adding NodeProps(Store Reg Operand) for 0x5630b68
+STORE to(5) z.i from 0x5630b68 0
+STORE to(5) fs->lineNumOrder=0 in line# 0
+Entering examineInstruction load 0x5630c88 0  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(F1) for 0x5630c88 currentLineNum=0 lnm=0
+New added variable:  0x5630c88
+Entering examineInstruction store 0x5630d30 0  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x5630c88  InstructionVal for Instruction load 
+STORE to(5) start from 0x5630c88 0
+STORE to(5) fs->lineNumOrder=0 in line# 22
+Entering examineInstruction call 0x5630e40 22  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: elapsed
+Entering examineInstruction store 0x5630f00 23  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x5607c50  ConstantIntVal 
+Adding NodeProps(3) for Constant+0+23+0+31
+STORE to(2) elapsed from Constant+0+23+0+31 1
+STORE to(2) fs->lineNumOrder=0 in line# 23
+Entering examineInstruction br 0x5630f68 23  InstructionVal for Instruction br 
+In ieBlank for opcode br 24
+Entering examineInstruction load 0x5630fc8 24  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(F1) for 0x5630fc8 currentLineNum=24 lnm=0
+New added variable:  0x5630fc8
+Entering examineInstruction load 0x5631058 24  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(F1) for 0x5631058 currentLineNum=24 lnm=1
+New added variable:  0x5631058
+Entering examineInstruction icmp 0x5631100 24  InstructionVal for Instruction icmp 
+In ieDefault for icmp
+Adding NodeProps(1) for cmp currentLineNum=24 lnm=2
+Standard Operand No Name  0x5630fc8  InstructionVal for Instruction load 
+Standard Operand No Name  0x5631058  InstructionVal for Instruction load 
+Entering examineInstruction br 0x56311c8 24  InstructionVal for Instruction br 
+In ieBlank for opcode br 24
+Entering examineInstruction call 0x5631258 24  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic)  is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi  0x5631258 call
+  pi->getNumOperands()=1
+Called func has NO name and NOT a CE
+Entering examineInstruction store 0x5631310 0  InstructionVal for Instruction store 
+In ieStore
+Standard Operand No Name  0x5631258  InstructionVal for Instruction call 
+Adding NodeProps(Store Reg Operand) for 0x5631258
+STORE to(5) z.i2 from 0x5631258 0
+STORE to(5) fs->lineNumOrder=0 in line# 0
+Entering examineInstruction load 0x5631378 0  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(F1) for 0x5631378 currentLineNum=0 lnm=0
+New added variable:  0x5631378
+Entering examineInstruction load 0x5631408 0  InstructionVal for Instruction load 
+In ieLoad for 
+Adding NodeProps(F1) for 0x5631408 currentLineNum=25 lnm=0
+New added variable:  0x5631408
+Entering examineInstruction sub 0x56314b0 25  InstructionVal for Instruction sub 
+In ieDefault for sub
+Adding NodeProps(1) for sub currentLineNum=25 lnm=1
+Standard Operand No Name  0x5631378  InstructionVal for Instruction load 
+Standard Operand No Name  0x5631408  InstructionVal for Instruction load 
+Entering examineInstruction store 0x5631560 25  InstructionVal for Instruction store 
+In ieStore
+STORE to(1) elapsed from sub 2
+STORE to(1) fs->lineNumOrder=2 in line# 25
+Entering examineInstruction br 0x56315f8 25  InstructionVal for Instruction br 
+In ieBlank for opcode br 24
+Entering examineInstruction ret 0x5631670 24  InstructionVal for Instruction ret 
+In ieBlank for opcode ret 27
+#variables=16, #localVars=6, #exiVariables=0
+Entering handleLoops 
+Exit Block is while.end
+Terminator is cmp 3
+in errorRetCheck for cmp
+ToBool instruction is cmp op icmp
+Load inst is 
+CondLocal is elapsed
+Examining successor while.body
+Examining successor while.end
+Matching Exit Block is while.end for cmp
+Loop now in basic block while.cond
+Loop now in basic block while.body
+Exiting handleLoops 
+Branch Instruction found for basic block entry
+... not loop header
+Branch Instruction found for basic block while.cond
+... is conditional
+Branch Instruction found for basic block while.body
+... not loop header
+Putting node 15 (sub) into graph
+Putting node 14 (0x5631408) into graph
+Putting node 13 (0x5631378) into graph
+Putting node 11 (cmp) into graph
+Putting node 0 (z.i2) into graph
+Putting node 1 (z.i) into graph
+Putting node 2 (cycles.addr) into graph
+Putting node 3 (start) into graph
+Putting node 12 (0x5631258) into graph
+Putting node 5 (cycles) into graph
+Putting node 6 (0x5630b68) into graph
+Putting node 7 (0x5630c88) into graph
+Putting node 10 (0x5631058) into graph
+Putting node 4 (elapsed) into graph
+Putting node 9 (0x5630fc8) into graph
+Putting node 8 (Constant+0+23+0+31) into graph
+Starting to Gen Edges 
+GE Instruction z.i2 alloca
+Not generating any edges for opcode alloca
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE Instruction z.i alloca
+Not generating any edges for opcode alloca
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE Instruction cycles.addr alloca
+Not generating any edges for opcode alloca
+GE Instruction start alloca
+Not generating any edges for opcode alloca
+GE Instruction elapsed alloca
+Not generating any edges for opcode alloca
+GE No name store
+Adding edge 25 between cycles.addr and cycles of type store
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name call
+  pi->getNumOperands()=1
+We met a func call with no name !(register)
+GE No name store
+Adding edge 25 between z.i and 0x5630b68 of type store
+GE No name load
+Adding edge 12 between 0x5630c88 and z.i of type load
+GE No name store
+Adding edge 25 between start and 0x5630c88 of type store
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE No name store
+Adding edge 25 between elapsed and Constant+0+23+0+31 of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name load
+Adding edge 12 between 0x5630fc8 and elapsed of type load
+GE No name load
+Adding edge 12 between 0x5631058 and cycles.addr of type load
+GE Instruction cmp icmp
+Adding edge 2 between cmp and 0x5630fc8 of type icmp
+Adding edge 2 between cmp and 0x5631058 of type icmp
+GE No name br
+Not generating any edges for opcode br
+GE No name call
+  pi->getNumOperands()=1
+We met a func call with no name !(register)
+GE No name store
+Adding edge 25 between z.i2 and 0x5631258 of type store
+GE No name load
+Adding edge 12 between 0x5631378 and z.i2 of type load
+GE No name load
+Adding edge 12 between 0x5631408 and start of type load
+GE Instruction sub sub
+Adding edge 2 between sub and 0x5631378 of type sub
+Adding edge 2 between sub and 0x5631408 of type sub
+GE No name store
+Adding edge 25 between elapsed and sub of type store
+GE No name br
+Not generating any edges for opcode br
+GE No name ret
+Not generating any edges for opcode ret
+Finished generating edges 
+In resolveStores for z.i2
+Store between z.i2 and 0x5631258
+Vertex z.i2 is written(4)
+Inserting line number(1a) 0 to z.i2
+We have a storeFrom inserted: 0x5631258->storeFrom=z.i2
+Stores for V - z.i2 number 1
+Insert relevantInst - 0x5631258 in fbb while.body
+In resolveStores for z.i
+Store between z.i and 0x5630b68
+Vertex z.i is written(4)
+Inserting line number(1a) 0 to z.i
+We have a storeFrom inserted: 0x5630b68->storeFrom=z.i
+Stores for V - z.i number 1
+Insert relevantInst - 0x5630b68 in fbb entry
+In resolveStores for cycles.addr
+Store between cycles.addr and cycles
+Vertex cycles.addr is written(4)
+Inserting line number(1a) 0 to cycles.addr
+We have a storeFrom inserted: cycles->storeFrom=cycles.addr
+Stores for V - cycles.addr number 1
+Insert relevantInst - cycles in fbb entry
+In resolveStores for start
+Store between start and 0x5630c88
+Vertex start is written(4)
+Inserting line number(1a) 0 to start
+We have a storeFrom inserted: 0x5630c88->storeFrom=start
+Stores for V - start number 1
+Insert relevantInst - 0x5630c88 in fbb entry
+In resolveStores for elapsed
+Store between elapsed and sub
+Vertex elapsed is written(4)
+Inserting line number(1a) 25 to elapsed
+We have a storeFrom inserted: sub->storeFrom=elapsed
+Store between elapsed and Constant+0+23+0+31
+Vertex elapsed is written(4)
+Inserting line number(1a) 23 to elapsed
+We have a storeFrom inserted: Constant+0+23+0+31->storeFrom=elapsed
+Stores for V - elapsed number 2
+Insert relevantInst - Constant+0+23+0+31 in fbb entry
+Insert relevantInst - sub in fbb while.body
+In resolveStores for cycles
+In resolveStores for 0x5630b68
+In resolveStores for 0x5630c88
+In resolveStores for Constant+0+23+0+31
+In resolveStores for 0x5630fc8
+In resolveStores for 0x5631058
+In resolveStores for cmp
+In resolveStores for 0x5631258
+In resolveStores for 0x5631378
+In resolveStores for 0x5631408
+In resolveStores for sub
+Before CFG sort
+Before assignBBGenKIll
+Before reachingDefs
+Before calcStoreLines
+In inBB, cycles->storeLines.insert(0) in pos1
+cycles->storeLines.insert in pos2
+In inBB, 0x5630b68->storeLines.insert(0) in pos1
+0x5630b68->storeLines.insert in pos2
+In inBB, 0x5630c88->storeLines.insert(0) in pos1
+0x5630c88->storeLines.insert in pos2
+In inBB, Constant+0+23+0+31->storeLines.insert(23) in pos1
+Constant+0+23+0+31->storeLines.insert in pos2
+In inBB, 0x5631258->storeLines.insert(0) in pos1
+0x5631258->storeLines.insert in pos2
+In inBB, sub->storeLines.insert(25) in pos1
+sub->storeLines.insert in pos2
+In inBB, cycles->storeLines.insert(0) in pos1
+cycles->storeLines.insert in pos2
+In inBB, 0x5630b68->storeLines.insert(0) in pos1
+0x5630b68->storeLines.insert in pos2
+In inBB, 0x5630c88->storeLines.insert(0) in pos1
+0x5630c88->storeLines.insert in pos2
+In inBB, Constant+0+23+0+31->storeLines.insert(23) in pos1
+Constant+0+23+0+31 isn't alive out of this BB
+Constant+0+23+0+31->borderLines.inert(25) in pos1
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31's sl failed in Cond2
+Constant+0+23+0+31->storeLines.insert(23) in pos3
+Constant+0+23+0+31->storeLines.insert(24) in pos3
+In inBB, 0x5631258->storeLines.insert(0) in pos1
+0x5631258->storeLines.insert in pos2
+In inBB, sub->storeLines.insert(25) in pos1
+sub->storeLines.insert in pos2
+In genBB, 0x5631258->storeLines.insert(0) in pos8
+0x5631258->storeLines.insert(0) in pos4
+0x5631258->storeLines.insert(24) in pos4
+0x5631258->storeLines.insert(25) in pos4
+In genBB, sub->storeLines.insert(25) in pos8
+sub's sl failed in Cond3
+sub's sl failed in Cond3
+sub->storeLines.insert(25) in pos4
+In inBB, cycles->storeLines.insert(0) in pos1
+cycles->storeLines.insert in pos2
+In inBB, 0x5630b68->storeLines.insert(0) in pos1
+0x5630b68->storeLines.insert in pos2
+In inBB, 0x5630c88->storeLines.insert(0) in pos1
+0x5630c88->storeLines.insert in pos2
+In inBB, Constant+0+23+0+31->storeLines.insert(23) in pos1
+Constant+0+23+0+31->storeLines.insert in pos2
+In inBB, 0x5631258->storeLines.insert(0) in pos1
+0x5631258->storeLines.insert in pos2
+In inBB, sub->storeLines.insert(25) in pos1
+sub->storeLines.insert in pos2
+In genBB, 0x5630b68->storeLines.insert(0) in pos8
+0x5630b68->storeLines.insert(0) in pos4
+0x5630b68->storeLines.insert(20) in pos4
+0x5630b68->storeLines.insert(22) in pos4
+0x5630b68->storeLines.insert(23) in pos4
+0x5630b68->storeLines.insert(24) in pos4
+In genBB, cycles->storeLines.insert(0) in pos8
+cycles->storeLines.insert(0) in pos4
+cycles->storeLines.insert(20) in pos4
+cycles->storeLines.insert(22) in pos4
+cycles->storeLines.insert(23) in pos4
+cycles->storeLines.insert(24) in pos4
+In genBB, 0x5630c88->storeLines.insert(0) in pos8
+0x5630c88->storeLines.insert(0) in pos4
+0x5630c88->storeLines.insert(20) in pos4
+0x5630c88->storeLines.insert(22) in pos4
+0x5630c88->storeLines.insert(23) in pos4
+0x5630c88->storeLines.insert(24) in pos4
+In genBB, Constant+0+23+0+31->storeLines.insert(23) in pos8
+Constant+0+23+0+31's sl failed in Cond3
+Constant+0+23+0+31's sl failed in Cond3
+Constant+0+23+0+31's sl failed in Cond3
+Constant+0+23+0+31->storeLines.insert(23) in pos4
+Constant+0+23+0+31->storeLines.insert(24) in pos4
+Before printCFG
+FBB name: while.end
+Successors: 
+Predecessors: while.cond 
+Ancestors: entry while.cond while.body 
+Descendants: 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: cycles 0x5630b68 0x5630c88 Constant+0+23+0+31 0x5631258 sub 
+BB Out: cycles 0x5630b68 0x5630c88 Constant+0+23+0+31 0x5631258 sub 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: while.body
+Successors: while.cond 
+Predecessors: while.cond 
+Ancestors: entry while.cond while.body 
+Descendants: while.cond while.body while.end 
+Relevant Instructions: 0x5631258(0)
+   Gen: 0x5631258  
+   Kill: 
+sub(25)
+   Gen: sub  
+   Kill: Constant+0+23+0+31  
+BB Gen: 0x5631258 sub 
+BB Kill: Constant+0+23+0+31 
+BB In: cycles 0x5630b68 0x5630c88 Constant+0+23+0+31 0x5631258 sub 
+BB Out: cycles 0x5630b68 0x5630c88 0x5631258 sub 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: while.cond
+Successors: while.body while.end 
+Predecessors: entry while.body 
+Ancestors: entry while.cond while.body 
+Descendants: while.cond while.body while.end 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: cycles 0x5630b68 0x5630c88 Constant+0+23+0+31 0x5631258 sub 
+BB Out: cycles 0x5630b68 0x5630c88 Constant+0+23+0+31 0x5631258 sub 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+FBB name: entry
+Successors: while.cond 
+Predecessors: 
+Ancestors: 
+Descendants: while.cond while.body while.end 
+Relevant Instructions: 0x5630b68(0)
+   Gen: 0x5630b68  
+   Kill: 
+cycles(0)
+   Gen: cycles  
+   Kill: 
+0x5630c88(0)
+   Gen: 0x5630c88  
+   Kill: 
+Constant+0+23+0+31(23)
+   Gen: Constant+0+23+0+31  
+   Kill: sub  
+BB Gen: cycles 0x5630b68 0x5630c88 Constant+0+23+0+31 
+BB Kill: sub 
+BB In: 
+BB Out: cycles 0x5630b68 0x5630c88 Constant+0+23+0+31 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+
+For sourceVP(Load): 0x5631378 0
+---
+storeVP: 0x5631258 - Store Lines - 0 24 25 27  ; Border Lines - 
+In resolveStoreLine storeVP:0x5631258 ln=0 lNO=0  sourceVP:0x5631378 ln=0 lNO=0
+Need to remove edge(hui) from 0x5631378 to z.i2 [8]
+RESOLVED_L_S_OP added between 0x5631378 and 0x5631258
+---
+
+For sourceVP(Load): 0x5630c88 0
+---
+storeVP: 0x5630b68 - Store Lines - 0 20 22 23 24 25 27  ; Border Lines - 
+In resolveStoreLine storeVP:0x5630b68 ln=0 lNO=0  sourceVP:0x5630c88 ln=0 lNO=0
+Need to remove edge(hui) from 0x5630c88 to z.i [8]
+RESOLVED_L_S_OP added between 0x5630c88 and 0x5630b68
+---
+
+For sourceVP(Load): 0x5631058 24
+---
+storeVP: cycles - Store Lines - 0 20 22 23 24 25 27  ; Border Lines - 
+In resolveStoreLine storeVP:cycles ln=0 lNO=0  sourceVP:0x5631058 ln=24 lNO=1
+Need to remove edge(hui) from 0x5631058 to cycles.addr [8]
+RESOLVED_L_S_OP added between 0x5631058 and cycles
+---
+
+For sourceVP(Load): 0x5631408 25
+---
+storeVP: 0x5630c88 - Store Lines - 0 20 22 23 24 25 27  ; Border Lines - 
+In resolveStoreLine storeVP:0x5630c88 ln=0 lNO=0  sourceVP:0x5631408 ln=25 lNO=0
+Need to remove edge(hui) from 0x5631408 to start [8]
+RESOLVED_L_S_OP added between 0x5631408 and 0x5630c88
+---
+
+For sourceVP(Load): 0x5630fc8 24
+---
+storeVP: Constant+0+23+0+31 - Store Lines - 23 24 27  ; Border Lines - 25 
+In resolveStoreLine storeVP:Constant+0+23+0+31 ln=23 lNO=0  sourceVP:0x5630fc8 ln=24 lNO=0
+RESOLVED_L_S_OP added between 0x5630fc8 and Constant+0+23+0+31
+storeVP: sub - Store Lines - 0 24 25 27  ; Border Lines - 
+In resolveStoreLine storeVP:sub ln=25 lNO=1  sourceVP:0x5630fc8 ln=24 lNO=0
+resolveStoreLine fails because line_num
+---
+
+
+In resolvePointersForNode for z.i2
+z.i2 is Instruction
+z.i2's pointer level is 1
+z.i2 has pointer type *Int
+
+For PTR z.i2
+Is Pointer 0
+Is Written 1
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 0x5631258 
+StoreLines
+
+
+In resolvePointersForNode for z.i
+z.i is Instruction
+z.i's pointer level is 1
+z.i has pointer type *Int
+
+For PTR z.i
+Is Pointer 0
+Is Written 1
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 0x5630b68 
+StoreLines
+
+
+In resolvePointersForNode for start
+start is Instruction
+start's pointer level is 1
+start has pointer type *Int
+
+For PTR start
+Is Pointer 0
+Is Written 1
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 0x5630c88 
+StoreLines
+
+
+In resolvePointersForNode for elapsed
+elapsed is Instruction
+elapsed's pointer level is 1
+elapsed has pointer type *Int
+
+For PTR elapsed
+Is Pointer 0
+Is Written 1
+Aliases in 
+Aliases out 
+Fields 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo Constant+0+23+0+31 sub 
+StoreLines
+
+At this point the pointers are: 
+At this point(2) the pointers are: 
+In checkIfWritten for z.i2, orig isWritten=1
+In checkIfWritten for z.i2, after aliasesOut, writeTotal=1
+In checkIfWritten for z.i2, after aliasesIn, writeTotal=1
+In checkIfWritten for z.i2, after almostAlias, writeTotal=1
+In checkIfWritten for z.i2, after resolvedLS, writeTotal=1
+In checkIfWritten for z.i2, after fields, writeTotal=1
+In checkIfWritten for z.i2, after nonAliasStores, writeTotal=1
+In checkIfWritten for z.i2, after arrayAccess, writeTotal=1
+In checkIfWritten for z.i2, after loads, writeTotal=1
+In checkIfWritten for z.i2, after GEPChildren, writeTotal=1
+In checkIfWritten for z.i, orig isWritten=1
+In checkIfWritten for z.i, after aliasesOut, writeTotal=1
+In checkIfWritten for z.i, after aliasesIn, writeTotal=1
+In checkIfWritten for z.i, after almostAlias, writeTotal=1
+In checkIfWritten for z.i, after resolvedLS, writeTotal=1
+In checkIfWritten for z.i, after fields, writeTotal=1
+In checkIfWritten for z.i, after nonAliasStores, writeTotal=1
+In checkIfWritten for z.i, after arrayAccess, writeTotal=1
+In checkIfWritten for z.i, after loads, writeTotal=1
+In checkIfWritten for z.i, after GEPChildren, writeTotal=1
+In checkIfWritten for cycles.addr, orig isWritten=0
+In checkIfWritten for cycles.addr, after aliasesOut, writeTotal=0
+In checkIfWritten for cycles.addr, after aliasesIn, writeTotal=0
+In checkIfWritten for cycles.addr, after almostAlias, writeTotal=0
+In checkIfWritten for cycles.addr, after resolvedLS, writeTotal=0
+In checkIfWritten for cycles.addr, after fields, writeTotal=0
+In checkIfWritten for cycles.addr, after nonAliasStores, writeTotal=0
+In checkIfWritten for cycles.addr, after arrayAccess, writeTotal=0
+In checkIfWritten for cycles.addr, after loads, writeTotal=0
+In checkIfWritten for cycles.addr, after GEPChildren, writeTotal=0
+In checkIfWritten for start, orig isWritten=1
+In checkIfWritten for start, after aliasesOut, writeTotal=1
+In checkIfWritten for start, after aliasesIn, writeTotal=1
+In checkIfWritten for start, after almostAlias, writeTotal=1
+In checkIfWritten for start, after resolvedLS, writeTotal=1
+In checkIfWritten for start, after fields, writeTotal=1
+In checkIfWritten for start, after nonAliasStores, writeTotal=1
+In checkIfWritten for start, after arrayAccess, writeTotal=1
+In checkIfWritten for start, after loads, writeTotal=1
+In checkIfWritten for start, after GEPChildren, writeTotal=1
+In checkIfWritten for elapsed, orig isWritten=1
+In checkIfWritten for elapsed, after aliasesOut, writeTotal=1
+In checkIfWritten for elapsed, after aliasesIn, writeTotal=1
+In checkIfWritten for elapsed, after almostAlias, writeTotal=1
+In checkIfWritten for elapsed, after resolvedLS, writeTotal=1
+In checkIfWritten for elapsed, after fields, writeTotal=1
+In checkIfWritten for elapsed, after nonAliasStores, writeTotal=1
+In checkIfWritten for elapsed, after arrayAccess, writeTotal=1
+In checkIfWritten for elapsed, after loads, writeTotal=1
+In checkIfWritten for elapsed, after GEPChildren, writeTotal=1
+Calling DBHL 
+EV__(determineBFCForVertexLite) -- for z.i2
+EV__(determineBFCForVertexLite) -- for z.i
+EV__(determineBFCForVertexLite) -- for cycles.addr
+EV__(determineBFCForVertexLite) -- for start
+EV__(determineBFCForVertexLite) -- for cmp
+Finished DBHL , now going to print _trunc.dot file 
+In populateImportantVertices for z.i2
+Calling recursiveExamineChildren on z.i2 for z.i2
+Looking at target 0x5631258 from z.i2
+Node Props for 0x5631258: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=31
+Inserting line number(8) 0 to z.i2
+Start recursion of recursiveExamineChildren on 0x5631258
+Calling recursiveExamineChildren on 0x5631258 for z.i2
+Inserting line number(6) 0 to z.i2
+Line nums for 0x5631258 (E) 
+Line nums for z.i2 (E)  0
+Finished Calling recursiveExamineChildren for z.i2
+In populateImportantVertices for z.i
+Calling recursiveExamineChildren on z.i for z.i
+Looking at target 0x5630b68 from z.i
+Node Props for 0x5630b68: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=31
+Inserting line number(8) 0 to z.i
+Start recursion of recursiveExamineChildren on 0x5630b68
+Calling recursiveExamineChildren on 0x5630b68 for z.i
+Inserting line number(6) 0 to z.i
+Line nums for 0x5630b68 (E) 
+Line nums for z.i (E)  0
+Finished Calling recursiveExamineChildren for z.i
+In populateImportantVertices for cycles.addr
+Calling recursiveExamineChildren on cycles.addr for cycles.addr
+Looking at target cycles from cycles.addr
+Node Props for cycles: 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=31
+TargetV->exitV - NULL
+OrigVP->exitV - NULL
+TargetV->pointsTo - NULL
+TargetV->pointsTo - NULL
+TargetV->dpUpPtr - cycles
+OrigVP->dpUpPtr - cycles.addr
+Adding Child/Parent relation between cycles and cycles.addr
+Line nums for cycles.addr (E)  0
+Finished Calling recursiveExamineChildren for cycles.addr
+In populateImportantVertices for start
+Calling recursiveExamineChildren on start for start
+Looking at target 0x5630c88 from start
+Node Props for 0x5630c88: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=31
+Inserting line number(8) 0 to start
+Start recursion of recursiveExamineChildren on 0x5630c88
+Calling recursiveExamineChildren on 0x5630c88 for start
+Looking at target 0x5630b68 from 0x5630c88
+Node Props for 0x5630b68: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=502
+Inserting line number(8) 0 to start
+Start recursion of recursiveExamineChildren on 0x5630b68
+Calling recursiveExamineChildren on 0x5630b68 for start
+Inserting line number(6) 0 to start
+Line nums for 0x5630b68 (E) 
+Line nums for 0x5630c88 (E) 
+Line nums for start (E)  0
+Finished Calling recursiveExamineChildren for start
+In populateImportantVertices for elapsed
+Calling recursiveExamineChildren on elapsed for elapsed
+Looking at target sub from elapsed
+Node Props for sub: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=31
+Inserting line number(8) 25 to elapsed
+Start recursion of recursiveExamineChildren on sub
+Calling recursiveExamineChildren on sub for elapsed
+Looking at target 0x5631408 from sub
+Node Props for 0x5631408: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=13
+Inserting line number(8) 25 to elapsed
+Start recursion of recursiveExamineChildren on 0x5631408
+Calling recursiveExamineChildren on 0x5631408 for elapsed
+Looking at target 0x5630c88 from 0x5631408
+Node Props for 0x5630c88: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=502
+Inserting line number(8) 0 to elapsed
+Start recursion of recursiveExamineChildren on 0x5630c88
+Calling recursiveExamineChildren on 0x5630c88 for elapsed
+Looking at target 0x5630b68 from 0x5630c88
+Node Props for 0x5630b68: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=502
+Inserting line number(8) 0 to elapsed
+Start recursion of recursiveExamineChildren on 0x5630b68
+Calling recursiveExamineChildren on 0x5630b68 for elapsed
+Inserting line number(6) 0 to elapsed
+Line nums for 0x5630b68 (E) 
+Line nums for 0x5630c88 (E) 
+Line nums for 0x5631408 (E) 
+Looking at target 0x5631378 from sub
+Node Props for 0x5631378: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=13
+Inserting line number(8) 0 to elapsed
+Start recursion of recursiveExamineChildren on 0x5631378
+Calling recursiveExamineChildren on 0x5631378 for elapsed
+Looking at target 0x5631258 from 0x5631378
+Node Props for 0x5631258: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=502
+Inserting line number(8) 0 to elapsed
+Start recursion of recursiveExamineChildren on 0x5631258
+Calling recursiveExamineChildren on 0x5631258 for elapsed
+Inserting line number(6) 0 to elapsed
+Line nums for 0x5631258 (E) 
+Line nums for 0x5631378 (E) 
+Line nums for sub (E) 
+Looking at target Constant+0+23+0+31 from elapsed
+Node Props for Constant+0+23+0+31: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=31
+Inserting line number(8) 23 to elapsed
+Start recursion of recursiveExamineChildren on Constant+0+23+0+31
+Calling recursiveExamineChildren on Constant+0+23+0+31 for elapsed
+Inserting line number(6) 23 to elapsed
+Line nums for Constant+0+23+0+31 (E) 
+Line nums for elapsed (E)  0 23 25
+Finished Calling recursiveExamineChildren for elapsed
+In populateImportantVertices for cycles
+Calling recursiveExamineChildren on cycles for cycles
+Inserting line number(6) 0 to cycles
+Inserting line number(7) 0 to cycles
+Line nums for cycles (E)  0
+Finished Calling recursiveExamineChildren for cycles
+Looking at IVP z.i2 in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP z.i in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP cycles.addr in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP start in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP elapsed in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP cycles in resolveLooseStructs. 
+Type name (resolveLooseStructs) Void
+
+Entering calcAggregateLNRecursive for z.i2
+Starting line number tally for z.i2 originally:
+
+After insert line_num of z.i2
+0 
+After insert lineNumbers(-1) from baseline for z.i2
+0 
+
+Entering calcAggregateLNRecursive for 0x5631258
+Starting line number tally for 0x5631258 originally:
+
+After insert line_num of 0x5631258
+0 
+After insert lineNumbers(-1) from baseline for 0x5631258
+0 
+After storesTo: 0x5631258
+0 
+After DF Children 0x5631258
+0 
+After Children 0x5631258
+0 
+After Data Ptrs 0x5631258
+0 
+After fields 0x5631258
+0 
+After aliases 0x5631258
+0 
+After DF Aliases 0x5631258
+0 
+After Resolved LS From 0x5631258
+0 
+After loadForCalls 0x5631258
+0 
+After GEPChildren 0x5631258
+0 
+Exiting calcAggregateLNRecursive for 0x5631258
+Inserting Line Numbers(0) from 0x5631258 to z.i2
+0 
+After storesTo: z.i2
+0 
+After DF Children z.i2
+0 
+After Children z.i2
+0 
+After Data Ptrs z.i2
+0 
+After fields z.i2
+0 
+After aliases z.i2
+0 
+After DF Aliases z.i2
+0 
+After Resolved LS From z.i2
+0 
+After loadForCalls z.i2
+0 
+After GEPChildren z.i2
+0 
+Exiting calcAggregateLNRecursive for z.i2
+Entering calcAggCallRecursive for z.i2
+Entering calcAggCallRecursive for 0x5631258
+Exiting calcAggCallRecursive(N) for 0x5631258
+Exiting calcAggCallRecursive(N) for z.i2
+
+Entering calcAggregateLNRecursive for z.i
+Starting line number tally for z.i originally:
+
+After insert line_num of z.i
+0 
+After insert lineNumbers(-1) from baseline for z.i
+0 
+
+Entering calcAggregateLNRecursive for 0x5630b68
+Starting line number tally for 0x5630b68 originally:
+
+After insert line_num of 0x5630b68
+0 
+After insert lineNumbers(-1) from baseline for 0x5630b68
+0 
+After storesTo: 0x5630b68
+0 
+After DF Children 0x5630b68
+0 
+After Children 0x5630b68
+0 
+After Data Ptrs 0x5630b68
+0 
+After fields 0x5630b68
+0 
+After aliases 0x5630b68
+0 
+After DF Aliases 0x5630b68
+0 
+After Resolved LS From 0x5630b68
+0 
+After loadForCalls 0x5630b68
+0 
+After GEPChildren 0x5630b68
+0 
+Exiting calcAggregateLNRecursive for 0x5630b68
+Inserting Line Numbers(0) from 0x5630b68 to z.i
+0 
+After storesTo: z.i
+0 
+After DF Children z.i
+0 
+After Children z.i
+0 
+After Data Ptrs z.i
+0 
+After fields z.i
+0 
+After aliases z.i
+0 
+After DF Aliases z.i
+0 
+After Resolved LS From z.i
+0 
+After loadForCalls z.i
+0 
+After GEPChildren z.i
+0 
+Exiting calcAggregateLNRecursive for z.i
+Entering calcAggCallRecursive for z.i
+Entering calcAggCallRecursive for 0x5630b68
+Exiting calcAggCallRecursive(N) for 0x5630b68
+Exiting calcAggCallRecursive(N) for z.i
+
+Entering calcAggregateLNRecursive for cycles.addr
+Starting line number tally for cycles.addr originally:
+
+After insert line_num of cycles.addr
+0 
+After insert lineNumbers(-1) from baseline for cycles.addr
+0 
+
+Entering calcAggregateLNRecursive for cycles
+Starting line number tally for cycles originally:
+
+After insert line_num of cycles
+0 
+After insert lineNumbers(-1) from baseline for cycles
+0 
+After storesTo: cycles
+0 
+After DF Children cycles
+0 
+After Children cycles
+0 
+After Data Ptrs cycles
+0 
+After fields cycles
+0 
+After aliases cycles
+0 
+After DF Aliases cycles
+0 
+After Resolved LS From cycles
+0 
+After loadForCalls cycles
+0 
+After GEPChildren cycles
+0 
+Exiting calcAggregateLNRecursive for cycles
+Inserting Line Numbers(0) from cycles to cycles.addr
+0 
+After storesTo: cycles.addr
+0 
+After DF Children cycles.addr
+0 
+Inserting Line Numbers(2) from cycles to cycles.addr
+0 
+After Children cycles.addr
+0 
+After Data Ptrs cycles.addr
+0 
+After fields cycles.addr
+0 
+After aliases cycles.addr
+0 
+After DF Aliases cycles.addr
+0 
+After Resolved LS From cycles.addr
+0 
+After loadForCalls cycles.addr
+0 
+After GEPChildren cycles.addr
+0 
+Exiting calcAggregateLNRecursive for cycles.addr
+Entering calcAggCallRecursive for cycles.addr
+Entering calcAggCallRecursive for cycles
+Exiting calcAggCallRecursive(N) for cycles
+Inserting descParams(1) for cycles.addr from cycles
+Exiting calcAggCallRecursive(N) for cycles.addr
+
+Entering calcAggregateLNRecursive for start
+Starting line number tally for start originally:
+
+After insert line_num of start
+22 
+After insert lineNumbers(-1) from baseline for start
+0 22 
+
+Entering calcAggregateLNRecursive for 0x5630c88
+Starting line number tally for 0x5630c88 originally:
+
+After insert line_num of 0x5630c88
+0 
+After insert lineNumbers(-1) from baseline for 0x5630c88
+0 
+After storesTo: 0x5630c88
+0 
+After DF Children 0x5630c88
+0 
+After Children 0x5630c88
+0 
+After Data Ptrs 0x5630c88
+0 
+After fields 0x5630c88
+0 
+After aliases 0x5630c88
+0 
+After DF Aliases 0x5630c88
+0 
+After Resolved LS From 0x5630c88
+0 
+After loadForCalls 0x5630c88
+0 
+After GEPChildren 0x5630c88
+0 
+Exiting calcAggregateLNRecursive for 0x5630c88
+Inserting Line Numbers(0) from 0x5630c88 to start
+0 
+After storesTo: start
+0 22 
+After DF Children start
+0 22 
+After Children start
+0 22 
+After Data Ptrs start
+0 22 
+After fields start
+0 22 
+After aliases start
+0 22 
+After DF Aliases start
+0 22 
+After Resolved LS From start
+0 22 
+After loadForCalls start
+0 22 
+After GEPChildren start
+0 22 
+Exiting calcAggregateLNRecursive for start
+Entering calcAggCallRecursive for start
+Entering calcAggCallRecursive for 0x5630c88
+Exiting calcAggCallRecursive(N) for 0x5630c88
+Exiting calcAggCallRecursive(N) for start
+
+Entering calcAggregateLNRecursive for elapsed
+Starting line number tally for elapsed originally:
+
+After insert line_num of elapsed
+23 
+After insert lineNumbers(-1) from baseline for elapsed
+0 23 25 
+
+Entering calcAggregateLNRecursive for Constant+0+23+0+31
+Starting line number tally for Constant+0+23+0+31 originally:
+
+After insert line_num of Constant+0+23+0+31
+23 
+Constant+0+23+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+23+0+31 and elapsed
+Inserting Line Numbers(0) from Constant+0+23+0+31 to elapsed
+23 
+
+Entering calcAggregateLNRecursive for sub
+Starting line number tally for sub originally:
+
+After insert line_num of sub
+25 
+After insert lineNumbers(-1) from baseline for sub
+25 
+After storesTo: sub
+25 
+After DF Children sub
+25 
+After Children sub
+25 
+After Data Ptrs sub
+25 
+After fields sub
+25 
+After aliases sub
+25 
+After DF Aliases sub
+25 
+After Resolved LS From sub
+25 
+After loadForCalls sub
+25 
+After GEPChildren sub
+25 
+Exiting calcAggregateLNRecursive for sub
+Inserting Line Numbers(0) from sub to elapsed
+25 
+After storesTo: elapsed
+0 23 25 
+After DF Children elapsed
+0 23 25 
+After Children elapsed
+0 23 25 
+After Data Ptrs elapsed
+0 23 25 
+After fields elapsed
+0 23 25 
+After aliases elapsed
+0 23 25 
+After DF Aliases elapsed
+0 23 25 
+After Resolved LS From elapsed
+0 23 25 
+After loadForCalls elapsed
+0 23 25 
+After GEPChildren elapsed
+0 23 25 
+Exiting calcAggregateLNRecursive for elapsed
+Entering calcAggCallRecursive for elapsed
+Entering calcAggCallRecursive for Constant+0+23+0+31
+Exiting calcAggCallRecursive(N) for Constant+0+23+0+31
+Entering calcAggCallRecursive for sub
+Exiting calcAggCallRecursive(N) for sub
+Exiting calcAggCallRecursive(N) for elapsed
+Revisiting some of the conflicted agg LN values.
+
+Entering calcAggregateLNRecursive for elapsed
+Starting line number tally for elapsed originally:
+0 23 25 
+After insert line_num of elapsed
+0 23 25 
+After insert lineNumbers(-1) from baseline for elapsed
+0 23 25 
+
+Entering calcAggregateLNRecursive for Constant+0+23+0+31
+Starting line number tally for Constant+0+23+0+31 originally:
+23 
+After insert line_num of Constant+0+23+0+31
+23 
+Constant+0+23+0+31 is not needed in calcAggregateLNRecursive
+Conflict in LNRecursive. Need to revisit Constant+0+23+0+31 and elapsed
+Inserting Line Numbers(0) from Constant+0+23+0+31 to elapsed
+23 
+Inserting Line Numbers(0) from sub to elapsed
+25 
+After storesTo: elapsed
+0 23 25 
+After DF Children elapsed
+0 23 25 
+After Children elapsed
+0 23 25 
+After Data Ptrs elapsed
+0 23 25 
+After fields elapsed
+0 23 25 
+After aliases elapsed
+0 23 25 
+After DF Aliases elapsed
+0 23 25 
+After Resolved LS From elapsed
+0 23 25 
+After loadForCalls elapsed
+0 23 25 
+After GEPChildren elapsed
+0 23 25 
+Exiting calcAggregateLNRecursive for elapsed
+
+Entering calcAggregateLNRecursive for cycles
+Starting line number tally for cycles originally:
+0 
+After insert line_num of cycles
+0 
+After insert lineNumbers(-1) from baseline for cycles
+0 
+After storesTo: cycles
+0 
+After DF Children cycles
+0 
+After Children cycles
+0 
+After Data Ptrs cycles
+0 
+After fields cycles
+0 
+After aliases cycles
+0 
+After DF Aliases cycles
+0 
+After Resolved LS From cycles
+0 
+After loadForCalls cycles
+0 
+After GEPChildren cycles
+0 
+Exiting calcAggregateLNRecursive for cycles
+
+Entering calcAggregateLNRecursive for elapsed
+Starting line number tally for elapsed originally:
+0 23 25 
+After insert line_num of elapsed
+0 23 25 
+After insert lineNumbers(-1) from baseline for elapsed
+0 23 25 
+Conflict in LNRecursive. Need to revisit Constant+0+23+0+31 and elapsed
+Inserting Line Numbers(0) from Constant+0+23+0+31 to elapsed
+23 
+Inserting Line Numbers(0) from sub to elapsed
+25 
+After storesTo: elapsed
+0 23 25 
+After DF Children elapsed
+0 23 25 
+After Children elapsed
+0 23 25 
+After Data Ptrs elapsed
+0 23 25 
+After fields elapsed
+0 23 25 
+After aliases elapsed
+0 23 25 
+After DF Aliases elapsed
+0 23 25 
+After Resolved LS From elapsed
+0 23 25 
+After loadForCalls elapsed
+0 23 25 
+After GEPChildren elapsed
+0 23 25 
+Exiting calcAggregateLNRecursive for elapsed
+
+Entering calcAggregateLNRecursive for start
+Starting line number tally for start originally:
+0 22 
+After insert line_num of start
+0 22 
+After insert lineNumbers(-1) from baseline for start
+0 22 
+Inserting Line Numbers(0) from 0x5630c88 to start
+0 
+After storesTo: start
+0 22 
+After DF Children start
+0 22 
+After Children start
+0 22 
+After Data Ptrs start
+0 22 
+After fields start
+0 22 
+After aliases start
+0 22 
+After DF Aliases start
+0 22 
+After Resolved LS From start
+0 22 
+After loadForCalls start
+0 22 
+After GEPChildren start
+0 22 
+Exiting calcAggregateLNRecursive for start
+
+Entering calcAggregateLNRecursive for cycles.addr
+Starting line number tally for cycles.addr originally:
+0 
+After insert line_num of cycles.addr
+0 
+After insert lineNumbers(-1) from baseline for cycles.addr
+0 
+Inserting Line Numbers(0) from cycles to cycles.addr
+0 
+After storesTo: cycles.addr
+0 
+After DF Children cycles.addr
+0 
+Inserting Line Numbers(2) from cycles to cycles.addr
+0 
+After Children cycles.addr
+0 
+After Data Ptrs cycles.addr
+0 
+After fields cycles.addr
+0 
+After aliases cycles.addr
+0 
+After DF Aliases cycles.addr
+0 
+After Resolved LS From cycles.addr
+0 
+After loadForCalls cycles.addr
+0 
+After GEPChildren cycles.addr
+0 
+Exiting calcAggregateLNRecursive for cycles.addr
+
+Entering calcAggregateLNRecursive for z.i
+Starting line number tally for z.i originally:
+0 
+After insert line_num of z.i
+0 
+After insert lineNumbers(-1) from baseline for z.i
+0 
+Inserting Line Numbers(0) from 0x5630b68 to z.i
+0 
+After storesTo: z.i
+0 
+After DF Children z.i
+0 
+After Children z.i
+0 
+After Data Ptrs z.i
+0 
+After fields z.i
+0 
+After aliases z.i
+0 
+After DF Aliases z.i
+0 
+After Resolved LS From z.i
+0 
+After loadForCalls z.i
+0 
+After GEPChildren z.i
+0 
+Exiting calcAggregateLNRecursive for z.i
+
+Entering calcAggregateLNRecursive for z.i2
+Starting line number tally for z.i2 originally:
+0 
+After insert line_num of z.i2
+0 
+After insert lineNumbers(-1) from baseline for z.i2
+0 
+Inserting Line Numbers(0) from 0x5631258 to z.i2
+0 
+After storesTo: z.i2
+0 
+After DF Children z.i2
+0 
+After Children z.i2
+0 
+After Data Ptrs z.i2
+0 
+After fields z.i2
+0 
+After aliases z.i2
+0 
+After DF Aliases z.i2
+0 
+After Resolved LS From z.i2
+0 
+After loadForCalls z.i2
+0 
+After GEPChildren z.i2
+0 
+Exiting calcAggregateLNRecursive for z.i2
+
+Entering calcAggregateLNRecursive for z.i2
+Starting line number tally for z.i2 originally:
+0 
+After insert line_num of z.i2
+0 
+After insert lineNumbers(-1) from baseline for z.i2
+0 
+Inserting Line Numbers(0) from 0x5631258 to z.i2
+0 
+After storesTo: z.i2
+0 
+After DF Children z.i2
+0 
+After Children z.i2
+0 
+After Data Ptrs z.i2
+0 
+After fields z.i2
+0 
+After aliases z.i2
+0 
+After DF Aliases z.i2
+0 
+After Resolved LS From z.i2
+0 
+After loadForCalls z.i2
+0 
+After GEPChildren z.i2
+0 
+Exiting calcAggregateLNRecursive for z.i2
+
+Entering calcAggregateLNRecursive for z.i
+Starting line number tally for z.i originally:
+0 
+After insert line_num of z.i
+0 
+After insert lineNumbers(-1) from baseline for z.i
+0 
+Inserting Line Numbers(0) from 0x5630b68 to z.i
+0 
+After storesTo: z.i
+0 
+After DF Children z.i
+0 
+After Children z.i
+0 
+After Data Ptrs z.i
+0 
+After fields z.i
+0 
+After aliases z.i
+0 
+After DF Aliases z.i
+0 
+After Resolved LS From z.i
+0 
+After loadForCalls z.i
+0 
+After GEPChildren z.i
+0 
+Exiting calcAggregateLNRecursive for z.i
+
+Entering calcAggregateLNRecursive for cycles.addr
+Starting line number tally for cycles.addr originally:
+0 
+After insert line_num of cycles.addr
+0 
+After insert lineNumbers(-1) from baseline for cycles.addr
+0 
+
+Entering calcAggregateLNRecursive for cycles
+Starting line number tally for cycles originally:
+0 
+After insert line_num of cycles
+0 
+After insert lineNumbers(-1) from baseline for cycles
+0 
+After storesTo: cycles
+0 
+After DF Children cycles
+0 
+After Children cycles
+0 
+After Data Ptrs cycles
+0 
+After fields cycles
+0 
+After aliases cycles
+0 
+After DF Aliases cycles
+0 
+After Resolved LS From cycles
+0 
+After loadForCalls cycles
+0 
+After GEPChildren cycles
+0 
+Exiting calcAggregateLNRecursive for cycles
+Inserting Line Numbers(0) from cycles to cycles.addr
+0 
+After storesTo: cycles.addr
+0 
+After DF Children cycles.addr
+0 
+Inserting Line Numbers(2) from cycles to cycles.addr
+0 
+After Children cycles.addr
+0 
+After Data Ptrs cycles.addr
+0 
+After fields cycles.addr
+0 
+After aliases cycles.addr
+0 
+After DF Aliases cycles.addr
+0 
+After Resolved LS From cycles.addr
+0 
+After loadForCalls cycles.addr
+0 
+After GEPChildren cycles.addr
+0 
+Exiting calcAggregateLNRecursive for cycles.addr
+
+Entering calcAggregateLNRecursive for start
+Starting line number tally for start originally:
+0 22 
+After insert line_num of start
+0 22 
+After insert lineNumbers(-1) from baseline for start
+0 22 
+Inserting Line Numbers(0) from 0x5630c88 to start
+0 
+After storesTo: start
+0 22 
+After DF Children start
+0 22 
+After Children start
+0 22 
+After Data Ptrs start
+0 22 
+After fields start
+0 22 
+After aliases start
+0 22 
+After DF Aliases start
+0 22 
+After Resolved LS From start
+0 22 
+After loadForCalls start
+0 22 
+After GEPChildren start
+0 22 
+Exiting calcAggregateLNRecursive for start
+
+Entering calcAggregateLNRecursive for elapsed
+Starting line number tally for elapsed originally:
+0 23 25 
+After insert line_num of elapsed
+0 23 25 
+After insert lineNumbers(-1) from baseline for elapsed
+0 23 25 
+Conflict in LNRecursive. Need to revisit Constant+0+23+0+31 and elapsed
+Inserting Line Numbers(0) from Constant+0+23+0+31 to elapsed
+23 
+Inserting Line Numbers(0) from sub to elapsed
+25 
+After storesTo: elapsed
+0 23 25 
+After DF Children elapsed
+0 23 25 
+After Children elapsed
+0 23 25 
+After Data Ptrs elapsed
+0 23 25 
+After fields elapsed
+0 23 25 
+After aliases elapsed
+0 23 25 
+After DF Aliases elapsed
+0 23 25 
+After Resolved LS From elapsed
+0 23 25 
+After loadForCalls elapsed
+0 23 25 
+After GEPChildren elapsed
+0 23 25 
+Exiting calcAggregateLNRecursive for elapsed
+
+Entering calcAggregateLNRecursive for z.i2
+Starting line number tally for z.i2 originally:
+0 
+After insert line_num of z.i2
+0 
+After insert lineNumbers(-1) from baseline for z.i2
+0 
+Inserting Line Numbers(0) from 0x5631258 to z.i2
+0 
+After storesTo: z.i2
+0 
+After DF Children z.i2
+0 
+After Children z.i2
+0 
+After Data Ptrs z.i2
+0 
+After fields z.i2
+0 
+After aliases z.i2
+0 
+After DF Aliases z.i2
+0 
+After Resolved LS From z.i2
+0 
+After loadForCalls z.i2
+0 
+After GEPChildren z.i2
+0 
+Exiting calcAggregateLNRecursive for z.i2
+
+Entering calcAggregateLNRecursive for z.i
+Starting line number tally for z.i originally:
+0 
+After insert line_num of z.i
+0 
+After insert lineNumbers(-1) from baseline for z.i
+0 
+Inserting Line Numbers(0) from 0x5630b68 to z.i
+0 
+After storesTo: z.i
+0 
+After DF Children z.i
+0 
+After Children z.i
+0 
+After Data Ptrs z.i
+0 
+After fields z.i
+0 
+After aliases z.i
+0 
+After DF Aliases z.i
+0 
+After Resolved LS From z.i
+0 
+After loadForCalls z.i
+0 
+After GEPChildren z.i
+0 
+Exiting calcAggregateLNRecursive for z.i
+
+Entering calcAggregateLNRecursive for cycles.addr
+Starting line number tally for cycles.addr originally:
+0 
+After insert line_num of cycles.addr
+0 
+After insert lineNumbers(-1) from baseline for cycles.addr
+0 
+
+Entering calcAggregateLNRecursive for cycles
+Starting line number tally for cycles originally:
+0 
+After insert line_num of cycles
+0 
+After insert lineNumbers(-1) from baseline for cycles
+0 
+After storesTo: cycles
+0 
+After DF Children cycles
+0 
+After Children cycles
+0 
+After Data Ptrs cycles
+0 
+After fields cycles
+0 
+After aliases cycles
+0 
+After DF Aliases cycles
+0 
+After Resolved LS From cycles
+0 
+After loadForCalls cycles
+0 
+After GEPChildren cycles
+0 
+Exiting calcAggregateLNRecursive for cycles
+Inserting Line Numbers(0) from cycles to cycles.addr
+0 
+After storesTo: cycles.addr
+0 
+After DF Children cycles.addr
+0 
+Inserting Line Numbers(2) from cycles to cycles.addr
+0 
+After Children cycles.addr
+0 
+After Data Ptrs cycles.addr
+0 
+After fields cycles.addr
+0 
+After aliases cycles.addr
+0 
+After DF Aliases cycles.addr
+0 
+After Resolved LS From cycles.addr
+0 
+After loadForCalls cycles.addr
+0 
+After GEPChildren cycles.addr
+0 
+Exiting calcAggregateLNRecursive for cycles.addr
+
+Entering calcAggregateLNRecursive for start
+Starting line number tally for start originally:
+0 22 
+After insert line_num of start
+0 22 
+After insert lineNumbers(-1) from baseline for start
+0 22 
+Inserting Line Numbers(0) from 0x5630c88 to start
+0 
+After storesTo: start
+0 22 
+After DF Children start
+0 22 
+After Children start
+0 22 
+After Data Ptrs start
+0 22 
+After fields start
+0 22 
+After aliases start
+0 22 
+After DF Aliases start
+0 22 
+After Resolved LS From start
+0 22 
+After loadForCalls start
+0 22 
+After GEPChildren start
+0 22 
+Exiting calcAggregateLNRecursive for start
+
+Entering calcAggregateLNRecursive for elapsed
+Starting line number tally for elapsed originally:
+0 23 25 
+After insert line_num of elapsed
+0 23 25 
+After insert lineNumbers(-1) from baseline for elapsed
+0 23 25 
+Conflict in LNRecursive. Need to revisit Constant+0+23+0+31 and elapsed
+Inserting Line Numbers(0) from Constant+0+23+0+31 to elapsed
+23 
+Inserting Line Numbers(0) from sub to elapsed
+25 
+After storesTo: elapsed
+0 23 25 
+After DF Children elapsed
+0 23 25 
+After Children elapsed
+0 23 25 
+After Data Ptrs elapsed
+0 23 25 
+After fields elapsed
+0 23 25 
+After aliases elapsed
+0 23 25 
+After DF Aliases elapsed
+0 23 25 
+After Resolved LS From elapsed
+0 23 25 
+After loadForCalls elapsed
+0 23 25 
+After GEPChildren elapsed
+0 23 25 
+Exiting calcAggregateLNRecursive for elapsed
+Revisiting some of the conflicted agg Call values.
+Entering calcAggCallRecursive for z.i2
+Exiting calcAggCallRecursive(N) for z.i2
+Entering calcAggCallRecursive for z.i
+Exiting calcAggCallRecursive(N) for z.i
+Entering calcAggCallRecursive for cycles.addr
+Entering calcAggCallRecursive for cycles
+Exiting calcAggCallRecursive(N) for cycles
+Inserting descParams(1) for cycles.addr from cycles
+Exiting calcAggCallRecursive(N) for cycles.addr
+Entering calcAggCallRecursive for start
+Exiting calcAggCallRecursive(N) for start
+Entering calcAggCallRecursive for elapsed
+Exiting calcAggCallRecursive(N) for elapsed
+In resolveSideEffects 
+In resolveSideEffectCalls 

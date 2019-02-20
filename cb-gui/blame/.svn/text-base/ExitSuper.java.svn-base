@@ -1,0 +1,754 @@
+package blame;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.text.*;
+
+public class ExitSuper implements Comparable<ExitSuper> {
+	
+	public int compareTo(ExitSuper o) {
+        return o.numInstances() - this.numInstances();
+    }
+	
+	
+	public static final int EXIT_VAR_FIELD = 6;
+	public static final int LOCAL_VAR = 9;
+	public static final int LOCAL_VAR_FIELD = 12;
+	
+	public static final int NO_EXIT       =   0;
+	public static final int EXIT_PROG       = 1;
+	public static final int EXIT_OUTP       = 2;
+	public static final int EXIT_VAR_GLOBAL = 3;
+	public static final int EXIT_VAR_RETURN = 4;
+	public static final int EXIT_VAR_PARAM  = EXIT_VAR_RETURN;
+
+	protected String name;     // display name
+	protected String hierName;  // for the case of fields, the name given by LLVM
+	protected String llvmName;  // name give by the LLVM compiler
+	protected String parentName;  // for fields, the name of the parent struct
+	
+	protected String genType;
+	protected Set<Integer> lineNums;
+	protected HashMap<String, ExitSuper> fields; 
+	
+	
+	
+	public boolean isGlobal;
+
+	protected double rawWeight;
+
+	public double getRawWeight() {
+		return rawWeight;
+	}
+
+	public void setRawWeight(double rawWeight) {
+		this.rawWeight = rawWeight;
+	}
+
+
+	protected String typeName;
+
+	protected int declaredLine;
+	protected int lineNum;
+	
+	protected int calleeParam;
+	
+	protected boolean isField;
+	protected HashMap<String, NodeInstance> nodeInstances;
+	
+	
+	protected Set<Instance> instances;
+	
+	
+	public String getLlvmName() {
+		return llvmName;
+	}
+
+	public void setLlvmName(String llvmName) {
+		this.llvmName = llvmName;
+	}
+
+	protected String eStatus;
+	protected String structType;
+	public String getGenType() {
+		return genType;
+	}
+
+	public void setGenType(String genType) {
+		
+		String editGT = genType.substring(genType.indexOf('*')+1);
+		 
+		this.genType = editGT;
+	}
+
+	public boolean isGlobal() {
+		return isGlobal;
+	}
+
+	public void setGlobal(boolean isGlobal) {
+		this.isGlobal = isGlobal;
+	}
+
+	public int getCalleeParam() {
+		return calleeParam;
+	}
+
+	public void setCalleeParam(int calleeParam) {
+		this.calleeParam = calleeParam;
+	}
+	
+	
+	
+	public BlameFunction getParentBF() {
+		return parentBF;
+	}
+
+	public void setParentBF(BlameFunction parentBF) {
+		this.parentBF = parentBF;
+	}
+
+	protected BlameFunction parentBF;
+	
+	
+	ExitSuper()
+	{
+		nodeInstances = new HashMap<String, NodeInstance>();
+		isField = false;
+		//lineNumsByFunc = new HashMap<String, HashSet<Integer>>();
+		
+		isGlobal = false;
+		hierName = null;
+		eStatus = null;
+		parentName = null;
+		
+		lineNums = new HashSet<Integer>();
+		fields = new HashMap<String, ExitSuper>();
+		instances = new HashSet<Instance>();
+	}
+	
+	public ExitSuper(ExitSuper es)
+	{
+		System.out.println("Creating new ES from ES " + es.getHierName());
+		name = es.getName();
+		hierName = es.getHierName();
+		parentName = es.getParentName();
+		llvmName = es.getLlvmName();
+		
+		if (es.getGenType() != null)
+			genType = es.getGenType();
+		
+		declaredLine = es.getDeclaredLine();
+		lineNum = es.getLineNum();
+
+		nodeInstances = new HashMap<String, NodeInstance>();
+		fields = new HashMap<String, ExitSuper>();
+				
+		isField = es.isField();
+		eStatus = es.geteStatus();
+	
+		lineNums = es.getLineNums();	
+		
+		instances = new HashSet<Instance>();
+		
+		// We want to go through the nodes for the matching value
+		//  and append it to the existing values
+		
+		Iterator<NodeInstance> ni_it = es.getNodeInstances().values().iterator();
+		while(ni_it.hasNext())
+		{
+			NodeInstance ni = (NodeInstance) ni_it.next();
+			
+			System.out.println("Node name(2) is " + ni.getNName());
+			NodeInstance blankNI = new NodeInstance(es.getHierName(), ni.getNName());
+			
+			
+			System.out.println("Putting new NI " + ni.getNName() + " for " + hierName);
+			nodeInstances.put(ni.getNName(), blankNI);
+		} 
+		
+	}
+	
+	
+	public String getParentName() {
+		return parentName;
+	}
+
+	public void setParentName(String parentName) {
+		this.parentName = parentName;
+	}
+
+	public String getStructType() {
+		return structType;
+	}
+
+	
+	
+	
+	public void setStructType(String structType) {
+		
+		if (structType.indexOf("NULL") >= 0)
+			this.structType = null;
+		else
+		{
+			this.structType = structType;
+			System.out.println("Setting struct type for " + hierName + " to " + this.structType);
+		}
+	}
+
+	public void addField(ExitSuper es)
+	{
+		if (!fields.containsKey(es.getName()))
+		{
+			System.out.println("Adding field " + es.getName() + " to " + getName());
+			fields.put(es.getName(), es);
+		}		
+	}
+	
+	public void transferVI()
+	{
+		
+	}
+	
+	public ExitSuper getOrCreateField(ExitSuper es, VariableInstance vi)
+	{
+		if (fields.containsKey(es.getName()))
+		{
+			ExitSuper existing = fields.get(es.getName());
+			System.out.println("Existing field " + existing.getName());
+			
+			HashMap<String,NodeInstance> nihash = existing.getNodeInstances();
+			
+			// We want to go through the nodes for the matching value
+			//  and append it to the existing values
+			/*
+			Iterator ni_it = es.getNodeInstances().values().iterator();
+			while(ni_it.hasNext())
+			{
+				NodeInstance ni = (NodeInstance) ni_it.next();
+				NodeInstance existingni = nihash.get(ni.getNodeName());
+				
+				if (existingni == null)
+					continue;
+				
+				existingni.getVarInstances().addAll(ni.getVarInstances());
+			} */
+		
+			
+			
+			String otherNode = vi.getNodeName();
+			NodeInstance existingNI = nihash.get(otherNode);
+			existingNI.addInstance(vi);
+			
+			return existing;
+		}
+		else
+		{
+			System.out.println("Adding field " + es.getName() + " to " + hierName);
+			ExitSuper newField = new ExitSuper(es);
+			
+			String otherNode = vi.getNodeName();
+			System.out.println("Node name is " + otherNode);
+			NodeInstance existingNI = newField.getNodeInstances().get(otherNode);
+			
+			if (existingNI == null)
+			{
+				System.out.println("existingNI null for " + newField.getHierName());
+			}
+			
+			existingNI.addInstance(vi);
+			
+			fields.put(newField.getName(), newField);
+			//newField.getFields().put(es.getName(), es);
+			return newField;
+		}
+	}
+
+	
+
+	
+	public void fillInFields(BlameStruct bs)
+	{
+		Iterator it = bs.getFields().iterator();
+		
+		while (it.hasNext())
+		{
+			BlameField bf = (BlameField) it.next();
+			if (fields.get(bf.getName()) == null)
+			{
+				ExitSuper es = new ExitSuper();
+				es.setName(bf.getName());
+				
+				System.out.println("Adding field(2) " + bf.getName() + " to " + this.getName());
+				fields.put(bf.getName(), es);
+			}	
+		}
+	}
+	
+	
+	public void addField(String s, BlameFunction bf)
+	{
+			
+	}
+	
+	public HashMap<String, ExitSuper> getFields() {
+		return fields;
+	}
+
+	public void setFields(HashMap<String, ExitSuper> fields) {
+		this.fields = fields;
+	}
+
+	
+	
+	public int getDeclaredLine() {
+		return declaredLine;
+	}
+
+	public void setDeclaredLine(int declaredLine) {
+		this.declaredLine = declaredLine;
+		this.lineNum = declaredLine;
+	}
+
+	public Set<Integer> getLineNums() {
+		return lineNums;
+	}
+
+	public void setLineNums(Set<Integer> lineNums) {
+		this.lineNums = lineNums;
+	}
+
+	
+	
+	public void addLine(int ln)
+	{
+		lineNums.add(new Integer(ln));
+	}
+	
+	public String geteStatus() {
+		return eStatus;
+	}
+
+
+	public void seteStatus(String eStatus) {
+		this.eStatus = eStatus;
+	}
+
+
+	public String getHierName() {
+		return hierName;
+	}
+
+
+	public void setHierName(String origName) {
+		this.hierName = origName;
+	}
+
+	
+	
+	
+	public boolean isField() {
+		return isField;
+	}
+
+
+	public void setField(boolean isField) {
+		this.isField = isField;
+	}
+
+	
+	
+	
+	public boolean checkLineNum(int ln)
+	{
+		//HashSet<Integer> lineNums = lineNumsByFunc.get(funcName);
+		
+		if (lineNums == null)
+			return false;
+		
+		if (lineNums.contains(new Integer(ln)))
+			return true;
+		else
+			return false;
+	}
+	
+	public int numInstances()
+	{
+		Iterator it = nodeInstances.values().iterator();
+		int num = 0;
+		while (it.hasNext())
+		{
+			NodeInstance ni = (NodeInstance) it.next();
+			num += ni.numInstances();
+		}
+		return num;
+	}
+	
+	
+	void printInstances()
+	{
+	}
+	
+	void addInstance(Instance currInst, StackFrame currFrame, BlameFunction bf)
+	{
+		if (Global.typeOfTest == 1)
+		{
+			instances.add(currInst);
+		}
+		
+		String nodeName = currInst.getNodeName();
+		NodeInstance nI = nodeInstances.get(nodeName);
+		if (nI == null)
+		{
+			nI = new NodeInstance(name, nodeName);
+			nodeInstances.put(nodeName, nI);
+		}
+		
+		VariableInstance vi = new VariableInstance(this, currInst);
+		
+		if (currFrame != null)
+			currFrame.addVarInstance(vi);
+		
+		//nI.addInstance(lineNumber, currInst, vi );
+		nI.addInstance(vi);
+		vi.setNodeName(nodeName);
+		vi.setWeight(getRawWeight());
+		
+	}
+	
+	
+	
+	
+	/*
+	void addInstance(int lineNumber, Instance currInst, String[] lines, 
+			Vector<VariableInstance> evI, String nodeName, String funcName, 
+			StackFrame currFrame, boolean isExitVar)
+	{
+		// TODO: Make this more efficient
+		
+		HashSet<Integer> lineNums = lineNumsByFunc.get(funcName);
+		if (lineNums == null)
+		{
+			lineNums = new HashSet<Integer>();
+			
+			for (int i = 0; i < lines.length; i++)
+			{
+				Integer lineno = Integer.valueOf(lines[i]);
+				lineNums.add(lineno);
+			}
+			
+			lineNumsByFunc.put(funcName, lineNums);
+		}
+		
+		NodeInstance nI = nodeInstances.get(nodeName);
+		if (nI == null)
+		{
+			nI = new NodeInstance(name, nodeName);
+			nodeInstances.put(nodeName, nI);
+		}
+		VariableInstance currVI = nI.addInstance(lineNumber, currInst, lines, evI);
+		
+		//HERE,  we need to check the Node Instances on the stack
+		// frame directly above us and delete if necessary
+		Vector<StackFrame> stackFrames = currInst.getStackFrames();
+		Iterator it = stackFrames.iterator();
+		
+		StackFrame priorFrame = null;
+		boolean foundIt = false;
+		while (it.hasNext() && !foundIt)
+		{
+			StackFrame sf = (StackFrame)it.next();
+			//System.out.println(sf);
+			if (sf.equals(currFrame))
+			{
+				//System.out.println("Found it");
+				foundIt = true;
+			}
+			else
+				priorFrame = sf;
+		}
+		
+		if (foundIt == false)
+		{
+			System.err.println("Where was it!");
+			return;
+		}
+		else if (priorFrame == null)
+		{
+			return;
+		}
+			
+		BlameFunction priorBF = priorFrame.getBf();
+		it = priorBF.getExitPrograms().values().iterator();
+		while (it.hasNext())
+		{
+			ExitSuper priorES = (ExitSuper) it.next();
+			HashMap<String, NodeInstance> priorNIs = priorES.getNodeInstances();
+			NodeInstance priorNI = priorNIs.get(nodeName);
+			
+			// This should never be the case but who knows
+			if (priorNI == null)
+				continue;
+			
+			Iterator it2 = priorNI.getVarInstances().iterator();
+			while (it2.hasNext())
+			{
+				VariableInstance priorVI = (VariableInstance) it2.next();
+				if (priorVI.equals(currVI) && !isExitVar)
+				{
+					VariableInstance tempVI;
+					NodeInstance tempNI;
+					if (priorFrame.frameNum < currFrame.frameNum)
+					{
+						tempVI = priorVI;
+						priorVI = currVI;
+						currVI = tempVI;
+						
+						tempNI = priorNI;
+						priorNI = nI;
+						nI = tempNI;
+						
+					}
+					
+					
+					
+					
+					//System.out.println("WE have a match!");
+					//System.out.println(priorVI);
+					//System.out.println(currVI);
+					//priorVI.print();
+					//currVI.print();
+					//System.out.println("End Match");
+					priorNI.getVarInstances().remove(priorVI);
+					return;
+				}
+			}
+		}
+		
+	}
+	*/
+
+	
+	
+	protected double percentageBlame()
+	{
+		double nI = (double) numInstances();
+		double tI = (double) Global.totalInstances;
+		double dValue = (nI/tI)*100.0;
+		
+		return dValue;
+		//int value = (int) dValue;
+		//return value;
+	}
+	
+	
+	
+	
+	
+	public String getType() {
+		return typeName;
+	}
+
+	public void setType() 
+	{		
+		String truncName = name.substring(name.lastIndexOf('.')+1);
+
+		
+		if (truncName.contains("ksp"))
+		{
+			typeName = "*_p_KSP";
+		}
+		else if (truncName.contains("snes"))
+		{
+			typeName = "*_p_SNES";
+		}
+		else if (this.genType == null)
+		{
+			typeName = new String("null");
+		}	
+		else if(this.genType.contains("Struct"))
+		{
+			typeName = new String();
+			int numStars = genType.indexOf("Struct");
+			
+			for (int a = 0; a < numStars; a++)
+				typeName += '*';
+			
+			typeName += this.structType;
+		}
+		else
+		{
+			typeName = this.genType;
+		}	
+	}
+
+	double numReadInstances()
+	{
+		double nri = 0.0;
+		
+		Iterator<Instance> it = instances.iterator();
+		while (it.hasNext())
+		{
+			Instance inst = (Instance) it.next();
+			nri += inst.calcNumVariables(this);
+		}
+		
+		
+		return nri;
+	}
+	
+	double weightedReadInstances()
+	{
+		double wri = 0.0;
+		
+	    
+	   Iterator<NodeInstance> it = nodeInstances.values().iterator();
+		while (it.hasNext())
+		{
+			NodeInstance ni = (NodeInstance) it.next();
+			//instances += ni.getNName();
+			
+			Iterator<VariableInstance> vi_it = ni.getVarInstances().values().iterator();
+			while (vi_it.hasNext())
+			{
+				VariableInstance vi = (VariableInstance) vi_it.next();
+				
+				wri += (vi.getWeight() * vi.getInst().calcNumVariables(this));
+				
+				//instances += vi.getInst().getInstanceNum();
+				//instances += " ";
+			}
+		}		
+		
+		return wri;		
+	}
+	
+	
+	public String toString()
+	{
+//		return name + " " + numInstances();
+		
+		 double d = percentageBlame();
+	     DecimalFormat df = new DecimalFormat("#.##");
+	     
+	     String instances = new String();
+	     
+	     Iterator<NodeInstance> it = nodeInstances.values().iterator();
+		while (it.hasNext())
+		{
+			NodeInstance ni = (NodeInstance) it.next();
+			//instances += ni.getNName();
+			
+			Iterator<VariableInstance> vi_it = ni.getVarInstances().values().iterator();
+			while (vi_it.hasNext())
+			{
+				VariableInstance vi = (VariableInstance) vi_it.next();
+				instances += vi.getInst().getInstanceNum();
+				instances += " ";
+			}
+		}
+	     
+	     
+		String truncName = name.substring(name.lastIndexOf('.')+1);
+		
+
+		if (Global.typeOfTest == 0)
+		{
+			return truncName + " [ " + typeName + " ]  "  + df.format(d) + "%";
+		}
+		else if (Global.typeOfTest == 1)
+		{
+			double nri = numReadInstances();
+			double tI = (double) Global.totalInstances;
+			double dValue = (nri/tI)*100.0;
+			
+			double wri = weightedReadInstances();
+			double dwValue = (wri/tI)*100.0;
+			
+			return truncName + " [ " + typeName + " ]  "  + numInstances() + " " + df.format(nri) + " " + 
+				df.format(dValue) + "%  " + df.format(wri) + " " + df.format(dwValue) + "%";
+		}
+		else
+		{
+			return null;
+		}
+		//return name + " ["+this.genType+" ("+this.structType+") ] -> " + this.parentName + "  " + df.format(d) + "%";
+	}
+
+	public String toStringFull()
+	{
+		
+		double d = percentageBlame();
+	    DecimalFormat df = new DecimalFormat("#.##");
+	     
+	    String instances = new String();
+	     
+	    Iterator<NodeInstance> it = nodeInstances.values().iterator();
+		while (it.hasNext())
+		{
+			NodeInstance ni = (NodeInstance) it.next();
+			//instances += ni.getNName();
+			
+			Iterator<VariableInstance> vi_it = ni.getVarInstances().values().iterator();
+			while (vi_it.hasNext())
+			{
+				VariableInstance vi = (VariableInstance) vi_it.next();
+				instances += vi.getInst().getInstanceNum();
+				instances += " ";
+			}
+		}
+	     
+	
+		
+		return name + " ["+this.genType+" ("+this.structType+") ] -> " + this.parentName + "  " + df.format(d) + "%";
+		
+	}
+	
+
+	public String printDescription()
+	{
+		String s = new String(name + "\n");
+		
+		 double d = percentageBlame();
+	     DecimalFormat df = new DecimalFormat("#.##");
+
+		
+		s += "Responsible for " + df.format(d) + "%\n";
+		s += "Defined on Line " + lineNum + "\n";
+		
+		
+		return s;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public HashMap<String, NodeInstance> getNodeInstances() {
+		return nodeInstances;
+	}
+
+
+	public void setNodeInstances(HashMap<String, NodeInstance> nodeInstances) {
+		this.nodeInstances = nodeInstances;
+	}
+
+	public int getLineNum() {
+		return lineNum;
+	}
+
+	public void setLineNum(int lineNum) {
+		this.lineNum = lineNum;
+	}
+	
+}
+
+	
+	

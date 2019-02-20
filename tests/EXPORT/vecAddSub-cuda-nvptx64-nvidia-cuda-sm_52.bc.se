@@ -1,0 +1,6 @@
+BEGIN FUNC _Z9gpu_sleepl vecAddSub.cu 20 27 /nfshomes/hzhang86/cuda-blame/tests
+END FUNC 
+BEGIN FUNC _Z6VecAddPKiS0_Pii vecAddSub.cu 31 37 /nfshomes/hzhang86/cuda-blame/tests
+END FUNC 
+BEGIN FUNC _Z6VecSubPKiS0_Pii vecAddSub.cu 40 46 /nfshomes/hzhang86/cuda-blame/tests
+END FUNC 

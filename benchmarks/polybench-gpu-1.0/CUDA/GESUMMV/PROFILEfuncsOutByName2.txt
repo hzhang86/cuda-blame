@@ -1,0 +1,3 @@
+main 100%
+  gesummvCuda 100%
+    gesummv_kernel 100%

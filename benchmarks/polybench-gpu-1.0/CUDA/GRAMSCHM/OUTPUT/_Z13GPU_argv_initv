@@ -1,0 +1,915 @@
+LLVM__(checkFunctionProto) - Number of args is 0
+IS BP - 0 1 2
+Entering examineInstruction alloca 0x7252098 0  InstructionVal for Instruction alloca 
+Adding NodeProps(A1) for deviceProp
+Standard Operand No Name  0x720d330  ConstantIntVal 
+Entering examineInstruction call 0x7251c30 0  InstructionVal for Instruction call 
+parseDeclareIntrinsic called!
+adding localVar from declare: deviceProp
+Entering examineInstruction call 0x7251d08 112  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call 0x7251d08 call
+Adding NodeProps(12) for call
+In ieCall, calledFunc's name = cudaGetDeviceProperties  pi->getNumOperands()=3
+Called function has a name: cudaGetDeviceProperties
+After calcMetaFuncName, callName=cudaGetDeviceProperties--113
+In ieCall -- Call Operand 0 deviceProp
+Adding func call in _Z13GPU_argv_initv to cudaGetDeviceProperties--113 p 0 for node deviceProp(0x7252098)
+In ieCall -- Call Operand No Name 0x720e740  ConstantIntVal 
+Adding func call in _Z13GPU_argv_initv to cudaGetDeviceProperties--113 p 1 for node (0x720e740)
+In ieCall -- Call Operand 2 cudaGetDeviceProperties
+Adding NodeProps(13) for cudaGetDeviceProperties--113
+Entering examineInstruction getelementptr 0x7251dd8 113  InstructionVal for Instruction getelementptr 
+In ieGetElementPtr for name
+Adding NodeProps(1) for name currentLineNum=114 lnm=0
+Standard Operand No Name  0x720e740  ConstantIntVal 
+Standard Operand No Name  0x720e740  ConstantIntVal 
+Adding NodeProps(4) for Constant+0+114+2+32
+Entering examineInstruction getelementptr 0x7251ea8 114  InstructionVal for Instruction getelementptr 
+In ieGetElementPtr for arraydecay
+Adding NodeProps(1) for arraydecay currentLineNum=114 lnm=2
+Standard Operand No Name  0x720e740  ConstantIntVal 
+Standard Operand No Name  0x720e740  ConstantIntVal 
+Entering examineInstruction call 0x724db10 114  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call1 is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call1 0x724db10 call
+Adding NodeProps(12) for call1
+In ieCall, calledFunc's name = printf  pi->getNumOperands()=4
+Called function has a name: printf
+After calcMetaFuncName, callName=printf--114
+In ieCall -- Call Operand No Name 0x724da78  ConstantExprVal 
+Overwrite(1) Call Param GEP: .str.3
+Adding func call in _Z13GPU_argv_initv to printf--114 p 0 for node .str.3(0x71edc88)
+Adding NodeProps(14a) for .str.3
+In ieCall -- Call Operand No Name 0x720e740  ConstantIntVal 
+Adding func call in _Z13GPU_argv_initv to printf--114 p 1 for node (0x720e740)
+In ieCall -- Call Operand 2 arraydecay
+Adding func call in _Z13GPU_argv_initv to printf--114 p 2 for node arraydecay(0x7251ea8)
+In ieCall -- Call Operand 3 printf
+Adding NodeProps(13) for printf--114
+Entering examineInstruction call 0x724dbd0 114  InstructionVal for Instruction call 
+LLVM__(parseDeclareIntrinsic) call2 is not llvm.dbg.declare
+LLVM__(examineInstruction)(Call) -- pi call2 0x724dbd0 call
+Adding NodeProps(12) for call2
+In ieCall, calledFunc's name = cudaSetDevice  pi->getNumOperands()=2
+Called function has a name: cudaSetDevice
+After calcMetaFuncName, callName=cudaSetDevice--115
+In ieCall -- Call Operand No Name 0x720e740  ConstantIntVal 
+Adding func call in _Z13GPU_argv_initv to cudaSetDevice--115 p 0 for node (0x720e740)
+In ieCall -- Call Operand 1 cudaSetDevice
+Adding NodeProps(13) for cudaSetDevice--115
+Entering examineInstruction ret 0x72167d0 115  InstructionVal for Instruction ret 
+In ieBlank for opcode ret 116
+#variables=11, #localVars=1, #exiVariables=0
+Putting node 10 (cudaSetDevice--115) into graph
+Putting node 0 (deviceProp) into graph
+Putting node 1 (call) into graph
+Putting node 5 (arraydecay) into graph
+Putting node 6 (call1) into graph
+Putting node 7 (.str.3) into graph
+Putting node 3 (name) into graph
+Putting node 4 (Constant+0+114+2+32) into graph
+Putting node 8 (printf--114) into graph
+Putting node 2 (cudaGetDeviceProperties--113) into graph
+Putting node 9 (call2) into graph
+Starting to Gen Edges 
+GE Instruction deviceProp alloca
+Not generating any edges for opcode alloca
+GE No name call
+In geCall, calledFunc's name = llvm.dbg.declare  pi->getNumOperands()=4
+Not deal with intrinsic func calls
+GE Instruction call call
+In geCall, calledFunc's name = cudaGetDeviceProperties  pi->getNumOperands()=3
+Adding edge 4 between call and cudaGetDeviceProperties--113 of type call
+op[0]: 
+Adding edge 6 between deviceProp and cudaGetDeviceProperties--113 of type call
+op[1]: 
+GE Instruction name getelementptr
+GRAPH_(genEdge) - GEP name points to deviceProp
+In getUpperLevelFieldName for inst name base deviceProp
+(0)base deviceProp has uniqueNmAsFld: deviceProp
+Adding edge from name to Constant+0+114+2+32
+In getUpperLevelFieldName for inst name base deviceProp
+GEP base: deviceProp  already has the uniqueNameAsField(deviceProp), simply return it!
+Name of collapsable field candidate is 0.P.deviceProp for name
+(3)Inst name has uniqueNameAsField: 0.P.deviceProp
+Collapsable field doesn't exist.Create field and make inst name name dest node.
+GE Instruction arraydecay getelementptr
+GRAPH_(genEdge) - GEP arraydecay points to name
+Check(v already has uniqueNameAsField): old=0.P.deviceProp
+(0)base name has uniqueNmAsFld: 0.P.deviceProp
+Adding edge from arraydecay to Constant+0+114+2+32
+In getUpperLevelFieldName for inst arraydecay base name
+GEP base: name  already has the uniqueNameAsField(0.P.deviceProp), simply return it!
+Name of collapsable field candidate is 0.P.0.P.deviceProp for arraydecay
+(3)Inst arraydecay has uniqueNameAsField: 0.P.0.P.deviceProp
+Collapsable field doesn't exist.Create field and make inst name arraydecay dest node.
+GE Instruction call1 call
+In geCall, calledFunc's name = printf  pi->getNumOperands()=4
+Adding edge 4 between call1 and printf--114 of type call
+op[0]: 
+Param 0 for printf--114 is a constantExpr
+Adding edge 7 between .str.3 and printf--114 of type call
+op[1]: 
+op[2]: 
+Adding edge 6 between arraydecay and printf--114 of type call
+GE Instruction call2 call
+In geCall, calledFunc's name = cudaSetDevice  pi->getNumOperands()=2
+Adding edge 4 between call2 and cudaSetDevice--115 of type call
+op[0]: 
+GE No name ret
+Not generating any edges for opcode ret
+Finished generating edges 
+In resolveStores for deviceProp
+In resolveStores for call
+In resolveStores for cudaGetDeviceProperties--113
+In resolveStores for name
+In resolveStores for Constant+0+114+2+32
+In resolveStores for arraydecay
+In resolveStores for call1
+In resolveStores for .str.3
+In resolveStores for printf--114
+In resolveStores for call2
+In resolveStores for cudaSetDevice--115
+Before CFG sort
+Before assignBBGenKIll
+Before reachingDefs
+Before calcStoreLines
+Before printCFG
+FBB name: entry
+Successors: 
+Predecessors: 
+Ancestors: 
+Descendants: 
+Relevant Instructions: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+Single Stores: BB Gen: 
+BB Kill: 
+BB In: 
+BB Out: 
+
+
+Graph__(identifyExternCalls) - Vertex cudaGetDeviceProperties--113 involved
+Graph__(identifyExternCalls) - Func -  cudaGetDeviceProperties--113 Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: cudaGetDeviceProperties
+Calls__(handleOneExternCall) -looking at cudaGetDeviceProperties--113
+deviceProp receives blame for extern call to cudaGetDeviceProperties--113
+call receives blame for extern call to cudaGetDeviceProperties--113
+Adding ERCALL(2) edge for blamed param 0(0) of 2 call
+Adding ERCALL(2) edge for blamed param -1(1) of 2 call
+Graph__(identifyExternCalls) - Vertex printf--114 involved
+Graph__(identifyExternCalls) - Func -  printf--114 Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: printf
+Graph__(identifyExternCalls) - Vertex cudaSetDevice--115 involved
+Graph__(identifyExternCalls) - Func -  cudaSetDevice--115 Param - -2
+Graph__(identifyExternCalls) - Vertex name after trunc: cudaSetDevice
+Calls__(handleOneExternCall) -looking at cudaSetDevice--115
+call2 receives blame for extern call to cudaSetDevice--115
+Adding ERCALL(2) edge for blamed param -1(9) of 10 call
+
+In resolvePointersForNode for deviceProp
+deviceProp is Instruction
+deviceProp's pointer level is 1
+deviceProp has pointer type *Struct
+Inserting pointer(3) deviceProp
+For the struct pointer: deviceProp, targetV of this in_edge is name
+Calling structResolve for deviceProp of type *Struct
+structNameFull -- struct.cudaDeviceProp
+Transferring sBFC from(sf->ps) name to deviceProp
+Failed adding sBFC for deviceProp
+Adding name to deviceProp as a field(2)
+
+For PTR deviceProp
+Is Pointer 0
+Is Written 0
+Aliases in 
+Aliases out 
+Fields name 
+GEPs 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 
+StoreLines
+
+At this point the pointers are: deviceProp 
+
+In resolvePointersForNode for name
+name is Instruction
+name's pointer level is 1
+name has pointer type *Array
+Inserting pointer(1) name
+GEPB operation between name and arraydecay
+Adding GEP(3) arraydecay to name
+In resolvePointersHelper for arraydecay oV - name
+Ptr Level(targetV) - 1 oV: 1
+In inner loop for arraydecay
+
+For PTR name
+Is Pointer 0
+Is Written 0
+Aliases in 
+Aliases out 
+Fields 
+GEPs arraydecay 
+Non-Alias-Stores 
+Loads 
+Almost Aliases 
+Resolved LS 
+StoresTo 
+StoreLines
+
+At this point(2) the pointers are: name deviceProp 
+In checkIfWritten for deviceProp, orig isWritten=0
+In checkIfWritten for deviceProp, after aliasesOut, writeTotal=0
+In checkIfWritten for deviceProp, after aliasesIn, writeTotal=0
+In checkIfWritten for deviceProp, after blameesFromExFunc, writeTotal=0
+In checkIfWritten for deviceProp, after almostAlias, writeTotal=0
+In checkIfWritten for deviceProp, after resolvedLS, writeTotal=0
+In checkIfWritten for name, orig isWritten=0
+In checkIfWritten for name, after aliasesOut, writeTotal=0
+In checkIfWritten for name, after aliasesIn, writeTotal=0
+In checkIfWritten for name, after almostAlias, writeTotal=0
+In checkIfWritten for name, after resolvedLS, writeTotal=0
+In checkIfWritten for name, after fields, writeTotal=0
+In checkIfWritten for name, after nonAliasStores, writeTotal=0
+In checkIfWritten for name, after arrayAccess, writeTotal=0
+In checkIfWritten for name, after loads, writeTotal=0
+In checkIfWritten for name, after GEPChildren, writeTotal=0
+In checkIfWritten for deviceProp, after fields, writeTotal=0
+In checkIfWritten for deviceProp, after nonAliasStores, writeTotal=0
+In checkIfWritten for deviceProp, after arrayAccess, writeTotal=0
+In checkIfWritten for deviceProp, after loads, writeTotal=0
+In checkIfWritten for deviceProp, after GEPChildren, writeTotal=0
+For deviceProp not written to (that we know) but still going to resolve aliases
+In resolveLocalAliases2 for deviceProp(0) deviceProp(0)
+PTRS__(resolveLocalAliases)(7) - Assigning exitV deviceProp for name
+In resolveLocalAliases2 for name(0) name(0)
+PTRS__(resolveLocalAliases)(10) - Assigning exitV deviceProp for arraydecay
+dataPtrs.insert 3: insert to : name of: arraydecay
+Finishing up resolveLocalAliases for name name
+Finishing up resolveLocalAliases for deviceProp deviceProp
+In checkIfWritten for deviceProp, orig isWritten=0
+In checkIfWritten for deviceProp, after aliasesOut, writeTotal=0
+In checkIfWritten for deviceProp, after aliasesIn, writeTotal=0
+In checkIfWritten for deviceProp, after blameesFromExFunc, writeTotal=0
+In checkIfWritten for deviceProp, after almostAlias, writeTotal=0
+In checkIfWritten for deviceProp, after resolvedLS, writeTotal=0
+In checkIfWritten for name, orig isWritten=0
+In checkIfWritten for name, after aliasesOut, writeTotal=0
+In checkIfWritten for name, after aliasesIn, writeTotal=0
+In checkIfWritten for name, after almostAlias, writeTotal=0
+In checkIfWritten for name, after resolvedLS, writeTotal=0
+In checkIfWritten for name, after fields, writeTotal=0
+In checkIfWritten for name, after nonAliasStores, writeTotal=0
+In checkIfWritten for name, after arrayAccess, writeTotal=0
+In checkIfWritten for name, after loads, writeTotal=0
+In checkIfWritten for name, after GEPChildren, writeTotal=0
+In checkIfWritten for deviceProp, after fields, writeTotal=0
+In checkIfWritten for deviceProp, after nonAliasStores, writeTotal=0
+In checkIfWritten for deviceProp, after arrayAccess, writeTotal=0
+In checkIfWritten for deviceProp, after loads, writeTotal=0
+In checkIfWritten for deviceProp, after GEPChildren, writeTotal=0
+In checkIfWritten for name, orig isWritten=0
+In checkIfWritten for name, after aliasesOut, writeTotal=0
+In checkIfWritten for name, after aliasesIn, writeTotal=0
+In checkIfWritten for name, after almostAlias, writeTotal=0
+In checkIfWritten for name, after resolvedLS, writeTotal=0
+In checkIfWritten for name, after fields, writeTotal=0
+In checkIfWritten for name, after nonAliasStores, writeTotal=0
+In checkIfWritten for name, after arrayAccess, writeTotal=0
+In checkIfWritten for name, after loads, writeTotal=0
+In checkIfWritten for name, after GEPChildren, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, orig isWritten=0
+In checkIfWritten for Constant+0+114+2+32, after aliasesOut, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after aliasesIn, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after almostAlias, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after resolvedLS, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after fields, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after nonAliasStores, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after arrayAccess, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after loads, writeTotal=0
+In checkIfWritten for Constant+0+114+2+32, after GEPChildren, writeTotal=0
+In checkIfWritten for arraydecay, orig isWritten=0
+In checkIfWritten for arraydecay, after aliasesOut, writeTotal=0
+In checkIfWritten for arraydecay, after aliasesIn, writeTotal=0
+In checkIfWritten for arraydecay, after almostAlias, writeTotal=0
+In checkIfWritten for arraydecay, after resolvedLS, writeTotal=0
+In checkIfWritten for arraydecay, after fields, writeTotal=0
+In checkIfWritten for arraydecay, after nonAliasStores, writeTotal=0
+In checkIfWritten for arraydecay, after arrayAccess, writeTotal=0
+In checkIfWritten for arraydecay, after loads, writeTotal=0
+In checkIfWritten for arraydecay, after GEPChildren, writeTotal=0
+Calling DBHL 
+EV__(determineBFCForVertexLite) -- for call
+EV__(determineBFCForVertexLite) -- for arraydecay
+EV__(determineBFCForVertexLite) -- for call1
+EV__(determineBFCForVertexLite) -- for .str.3
+EV__(determineBFCForVertexLite) -- for call2
+OUT__(determineBFCForOutputVertex) - Entering func for printf--114
+OUT__(determineBFCForOutputVertexLite) - Call from arraydecay to printf--114
+OUT__(determineBFCForOutputVertexLite) - FC -- printf--114  printf--114
+Inputs to printf--114 is arraydecay 2
+OUT__(determineBFCForOutputVertexLite) - Call from .str.3 to printf--114
+OUT__(determineBFCForOutputVertexLite) - FC -- printf--114  printf--114
+Inputs to printf--114 is .str.3 0
+OUT__(determineBFCForOutputVertexLite) - Call from call1 to printf--114
+OUT__(determineBFCForOutputVertexLite) - FC -- printf--114  printf--114
+Inputs to printf--114 is call1 -1
+OUT__(determineBFCForOutputVertexLite) - Removing edge to printf--114 from 6
+Finished DBHL , now going to print _trunc.dot file 
+In populateImportantVertices for deviceProp
+Calling recursiveExamineChildren on deviceProp for deviceProp
+Looking at target cudaGetDeviceProperties--113 from deviceProp
+Node Props for cudaGetDeviceProperties--113: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=500
+Inserting line number(8) 113 to deviceProp
+Start recursion of recursiveExamineChildren on cudaGetDeviceProperties--113
+Calling recursiveExamineChildren on cudaGetDeviceProperties--113 for deviceProp
+Inserting line number(6) 113 to deviceProp
+Line nums for origVP: deviceProp (E)  113
+Line nums for origVP: deviceProp (E)  113
+Finished Calling recursiveExamineChildren for deviceProp
+In populateImportantVertices for name
+Calling recursiveExamineChildren on name for name
+Looking at target Constant+0+114+2+32 from name
+Node Props for Constant+0+114+2+32: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=1003
+Inserting line number(8) 114 to name
+Start recursion of recursiveExamineChildren on Constant+0+114+2+32
+Calling recursiveExamineChildren on Constant+0+114+2+32 for name
+Inserting line number(6) 114 to name
+Line nums for origVP: name (E)  114
+Looking at target deviceProp from name
+Node Props for deviceProp: 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=1000
+TargetV->exitV - deviceProp
+OrigVP->exitV - deviceProp
+TargetV->pointsTo - NULL
+OrigVP->pointsTo - deviceProp
+TargetV->dpUpPtr - deviceProp
+OrigVP->dpUpPtr - name
+Inserting line number(18) 112 to name from targetVP deviceProp
+Line nums for origVP: name (E)  112 114
+Finished Calling recursiveExamineChildren for name
+In populateImportantVertices for arraydecay
+Calling recursiveExamineChildren on arraydecay for arraydecay
+Looking at target Constant+0+114+2+32 from arraydecay
+Node Props for Constant+0+114+2+32: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=1003
+Inserting line number(8) 114 to arraydecay
+Start recursion of recursiveExamineChildren on Constant+0+114+2+32
+Calling recursiveExamineChildren on Constant+0+114+2+32 for arraydecay
+Inserting line number(6) 114 to arraydecay
+Line nums for origVP: arraydecay (E)  114
+Looking at target name from arraydecay
+Node Props for name: 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=1000
+TargetV->exitV - deviceProp
+OrigVP->exitV - deviceProp
+TargetV->pointsTo - deviceProp
+OrigVP->pointsTo - name
+TargetV->dpUpPtr - name
+OrigVP->dpUpPtr - name
+Inserting line number(18) 114 to arraydecay from targetVP name
+Line nums for origVP: arraydecay (E)  114
+Finished Calling recursiveExamineChildren for arraydecay
+In populateImportantVertices for printf--114
+Calling recursiveExamineChildren on printf--114 for printf--114
+Looking at target .str.3 from printf--114
+Node Props for .str.3: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Edge's opCode/edge_type=997
+Inserting line number(8) 114 to printf--114
+Start recursion of recursiveExamineChildren on .str.3
+Calling recursiveExamineChildren on .str.3 for printf--114
+Inserting line number(6) 114 to printf--114
+Line nums for origVP: printf--114 (E)  114
+Looking at target arraydecay from printf--114
+Node Props for arraydecay: 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+Edge's opCode/edge_type=997
+TargetV->exitV - deviceProp
+OrigVP->exitV - NULL
+TargetV->pointsTo - name
+OrigVP->pointsTo - NULL
+TargetV->dpUpPtr - name
+OrigVP->dpUpPtr - printf--114
+Adding Child/Parent relation between arraydecay and printf--114
+Line nums for origVP: printf--114 (E)  114
+Finished Calling recursiveExamineChildren for printf--114
+Looking at IVP name in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Array
+Looking at IVP arraydecay in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Int
+Looking at IVP printf--114 in resolveLooseStructs. 
+Type name (resolveLooseStructs) Int
+Looking at IVP deviceProp in resolveLooseStructs. 
+Type name (resolveLooseStructs) *Struct
+ivp->sBFC (resolveLooseStructs)0
+Struct deviceProp has no sBFC
+Before while, typeVal=15
+After while, typeVal=13
+structNameFull -- struct.cudaDeviceProp
+SB is NULL for cudaDeviceProp for IVP deviceProp
+
+Entering calcAggregateLNRecursive for name
+Starting line number tally for name originally:
+
+After insert line_num of name
+114 
+After insert lineNumbers(-1) from baseline for name
+112 114 
+After storesTo: name
+112 114 
+After DF Children name
+112 114 
+After Children name
+112 114 
+
+Entering calcAggregateLNRecursive for arraydecay
+Starting line number tally for arraydecay originally:
+
+After insert line_num of arraydecay
+114 
+After insert lineNumbers(-1) from baseline for arraydecay
+114 
+After storesTo: arraydecay
+114 
+After DF Children arraydecay
+114 
+After Children arraydecay
+114 
+After Data Ptrs arraydecay
+114 
+After fields arraydecay
+114 
+After aliases arraydecay
+114 
+After DF Aliases arraydecay
+114 
+After Resolved LS From arraydecay
+114 
+After loadForCalls arraydecay
+114 
+After GEPChildren arraydecay
+114 
+Exiting calcAggregateLNRecursive for arraydecay
+After Data Ptrs name
+112 114 
+After fields name
+112 114 
+After aliases name
+112 114 
+After DF Aliases name
+112 114 
+After Resolved LS From name
+112 114 
+After loadForCalls name
+112 114 
+After GEPChildren name
+112 114 
+Exiting calcAggregateLNRecursive for name
+Entering calcAggCallRecursive for name
+Entering calcAggCallRecursive for arraydecay
+Exiting calcAggCallRecursive(N) for arraydecay
+Inserting descParams(3) for name from arraydecay
+Inserting descParams(7) for name from arraydecay
+Exiting calcAggCallRecursive(N) for name
+
+Entering calcAggregateLNRecursive for printf--114
+Starting line number tally for printf--114 originally:
+
+After insert line_num of printf--114
+114 
+After insert lineNumbers(-1) from baseline for printf--114
+114 
+After storesTo: printf--114
+114 
+After DF Children printf--114
+114 
+Inserting Line Numbers(2) from arraydecay to printf--114
+114 
+After Children printf--114
+114 
+After Data Ptrs printf--114
+114 
+After fields printf--114
+114 
+After aliases printf--114
+114 
+After DF Aliases printf--114
+114 
+After Resolved LS From printf--114
+114 
+After loadForCalls printf--114
+114 
+After GEPChildren printf--114
+114 
+Exiting calcAggregateLNRecursive for printf--114
+Entering calcAggCallRecursive for printf--114
+Inserting descParams(1) for printf--114 from arraydecay
+Exiting calcAggCallRecursive(N) for printf--114
+
+Entering calcAggregateLNRecursive for deviceProp
+Starting line number tally for deviceProp originally:
+
+After insert line_num of deviceProp
+112 
+After insert lineNumbers(-1) from baseline for deviceProp
+112 113 
+After storesTo: deviceProp
+112 113 
+After DF Children deviceProp
+112 113 
+After Children deviceProp
+112 113 
+After Data Ptrs deviceProp
+112 113 
+After fields deviceProp
+112 113 
+After aliases deviceProp
+112 113 
+After DF Aliases deviceProp
+112 113 
+After Resolved LS From deviceProp
+112 113 
+After loadForCalls deviceProp
+112 113 
+After GEPChildren deviceProp
+112 113 
+Exiting calcAggregateLNRecursive for deviceProp
+Entering calcAggCallRecursive for deviceProp
+Inserting descParams(6) for deviceProp from name
+Exiting calcAggCallRecursive(N) for deviceProp
+Revisiting some of the conflicted agg LN values.
+
+Entering calcAggregateLNRecursive for deviceProp
+Starting line number tally for deviceProp originally:
+112 113 
+After insert line_num of deviceProp
+112 113 
+After insert lineNumbers(-1) from baseline for deviceProp
+112 113 
+After storesTo: deviceProp
+112 113 
+After DF Children deviceProp
+112 113 
+After Children deviceProp
+112 113 
+After Data Ptrs deviceProp
+112 113 
+
+Entering calcAggregateLNRecursive for name
+Starting line number tally for name originally:
+112 114 
+After insert line_num of name
+112 114 
+After insert lineNumbers(-1) from baseline for name
+112 114 
+After storesTo: name
+112 114 
+After DF Children name
+112 114 
+After Children name
+112 114 
+
+Entering calcAggregateLNRecursive for arraydecay
+Starting line number tally for arraydecay originally:
+114 
+After insert line_num of arraydecay
+114 
+After insert lineNumbers(-1) from baseline for arraydecay
+114 
+After storesTo: arraydecay
+114 
+After DF Children arraydecay
+114 
+After Children arraydecay
+114 
+After Data Ptrs arraydecay
+114 
+After fields arraydecay
+114 
+After aliases arraydecay
+114 
+After DF Aliases arraydecay
+114 
+After Resolved LS From arraydecay
+114 
+After loadForCalls arraydecay
+114 
+After GEPChildren arraydecay
+114 
+Exiting calcAggregateLNRecursive for arraydecay
+After Data Ptrs name
+112 114 
+After fields name
+112 114 
+After aliases name
+112 114 
+After DF Aliases name
+112 114 
+After Resolved LS From name
+112 114 
+After loadForCalls name
+112 114 
+After GEPChildren name
+112 114 
+Exiting calcAggregateLNRecursive for name
+After fields deviceProp
+112 113 
+After aliases deviceProp
+112 113 
+After DF Aliases deviceProp
+112 113 
+After Resolved LS From deviceProp
+112 113 
+After loadForCalls deviceProp
+112 113 
+After GEPChildren deviceProp
+112 113 
+Exiting calcAggregateLNRecursive for deviceProp
+
+Entering calcAggregateLNRecursive for printf--114
+Starting line number tally for printf--114 originally:
+114 
+After insert line_num of printf--114
+114 
+After insert lineNumbers(-1) from baseline for printf--114
+114 
+After storesTo: printf--114
+114 
+After DF Children printf--114
+114 
+Inserting Line Numbers(2) from arraydecay to printf--114
+114 
+After Children printf--114
+114 
+After Data Ptrs printf--114
+114 
+After fields printf--114
+114 
+After aliases printf--114
+114 
+After DF Aliases printf--114
+114 
+After Resolved LS From printf--114
+114 
+After loadForCalls printf--114
+114 
+After GEPChildren printf--114
+114 
+Exiting calcAggregateLNRecursive for printf--114
+
+Entering calcAggregateLNRecursive for name
+Starting line number tally for name originally:
+112 114 
+After insert line_num of name
+112 114 
+After insert lineNumbers(-1) from baseline for name
+112 114 
+After storesTo: name
+112 114 
+After DF Children name
+112 114 
+After Children name
+112 114 
+
+Entering calcAggregateLNRecursive for arraydecay
+Starting line number tally for arraydecay originally:
+114 
+After insert line_num of arraydecay
+114 
+After insert lineNumbers(-1) from baseline for arraydecay
+114 
+After storesTo: arraydecay
+114 
+After DF Children arraydecay
+114 
+After Children arraydecay
+114 
+After Data Ptrs arraydecay
+114 
+After fields arraydecay
+114 
+After aliases arraydecay
+114 
+After DF Aliases arraydecay
+114 
+After Resolved LS From arraydecay
+114 
+After loadForCalls arraydecay
+114 
+After GEPChildren arraydecay
+114 
+Exiting calcAggregateLNRecursive for arraydecay
+After Data Ptrs name
+112 114 
+After fields name
+112 114 
+After aliases name
+112 114 
+After DF Aliases name
+112 114 
+After Resolved LS From name
+112 114 
+After loadForCalls name
+112 114 
+After GEPChildren name
+112 114 
+Exiting calcAggregateLNRecursive for name
+
+Entering calcAggregateLNRecursive for printf--114
+Starting line number tally for printf--114 originally:
+114 
+After insert line_num of printf--114
+114 
+After insert lineNumbers(-1) from baseline for printf--114
+114 
+After storesTo: printf--114
+114 
+After DF Children printf--114
+114 
+Inserting Line Numbers(2) from arraydecay to printf--114
+114 
+After Children printf--114
+114 
+After Data Ptrs printf--114
+114 
+After fields printf--114
+114 
+After aliases printf--114
+114 
+After DF Aliases printf--114
+114 
+After Resolved LS From printf--114
+114 
+After loadForCalls printf--114
+114 
+After GEPChildren printf--114
+114 
+Exiting calcAggregateLNRecursive for printf--114
+
+Entering calcAggregateLNRecursive for deviceProp
+Starting line number tally for deviceProp originally:
+112 113 
+After insert line_num of deviceProp
+112 113 
+After insert lineNumbers(-1) from baseline for deviceProp
+112 113 
+After storesTo: deviceProp
+112 113 
+After DF Children deviceProp
+112 113 
+After Children deviceProp
+112 113 
+After Data Ptrs deviceProp
+112 113 
+After fields deviceProp
+112 113 
+After aliases deviceProp
+112 113 
+After DF Aliases deviceProp
+112 113 
+After Resolved LS From deviceProp
+112 113 
+After loadForCalls deviceProp
+112 113 
+After GEPChildren deviceProp
+112 113 
+Exiting calcAggregateLNRecursive for deviceProp
+
+Entering calcAggregateLNRecursive for name
+Starting line number tally for name originally:
+112 114 
+After insert line_num of name
+112 114 
+After insert lineNumbers(-1) from baseline for name
+112 114 
+After storesTo: name
+112 114 
+After DF Children name
+112 114 
+After Children name
+112 114 
+
+Entering calcAggregateLNRecursive for arraydecay
+Starting line number tally for arraydecay originally:
+114 
+After insert line_num of arraydecay
+114 
+After insert lineNumbers(-1) from baseline for arraydecay
+114 
+After storesTo: arraydecay
+114 
+After DF Children arraydecay
+114 
+After Children arraydecay
+114 
+After Data Ptrs arraydecay
+114 
+After fields arraydecay
+114 
+After aliases arraydecay
+114 
+After DF Aliases arraydecay
+114 
+After Resolved LS From arraydecay
+114 
+After loadForCalls arraydecay
+114 
+After GEPChildren arraydecay
+114 
+Exiting calcAggregateLNRecursive for arraydecay
+After Data Ptrs name
+112 114 
+After fields name
+112 114 
+After aliases name
+112 114 
+After DF Aliases name
+112 114 
+After Resolved LS From name
+112 114 
+After loadForCalls name
+112 114 
+After GEPChildren name
+112 114 
+Exiting calcAggregateLNRecursive for name
+
+Entering calcAggregateLNRecursive for printf--114
+Starting line number tally for printf--114 originally:
+114 
+After insert line_num of printf--114
+114 
+After insert lineNumbers(-1) from baseline for printf--114
+114 
+After storesTo: printf--114
+114 
+After DF Children printf--114
+114 
+Inserting Line Numbers(2) from arraydecay to printf--114
+114 
+After Children printf--114
+114 
+After Data Ptrs printf--114
+114 
+After fields printf--114
+114 
+After aliases printf--114
+114 
+After DF Aliases printf--114
+114 
+After Resolved LS From printf--114
+114 
+After loadForCalls printf--114
+114 
+After GEPChildren printf--114
+114 
+Exiting calcAggregateLNRecursive for printf--114
+
+Entering calcAggregateLNRecursive for deviceProp
+Starting line number tally for deviceProp originally:
+112 113 
+After insert line_num of deviceProp
+112 113 
+After insert lineNumbers(-1) from baseline for deviceProp
+112 113 
+After storesTo: deviceProp
+112 113 
+After DF Children deviceProp
+112 113 
+After Children deviceProp
+112 113 
+After Data Ptrs deviceProp
+112 113 
+After fields deviceProp
+112 113 
+After aliases deviceProp
+112 113 
+After DF Aliases deviceProp
+112 113 
+After Resolved LS From deviceProp
+112 113 
+After loadForCalls deviceProp
+112 113 
+After GEPChildren deviceProp
+112 113 
+Exiting calcAggregateLNRecursive for deviceProp
+Revisiting some of the conflicted agg Call values.
+Entering calcAggCallRecursive for name
+Entering calcAggCallRecursive for arraydecay
+Exiting calcAggCallRecursive(N) for arraydecay
+Inserting descParams(3) for name from arraydecay
+Inserting descParams(7) for name from arraydecay
+Exiting calcAggCallRecursive(N) for name
+Entering calcAggCallRecursive for printf--114
+Inserting descParams(1) for printf--114 from arraydecay
+Exiting calcAggCallRecursive(N) for printf--114
+Entering calcAggCallRecursive for deviceProp
+Inserting descParams(6) for deviceProp from name
+Exiting calcAggCallRecursive(N) for deviceProp
+In resolveSideEffects 
+In resolveSideEffectCalls 

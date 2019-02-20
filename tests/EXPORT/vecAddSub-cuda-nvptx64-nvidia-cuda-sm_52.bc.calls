@@ -1,0 +1,16 @@
+FUNCTION _Z9gpu_sleepl
+gpu_sleep
+vecAddSub.cu
+1
+END FUNCTION 
+FUNCTION _Z6VecAddPKiS0_Pii
+VecAdd
+vecAddSub.cu
+0
+_Z9gpu_sleepl--36
+END FUNCTION 
+FUNCTION _Z6VecSubPKiS0_Pii
+VecSub
+vecAddSub.cu
+0
+END FUNCTION 

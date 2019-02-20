@@ -1,0 +1,68 @@
+main
+  Exit Variables:
+
+  Exit Variable Fields:
+
+  Local Variables:
+
+  Local Variable Fields:
+
+main.do_pass
+  Exit Variables:
+
+  Exit Variable Fields:
+
+  Local Variables:
+  coerce [ null ]  main.do_pass 0%
+  coerce [ Struct ]  main.do_pass 48.09%
+  coerce [ Struct ]  main.do_pass 48.09%
+  d_B [ *Int ]  main.do_pass 19.08%
+  d_C [ *Int ]  main.do_pass 60.31%
+  coerce [ Struct ]  main.do_pass 61.07%
+  coerce [ Struct ]  main.do_pass 61.07%
+
+  Local Variable Fields:
+  0x4973cc8 [ Int ]  main.do_pass 61.07%
+  0x4973dc8 [ Int ]  main.do_pass 61.07%
+  0x4969618 [ Int ]  main.do_pass 48.09%
+  0x496a2f8 [ Int ]  main.do_pass 61.07%
+  0x4971968 [ Int ]  main.do_pass 48.09%
+  0x496a1f8 [ Int ]  main.do_pass 61.07%
+  0x4971868 [ Int ]  main.do_pass 48.09%
+  0x4971c18 [ Int ]  main.do_pass 48.09%
+
+main.do_pass.VecAdd
+  Exit Variables:
+  addr [ *Int ]  main.do_pass.VecAdd 7.63%
+  addr [ *Int ]  main.do_pass.VecAdd 0.76%
+
+  Exit Variable Fields:
+
+  Local Variables:
+  i [ Int ]  main.do_pass.VecAdd 2.29%
+
+  Local Variable Fields:
+
+main.do_pass.VecAdd.gpu_sleep
+  Exit Variables:
+
+  Exit Variable Fields:
+
+  Local Variables:
+  elapsed [ Int ]  main.do_pass.VecAdd.gpu_sleep 15.27%
+  start [ Int ]  main.do_pass.VecAdd.gpu_sleep 0.76%
+
+  Local Variable Fields:
+
+main.do_pass.VecSub
+  Exit Variables:
+  addr [ *Int ]  main.do_pass.VecSub 12.21%
+  addr [ *Int ]  main.do_pass.VecSub 3.05%
+
+  Exit Variable Fields:
+
+  Local Variables:
+  i [ Int ]  main.do_pass.VecSub 0.76%
+
+  Local Variable Fields:
+

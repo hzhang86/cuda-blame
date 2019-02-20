@@ -1,0 +1,17 @@
+setting device 0 with name Tesla P100-PCIE-16GB
+GPU Runtime: 0.002834s
+CPU Runtime: 0.041259s
+Non-Matching CPU-GPU Outputs Beyond Error Threshold of 0.05 Percent: 0
+setting device 0 with name Tesla P100-PCIE-16GB
+GPU Runtime: 0.002998s
+CPU Runtime: 0.046192s
+Non-Matching CPU-GPU Outputs Beyond Error Threshold of 0.05 Percent: 0
+setting device 0 with name Tesla P100-PCIE-16GB
+Device compute capability: 6.0
+We use PC_SAMPLING in sampling.
+We called cuCtxCreate.
+Done initTrace 
+GPU Runtime: 0.091246s
+Done finiTrace 
+CPU Runtime: 0.083348s
+Non-Matching CPU-GPU Outputs Beyond Error Threshold of 0.05 Percent: 0

@@ -1,0 +1,10 @@
+BEGIN FUNC
+gesummv_kernel Void
+_Z14gesummv_kernelPfS_S_S_S_ 0
+0 a *Float
+1 b *Float
+2 x *Float
+3 y *Float
+4 tmp *Float
+END FUNC
+

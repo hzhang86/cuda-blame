@@ -1,0 +1,6 @@
+BEGIN FUNC _Z19gramschmidt_kernel1PfS_S_i gramschmidt.cu 120 134 /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GRAMSCHM
+END FUNC 
+BEGIN FUNC _Z19gramschmidt_kernel2PfS_S_i gramschmidt.cu 137 145 /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GRAMSCHM
+END FUNC 
+BEGIN FUNC _Z19gramschmidt_kernel3PfS_S_i gramschmidt.cu 148 167 /home/hzhang86/cuda-blame/benchmarks/polybench-gpu-1.0/CUDA/GRAMSCHM
+END FUNC 

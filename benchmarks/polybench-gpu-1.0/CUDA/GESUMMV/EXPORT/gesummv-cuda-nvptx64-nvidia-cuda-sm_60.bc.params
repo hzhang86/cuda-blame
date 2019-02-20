@@ -1,0 +1,15 @@
+FUNCTION _Z14gesummv_kernelPfS_S_S_S_ 1 5
+0 a.addr 0 1
+0 
+1 b.addr 0 2
+0 105 
+2 x.addr 0 2
+0 105 
+3 y.addr 0 7
+0 105 107 109 112 115 117 
+4 tmp.addr 0 6
+0 105 107 109 112 114 
+END FUNCTION
+NEVs - 1 1 1 out of 1
+
+NEVs - 1 1 1 out of 1

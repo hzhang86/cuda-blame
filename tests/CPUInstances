@@ -1,0 +1,13 @@
+2
+5 108
+4 1777 cuda_runtime.h cudaLaunch<char>
+5 1 tmpxft_00000e5b_00000000-4_vecAddSub.cudafe1.stub.c __device_stub__Z6VecSubPKiS0_Pii
+6 41 vecAddSub.cu VecSub
+7 86 vecAddSub.cu do_pass
+8 111 vecAddSub.cu main
+5 102
+4 1777 cuda_runtime.h cudaLaunch<char>
+5 11 tmpxft_00000e5b_00000000-4_vecAddSub.cudafe1.stub.c __device_stub__Z6VecAddPKiS0_Pii
+6 32 vecAddSub.cu VecAdd
+7 84 vecAddSub.cu do_pass
+8 111 vecAddSub.cu main

@@ -1,0 +1,5 @@
+  gramschmidtCuda 100%
+main 100%
+    gramschmidt_kernel3 78.16%
+    gramschmidt_kernel1 19.86%
+    gramschmidt_kernel2 1.94%

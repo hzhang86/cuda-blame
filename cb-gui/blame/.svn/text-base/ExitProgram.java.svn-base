@@ -1,0 +1,75 @@
+package blame;
+
+import java.util.*;
+
+public class ExitProgram extends ExitSuper  {
+
+	// Is this a random local variable (found for all) or is this one from
+	// an implicit/explicit blame point that has the blame from calls below
+	// it in the call chain
+	boolean isBlamePoint;
+	
+	public boolean isBlamePoint() {
+		return isBlamePoint;
+	}
+
+	public void setBlamePoint(boolean isBlamePoint) {
+		this.isBlamePoint = isBlamePoint;
+	}
+
+	public int compareTo(ExitProgram o) {
+        return o.numInstances() - this.numInstances();
+    }
+	
+	ExitProgram(String n)
+	{
+		super();
+		hierName = n;
+		name = n;
+		isBlamePoint = true;
+		
+		/*
+		int lastDot = hierName.lastIndexOf('.');
+		lastDot++;
+		
+		name = hierName.substring(lastDot);	
+		
+		
+		if (lastDot > 0)
+		{
+			parentName = hierName.substring(0, lastDot-1);
+		}
+		*/
+	
+	}
+	
+	public void getOrCreateField(String s)
+	{
+		
+	}
+	
+	public void addField(String s, BlameFunction bf)
+	{
+		HashMap<String, ExitProgram> eVFields = bf.getExitProgFields();
+		ExitSuper es = eVFields.get(s);
+		if (es != null)
+		{
+			//int lastDot = es.getHierName().lastIndexOf('.');
+			//lastDot++;
+			
+			//String truncHierName = es.getHierName().substring(lastDot);
+			fields.put(es.getName(), es);
+			//es.setName(truncHierName);
+		}
+		else
+		{
+			System.out.println("EP addField NULL for " + s);
+		}
+	}
+	
+	public String printDescription()
+	{
+		String s = new String("Non Exit Variable - " + super.printDescription());
+		return s;
+	}
+}

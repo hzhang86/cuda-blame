@@ -1,0 +1,8 @@
+Currently, only chapel_internal file is used for Chapel benchmarks. Each entry consists of a function name and >=0 parameNums. All function names are from modules/internal, and paramNum represents the following:
+-2  callnode 
+-1  return value (most likely for a non-void function call)
+0   first param
+1   second param
+... params as before
+
+if -2 (e.g chpl___ASSIGN_3), then it means no params are blamed and no return value for this function call, just the callnode blamed for itself, blame transfer ends in this call
