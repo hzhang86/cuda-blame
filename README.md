@@ -12,3 +12,6 @@ There are total 5 components:
 2. cb-sampler        -- using CUPTI and libunwind to get pc_sampling info and calling contexts
 3. cb-postAnalyzer   -- using dyninst to get source info of samples and reconstruct the full calling contexts; combining static info and runtime info to generate blamed variables for each sample on each frame
 4. cb-gui            -- Java-based GUI to aggregate and present profiling data
+
+
+Details to build and run CUDABlamer in cudablamer-readme.txt
